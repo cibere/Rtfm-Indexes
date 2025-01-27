@@ -1,2 +1,1 @@
-# MpvPlayerManualIndex
- 
+This repository is used as an indexer for [my flow rtfm plugin](https://github.com/cibere/Flow.Launcher.Plugin.rtfm)
