@@ -32,6 +32,7 @@ jobs:
       - name: Create new indexes
         run: |
           python -m _ci
+          git add .
           git -c user.name="github-actions[bot]" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" commit --author="cibere <71997063+cibere@users.noreply.github.com>" -m "create new indexes" --allow-empty
 
       - name: Push Changes
