@@ -7,7 +7,7 @@ from typing import TYPE_CHECKING
 from .logs import setup_logging
 if TYPE_CHECKING:
     from collections.abc import Iterator
-    
+
 setup_logging(INFO)
 log = getLogger("indexer")
 
@@ -22,7 +22,7 @@ def index_path(folder: pathlib.Path) -> Iterator[tuple[str, dict[str, str]]]:
 
     if file.name.startswith("_"):
         pass
-    log.info(f"Builting {file.name!r} at {file!r}")
+    log.info(f"Builting {folder.name!r} at {file!r}")
     spec = importlib.util.spec_from_file_location(typename, file)
     assert spec
     module = importlib.util.module_from_spec(spec)
@@ -39,12 +39,13 @@ def built_cache():
         if not folder.is_dir() or folder.name.startswith("_"):
             continue
         try:
-            name, index = index_path(folder)
+            for name, index in index_path(folder):
+                file = indexes_folder / f"{name}.json"
+                file.write_text(json.dumps(index, indent=4))
         except Exception as e:
             log.exception(f"Unable to index {folder.name} @ {folder}", exc_info=e)
             continue
-        file = indexes_folder / f"{name}.json"
-        file.write_text(json.dumps(index, indent=4))
+        
 
 if __name__ == '__main__':
     built_cache()

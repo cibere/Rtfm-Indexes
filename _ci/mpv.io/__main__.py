@@ -5,6 +5,10 @@ from typing import Self
 from selenium.webdriver.remote.webelement import WebElement
 from selenium.webdriver.remote.webdriver import WebDriver
 from selenium.common.exceptions import NoSuchElementException
+
+
+log = logging.getLogger("mpv.io")
+
 class MpvIoParser:
     browser: webdriver.Firefox
 
@@ -24,7 +28,6 @@ class MpvIoParser:
     def parse_toc(
         self,
     ) -> None:
-        log = logging.getLogger("TOC")
 
         el = self.browser.find_element(By.CLASS_NAME, "manual-navigation")
         for tag in el.find_elements(By.TAG_NAME, "li"):
@@ -37,11 +40,11 @@ class MpvIoParser:
             href = atag.get_attribute("href")
             assert href
 
-            log.info("Adding item to cache. Label: %r, Href: %r", text, href)
+            log.debug("Adding item to cache. Label: %r, Href: %r", text, href)
             self.cache[text] = href
     
     def parse_anchor_links(self) -> None:
-        log = logging.getLogger("Anchor Links")
+        
 
         for literalEl in self.browser.find_elements(By.CLASS_NAME, "literal"):
             if "docutil" not in str(literalEl.get_attribute("class")):
@@ -54,7 +57,7 @@ class MpvIoParser:
             href = anchor.get_attribute("href")
             text = literalEl.get_attribute("innerText")
 
-            log.info("Adding item to cache. Label: %r, Href: %r", text, href)
+            log.debug("Adding item to cache. Label: %r, Href: %r", text, href)
             self.cache[text] = href
 
 
@@ -67,6 +70,7 @@ def index_url(url: str):
 
     import json
     print(json.dumps(parser.cache, indent=4))
+    return parser.cache
 
 def index():
     return {

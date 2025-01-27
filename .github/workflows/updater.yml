@@ -5,37 +5,38 @@ on:
   schedule:
     - cron: "0 */3 * * *"
 
+
 jobs:
-  update:
+  run-updater:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.UPDATER }}
-          # otherwise, you will failed to push refs to dest repo
-          fetch-depth: 0
 
-      - uses: actions/setup-python@v5
+      - name: Set up CPython 3.13
+        uses: actions/setup-python@v5
         with:
-          python-version: "3.x"
+          python-version: 3.13
+
+      - name: Delete Old Indexes
+        run: |
+          rm -r -v -f indexes
+          git add .
+          git -c user.name="github-actions[bot]" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" commit --author="cibere <71997063+cibere@users.noreply.github.com>" -m "Delete old indexes" --allow-empty
 
       - name: Install dependencies
+        id: install-deps
         run: |
-          pip install -r ./ci/envs/requirements-updater.txt
+          python -m pip install -r _ci\requirements.txt
 
-      - name: Auto Checking Update
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Create new indexes
         run: |
-          python ./ci/src/updater.py ${{ secrets.DISCORD_WEBHOOK }}
+          python -m _ci
+          git -c user.name="github-actions[bot]" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" commit --author="cibere <71997063+cibere@users.noreply.github.com>" -m "create new indexes" --allow-empty
 
-      - name: Merge Manifest
+      - name: Push Changes
+        continue-on-error: true
         run: |
-          python ./ci/src/merge-manifest.py
-
-      - name: Commit & Push changes
-        uses: stefanzweifel/git-auto-commit-action@v4
-        with:
-          commit_message: "auto updated plugins"
-          push_options: --force
-          branch: plugin_api_v2
+          git reset --soft HEAD~2
+          git -c user.name="github-actions[bot]" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" commit --author="cibere <71997063+cibere@users.noreply.github.com>" -m "Auto Update Indexes"
+          git push
