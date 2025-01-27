@@ -759,7 +759,7 @@
     "--dvbin-prog=<string>": "https://mpv.io/manual/master/#options-dvbin-prog",
     "--dvbin-card=<0-15>": "https://mpv.io/manual/master/#options-dvbin-card",
     "--dvbin-file=<filename>": "https://mpv.io/manual/master/#options-dvbin-file",
-    "--dvbin-timeout=<1-30>": "https://mpv.io/manual/master/#options-dvbin-timeout",
+    "--dvbin-timeout=<seconds>": "https://mpv.io/manual/master/#options-dvbin-timeout",
     "--dvbin-full-transponder=<yes|no>": "https://mpv.io/manual/master/#options-dvbin-full-transponder",
     "--dvbin-channel-switch-offset=<integer>": "https://mpv.io/manual/master/#options-dvbin-channel-switch-offset",
     "--scale=<filter>": "https://mpv.io/manual/master/#options-scale",
