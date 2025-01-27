@@ -76,16 +76,6 @@ def index_url(url: str):
 
 def index():
     return {
-        "master": {
-            "foo": "#foo",
-            "bar": "#bar"
-        },
-        "latest": {
-            "car": "#car",
-            "cow": "#cow"
-        }
-    }
-    return {
         "master": index_url("https://mpv.io/manual/master"),
         "stable": index_url("https://mpv.io/manual/stable"),
     }
