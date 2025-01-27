@@ -9,7 +9,7 @@ from .logs import setup_logging
 if TYPE_CHECKING:
     from collections.abc import Iterator
 
-setup_logging()
+setup_logging(INFO)
 log = getLogger("indexer")
 
 ci_folder = pathlib.Path(__file__).parent
