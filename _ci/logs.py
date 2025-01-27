@@ -1,6 +1,7 @@
 import logging
 import logging.handlers
 
+
 def setup_logging(level: int = logging.DEBUG) -> None:
     handler = logging.StreamHandler()
 

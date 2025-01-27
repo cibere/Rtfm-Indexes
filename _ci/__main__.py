@@ -5,16 +5,18 @@ import pathlib, json
 from logging import getLogger, INFO
 from typing import TYPE_CHECKING
 from .logs import setup_logging
+
 if TYPE_CHECKING:
     from collections.abc import Iterator
 
-setup_logging(INFO)
+setup_logging()
 log = getLogger("indexer")
 
 ci_folder = pathlib.Path(__file__).parent
 root = ci_folder.parent
 indexes_folder = root / "indexes"
 indexes_folder.mkdir(exist_ok=True)
+
 
 def index_path(folder: pathlib.Path) -> Iterator[tuple[str, dict[str, str]]]:
     file = folder / "__main__.py"
@@ -45,7 +47,7 @@ def built_cache():
         except Exception as e:
             log.exception(f"Unable to index {folder.name} @ {folder}", exc_info=e)
             continue
-        
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     built_cache()
