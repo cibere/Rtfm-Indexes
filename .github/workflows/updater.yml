@@ -27,7 +27,7 @@ jobs:
       - name: Install dependencies
         id: install-deps
         run: |
-          python -m pip install -r _ci\requirements.txt
+          python -m pip install -r _ci/requirements.txt
 
       - name: Create new indexes
         run: |
