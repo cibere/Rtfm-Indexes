@@ -1871,6 +1871,7 @@
     "timems": "https://mpv.io/manual/master/#on-screen-controller-timems",
     "tcspace": "https://mpv.io/manual/master/#on-screen-controller-tcspace",
     "visibility": "https://mpv.io/manual/master/#on-screen-controller-visibility",
+    "visibility_modes": "https://mpv.io/manual/master/#on-screen-controller-visibility-modes",
     "boxmaxchars": "https://mpv.io/manual/master/#on-screen-controller-boxmaxchars",
     "boxvideo": "https://mpv.io/manual/master/#on-screen-controller-boxvideo",
     "windowcontrols": "https://mpv.io/manual/master/#on-screen-controller-windowcontrols",
