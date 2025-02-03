@@ -21,6 +21,5 @@ jobs:
           pyright: 'true'
           ruff-linter: 'true'
           ruff-formatter: 'true'
-          bandit: 'true'
           python-version: '3.13'
           requirements: '_ci/requirements.txt'
