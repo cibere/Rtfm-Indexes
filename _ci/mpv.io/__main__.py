@@ -1,9 +1,7 @@
-import selenium, sys, logging
+import logging
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from typing import Self
-from selenium.webdriver.remote.webelement import WebElement
-from selenium.webdriver.remote.webdriver import WebDriver
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.firefox.options import Options
 

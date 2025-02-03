@@ -1,7 +1,8 @@
 from __future__ import annotations
 
 import importlib.util
-import pathlib, json
+import pathlib
+import json
 from logging import getLogger, INFO
 from typing import TYPE_CHECKING
 from .logs import setup_logging
