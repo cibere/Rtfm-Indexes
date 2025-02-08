@@ -34,7 +34,6 @@ class VoidToolsParser:
         assert isinstance(toc, bs4.Tag)
 
         for li in toc.find_all("li"):
-            print(f"{li=}")
             assert isinstance(li, bs4.Tag)
 
             atag = li.find("a")
