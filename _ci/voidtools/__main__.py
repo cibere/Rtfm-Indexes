@@ -69,7 +69,9 @@ class VoidToolsParser:
                 case 3:
                     l3 = label
 
-            self.cache[" - ".join(_remove_all_instances([l3, l2, l1], MISSING))] = str(self.base_url / href.lstrip("/"))
+            self.cache[" - ".join(_remove_all_instances([l3, l2, l1], MISSING))] = str(
+                self.base_url / href.lstrip("/")
+            )
 
     async def start(self) -> None:
         checked_urls: list[str] = []
