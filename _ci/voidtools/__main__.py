@@ -93,4 +93,4 @@ class VoidToolsParser:
 
 
 def index():
-    return {"voidtools.com": asyncio.run(VoidToolsParser.async_start())}
+    return {"": asyncio.run(VoidToolsParser.async_start())}

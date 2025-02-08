@@ -1,11 +1,8 @@
-import logging
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from typing import Self
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.firefox.options import Options
-
-log = logging.getLogger("mpv.io")
 
 
 class MpvIoParser:
@@ -31,16 +28,13 @@ class MpvIoParser:
     ) -> None:
         el = self.browser.find_element(By.CLASS_NAME, "manual-navigation")
         for tag in el.find_elements(By.TAG_NAME, "li"):
-            log.debug("Found %r", tag)
             atag = tag.find_element(By.TAG_NAME, "a")
-            log.debug("Got atag: %r", atag)
 
             text = atag.get_attribute("innerText")
             assert text
             href = atag.get_attribute("href")
             assert href
 
-            log.debug("Adding item to cache. Label: %r, Href: %r", text, href)
             self.cache[text] = href
 
     def parse_anchor_links(self) -> None:
@@ -55,7 +49,6 @@ class MpvIoParser:
             href = anchor.get_attribute("href")
             text = literalEl.get_attribute("innerText")
 
-            log.debug("Adding item to cache. Label: %r, Href: %r", text, href)
             self.cache[text] = href
 
 
