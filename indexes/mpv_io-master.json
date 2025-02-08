@@ -292,7 +292,7 @@
     "--cuda-decode-device=<auto|0..>": "https://mpv.io/manual/master/#options-cuda-decode-device",
     "--vaapi-device=<device file|adapter name>": "https://mpv.io/manual/master/#options-vaapi-device",
     "--panscan=<0.0-1.0>": "https://mpv.io/manual/master/#options-panscan",
-    "--video-aspect-override=<ratio|no>": "https://mpv.io/manual/master/#options-video-aspect-override",
+    "--video-aspect-override=<ratio|no|original>": "https://mpv.io/manual/master/#options-video-aspect-override",
     "--video-aspect-method=<bitstream|container>": "https://mpv.io/manual/master/#options-video-aspect-method",
     "--video-unscaled=<no|yes|downscale-big>": "https://mpv.io/manual/master/#options-video-unscaled",
     "--video-pan-x=<value>": "https://mpv.io/manual/master/#options-video-pan-x",
