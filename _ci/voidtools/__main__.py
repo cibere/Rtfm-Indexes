@@ -50,7 +50,7 @@ class VoidToolsParser:
         return list(self.iter_toc(data))
 
     async def parse_url(self, url: str) -> None:
-        async with self.session.get(self.base_url / url.lstrip("/")) as res:
+        async with self.session.get(url) as res:
             data = await res.read()
 
         toc = await asyncio.to_thread(self.get_toc, data)
@@ -69,13 +69,13 @@ class VoidToolsParser:
                 case 3:
                     l3 = label
 
-            self.cache[" - ".join(_remove_all_instances([l3, l2, l1], MISSING))] = href
+            self.cache[" - ".join(_remove_all_instances([l3, l2, l1], MISSING))] = str(self.base_url / href.lstrip("/"))
 
     async def start(self) -> None:
         checked_urls: list[str] = []
         tasks: list[Awaitable[None]] = []
 
-        await self.parse_url("/support/everything")
+        await self.parse_url("https://www.voidtools.com/support/everything")
 
         for key, url in self.cache.copy().items():
             if url not in checked_urls:
