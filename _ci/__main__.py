@@ -19,6 +19,7 @@ def dump_indexes(indexes: Callable[[], Indexes]) -> None:
         file = indexes_dir / f"{filename}{f'-{name}' if name else ''}.json"
         file.write_text(json.dumps(index, indent=4))
 
+
 if __name__ == "__main__":
     module = runpy.run_module(sys.argv[-1])
     dump_indexes(module["index"])
