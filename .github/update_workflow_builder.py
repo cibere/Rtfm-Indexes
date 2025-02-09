@@ -60,7 +60,7 @@ def build_tree():
                     {
                         "name": "Push Changes",
                         "continue-on-error": True,
-                        "run": 'git fetch\ngit pull\ngit add indexes\ngit -c user.name="github-actions[bot]" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" commit --author="cibere <71997063+cibere@users.noreply.github.com>" -m "Auto Update Indexes"\ngit push',
+                        "run": 'git fetch\ngit pull\ngit add indexes_v2\ngit -c user.name="github-actions[bot]" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" commit --author="cibere <71997063+cibere@users.noreply.github.com>" -m "Auto Update Indexes"\ngit push',
                     },
                 ],
             }
