@@ -22,7 +22,7 @@ runs:
         display_file_content: NO
     
     - name: Handle Error
-      if: ${{ steps.runner.outcome == "failure" }}
+      if: ${{ steps.runner.outcome == 'failure' }}
       uses: tsickert/discord-webhook@v6.0.0
       with:
         webhook-url: ${{ inputs.error_hook }}
