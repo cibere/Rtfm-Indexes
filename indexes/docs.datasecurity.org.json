@@ -1,284 +1,288 @@
 {
-  "Scope and Purpose": {
-    "text": "Scope and Purpose",
-    "url": "https://docs.datasecurity.org/#scope-and-purpose",
-    "options": null,
-    "ctx_menu_items": null
+  "cache": {
+    "Scope and Purpose": {
+      "text": "Scope and Purpose",
+      "url": "https://docs.datasecurity.org/#scope-and-purpose",
+      "options": null,
+      "ctx_menu_items": null
+    },
+    "Why use DSMM": {
+      "text": "Why use DSMM",
+      "url": "https://docs.datasecurity.org/#why-use-dsmm",
+      "options": null,
+      "ctx_menu_items": null
+    },
+    "How to Navigate the Model": {
+      "text": "How to Navigate the Model",
+      "url": "https://docs.datasecurity.org/#how-to-navigate-the-model",
+      "options": null,
+      "ctx_menu_items": null
+    },
+    "Key Terms": {
+      "text": "Key Terms",
+      "url": "https://docs.datasecurity.org/#key-terms",
+      "options": null,
+      "ctx_menu_items": null
+    },
+    "Functions - Key Terms": {
+      "text": "Functions - Key Terms",
+      "url": "https://docs.datasecurity.org/#functions",
+      "options": null,
+      "ctx_menu_items": null
+    },
+    "Objectives - Key Terms": {
+      "text": "Objectives - Key Terms",
+      "url": "https://docs.datasecurity.org/#objectives",
+      "options": null,
+      "ctx_menu_items": null
+    },
+    "Practices - Key Terms": {
+      "text": "Practices - Key Terms",
+      "url": "https://docs.datasecurity.org/#practices",
+      "options": null,
+      "ctx_menu_items": null
+    },
+    "Referencing DSMM": {
+      "text": "Referencing DSMM",
+      "url": "https://docs.datasecurity.org/#referencing-dsmm",
+      "options": null,
+      "ctx_menu_items": null
+    },
+    "Defining Data Security Program Goals": {
+      "text": "Defining Data Security Program Goals",
+      "url": "https://docs.datasecurity.org/#defining-data-security-program-goals",
+      "options": null,
+      "ctx_menu_items": null
+    },
+    "DID: Identify and Classify": {
+      "text": "DID: Identify and Classify",
+      "url": "https://docs.datasecurity.org/#did-identify-and-classify",
+      "options": null,
+      "ctx_menu_items": null
+    },
+    "DID001: Data Discovery - DID: Identify and Classify": {
+      "text": "DID001: Data Discovery - DID: Identify and Classify",
+      "url": "https://docs.datasecurity.org/#did001-data-discovery",
+      "options": null,
+      "ctx_menu_items": null
+    },
+    "DID002: Data Flows and Context - DID: Identify and Classify": {
+      "text": "DID002: Data Flows and Context - DID: Identify and Classify",
+      "url": "https://docs.datasecurity.org/#did002-data-flows-and-context",
+      "options": null,
+      "ctx_menu_items": null
+    },
+    "DID003: Data Classification - DID: Identify and Classify": {
+      "text": "DID003: Data Classification - DID: Identify and Classify",
+      "url": "https://docs.datasecurity.org/#did003-data-classification",
+      "options": null,
+      "ctx_menu_items": null
+    },
+    "DID004: Data Risk Assessment - DID: Identify and Classify": {
+      "text": "DID004: Data Risk Assessment - DID: Identify and Classify",
+      "url": "https://docs.datasecurity.org/#did004-data-risk-assessment",
+      "options": null,
+      "ctx_menu_items": null
+    },
+    "DPR: Protect": {
+      "text": "DPR: Protect",
+      "url": "https://docs.datasecurity.org/#dpr-protect",
+      "options": null,
+      "ctx_menu_items": null
+    },
+    "DPR001: Controlling Access - DPR: Protect": {
+      "text": "DPR001: Controlling Access - DPR: Protect",
+      "url": "https://docs.datasecurity.org/#dpr001-controlling-access",
+      "options": null,
+      "ctx_menu_items": null
+    },
+    "DPR002: Identifying and Preventing Misuse - DPR: Protect": {
+      "text": "DPR002: Identifying and Preventing Misuse - DPR: Protect",
+      "url": "https://docs.datasecurity.org/#dpr002-identifying-and-preventing-misuse",
+      "options": null,
+      "ctx_menu_items": null
+    },
+    "DPR003: User Education and Feedback - DPR: Protect": {
+      "text": "DPR003: User Education and Feedback - DPR: Protect",
+      "url": "https://docs.datasecurity.org/#dpr003-user-education-and-feedback",
+      "options": null,
+      "ctx_menu_items": null
+    },
+    "DPR004: Data Retention - DPR: Protect": {
+      "text": "DPR004: Data Retention - DPR: Protect",
+      "url": "https://docs.datasecurity.org/#dpr004-data-retention",
+      "options": null,
+      "ctx_menu_items": null
+    },
+    "DDE: Detect": {
+      "text": "DDE: Detect",
+      "url": "https://docs.datasecurity.org/#dde-detect",
+      "options": null,
+      "ctx_menu_items": null
+    },
+    "DDE001: Signal Collection - DDE: Detect": {
+      "text": "DDE001: Signal Collection - DDE: Detect",
+      "url": "https://docs.datasecurity.org/#dde001-signal-collection",
+      "options": null,
+      "ctx_menu_items": null
+    },
+    "DDE002: Analysis Methods - DDE: Detect": {
+      "text": "DDE002: Analysis Methods - DDE: Detect",
+      "url": "https://docs.datasecurity.org/#dde002-analysis-methods",
+      "options": null,
+      "ctx_menu_items": null
+    },
+    "DRS: Respond": {
+      "text": "DRS: Respond",
+      "url": "https://docs.datasecurity.org/#drs-respond",
+      "options": null,
+      "ctx_menu_items": null
+    },
+    "DRS001: Triage and Mitigation - DRS: Respond": {
+      "text": "DRS001: Triage and Mitigation - DRS: Respond",
+      "url": "https://docs.datasecurity.org/#drs001-triage-and-mitigation",
+      "options": null,
+      "ctx_menu_items": null
+    },
+    "DRS002: Communications - DRS: Respond": {
+      "text": "DRS002: Communications - DRS: Respond",
+      "url": "https://docs.datasecurity.org/#drs002-communications",
+      "options": null,
+      "ctx_menu_items": null
+    },
+    "DRC: Recover and Improve": {
+      "text": "DRC: Recover and Improve",
+      "url": "https://docs.datasecurity.org/#drc-recover-and-improve",
+      "options": null,
+      "ctx_menu_items": null
+    },
+    "DRC001: Data Backup and Recovery - DRC: Recover and Improve": {
+      "text": "DRC001: Data Backup and Recovery - DRC: Recover and Improve",
+      "url": "https://docs.datasecurity.org/#drc001-data-backup-and-recovery",
+      "options": null,
+      "ctx_menu_items": null
+    },
+    "DRC002: Incident Review / Lessons Learned - DRC: Recover and Improve": {
+      "text": "DRC002: Incident Review / Lessons Learned - DRC: Recover and Improve",
+      "url": "https://docs.datasecurity.org/#drc002-incident-review-lessons-learned",
+      "options": null,
+      "ctx_menu_items": null
+    },
+    "DRC003: Collaboration and Research - DRC: Recover and Improve": {
+      "text": "DRC003: Collaboration and Research - DRC: Recover and Improve",
+      "url": "https://docs.datasecurity.org/#drc003-collaboration-and-research",
+      "options": null,
+      "ctx_menu_items": null
+    },
+    "About the C3 Working Group": {
+      "text": "About the C3 Working Group",
+      "url": "https://docs.datasecurity.org/#about-the-c3-working-group",
+      "options": null,
+      "ctx_menu_items": null
+    },
+    "Chair - About the C3 Working Group": {
+      "text": "Chair - About the C3 Working Group",
+      "url": "https://docs.datasecurity.org/#chair",
+      "options": null,
+      "ctx_menu_items": null
+    },
+    "Members - About the C3 Working Group": {
+      "text": "Members - About the C3 Working Group",
+      "url": "https://docs.datasecurity.org/#members",
+      "options": null,
+      "ctx_menu_items": null
+    },
+    "Appendix": {
+      "text": "Appendix",
+      "url": "https://docs.datasecurity.org/#appendix",
+      "options": null,
+      "ctx_menu_items": null
+    },
+    "Getting Started with DSMM - Appendix": {
+      "text": "Getting Started with DSMM - Appendix",
+      "url": "https://docs.datasecurity.org/#getting-started-with-dsmm",
+      "options": null,
+      "ctx_menu_items": null
+    },
+    "Assess Organizational Data Needs - Appendix": {
+      "text": "Assess Organizational Data Needs - Appendix",
+      "url": "https://docs.datasecurity.org/#assess-organizational-data-needs",
+      "options": null,
+      "ctx_menu_items": null
+    },
+    "Identify Target Data Security Levels and Identify Gaps - Appendix": {
+      "text": "Identify Target Data Security Levels and Identify Gaps - Appendix",
+      "url": "https://docs.datasecurity.org/#identify-target-data-security-levels-and-identify-gaps",
+      "options": null,
+      "ctx_menu_items": null
+    },
+    "Develop and Implement the Data Security Plan - Appendix": {
+      "text": "Develop and Implement the Data Security Plan - Appendix",
+      "url": "https://docs.datasecurity.org/#develop-and-implement-the-data-security-plan",
+      "options": null,
+      "ctx_menu_items": null
+    },
+    "Example Scenarios": {
+      "text": "Example Scenarios",
+      "url": "https://docs.datasecurity.org/#example-scenarios",
+      "options": null,
+      "ctx_menu_items": null
+    },
+    "Scenario 1 - Example Scenarios": {
+      "text": "Scenario 1 - Example Scenarios",
+      "url": "https://docs.datasecurity.org/#scenario-1",
+      "options": null,
+      "ctx_menu_items": null
+    },
+    "Scenario 2 - Example Scenarios": {
+      "text": "Scenario 2 - Example Scenarios",
+      "url": "https://docs.datasecurity.org/#scenario-2",
+      "options": null,
+      "ctx_menu_items": null
+    },
+    "Security Patterns": {
+      "text": "Security Patterns",
+      "url": "https://docs.datasecurity.org/#security-patterns",
+      "options": null,
+      "ctx_menu_items": null
+    },
+    "Managed data stores - Security Patterns": {
+      "text": "Managed data stores - Security Patterns",
+      "url": "https://docs.datasecurity.org/#managed-data-stores",
+      "options": null,
+      "ctx_menu_items": null
+    },
+    "Cryptography - Security Patterns": {
+      "text": "Cryptography - Security Patterns",
+      "url": "https://docs.datasecurity.org/#cryptography",
+      "options": null,
+      "ctx_menu_items": null
+    },
+    "Automation - Security Patterns": {
+      "text": "Automation - Security Patterns",
+      "url": "https://docs.datasecurity.org/#automation",
+      "options": null,
+      "ctx_menu_items": null
+    },
+    "Backups - Security Patterns": {
+      "text": "Backups - Security Patterns",
+      "url": "https://docs.datasecurity.org/#backups",
+      "options": null,
+      "ctx_menu_items": null
+    },
+    "Infrastructure - Security Patterns": {
+      "text": "Infrastructure - Security Patterns",
+      "url": "https://docs.datasecurity.org/#infrastructure",
+      "options": null,
+      "ctx_menu_items": null
+    },
+    "Temporary and Limited Access - Security Patterns": {
+      "text": "Temporary and Limited Access - Security Patterns",
+      "url": "https://docs.datasecurity.org/#temporary-and-limited-access",
+      "options": null,
+      "ctx_menu_items": null
+    }
   },
-  "Why use DSMM": {
-    "text": "Why use DSMM",
-    "url": "https://docs.datasecurity.org/#why-use-dsmm",
-    "options": null,
-    "ctx_menu_items": null
-  },
-  "How to Navigate the Model": {
-    "text": "How to Navigate the Model",
-    "url": "https://docs.datasecurity.org/#how-to-navigate-the-model",
-    "options": null,
-    "ctx_menu_items": null
-  },
-  "Key Terms": {
-    "text": "Key Terms",
-    "url": "https://docs.datasecurity.org/#key-terms",
-    "options": null,
-    "ctx_menu_items": null
-  },
-  "Functions - Key Terms": {
-    "text": "Functions - Key Terms",
-    "url": "https://docs.datasecurity.org/#functions",
-    "options": null,
-    "ctx_menu_items": null
-  },
-  "Objectives - Key Terms": {
-    "text": "Objectives - Key Terms",
-    "url": "https://docs.datasecurity.org/#objectives",
-    "options": null,
-    "ctx_menu_items": null
-  },
-  "Practices - Key Terms": {
-    "text": "Practices - Key Terms",
-    "url": "https://docs.datasecurity.org/#practices",
-    "options": null,
-    "ctx_menu_items": null
-  },
-  "Referencing DSMM": {
-    "text": "Referencing DSMM",
-    "url": "https://docs.datasecurity.org/#referencing-dsmm",
-    "options": null,
-    "ctx_menu_items": null
-  },
-  "Defining Data Security Program Goals": {
-    "text": "Defining Data Security Program Goals",
-    "url": "https://docs.datasecurity.org/#defining-data-security-program-goals",
-    "options": null,
-    "ctx_menu_items": null
-  },
-  "DID: Identify and Classify": {
-    "text": "DID: Identify and Classify",
-    "url": "https://docs.datasecurity.org/#did-identify-and-classify",
-    "options": null,
-    "ctx_menu_items": null
-  },
-  "DID001: Data Discovery - DID: Identify and Classify": {
-    "text": "DID001: Data Discovery - DID: Identify and Classify",
-    "url": "https://docs.datasecurity.org/#did001-data-discovery",
-    "options": null,
-    "ctx_menu_items": null
-  },
-  "DID002: Data Flows and Context - DID: Identify and Classify": {
-    "text": "DID002: Data Flows and Context - DID: Identify and Classify",
-    "url": "https://docs.datasecurity.org/#did002-data-flows-and-context",
-    "options": null,
-    "ctx_menu_items": null
-  },
-  "DID003: Data Classification - DID: Identify and Classify": {
-    "text": "DID003: Data Classification - DID: Identify and Classify",
-    "url": "https://docs.datasecurity.org/#did003-data-classification",
-    "options": null,
-    "ctx_menu_items": null
-  },
-  "DID004: Data Risk Assessment - DID: Identify and Classify": {
-    "text": "DID004: Data Risk Assessment - DID: Identify and Classify",
-    "url": "https://docs.datasecurity.org/#did004-data-risk-assessment",
-    "options": null,
-    "ctx_menu_items": null
-  },
-  "DPR: Protect": {
-    "text": "DPR: Protect",
-    "url": "https://docs.datasecurity.org/#dpr-protect",
-    "options": null,
-    "ctx_menu_items": null
-  },
-  "DPR001: Controlling Access - DPR: Protect": {
-    "text": "DPR001: Controlling Access - DPR: Protect",
-    "url": "https://docs.datasecurity.org/#dpr001-controlling-access",
-    "options": null,
-    "ctx_menu_items": null
-  },
-  "DPR002: Identifying and Preventing Misuse - DPR: Protect": {
-    "text": "DPR002: Identifying and Preventing Misuse - DPR: Protect",
-    "url": "https://docs.datasecurity.org/#dpr002-identifying-and-preventing-misuse",
-    "options": null,
-    "ctx_menu_items": null
-  },
-  "DPR003: User Education and Feedback - DPR: Protect": {
-    "text": "DPR003: User Education and Feedback - DPR: Protect",
-    "url": "https://docs.datasecurity.org/#dpr003-user-education-and-feedback",
-    "options": null,
-    "ctx_menu_items": null
-  },
-  "DPR004: Data Retention - DPR: Protect": {
-    "text": "DPR004: Data Retention - DPR: Protect",
-    "url": "https://docs.datasecurity.org/#dpr004-data-retention",
-    "options": null,
-    "ctx_menu_items": null
-  },
-  "DDE: Detect": {
-    "text": "DDE: Detect",
-    "url": "https://docs.datasecurity.org/#dde-detect",
-    "options": null,
-    "ctx_menu_items": null
-  },
-  "DDE001: Signal Collection - DDE: Detect": {
-    "text": "DDE001: Signal Collection - DDE: Detect",
-    "url": "https://docs.datasecurity.org/#dde001-signal-collection",
-    "options": null,
-    "ctx_menu_items": null
-  },
-  "DDE002: Analysis Methods - DDE: Detect": {
-    "text": "DDE002: Analysis Methods - DDE: Detect",
-    "url": "https://docs.datasecurity.org/#dde002-analysis-methods",
-    "options": null,
-    "ctx_menu_items": null
-  },
-  "DRS: Respond": {
-    "text": "DRS: Respond",
-    "url": "https://docs.datasecurity.org/#drs-respond",
-    "options": null,
-    "ctx_menu_items": null
-  },
-  "DRS001: Triage and Mitigation - DRS: Respond": {
-    "text": "DRS001: Triage and Mitigation - DRS: Respond",
-    "url": "https://docs.datasecurity.org/#drs001-triage-and-mitigation",
-    "options": null,
-    "ctx_menu_items": null
-  },
-  "DRS002: Communications - DRS: Respond": {
-    "text": "DRS002: Communications - DRS: Respond",
-    "url": "https://docs.datasecurity.org/#drs002-communications",
-    "options": null,
-    "ctx_menu_items": null
-  },
-  "DRC: Recover and Improve": {
-    "text": "DRC: Recover and Improve",
-    "url": "https://docs.datasecurity.org/#drc-recover-and-improve",
-    "options": null,
-    "ctx_menu_items": null
-  },
-  "DRC001: Data Backup and Recovery - DRC: Recover and Improve": {
-    "text": "DRC001: Data Backup and Recovery - DRC: Recover and Improve",
-    "url": "https://docs.datasecurity.org/#drc001-data-backup-and-recovery",
-    "options": null,
-    "ctx_menu_items": null
-  },
-  "DRC002: Incident Review / Lessons Learned - DRC: Recover and Improve": {
-    "text": "DRC002: Incident Review / Lessons Learned - DRC: Recover and Improve",
-    "url": "https://docs.datasecurity.org/#drc002-incident-review-lessons-learned",
-    "options": null,
-    "ctx_menu_items": null
-  },
-  "DRC003: Collaboration and Research - DRC: Recover and Improve": {
-    "text": "DRC003: Collaboration and Research - DRC: Recover and Improve",
-    "url": "https://docs.datasecurity.org/#drc003-collaboration-and-research",
-    "options": null,
-    "ctx_menu_items": null
-  },
-  "About the C3 Working Group": {
-    "text": "About the C3 Working Group",
-    "url": "https://docs.datasecurity.org/#about-the-c3-working-group",
-    "options": null,
-    "ctx_menu_items": null
-  },
-  "Chair - About the C3 Working Group": {
-    "text": "Chair - About the C3 Working Group",
-    "url": "https://docs.datasecurity.org/#chair",
-    "options": null,
-    "ctx_menu_items": null
-  },
-  "Members - About the C3 Working Group": {
-    "text": "Members - About the C3 Working Group",
-    "url": "https://docs.datasecurity.org/#members",
-    "options": null,
-    "ctx_menu_items": null
-  },
-  "Appendix": {
-    "text": "Appendix",
-    "url": "https://docs.datasecurity.org/#appendix",
-    "options": null,
-    "ctx_menu_items": null
-  },
-  "Getting Started with DSMM - Appendix": {
-    "text": "Getting Started with DSMM - Appendix",
-    "url": "https://docs.datasecurity.org/#getting-started-with-dsmm",
-    "options": null,
-    "ctx_menu_items": null
-  },
-  "Assess Organizational Data Needs - Appendix": {
-    "text": "Assess Organizational Data Needs - Appendix",
-    "url": "https://docs.datasecurity.org/#assess-organizational-data-needs",
-    "options": null,
-    "ctx_menu_items": null
-  },
-  "Identify Target Data Security Levels and Identify Gaps - Appendix": {
-    "text": "Identify Target Data Security Levels and Identify Gaps - Appendix",
-    "url": "https://docs.datasecurity.org/#identify-target-data-security-levels-and-identify-gaps",
-    "options": null,
-    "ctx_menu_items": null
-  },
-  "Develop and Implement the Data Security Plan - Appendix": {
-    "text": "Develop and Implement the Data Security Plan - Appendix",
-    "url": "https://docs.datasecurity.org/#develop-and-implement-the-data-security-plan",
-    "options": null,
-    "ctx_menu_items": null
-  },
-  "Example Scenarios": {
-    "text": "Example Scenarios",
-    "url": "https://docs.datasecurity.org/#example-scenarios",
-    "options": null,
-    "ctx_menu_items": null
-  },
-  "Scenario 1 - Example Scenarios": {
-    "text": "Scenario 1 - Example Scenarios",
-    "url": "https://docs.datasecurity.org/#scenario-1",
-    "options": null,
-    "ctx_menu_items": null
-  },
-  "Scenario 2 - Example Scenarios": {
-    "text": "Scenario 2 - Example Scenarios",
-    "url": "https://docs.datasecurity.org/#scenario-2",
-    "options": null,
-    "ctx_menu_items": null
-  },
-  "Security Patterns": {
-    "text": "Security Patterns",
-    "url": "https://docs.datasecurity.org/#security-patterns",
-    "options": null,
-    "ctx_menu_items": null
-  },
-  "Managed data stores - Security Patterns": {
-    "text": "Managed data stores - Security Patterns",
-    "url": "https://docs.datasecurity.org/#managed-data-stores",
-    "options": null,
-    "ctx_menu_items": null
-  },
-  "Cryptography - Security Patterns": {
-    "text": "Cryptography - Security Patterns",
-    "url": "https://docs.datasecurity.org/#cryptography",
-    "options": null,
-    "ctx_menu_items": null
-  },
-  "Automation - Security Patterns": {
-    "text": "Automation - Security Patterns",
-    "url": "https://docs.datasecurity.org/#automation",
-    "options": null,
-    "ctx_menu_items": null
-  },
-  "Backups - Security Patterns": {
-    "text": "Backups - Security Patterns",
-    "url": "https://docs.datasecurity.org/#backups",
-    "options": null,
-    "ctx_menu_items": null
-  },
-  "Infrastructure - Security Patterns": {
-    "text": "Infrastructure - Security Patterns",
-    "url": "https://docs.datasecurity.org/#infrastructure",
-    "options": null,
-    "ctx_menu_items": null
-  },
-  "Temporary and Limited Access - Security Patterns": {
-    "text": "Temporary and Limited Access - Security Patterns",
-    "url": "https://docs.datasecurity.org/#temporary-and-limited-access",
-    "options": null,
-    "ctx_menu_items": null
-  }
+  "name": "docs.datasecurity.org",
+  "favicon_url": null
 }

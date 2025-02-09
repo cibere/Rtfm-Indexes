@@ -1,2642 +1,2646 @@
 {
-  "afconvert": {
-    "text": "afconvert",
-    "url": "https://ss64.com/afconvert.html",
-    "options": {
-      "sub": "Audio File Convert"
-    },
-    "ctx_menu_items": null
-  },
-  "afinfo": {
-    "text": "afinfo",
-    "url": "https://ss64.com/afinfo.html",
-    "options": {
-      "sub": "Audio File Info"
-    },
-    "ctx_menu_items": null
-  },
-  "afplay": {
-    "text": "afplay",
-    "url": "https://ss64.com/afplay.html",
-    "options": {
-      "sub": "Audio File Play"
-    },
-    "ctx_menu_items": null
-  },
-  "airport": {
-    "text": "airport",
-    "url": "https://ss64.com/airport.html",
-    "options": {
-      "sub": "Manage Apple AirPort"
-    },
-    "ctx_menu_items": null
-  },
-  "alias": {
-    "text": "alias",
-    "url": "https://ss64.com/alias.html",
-    "options": {
-      "sub": "Create an alias •"
-    },
-    "ctx_menu_items": null
-  },
-  "alloc": {
-    "text": "alloc",
-    "url": "https://ss64.com/",
-    "options": {
-      "sub": "List used and free memory"
-    },
-    "ctx_menu_items": null
-  },
-  "apropos": {
-    "text": "apropos",
-    "url": "https://ss64.com/apropos.html",
-    "options": {
-      "sub": "Search the whatis database for strings"
-    },
-    "ctx_menu_items": null
-  },
-  "asr": {
-    "text": "asr",
-    "url": "https://ss64.com/asr.html",
-    "options": {
-      "sub": "Apple Software Restore"
-    },
-    "ctx_menu_items": null
-  },
-  "atsutil": {
-    "text": "atsutil",
-    "url": "https://ss64.com/",
-    "options": {
-      "sub": "Font registration system utility"
-    },
-    "ctx_menu_items": null
-  },
-  "automator": {
-    "text": "automator",
-    "url": "https://ss64.com/",
-    "options": {
-      "sub": "Run an Automator workflow"
-    },
-    "ctx_menu_items": null
-  },
-  "awk": {
-    "text": "awk",
-    "url": "https://ss64.com/awk.html",
-    "options": {
-      "sub": "Find and Replace text within file(s)"
-    },
-    "ctx_menu_items": null
-  },
-  "basename": {
-    "text": "basename",
-    "url": "https://ss64.com/basename.html",
-    "options": {
-      "sub": "Convert a full pathname to just a filename"
-    },
-    "ctx_menu_items": null
-  },
-  "bash": {
-    "text": "bash",
-    "url": "https://ss64.com/bash.html",
-    "options": {
-      "sub": "Bourne-Again SHell"
-    },
-    "ctx_menu_items": null
-  },
-  "bc": {
-    "text": "bc",
-    "url": "https://ss64.com/bc.html",
-    "options": {
-      "sub": "Arbitrary precision calculator language"
-    },
-    "ctx_menu_items": null
-  },
-  "bg": {
-    "text": "bg",
-    "url": "https://ss64.com/bg.html",
-    "options": {
-      "sub": "Send to background •"
-    },
-    "ctx_menu_items": null
-  },
-  "bind": {
-    "text": "bind",
-    "url": "https://ss64.com/bind.html",
-    "options": {
-      "sub": "Set or display readline key and function bindings •"
-    },
-    "ctx_menu_items": null
-  },
-  "bless": {
-    "text": "bless",
-    "url": "https://ss64.com/bless.html",
-    "options": {
-      "sub": "Set volume bootability and startup disk options"
-    },
-    "ctx_menu_items": null
-  },
-  "break": {
-    "text": "break",
-    "url": "https://ss64.com/break.html",
-    "options": {
-      "sub": "Exit from a For, While, Until or Select loop •"
-    },
-    "ctx_menu_items": null
-  },
-  "brew": {
-    "text": "brew",
-    "url": "https://ss64.com/brew.html",
-    "options": {
-      "sub": "Package manager"
-    },
-    "ctx_menu_items": null
-  },
-  "builtin": {
-    "text": "builtin",
-    "url": "https://ss64.com/builtin.html",
-    "options": {
-      "sub": "Execute a shell builtin •"
-    },
-    "ctx_menu_items": null
-  },
-  "bzip2": {
-    "text": "bzip2",
-    "url": "https://ss64.com/bzip.html",
-    "options": {
-      "sub": "Compress or decompress files"
-    },
-    "ctx_menu_items": null
-  },
-  "caffeinate": {
-    "text": "caffeinate",
-    "url": "https://ss64.com/caffeinate.html",
-    "options": {
-      "sub": "Prevent the system from sleeping"
-    },
-    "ctx_menu_items": null
-  },
-  "cal": {
-    "text": "cal",
-    "url": "https://ss64.com/cal.html",
-    "options": {
-      "sub": "Display a calendar"
-    },
-    "ctx_menu_items": null
-  },
-  "calendar": {
-    "text": "calendar",
-    "url": "https://ss64.com/calendar.html",
-    "options": {
-      "sub": "Reminder Service"
-    },
-    "ctx_menu_items": null
-  },
-  "caller": {
-    "text": "caller",
-    "url": "https://ss64.com/caller.html",
-    "options": {
-      "sub": "Return the context of a subroutine call •"
-    },
-    "ctx_menu_items": null
-  },
-  "cancel": {
-    "text": "cancel",
-    "url": "https://ss64.com/cancel.html",
-    "options": {
-      "sub": "Cancel print jobs"
-    },
-    "ctx_menu_items": null
-  },
-  "case": {
-    "text": "case",
-    "url": "https://ss64.com/case.html",
-    "options": {
-      "sub": "Conditionally perform a command •"
-    },
-    "ctx_menu_items": null
-  },
-  "cat": {
-    "text": "cat",
-    "url": "https://ss64.com/cat.html",
-    "options": {
-      "sub": "Concatenate and print (display) the content of files"
-    },
-    "ctx_menu_items": null
-  },
-  "cd": {
-    "text": "cd",
-    "url": "https://ss64.com/cd.html",
-    "options": {
-      "sub": "Change Directory •"
-    },
-    "ctx_menu_items": null
-  },
-  "chflags": {
-    "text": "chflags",
-    "url": "https://ss64.com/chflags.html",
-    "options": {
-      "sub": "Change a file or folder’s flags"
-    },
-    "ctx_menu_items": null
-  },
-  "chgrp": {
-    "text": "chgrp",
-    "url": "https://ss64.com/chgrp.html",
-    "options": {
-      "sub": "Change group ownership"
-    },
-    "ctx_menu_items": null
-  },
-  "chmod": {
-    "text": "chmod",
-    "url": "https://ss64.com/chmod.html",
-    "options": {
-      "sub": "Change access permissions"
-    },
-    "ctx_menu_items": null
-  },
-  "chown": {
-    "text": "chown",
-    "url": "https://ss64.com/chown.html",
-    "options": {
-      "sub": "Change file owner and group"
-    },
-    "ctx_menu_items": null
-  },
-  "chroot": {
-    "text": "chroot",
-    "url": "https://ss64.com/chroot.html",
-    "options": {
-      "sub": "Run a command with a different root directory"
-    },
-    "ctx_menu_items": null
-  },
-  "chsh": {
-    "text": "chsh",
-    "url": "https://ss64.com/chsh.html",
-    "options": {
-      "sub": "Add or change user database information, change default shell"
-    },
-    "ctx_menu_items": null
-  },
-  "cksum": {
-    "text": "cksum",
-    "url": "https://ss64.com/cksum.html",
-    "options": {
-      "sub": "Print CRC checksum and byte counts"
-    },
-    "ctx_menu_items": null
-  },
-  "clear": {
-    "text": "clear",
-    "url": "https://ss64.com/",
-    "options": {
-      "sub": "Clear terminal screen"
-    },
-    "ctx_menu_items": null
-  },
-  "cmp": {
-    "text": "cmp",
-    "url": "https://ss64.com/cmp.html",
-    "options": {
-      "sub": "Compare two files"
-    },
-    "ctx_menu_items": null
-  },
-  "codesign": {
-    "text": "codesign",
-    "url": "https://ss64.com/codesign.html",
-    "options": {
-      "sub": "Create and manipulate code signatures"
-    },
-    "ctx_menu_items": null
-  },
-  "comm": {
-    "text": "comm",
-    "url": "https://ss64.com/comm.html",
-    "options": {
-      "sub": "Compare two sorted files line by line"
-    },
-    "ctx_menu_items": null
-  },
-  "command": {
-    "text": "command",
-    "url": "https://ss64.com/command.html",
-    "options": {
-      "sub": "Run a command (not a function) •"
-    },
-    "ctx_menu_items": null
-  },
-  "complete": {
-    "text": "complete",
-    "url": "https://ss64.com/complete.html",
-    "options": {
-      "sub": "Edit a command completion [word/pattern/list] •"
-    },
-    "ctx_menu_items": null
-  },
-  "continue": {
-    "text": "continue",
-    "url": "https://ss64.com/continue.html",
-    "options": {
-      "sub": "Resume the next iteration of a loop •"
-    },
-    "ctx_menu_items": null
-  },
-  "cp": {
-    "text": "cp",
-    "url": "https://ss64.com/cp.html",
-    "options": {
-      "sub": "Copy one or more files to another location"
-    },
-    "ctx_menu_items": null
-  },
-  "cpio": {
-    "text": "cpio",
-    "url": "https://ss64.com/cpio.html",
-    "options": {
-      "sub": "Copy files to and from archives"
-    },
-    "ctx_menu_items": null
-  },
-  "createhomedir": {
-    "text": "createhomedir",
-    "url": "https://ss64.com/createhomedir.html",
-    "options": {
-      "sub": "Create and populate home directories on the local computer"
-    },
-    "ctx_menu_items": null
-  },
-  "cron": {
-    "text": "cron",
-    "url": "https://ss64.com/cron.html",
-    "options": {
-      "sub": "Daemon to execute scheduled commands"
-    },
-    "ctx_menu_items": null
-  },
-  "crontab": {
-    "text": "crontab",
-    "url": "https://ss64.com/crontab.html",
-    "options": {
-      "sub": "Schedule a command to run at a later date/time"
-    },
-    "ctx_menu_items": null
-  },
-  "csplit": {
-    "text": "csplit",
-    "url": "https://ss64.com/csplit.html",
-    "options": {
-      "sub": "Split a file into context-determined pieces"
-    },
-    "ctx_menu_items": null
-  },
-  "csrutil": {
-    "text": "csrutil",
-    "url": "https://ss64.com/csrutil.html",
-    "options": {
-      "sub": "Configure System Integrity Protection (SIP)"
-    },
-    "ctx_menu_items": null
-  },
-  "cupsfilter": {
-    "text": "cupsfilter",
-    "url": "https://ss64.com/cupsfilter.html",
-    "options": {
-      "sub": "Convert a file to another format using cups filters"
-    },
-    "ctx_menu_items": null
-  },
-  "curl": {
-    "text": "curl",
-    "url": "https://ss64.com/curl.html",
-    "options": {
-      "sub": "Transfer data  from or to a server"
-    },
-    "ctx_menu_items": null
-  },
-  "cut": {
-    "text": "cut",
-    "url": "https://ss64.com/cut.html",
-    "options": {
-      "sub": "Divide a file into several parts"
-    },
-    "ctx_menu_items": null
-  },
-  "date": {
-    "text": "date",
-    "url": "https://ss64.com/date.html",
-    "options": {
-      "sub": "Display or change the date & time"
-    },
-    "ctx_menu_items": null
-  },
-  "dc": {
-    "text": "dc",
-    "url": "https://ss64.com/dc.html",
-    "options": {
-      "sub": "Desk Calculator"
-    },
-    "ctx_menu_items": null
-  },
-  "dd": {
-    "text": "dd",
-    "url": "https://ss64.com/dd.html",
-    "options": {
-      "sub": "Data Duplicator - convert and copy a file, clone disks"
-    },
-    "ctx_menu_items": null
-  },
-  "declare": {
-    "text": "declare",
-    "url": "https://ss64.com/declare.html",
-    "options": {
-      "sub": "Declare variable & set attributes •"
-    },
-    "ctx_menu_items": null
-  },
-  "defaults": {
-    "text": "defaults",
-    "url": "https://ss64.com/defaults.html",
-    "options": {
-      "sub": "Set preferences, show hidden files"
-    },
-    "ctx_menu_items": null
-  },
-  "df": {
-    "text": "df",
-    "url": "https://ss64.com/df.html",
-    "options": {
-      "sub": "Display free disk space"
-    },
-    "ctx_menu_items": null
-  },
-  "diff": {
-    "text": "diff",
-    "url": "https://ss64.com/diff.html",
-    "options": {
-      "sub": "Display the differences between two files"
-    },
-    "ctx_menu_items": null
-  },
-  "diff3": {
-    "text": "diff3",
-    "url": "https://ss64.com/diff3.html",
-    "options": {
-      "sub": "Show differences among three files"
-    },
-    "ctx_menu_items": null
-  },
-  "dig": {
-    "text": "dig",
-    "url": "https://ss64.com/dig.html",
-    "options": {
-      "sub": "DNS lookup"
-    },
-    "ctx_menu_items": null
-  },
-  "dirname": {
-    "text": "dirname",
-    "url": "https://ss64.com/dirname.html",
-    "options": {
-      "sub": "Convert a full pathname to just a path"
-    },
-    "ctx_menu_items": null
-  },
-  "dirs": {
-    "text": "dirs",
-    "url": "https://ss64.com/dirs.html",
-    "options": {
-      "sub": "Display list of remembered directories •"
-    },
-    "ctx_menu_items": null
-  },
-  "diskutil": {
-    "text": "diskutil",
-    "url": "https://ss64.com/diskutil.html",
-    "options": {
-      "sub": "Disk utilities - Format, Verify, Repair"
-    },
-    "ctx_menu_items": null
-  },
-  "disown": {
-    "text": "disown",
-    "url": "https://ss64.com/disown.html",
-    "options": {
-      "sub": "Unbind a job from the current login session •"
-    },
-    "ctx_menu_items": null
-  },
-  "ditto": {
-    "text": "ditto",
-    "url": "https://ss64.com/ditto.html",
-    "options": {
-      "sub": "Copy files and folders"
-    },
-    "ctx_menu_items": null
-  },
-  "dot_clean": {
-    "text": "dot_clean",
-    "url": "https://ss64.com/dot_clean.html",
-    "options": {
-      "sub": "Remove dot-underscore files"
-    },
-    "ctx_menu_items": null
-  },
-  "drutil": {
-    "text": "drutil",
-    "url": "https://ss64.com/drutil.html",
-    "options": {
-      "sub": "Interact with CD/DVD burners"
-    },
-    "ctx_menu_items": null
-  },
-  "dscacheutil": {
-    "text": "dscacheutil",
-    "url": "https://ss64.com/dscacheutil.html",
-    "options": {
-      "sub": "Query or flush the Directory Service/DNS cache"
-    },
-    "ctx_menu_items": null
-  },
-  "dseditgroup": {
-    "text": "dseditgroup",
-    "url": "https://ss64.com/dseditgroup.html",
-    "options": {
-      "sub": "Edit, create, manipulate, or delete groups"
-    },
-    "ctx_menu_items": null
-  },
-  "dsenableroot": {
-    "text": "dsenableroot",
-    "url": "https://ss64.com/dsenableroot.html",
-    "options": {
-      "sub": "Enable root access"
-    },
-    "ctx_menu_items": null
-  },
-  "dsmemberutil": {
-    "text": "dsmemberutil",
-    "url": "https://ss64.com/",
-    "options": {
-      "sub": "View user and groups rights"
-    },
-    "ctx_menu_items": null
-  },
-  "dscl": {
-    "text": "dscl",
-    "url": "https://ss64.com/dscl.html",
-    "options": {
-      "sub": "Directory Service command line utility"
-    },
-    "ctx_menu_items": null
-  },
-  "du": {
-    "text": "du",
-    "url": "https://ss64.com/du.html",
-    "options": {
-      "sub": "Estimate file space usage"
-    },
-    "ctx_menu_items": null
-  },
-  "echo": {
-    "text": "echo",
-    "url": "https://ss64.com/echo.html",
-    "options": {
-      "sub": "Display text on screen •"
-    },
-    "ctx_menu_items": null
-  },
-  "ed": {
-    "text": "ed",
-    "url": "https://ss64.com/",
-    "options": {
-      "sub": "A line-oriented text editor (edlin)"
-    },
-    "ctx_menu_items": null
-  },
-  "enable": {
-    "text": "enable",
-    "url": "https://ss64.com/enable.html",
-    "options": {
-      "sub": "Enable and disable builtin shell commands •"
-    },
-    "ctx_menu_items": null
-  },
-  "env": {
-    "text": "env",
-    "url": "https://ss64.com/env.html",
-    "options": {
-      "sub": "List or Set environment variables"
-    },
-    "ctx_menu_items": null
-  },
-  "eval": {
-    "text": "eval",
-    "url": "https://ss64.com/eval.html",
-    "options": {
-      "sub": "Evaluate several commands/arguments •"
-    },
-    "ctx_menu_items": null
-  },
-  "exec": {
-    "text": "exec",
-    "url": "https://ss64.com/exec.html",
-    "options": {
-      "sub": "Execute a command •"
-    },
-    "ctx_menu_items": null
-  },
-  "exit": {
-    "text": "exit",
-    "url": "https://ss64.com/exit.html",
-    "options": {
-      "sub": "Exit the shell •"
-    },
-    "ctx_menu_items": null
-  },
-  "execsnoop": {
-    "text": "execsnoop",
-    "url": "https://ss64.com/execsnoop.html",
-    "options": {
-      "sub": "Snoop new process execution"
-    },
-    "ctx_menu_items": null
-  },
-  "expand": {
-    "text": "expand",
-    "url": "https://ss64.com/expand.html",
-    "options": {
-      "sub": "Convert tabs to spaces"
-    },
-    "ctx_menu_items": null
-  },
-  "expect": {
-    "text": "expect",
-    "url": "https://ss64.com/",
-    "options": {
-      "sub": "Programmed dialogue with interactive programs\r\nAlso see AppleScript"
-    },
-    "ctx_menu_items": null
-  },
-  "export": {
-    "text": "export",
-    "url": "https://ss64.com/export.html",
-    "options": {
-      "sub": "Set an environment variable •"
-    },
-    "ctx_menu_items": null
-  },
-  "expr": {
-    "text": "expr",
-    "url": "https://ss64.com/expr.html",
-    "options": {
-      "sub": "Evaluate expressions"
-    },
-    "ctx_menu_items": null
-  },
-  "false": {
-    "text": "false",
-    "url": "https://ss64.com/false.html",
-    "options": {
-      "sub": "Do nothing, unsuccessfully"
-    },
-    "ctx_menu_items": null
-  },
-  "fc": {
-    "text": "fc",
-    "url": "https://ss64.com/fc.html",
-    "options": {
-      "sub": "Fix command (history)"
-    },
-    "ctx_menu_items": null
-  },
-  "fdisk": {
-    "text": "fdisk",
-    "url": "https://ss64.com/fdisk.html",
-    "options": {
-      "sub": "Partition table manipulator for Darwin UFS/HFS/DOS"
-    },
-    "ctx_menu_items": null
-  },
-  "fdesetup": {
-    "text": "fdesetup",
-    "url": "https://ss64.com/",
-    "options": {
-      "sub": "FileVault configuration, list FileVault users"
-    },
-    "ctx_menu_items": null
-  },
-  "fg": {
-    "text": "fg",
-    "url": "https://ss64.com/fg.html",
-    "options": {
-      "sub": "Send job to foreground •"
-    },
-    "ctx_menu_items": null
-  },
-  "file": {
-    "text": "file",
-    "url": "https://ss64.com/file.html",
-    "options": {
-      "sub": "Determine file type"
-    },
-    "ctx_menu_items": null
-  },
-  "find": {
-    "text": "find",
-    "url": "https://ss64.com/find.html",
-    "options": {
-      "sub": "Search for files that meet a desired criteria"
-    },
-    "ctx_menu_items": null
-  },
-  "fmt": {
-    "text": "fmt",
-    "url": "https://ss64.com/fmt.html",
-    "options": {
-      "sub": "Reformat paragraph text"
-    },
-    "ctx_menu_items": null
-  },
-  "fold": {
-    "text": "fold",
-    "url": "https://ss64.com/fold.html",
-    "options": {
-      "sub": "Wrap text to fit a specified width"
-    },
-    "ctx_menu_items": null
-  },
-  "for": {
-    "text": "for",
-    "url": "https://ss64.com/for.html",
-    "options": {
-      "sub": "Loop command •"
-    },
-    "ctx_menu_items": null
-  },
-  "fsck": {
-    "text": "fsck",
-    "url": "https://ss64.com/fsck.html",
-    "options": {
-      "sub": "Filesystem consistency check and repair"
-    },
-    "ctx_menu_items": null
-  },
-  "fs_usage": {
-    "text": "fs_usage",
-    "url": "https://ss64.com/fs_usage.html",
-    "options": {
-      "sub": "Filesystem usage (process/pathname)"
-    },
-    "ctx_menu_items": null
-  },
-  "ftp": {
-    "text": "ftp",
-    "url": "https://ss64.com/ftp.html",
-    "options": {
-      "sub": "Internet file transfer program"
-    },
-    "ctx_menu_items": null
-  },
-  "function": {
-    "text": "function",
-    "url": "https://ss64.com/function.html",
-    "options": {
-      "sub": "Define Function Macros"
-    },
-    "ctx_menu_items": null
-  },
-  "fuser": {
-    "text": "fuser",
-    "url": "https://ss64.com/fuser.html",
-    "options": {
-      "sub": "List processes that have one or more files open"
-    },
-    "ctx_menu_items": null
-  },
-  "GetFileInfo": {
-    "text": "GetFileInfo",
-    "url": "https://ss64.com/getfileinfo.html",
-    "options": {
-      "sub": "Get attributes of HFS+ files"
-    },
-    "ctx_menu_items": null
-  },
-  "getopt": {
-    "text": "getopt",
-    "url": "https://ss64.com/getopt.html",
-    "options": {
-      "sub": "Parse positional parameters"
-    },
-    "ctx_menu_items": null
-  },
-  "getopts": {
-    "text": "getopts",
-    "url": "https://ss64.com/getopts.html",
-    "options": {
-      "sub": "Parse positional parameters •"
-    },
-    "ctx_menu_items": null
-  },
-  "goto": {
-    "text": "goto",
-    "url": "https://ss64.com/goto.html",
-    "options": {
-      "sub": "Jump to label and continue execution"
-    },
-    "ctx_menu_items": null
-  },
-  "grep": {
-    "text": "grep",
-    "url": "https://ss64.com/grep.html",
-    "options": {
-      "sub": "Search file(s) for lines that match a given pattern"
-    },
-    "ctx_menu_items": null
-  },
-  "groups": {
-    "text": "groups",
-    "url": "https://ss64.com/id.html",
-    "options": {
-      "sub": "Print group names a user is in"
-    },
-    "ctx_menu_items": null
-  },
-  "gzip": {
-    "text": "gzip",
-    "url": "https://ss64.com/gzip.html",
-    "options": {
-      "sub": "Compress or decompress files"
-    },
-    "ctx_menu_items": null
-  },
-  "halt": {
-    "text": "halt",
-    "url": "https://ss64.com/halt.html",
-    "options": {
-      "sub": "Stop and restart the Operating System"
-    },
-    "ctx_menu_items": null
-  },
-  "hash": {
-    "text": "hash",
-    "url": "https://ss64.com/hash.html",
-    "options": {
-      "sub": "Refresh the cached/remembered location of commands •"
-    },
-    "ctx_menu_items": null
-  },
-  "head": {
-    "text": "head",
-    "url": "https://ss64.com/head.html",
-    "options": {
-      "sub": "Display the first lines of a file"
-    },
-    "ctx_menu_items": null
-  },
-  "hdiutil": {
-    "text": "hdiutil",
-    "url": "https://ss64.com/hdiutil.html",
-    "options": {
-      "sub": "Manipulate iso disk images"
-    },
-    "ctx_menu_items": null
-  },
-  "history": {
-    "text": "history",
-    "url": "https://ss64.com/history.html",
-    "options": {
-      "sub": "Command History •"
-    },
-    "ctx_menu_items": null
-  },
-  "hostname": {
-    "text": "hostname",
-    "url": "https://ss64.com/hostname.html",
-    "options": {
-      "sub": "Print or set system name"
-    },
-    "ctx_menu_items": null
-  },
-  "iconv": {
-    "text": "iconv",
-    "url": "https://ss64.com/iconv.html",
-    "options": {
-      "sub": "Convert the character set of a file"
-    },
-    "ctx_menu_items": null
-  },
-  "id": {
-    "text": "id",
-    "url": "https://ss64.com/id.html",
-    "options": {
-      "sub": "Print user and group names/id’s"
-    },
-    "ctx_menu_items": null
-  },
-  "if": {
-    "text": "if",
-    "url": "https://ss64.com/if.html",
-    "options": {
-      "sub": "Conditionally perform a command •"
-    },
-    "ctx_menu_items": null
-  },
-  "ifconfig": {
-    "text": "ifconfig",
-    "url": "https://ss64.com/ifconfig.html",
-    "options": {
-      "sub": "Configure network interface parameters"
-    },
-    "ctx_menu_items": null
-  },
-  "iostat": {
-    "text": "iostat",
-    "url": "https://ss64.com/iostat.html",
-    "options": {
-      "sub": "Report CPU and i/o statistics"
-    },
-    "ctx_menu_items": null
-  },
-  "ipconfig": {
-    "text": "ipconfig",
-    "url": "https://ss64.com/ipconfig.html",
-    "options": {
-      "sub": "View and control IP configuration state"
-    },
-    "ctx_menu_items": null
-  },
-  "info": {
-    "text": "info",
-    "url": "https://ss64.com/info.html",
-    "options": {
-      "sub": "Help info"
-    },
-    "ctx_menu_items": null
-  },
-  "install": {
-    "text": "install",
-    "url": "https://ss64.com/install.html",
-    "options": {
-      "sub": "Copy files and set attributes"
-    },
-    "ctx_menu_items": null
-  },
-  "installer": {
-    "text": "installer",
-    "url": "https://ss64.com/installer.html",
-    "options": {
-      "sub": "System software and .pkg package installer tool"
-    },
-    "ctx_menu_items": null
-  },
-  "iosnoop": {
-    "text": "iosnoop",
-    "url": "https://ss64.com/iosnoop.html",
-    "options": {
-      "sub": "Snoop I/O events as they occur"
-    },
-    "ctx_menu_items": null
-  },
-  "jobs": {
-    "text": "jobs",
-    "url": "https://ss64.com/jobs.html",
-    "options": {
-      "sub": "List active jobs •"
-    },
-    "ctx_menu_items": null
-  },
-  "join": {
-    "text": "join",
-    "url": "https://ss64.com/join.html",
-    "options": {
-      "sub": "Join lines on a common field"
-    },
-    "ctx_menu_items": null
-  },
-  "kextfind": {
-    "text": "kextfind",
-    "url": "https://ss64.com/kextfind.html",
-    "options": {
-      "sub": "List kernel extensions"
-    },
-    "ctx_menu_items": null
-  },
-  "kextstat": {
-    "text": "kextstat",
-    "url": "https://ss64.com/kextstat.html",
-    "options": {
-      "sub": "Display status of loaded kernel extensions (kexts)"
-    },
-    "ctx_menu_items": null
-  },
-  "kextunload": {
-    "text": "kextunload",
-    "url": "https://ss64.com/kextunload.html",
-    "options": {
-      "sub": "Terminate driver instances and unload kernel extensions."
-    },
-    "ctx_menu_items": null
-  },
-  "keytool": {
-    "text": "keytool",
-    "url": "https://ss64.com/",
-    "options": {
-      "sub": "Key and certificate management tool"
-    },
-    "ctx_menu_items": null
-  },
-  "kickstart": {
-    "text": "kickstart",
-    "url": "https://ss64.com/kickstart.html",
-    "options": {
-      "sub": "Configure Apple Remote Desktop"
-    },
-    "ctx_menu_items": null
-  },
-  "kill": {
-    "text": "kill",
-    "url": "https://ss64.com/kill.html",
-    "options": {
-      "sub": "Kill a process by specifying its PID"
-    },
-    "ctx_menu_items": null
-  },
-  "killall": {
-    "text": "killall",
-    "url": "https://ss64.com/killall.html",
-    "options": {
-      "sub": "Kill processes by name"
-    },
-    "ctx_menu_items": null
-  },
-  "klist": {
-    "text": "klist",
-    "url": "https://ss64.com/klist.html",
-    "options": {
-      "sub": "List cached Kerberos tickets"
-    },
-    "ctx_menu_items": null
-  },
-  "l": {
-    "text": "l",
-    "url": "https://ss64.com/ls.html",
-    "options": {
-      "sub": "List files in long format (ls -l)"
-    },
-    "ctx_menu_items": null
-  },
-  "last": {
-    "text": "last",
-    "url": "https://ss64.com/last.html",
-    "options": {
-      "sub": "Indicate last logins of users and ttys"
-    },
-    "ctx_menu_items": null
-  },
-  "launchctl": {
-    "text": "launchctl",
-    "url": "https://ss64.com/launchctl.html",
-    "options": {
-      "sub": "Load or unload daemons/agents"
-    },
-    "ctx_menu_items": null
-  },
-  "ll": {
-    "text": "ll",
-    "url": "https://ss64.com/ls.html",
-    "options": {
-      "sub": "List files in long format, showing invisible files (ls -la)"
-    },
-    "ctx_menu_items": null
-  },
-  "leave": {
-    "text": "leave",
-    "url": "https://ss64.com/leave.html",
-    "options": {
-      "sub": "Remind you when you have to leave"
-    },
-    "ctx_menu_items": null
-  },
-  "less": {
-    "text": "less",
-    "url": "https://ss64.com/less.html",
-    "options": {
-      "sub": "Display output one screen at a time"
-    },
-    "ctx_menu_items": null
-  },
-  "let": {
-    "text": "let",
-    "url": "https://ss64.com/let.html",
-    "options": {
-      "sub": "Evaluate expression •"
-    },
-    "ctx_menu_items": null
-  },
-  "lipo": {
-    "text": "lipo",
-    "url": "https://ss64.com/lipo.html",
-    "options": {
-      "sub": "Convert a universal binary"
-    },
-    "ctx_menu_items": null
-  },
-  "ln": {
-    "text": "ln",
-    "url": "https://ss64.com/ln.html",
-    "options": {
-      "sub": "Make links between files (hard links, symbolic links)"
-    },
-    "ctx_menu_items": null
-  },
-  "local": {
-    "text": "local",
-    "url": "https://ss64.com/local.html",
-    "options": {
-      "sub": "Set a local (function) variable •"
-    },
-    "ctx_menu_items": null
-  },
-  "locate": {
-    "text": "locate",
-    "url": "https://ss64.com/locate.html",
-    "options": {
-      "sub": "Find files"
-    },
-    "ctx_menu_items": null
-  },
-  "log": {
-    "text": "log",
-    "url": "https://ss64.com/log.html",
-    "options": {
-      "sub": "Access system wide log messages"
-    },
-    "ctx_menu_items": null
-  },
-  "logname": {
-    "text": "logname",
-    "url": "https://ss64.com/logname.html",
-    "options": {
-      "sub": "Print current login name"
-    },
-    "ctx_menu_items": null
-  },
-  "login": {
-    "text": "login",
-    "url": "https://ss64.com/login.html",
-    "options": {
-      "sub": "log into the computer"
-    },
-    "ctx_menu_items": null
-  },
-  "logout": {
-    "text": "logout",
-    "url": "https://ss64.com/logout.html",
-    "options": {
-      "sub": "Exit a login shell (bye) •"
-    },
-    "ctx_menu_items": null
-  },
-  "look": {
-    "text": "look",
-    "url": "https://ss64.com/look.html",
-    "options": {
-      "sub": "Display lines beginning with a given string"
-    },
-    "ctx_menu_items": null
-  },
-  "lp": {
-    "text": "lp",
-    "url": "https://ss64.com/lp.html",
-    "options": {
-      "sub": "Print files"
-    },
-    "ctx_menu_items": null
-  },
-  "lpr": {
-    "text": "lpr",
-    "url": "https://ss64.com/lpr.html",
-    "options": {
-      "sub": "Print files"
-    },
-    "ctx_menu_items": null
-  },
-  "lprm": {
-    "text": "lprm",
-    "url": "https://ss64.com/lprm.html",
-    "options": {
-      "sub": "Remove jobs from the print queue"
-    },
-    "ctx_menu_items": null
-  },
-  "lpstat": {
-    "text": "lpstat",
-    "url": "https://ss64.com/lpstat.html",
-    "options": {
-      "sub": "Printer status information"
-    },
-    "ctx_menu_items": null
-  },
-  "ls": {
-    "text": "ls",
-    "url": "https://ss64.com/ls.html",
-    "options": {
-      "sub": "List information about file(s)"
-    },
-    "ctx_menu_items": null
-  },
-  "lsregister": {
-    "text": "lsregister",
-    "url": "https://ss64.com/lsregister.html",
-    "options": {
-      "sub": "Reset the Launch Services database"
-    },
-    "ctx_menu_items": null
-  },
-  "lsbom": {
-    "text": "lsbom",
-    "url": "https://ss64.com/lsbom.html",
-    "options": {
-      "sub": "List a bill of materials file"
-    },
-    "ctx_menu_items": null
-  },
-  "lsof": {
-    "text": "lsof",
-    "url": "https://ss64.com/lsof.html",
-    "options": {
-      "sub": "List open files"
-    },
-    "ctx_menu_items": null
-  },
-  "man": {
-    "text": "man",
-    "url": "https://ss64.com/",
-    "options": {
-      "sub": "Help manual"
-    },
-    "ctx_menu_items": null
-  },
-  "md5": {
-    "text": "md5",
-    "url": "https://ss64.com/md5.html",
-    "options": {
-      "sub": "Calculate a checksum for a file"
-    },
-    "ctx_menu_items": null
-  },
-  "mdfind": {
-    "text": "mdfind",
-    "url": "https://ss64.com/mdfind.html",
-    "options": {
-      "sub": "Spotlight search"
-    },
-    "ctx_menu_items": null
-  },
-  "mdimport": {
-    "text": "mdimport",
-    "url": "https://ss64.com/mdimport.html",
-    "options": {
-      "sub": "Import file hierarchies into the Spotlight datastore."
-    },
-    "ctx_menu_items": null
-  },
-  "mdls": {
-    "text": "mdls",
-    "url": "https://ss64.com/mdls.html",
-    "options": {
-      "sub": "List the metadata attributes for a specified file"
-    },
-    "ctx_menu_items": null
-  },
-  "mdutil": {
-    "text": "mdutil",
-    "url": "https://ss64.com/mdutil.html",
-    "options": {
-      "sub": "Manage Spotlight metadata store"
-    },
-    "ctx_menu_items": null
-  },
-  "mkdir": {
-    "text": "mkdir",
-    "url": "https://ss64.com/mkdir.html",
-    "options": {
-      "sub": "Create new folder(s)"
-    },
-    "ctx_menu_items": null
-  },
-  "mkfifo": {
-    "text": "mkfifo",
-    "url": "https://ss64.com/mkfifo.html",
-    "options": {
-      "sub": "Make FIFOs (named pipes)"
-    },
-    "ctx_menu_items": null
-  },
-  "mkfile": {
-    "text": "mkfile",
-    "url": "https://ss64.com/mkfile.html",
-    "options": {
-      "sub": "Make a file"
-    },
-    "ctx_menu_items": null
-  },
-  "mktemp": {
-    "text": "mktemp",
-    "url": "https://ss64.com/mktemp.html",
-    "options": {
-      "sub": "Make a temporary file"
-    },
-    "ctx_menu_items": null
-  },
-  "more": {
-    "text": "more",
-    "url": "https://ss64.com/more.html",
-    "options": {
-      "sub": "Display output one screen at a time"
-    },
-    "ctx_menu_items": null
-  },
-  "mount": {
-    "text": "mount",
-    "url": "https://ss64.com/mount.html",
-    "options": {
-      "sub": "Mount a file system"
-    },
-    "ctx_menu_items": null
-  },
-  "msgs": {
-    "text": "msgs",
-    "url": "https://ss64.com/",
-    "options": {
-      "sub": "System messages"
-    },
-    "ctx_menu_items": null
-  },
-  "mtree": {
-    "text": "mtree",
-    "url": "https://ss64.com/",
-    "options": {
-      "sub": "Map a directory hierarchy"
-    },
-    "ctx_menu_items": null
-  },
-  "mv": {
-    "text": "mv",
-    "url": "https://ss64.com/mv.html",
-    "options": {
-      "sub": "Move or rename files or directories"
-    },
-    "ctx_menu_items": null
-  },
-  "nano": {
-    "text": "nano",
-    "url": "https://ss64.com/nano.html",
-    "options": {
-      "sub": "Simple text editor"
-    },
-    "ctx_menu_items": null
-  },
-  "nc/netcat": {
-    "text": "nc/netcat",
-    "url": "https://ss64.com/nc.html",
-    "options": {
-      "sub": "Read and write data across networks"
-    },
-    "ctx_menu_items": null
-  },
-  "net": {
-    "text": "net",
-    "url": "https://ss64.com/net.html",
-    "options": {
-      "sub": "Manage network resources"
-    },
-    "ctx_menu_items": null
-  },
-  "netstat": {
-    "text": "netstat",
-    "url": "https://ss64.com/",
-    "options": {
-      "sub": "Show network status"
-    },
-    "ctx_menu_items": null
-  },
-  "networkQuality": {
-    "text": "networkQuality",
-    "url": "https://ss64.com/networkquality.html",
-    "options": {
-      "sub": "Network quality testing tool"
-    },
-    "ctx_menu_items": null
-  },
-  "networksetup": {
-    "text": "networksetup",
-    "url": "https://ss64.com/networksetup.html",
-    "options": {
-      "sub": "Network and System Preferences"
-    },
-    "ctx_menu_items": null
-  },
-  "nice": {
-    "text": "nice",
-    "url": "https://ss64.com/nice.html",
-    "options": {
-      "sub": "Set the priority of a command"
-    },
-    "ctx_menu_items": null
-  },
-  "nl": {
-    "text": "nl",
-    "url": "https://ss64.com/nl.html",
-    "options": {
-      "sub": "Number lines and write files"
-    },
-    "ctx_menu_items": null
-  },
-  "nohup": {
-    "text": "nohup",
-    "url": "https://ss64.com/nohup.html",
-    "options": {
-      "sub": "Run a command immune to hangups"
-    },
-    "ctx_menu_items": null
-  },
-  "ntfs.util": {
-    "text": "ntfs.util",
-    "url": "https://ss64.com/ntfs-util.html",
-    "options": {
-      "sub": "NTFS file system utility"
-    },
-    "ctx_menu_items": null
-  },
-  "nvram": {
-    "text": "nvram",
-    "url": "https://ss64.com/nvram.html",
-    "options": {
-      "sub": "Manipulate  firmware variables"
-    },
-    "ctx_menu_items": null
-  },
-  "onintr": {
-    "text": "onintr",
-    "url": "https://ss64.com/onintr.html",
-    "options": {
-      "sub": "Control the action of a shell interrupt"
-    },
-    "ctx_menu_items": null
-  },
-  "open": {
-    "text": "open",
-    "url": "https://ss64.com/open.html",
-    "options": {
-      "sub": "Open a file/folder/URL/Application"
-    },
-    "ctx_menu_items": null
-  },
-  "opensnoop": {
-    "text": "opensnoop",
-    "url": "https://ss64.com/opensnoop.html",
-    "options": {
-      "sub": "Snoop file opens as they occur"
-    },
-    "ctx_menu_items": null
-  },
-  "openssl": {
-    "text": "openssl",
-    "url": "https://ss64.com/openssl.html",
-    "options": {
-      "sub": "OpenSSL command line"
-    },
-    "ctx_menu_items": null
-  },
-  "osacompile": {
-    "text": "osacompile",
-    "url": "https://ss64.com/osacompile.html",
-    "options": {
-      "sub": "Compile AppleScript"
-    },
-    "ctx_menu_items": null
-  },
-  "osascript": {
-    "text": "osascript",
-    "url": "https://ss64.com/osascript.html",
-    "options": {
-      "sub": "Execute AppleScript"
-    },
-    "ctx_menu_items": null
-  },
-  "passwd": {
-    "text": "passwd",
-    "url": "https://ss64.com/passwd.html",
-    "options": {
-      "sub": "Modify a user password"
-    },
-    "ctx_menu_items": null
-  },
-  "paste": {
-    "text": "paste",
-    "url": "https://ss64.com/paste.html",
-    "options": {
-      "sub": "Merge lines of files"
-    },
-    "ctx_menu_items": null
-  },
-  "pbcopy": {
-    "text": "pbcopy",
-    "url": "https://ss64.com/pbcopy.html",
-    "options": {
-      "sub": "Copy data to the clipboard"
-    },
-    "ctx_menu_items": null
-  },
-  "pbpaste": {
-    "text": "pbpaste",
-    "url": "https://ss64.com/pbpaste.html",
-    "options": {
-      "sub": "Paste data from the Clipboard"
-    },
-    "ctx_menu_items": null
-  },
-  "pbs": {
-    "text": "pbs",
-    "url": "https://ss64.com/pbs.html",
-    "options": {
-      "sub": "General helper tool"
-    },
-    "ctx_menu_items": null
-  },
-  "pdisk": {
-    "text": "pdisk",
-    "url": "https://ss64.com/",
-    "options": {
-      "sub": "Apple partition table editor"
-    },
-    "ctx_menu_items": null
-  },
-  "pfctl": {
-    "text": "pfctl",
-    "url": "https://ss64.com/pfctl.html",
-    "options": {
-      "sub": "Firewall - Control the packet filter and NAT device."
-    },
-    "ctx_menu_items": null
-  },
-  "pgrep": {
-    "text": "pgrep",
-    "url": "https://ss64.com/pkill.html",
-    "options": {
-      "sub": "List processes by a full or partial name"
-    },
-    "ctx_menu_items": null
-  },
-  "ping": {
-    "text": "ping",
-    "url": "https://ss64.com/ping.html",
-    "options": {
-      "sub": "Test a network connection"
-    },
-    "ctx_menu_items": null
-  },
-  "pkill": {
-    "text": "pkill",
-    "url": "https://ss64.com/pkill.html",
-    "options": {
-      "sub": "Kill processes by a full or partial name"
-    },
-    "ctx_menu_items": null
-  },
-  "pkgbuild": {
-    "text": "pkgbuild",
-    "url": "https://ss64.com/",
-    "options": {
-      "sub": "Build a macOS Installer component package"
-    },
-    "ctx_menu_items": null
-  },
-  "pkgutil": {
-    "text": "pkgutil",
-    "url": "https://ss64.com/pkgutil.html",
-    "options": {
-      "sub": "Query and manipulate installed packages"
-    },
-    "ctx_menu_items": null
-  },
-  "plutil": {
-    "text": "plutil",
-    "url": "https://ss64.com/",
-    "options": {
-      "sub": "Property list utility"
-    },
-    "ctx_menu_items": null
-  },
-  "pmset": {
-    "text": "pmset",
-    "url": "https://ss64.com/pmset.html",
-    "options": {
-      "sub": "Power Management settings"
-    },
-    "ctx_menu_items": null
-  },
-  "popd": {
-    "text": "popd",
-    "url": "https://ss64.com/popd.html",
-    "options": {
-      "sub": "Restore the previous value of the current directory •"
-    },
-    "ctx_menu_items": null
-  },
-  "powermetrics": {
-    "text": "powermetrics",
-    "url": "https://ss64.com/powermetrics.html",
-    "options": {
-      "sub": "Display CPU and power usage stats"
-    },
-    "ctx_menu_items": null
-  },
-  "pr": {
-    "text": "pr",
-    "url": "https://ss64.com/pr.html",
-    "options": {
-      "sub": "Convert text files for printing"
-    },
-    "ctx_menu_items": null
-  },
-  "printenv": {
-    "text": "printenv",
-    "url": "https://ss64.com/printenv.html",
-    "options": {
-      "sub": "List environment variables"
-    },
-    "ctx_menu_items": null
-  },
-  "printf": {
-    "text": "printf",
-    "url": "https://ss64.com/printf.html",
-    "options": {
-      "sub": "Format and print data •"
-    },
-    "ctx_menu_items": null
-  },
-  "profiles": {
-    "text": "profiles",
-    "url": "https://ss64.com/profiles.html",
-    "options": {
-      "sub": "Profiles Tool"
-    },
-    "ctx_menu_items": null
-  },
-  "ps": {
-    "text": "ps",
-    "url": "https://ss64.com/ps.html",
-    "options": {
-      "sub": "Process status"
-    },
-    "ctx_menu_items": null
-  },
-  "purge": {
-    "text": "purge",
-    "url": "https://ss64.com/",
-    "options": {
-      "sub": "Force disk cache to be purged (flushed and emptied)"
-    },
-    "ctx_menu_items": null
-  },
-  "pushd": {
-    "text": "pushd",
-    "url": "https://ss64.com/pushd.html",
-    "options": {
-      "sub": "Save and then change the current directory"
-    },
-    "ctx_menu_items": null
-  },
-  "pwd": {
-    "text": "pwd",
-    "url": "https://ss64.com/pwd.html",
-    "options": {
-      "sub": "Print Working Directory •"
-    },
-    "ctx_menu_items": null
-  },
-  "qlmanage": {
-    "text": "qlmanage",
-    "url": "https://ss64.com/qlmanage.html",
-    "options": {
-      "sub": "Quick Look Server debug and management tool"
-    },
-    "ctx_menu_items": null
-  },
-  "quota": {
-    "text": "quota",
-    "url": "https://ss64.com/quota.html",
-    "options": {
-      "sub": "Display disk usage and limits"
-    },
-    "ctx_menu_items": null
-  },
-  "rcp": {
-    "text": "rcp",
-    "url": "https://ss64.com/rcp.html",
-    "options": {
-      "sub": "Copy files between machines"
-    },
-    "ctx_menu_items": null
-  },
-  "read": {
-    "text": "read",
-    "url": "https://ss64.com/read.html",
-    "options": {
-      "sub": "Read one line from standard input •"
-    },
-    "ctx_menu_items": null
-  },
-  "readonly": {
-    "text": "readonly",
-    "url": "https://ss64.com/readonly.html",
-    "options": {
-      "sub": "Mark a variable or function as read-only •"
-    },
-    "ctx_menu_items": null
-  },
-  "realpath": {
-    "text": "realpath",
-    "url": "https://ss64.com/realpath.html",
-    "options": {
-      "sub": "Return resolved physical path"
-    },
-    "ctx_menu_items": null
-  },
-  "reboot": {
-    "text": "reboot",
-    "url": "https://ss64.com/",
-    "options": {
-      "sub": "Stop and restart the system"
-    },
-    "ctx_menu_items": null
-  },
-  "ReportCrash": {
-    "text": "ReportCrash",
-    "url": "https://ss64.com/reportcrash.html",
-    "options": {
-      "sub": "Enable/Disable crash reporting"
-    },
-    "ctx_menu_items": null
-  },
-  "return": {
-    "text": "return",
-    "url": "https://ss64.com/return.html",
-    "options": {
-      "sub": "Exit a function •"
-    },
-    "ctx_menu_items": null
-  },
-  "rev": {
-    "text": "rev",
-    "url": "https://ss64.com/rev.html",
-    "options": {
-      "sub": "Reverse lines of a file"
-    },
-    "ctx_menu_items": null
-  },
-  "rm": {
-    "text": "rm",
-    "url": "https://ss64.com/rm.html",
-    "options": {
-      "sub": "Remove files"
-    },
-    "ctx_menu_items": null
-  },
-  "rmdir": {
-    "text": "rmdir",
-    "url": "https://ss64.com/rmdir.html",
-    "options": {
-      "sub": "Remove folder(s)"
-    },
-    "ctx_menu_items": null
-  },
-  "rsync": {
-    "text": "rsync",
-    "url": "https://ss64.com/rsync.html",
-    "options": {
-      "sub": "Remote file copy - Sync file tree"
-    },
-    "ctx_menu_items": null
-  },
-  "say": {
-    "text": "say",
-    "url": "https://ss64.com/say.html",
-    "options": {
-      "sub": "Convert text to audible speech"
-    },
-    "ctx_menu_items": null
-  },
-  "screen": {
-    "text": "screen",
-    "url": "https://ss64.com/screen.html",
-    "options": {
-      "sub": "Multiplex terminal, run remote shells via ssh"
-    },
-    "ctx_menu_items": null
-  },
-  "screencapture": {
-    "text": "screencapture",
-    "url": "https://ss64.com/screencapture.html",
-    "options": {
-      "sub": "Capture screen image to file or disk"
-    },
-    "ctx_menu_items": null
-  },
-  "scselect": {
-    "text": "scselect",
-    "url": "https://ss64.com/scselect.html",
-    "options": {
-      "sub": "Switch between network locations"
-    },
-    "ctx_menu_items": null
-  },
-  "scutil": {
-    "text": "scutil",
-    "url": "https://ss64.com/scutil.html",
-    "options": {
-      "sub": "Manage system configuration parameters"
-    },
-    "ctx_menu_items": null
-  },
-  "sdiff": {
-    "text": "sdiff",
-    "url": "https://ss64.com/sdiff.html",
-    "options": {
-      "sub": "Merge two files interactively"
-    },
-    "ctx_menu_items": null
-  },
-  "security": {
-    "text": "security",
-    "url": "https://ss64.com/security.html",
-    "options": {
-      "sub": "Administer Keychains, keys, certificates and the Security framework"
-    },
-    "ctx_menu_items": null
-  },
-  "sed": {
-    "text": "sed",
-    "url": "https://ss64.com/sed.html",
-    "options": {
-      "sub": "Stream Editor"
-    },
-    "ctx_menu_items": null
-  },
-  "select": {
-    "text": "select",
-    "url": "https://ss64.com/select.html",
-    "options": {
-      "sub": "Generate a list of items •"
-    },
-    "ctx_menu_items": null
-  },
-  "seq": {
-    "text": "seq",
-    "url": "https://ss64.com/seq.html",
-    "options": {
-      "sub": "Print numeric sequences"
-    },
-    "ctx_menu_items": null
-  },
-  "serverinfo": {
-    "text": "serverinfo",
-    "url": "https://ss64.com/serverinfo.html",
-    "options": {
-      "sub": "Server information"
-    },
-    "ctx_menu_items": null
-  },
-  "set": {
-    "text": "set",
-    "url": "https://ss64.com/set.html",
-    "options": {
-      "sub": "Set a shell variable = value •"
-    },
-    "ctx_menu_items": null
-  },
-  "setfile": {
-    "text": "setfile",
-    "url": "https://ss64.com/setfile.html",
-    "options": {
-      "sub": "Set attributes of HFS+ files"
-    },
-    "ctx_menu_items": null
-  },
-  "sharing": {
-    "text": "sharing",
-    "url": "https://ss64.com/sharing.html",
-    "options": {
-      "sub": "Create share points for afp, ftp and smb services"
-    },
-    "ctx_menu_items": null
-  },
-  "shasum": {
-    "text": "shasum",
-    "url": "https://ss64.com/shasum.html",
-    "options": {
-      "sub": "Print or Check SHA Checksums"
-    },
-    "ctx_menu_items": null
-  },
-  "shift": {
-    "text": "shift",
-    "url": "https://ss64.com/shift.html",
-    "options": {
-      "sub": "Shift positional parameters •"
-    },
-    "ctx_menu_items": null
-  },
-  "shopt": {
-    "text": "shopt",
-    "url": "https://ss64.com/shopt.html",
-    "options": {
-      "sub": "Set shell options •"
-    },
-    "ctx_menu_items": null
-  },
-  "shortcuts": {
-    "text": "shortcuts",
-    "url": "https://ss64.com/shortcuts.html",
-    "options": {
-      "sub": "Manage macOS shortcuts"
-    },
-    "ctx_menu_items": null
-  },
-  "shutdown": {
-    "text": "shutdown",
-    "url": "https://ss64.com/shutdown.html",
-    "options": {
-      "sub": "Shutdown or restart macOS"
-    },
-    "ctx_menu_items": null
-  },
-  "sips": {
-    "text": "sips",
-    "url": "https://ss64.com/sips.html",
-    "options": {
-      "sub": "Scriptable image processing system"
-    },
-    "ctx_menu_items": null
-  },
-  "sleep": {
-    "text": "sleep",
-    "url": "https://ss64.com/sleep.html",
-    "options": {
-      "sub": "Delay for a specified time"
-    },
-    "ctx_menu_items": null
-  },
-  "softwareupdate": {
-    "text": "softwareupdate",
-    "url": "https://ss64.com/softwareupdate.html",
-    "options": {
-      "sub": "System software update tool"
-    },
-    "ctx_menu_items": null
-  },
-  "sort": {
-    "text": "sort",
-    "url": "https://ss64.com/sort.html",
-    "options": {
-      "sub": "Sort text files"
-    },
-    "ctx_menu_items": null
-  },
-  "source": {
-    "text": "source",
-    "url": "https://ss64.com/source.html",
-    "options": {
-      "sub": "Execute commands from a file •"
-    },
-    "ctx_menu_items": null
-  },
-  "spctl": {
-    "text": "spctl",
-    "url": "https://ss64.com/spctl.html",
-    "options": {
-      "sub": "Security assessment policy/Gatekeeper"
-    },
-    "ctx_menu_items": null
-  },
-  "split": {
-    "text": "split",
-    "url": "https://ss64.com/split.html",
-    "options": {
-      "sub": "Split a file into fixed-size pieces"
-    },
-    "ctx_menu_items": null
-  },
-  "sqlite3": {
-    "text": "sqlite3",
-    "url": "https://ss64.com/sqlite3.html",
-    "options": {
-      "sub": "SQL database (download history)"
-    },
-    "ctx_menu_items": null
-  },
-  "srm": {
-    "text": "srm",
-    "url": "https://ss64.com/srm.html",
-    "options": {
-      "sub": "Securely remove files or directories"
-    },
-    "ctx_menu_items": null
-  },
-  "stat": {
-    "text": "stat",
-    "url": "https://ss64.com/stat.html",
-    "options": {
-      "sub": "Display the status of a file"
-    },
-    "ctx_menu_items": null
-  },
-  "stop": {
-    "text": "stop",
-    "url": "https://ss64.com/jobs.html",
-    "options": {
-      "sub": "Stop a job or process"
-    },
-    "ctx_menu_items": null
-  },
-  "su": {
-    "text": "su",
-    "url": "https://ss64.com/su.html",
-    "options": {
-      "sub": "Substitute user identity"
-    },
-    "ctx_menu_items": null
-  },
-  "sudo": {
-    "text": "sudo",
-    "url": "https://ss64.com/sudo.html",
-    "options": {
-      "sub": "Execute a command as another user"
-    },
-    "ctx_menu_items": null
-  },
-  "sum": {
-    "text": "sum",
-    "url": "https://ss64.com/cksum.html",
-    "options": {
-      "sub": "Print a checksum for a file"
-    },
-    "ctx_menu_items": null
-  },
-  "suspend": {
-    "text": "suspend",
-    "url": "https://ss64.com/suspend.html",
-    "options": {
-      "sub": "Suspend execution of this shell •"
-    },
-    "ctx_menu_items": null
-  },
-  "sw_vers": {
-    "text": "sw_vers",
-    "url": "https://ss64.com/sw_vers.html",
-    "options": {
-      "sub": "Print macOS Operating System version"
-    },
-    "ctx_menu_items": null
-  },
-  "sysctl": {
-    "text": "sysctl",
-    "url": "https://ss64.com/sysctl.html",
-    "options": {
-      "sub": "Get or set kernel state"
-    },
-    "ctx_menu_items": null
-  },
-  "system_profiler": {
-    "text": "system_profiler",
-    "url": "https://ss64.com/system_profiler.html",
-    "options": {
-      "sub": "Report system configuration"
-    },
-    "ctx_menu_items": null
-  },
-  "systemsetup": {
-    "text": "systemsetup",
-    "url": "https://ss64.com/systemsetup.html",
-    "options": {
-      "sub": "Computer and display system settings"
-    },
-    "ctx_menu_items": null
-  },
-  "tabs": {
-    "text": "tabs",
-    "url": "https://ss64.com/tabs.html",
-    "options": {
-      "sub": "Set terminal tabs"
-    },
-    "ctx_menu_items": null
-  },
-  "tab2space": {
-    "text": "tab2space",
-    "url": "https://ss64.com/tab2space.html",
-    "options": {
-      "sub": "Expand tabs and ensure consistent cr/lf line endings"
-    },
-    "ctx_menu_items": null
-  },
-  "tail": {
-    "text": "tail",
-    "url": "https://ss64.com/tail.html",
-    "options": {
-      "sub": "Output the last part of files"
-    },
-    "ctx_menu_items": null
-  },
-  "tar": {
-    "text": "tar",
-    "url": "https://ss64.com/tar.html",
-    "options": {
-      "sub": "Tape ARchiver"
-    },
-    "ctx_menu_items": null
-  },
-  "taskpolicy": {
-    "text": "taskpolicy",
-    "url": "https://ss64.com/taskpolicy.html",
-    "options": {
-      "sub": "Execute a program with an altered I/O or scheduling policy"
-    },
-    "ctx_menu_items": null
-  },
-  "tccutil": {
-    "text": "tccutil",
-    "url": "https://ss64.com/tccutil.html",
-    "options": {
-      "sub": "Manage the privacy database"
-    },
-    "ctx_menu_items": null
-  },
-  "tcpdump": {
-    "text": "tcpdump",
-    "url": "https://ss64.com/tcpdump.html",
-    "options": {
-      "sub": "Dump traffic on a network"
-    },
-    "ctx_menu_items": null
-  },
-  "tee": {
-    "text": "tee",
-    "url": "https://ss64.com/tee.html",
-    "options": {
-      "sub": "Redirect output to multiple files"
-    },
-    "ctx_menu_items": null
-  },
-  "test": {
-    "text": "test",
-    "url": "https://ss64.com/test.html",
-    "options": {
-      "sub": "Condition evaluation •"
-    },
-    "ctx_menu_items": null
-  },
-  "textutil": {
-    "text": "textutil",
-    "url": "https://ss64.com/textutil.html",
-    "options": {
-      "sub": "Manipulate text files in various formats (Doc,html,rtf)"
-    },
-    "ctx_menu_items": null
-  },
-  "time": {
-    "text": "time",
-    "url": "https://ss64.com/time.html",
-    "options": {
-      "sub": "Measure Program Resource Use"
-    },
-    "ctx_menu_items": null
-  },
-  "times": {
-    "text": "times",
-    "url": "https://ss64.com/times.html",
-    "options": {
-      "sub": "Print shell & shell process times •"
-    },
-    "ctx_menu_items": null
-  },
-  "tmutil": {
-    "text": "tmutil",
-    "url": "https://ss64.com/tmutil.html",
-    "options": {
-      "sub": "Time Machine utility"
-    },
-    "ctx_menu_items": null
-  },
-  "top": {
-    "text": "top",
-    "url": "https://ss64.com/top.html",
-    "options": {
-      "sub": "Display process information"
-    },
-    "ctx_menu_items": null
-  },
-  "touch": {
-    "text": "touch",
-    "url": "https://ss64.com/touch.html",
-    "options": {
-      "sub": "Change file timestamps"
-    },
-    "ctx_menu_items": null
-  },
-  "tput": {
-    "text": "tput",
-    "url": "https://ss64.com/tput.html",
-    "options": {
-      "sub": "Set terminal-dependent capabilities, color, position"
-    },
-    "ctx_menu_items": null
-  },
-  "tr": {
-    "text": "tr",
-    "url": "https://ss64.com/tr.html",
-    "options": {
-      "sub": "Translate, squeeze, and/or delete characters"
-    },
-    "ctx_menu_items": null
-  },
-  "trap": {
-    "text": "trap",
-    "url": "https://ss64.com/trap.html",
-    "options": {
-      "sub": "Execute a command when the shell receives a signal •"
-    },
-    "ctx_menu_items": null
-  },
-  "traceroute": {
-    "text": "traceroute",
-    "url": "https://ss64.com/traceroute.html",
-    "options": {
-      "sub": "Trace Route to Host"
-    },
-    "ctx_menu_items": null
-  },
-  "traceroute6": {
-    "text": "traceroute6",
-    "url": "https://ss64.com/traceroute6.html",
-    "options": {
-      "sub": "Trace IPv6 Route to Host"
-    },
-    "ctx_menu_items": null
-  },
-  "trimforce": {
-    "text": "trimforce",
-    "url": "https://ss64.com/trimforce.html",
-    "options": {
-      "sub": "Enable TRIM commands on third-party drives"
-    },
-    "ctx_menu_items": null
-  },
-  "true": {
-    "text": "true",
-    "url": "https://ss64.com/true.html",
-    "options": {
-      "sub": "Do nothing, successfully"
-    },
-    "ctx_menu_items": null
-  },
-  "tty": {
-    "text": "tty",
-    "url": "https://ss64.com/tty.html",
-    "options": {
-      "sub": "Print filename of terminal on stdin"
-    },
-    "ctx_menu_items": null
-  },
-  "type": {
-    "text": "type",
-    "url": "https://ss64.com/type.html",
-    "options": {
-      "sub": "Describe a command •"
-    },
-    "ctx_menu_items": null
-  },
-  "ufs.util": {
-    "text": "ufs.util",
-    "url": "https://ss64.com/",
-    "options": {
-      "sub": "Mount/unmount UFS file system"
-    },
-    "ctx_menu_items": null
-  },
-  "ulimit": {
-    "text": "ulimit",
-    "url": "https://ss64.com/ulimit.html",
-    "options": {
-      "sub": "limit the use of system-wide resources •"
-    },
-    "ctx_menu_items": null
-  },
-  "umask": {
-    "text": "umask",
-    "url": "https://ss64.com/umask.html",
-    "options": {
-      "sub": "Users file creation mask"
-    },
-    "ctx_menu_items": null
-  },
-  "umount": {
-    "text": "umount",
-    "url": "https://ss64.com/umount.html",
-    "options": {
-      "sub": "Unmount a device"
-    },
-    "ctx_menu_items": null
-  },
-  "unalias": {
-    "text": "unalias",
-    "url": "https://ss64.com/alias.html",
-    "options": {
-      "sub": "Remove an alias •"
-    },
-    "ctx_menu_items": null
-  },
-  "uname": {
-    "text": "uname",
-    "url": "https://ss64.com/uname.html",
-    "options": {
-      "sub": "Print the Darwin OS Kernel version / release / machine name"
-    },
-    "ctx_menu_items": null
-  },
-  "unexpand": {
-    "text": "unexpand",
-    "url": "https://ss64.com/expand.html",
-    "options": {
-      "sub": "Convert spaces to tabs"
-    },
-    "ctx_menu_items": null
-  },
-  "uniq": {
-    "text": "uniq",
-    "url": "https://ss64.com/uniq.html",
-    "options": {
-      "sub": "Uniquify files"
-    },
-    "ctx_menu_items": null
-  },
-  "units": {
-    "text": "units",
-    "url": "https://ss64.com/units.html",
-    "options": {
-      "sub": "Convert units from one scale to another"
-    },
-    "ctx_menu_items": null
-  },
-  "unset": {
-    "text": "unset",
-    "url": "https://ss64.com/unset.html",
-    "options": {
-      "sub": "Remove variable or function names •"
-    },
-    "ctx_menu_items": null
-  },
-  "until": {
-    "text": "until",
-    "url": "https://ss64.com/until.html",
-    "options": {
-      "sub": "Execute commands (until error)"
-    },
-    "ctx_menu_items": null
-  },
-  "uptime": {
-    "text": "uptime",
-    "url": "https://ss64.com/uptime.html",
-    "options": {
-      "sub": "Show how long system has been running"
-    },
-    "ctx_menu_items": null
-  },
-  "users": {
-    "text": "users",
-    "url": "https://ss64.com/users.html",
-    "options": {
-      "sub": "Print login names of users currently logged in"
-    },
-    "ctx_menu_items": null
-  },
-  "uuencode": {
-    "text": "uuencode",
-    "url": "https://ss64.com/uuencode.html",
-    "options": {
-      "sub": "Encode a binary file"
-    },
-    "ctx_menu_items": null
-  },
-  "uudecode": {
-    "text": "uudecode",
-    "url": "https://ss64.com/uuencode.html",
-    "options": {
-      "sub": "Decode a file created by uuencode"
-    },
-    "ctx_menu_items": null
-  },
-  "uuidgen": {
-    "text": "uuidgen",
-    "url": "https://ss64.com/uuidgen.html",
-    "options": {
-      "sub": "Generate a Unique ID (UUID/GUID)"
-    },
-    "ctx_menu_items": null
-  },
-  "uucp": {
-    "text": "uucp",
-    "url": "https://ss64.com/",
-    "options": {
-      "sub": "Unix to Unix copy"
-    },
-    "ctx_menu_items": null
-  },
-  "vi": {
-    "text": "vi",
-    "url": "https://ss64.com/../vi.html",
-    "options": {
-      "sub": "Text Editor"
-    },
-    "ctx_menu_items": null
-  },
-  "w": {
-    "text": "w",
-    "url": "https://ss64.com/w.html",
-    "options": {
-      "sub": "Show who is logged on and what they are doing"
-    },
-    "ctx_menu_items": null
-  },
-  "wait": {
-    "text": "wait",
-    "url": "https://ss64.com/wait.html",
-    "options": {
-      "sub": "Wait for a process to complete •"
-    },
-    "ctx_menu_items": null
-  },
-  "wait4path": {
-    "text": "wait4path",
-    "url": "https://ss64.com/",
-    "options": {
-      "sub": "Wait for given path to show up in the namespace"
-    },
-    "ctx_menu_items": null
-  },
-  "wall": {
-    "text": "wall",
-    "url": "https://ss64.com/wall.html",
-    "options": {
-      "sub": "Write a message to users"
-    },
-    "ctx_menu_items": null
-  },
-  "wc": {
-    "text": "wc",
-    "url": "https://ss64.com/wc.html",
-    "options": {
-      "sub": "Print byte, word, and line counts"
-    },
-    "ctx_menu_items": null
-  },
-  "wdutil": {
-    "text": "wdutil",
-    "url": "https://ss64.com/wdutil.html",
-    "options": {
-      "sub": "Wireless Diagnostics command line utility"
-    },
-    "ctx_menu_items": null
-  },
-  "whatis": {
-    "text": "whatis",
-    "url": "https://ss64.com/whatis.html",
-    "options": {
-      "sub": "Search the whatis database for complete words"
-    },
-    "ctx_menu_items": null
-  },
-  "whereis": {
-    "text": "whereis",
-    "url": "https://ss64.com/whereis.html",
-    "options": {
-      "sub": "Locate a program"
-    },
-    "ctx_menu_items": null
-  },
-  "which": {
-    "text": "which",
-    "url": "https://ss64.com/which.html",
-    "options": {
-      "sub": "Locate a program file in the user’s path"
-    },
-    "ctx_menu_items": null
-  },
-  "while": {
-    "text": "while",
-    "url": "https://ss64.com/while.html",
-    "options": {
-      "sub": "Loop command •"
-    },
-    "ctx_menu_items": null
-  },
-  "who": {
-    "text": "who",
-    "url": "https://ss64.com/who.html",
-    "options": {
-      "sub": "Print all usernames currently logged on"
-    },
-    "ctx_menu_items": null
-  },
-  "whoami": {
-    "text": "whoami",
-    "url": "https://ss64.com/id.html",
-    "options": {
-      "sub": "Print the current user id and name ('id -un')"
-    },
-    "ctx_menu_items": null
-  },
-  "write": {
-    "text": "write",
-    "url": "https://ss64.com/write.html",
-    "options": {
-      "sub": "Send a message to another user"
-    },
-    "ctx_menu_items": null
-  },
-  "xargs": {
-    "text": "xargs",
-    "url": "https://ss64.com/xargs.html",
-    "options": {
-      "sub": "Execute utility - passing arguments"
-    },
-    "ctx_menu_items": null
-  },
-  "xattr": {
-    "text": "xattr",
-    "url": "https://ss64.com/xattr.html",
-    "options": {
-      "sub": "Display and manipulate extended attributes"
-    },
-    "ctx_menu_items": null
-  },
-  "xcode-select": {
-    "text": "xcode-select",
-    "url": "https://ss64.com/xcode-select.html",
-    "options": {
-      "sub": "Install the command line developer tools"
-    },
-    "ctx_menu_items": null
-  },
-  "xcrun": {
-    "text": "xcrun",
-    "url": "https://ss64.com/xcrun.html",
-    "options": {
-      "sub": "Run or locate development tools and properties"
-    },
-    "ctx_menu_items": null
-  },
-  "xxd": {
-    "text": "xxd",
-    "url": "https://ss64.com/xxd.html",
-    "options": {
-      "sub": "Make a hexdump or do the reverse"
-    },
-    "ctx_menu_items": null
-  },
-  "yes": {
-    "text": "yes",
-    "url": "https://ss64.com/yes.html",
-    "options": {
-      "sub": "Print a string until interrupted"
-    },
-    "ctx_menu_items": null
-  },
-  "zip": {
-    "text": "zip",
-    "url": "https://ss64.com/zip.html",
-    "options": {
-      "sub": "Package and compress (archive) files"
-    },
-    "ctx_menu_items": null
-  },
-  "!!": {
-    "text": "!!",
-    "url": "https://ss64.com/bang.html",
-    "options": {
-      "sub": "Run the last command again"
-    },
-    "ctx_menu_items": null
-  },
-  "#": {
-    "text": "#",
-    "url": "https://ss64.com/",
-    "options": {
-      "sub": "Comment / Remark"
-    },
-    "ctx_menu_items": null
-  }
+  "cache": {
+    "afconvert": {
+      "text": "afconvert",
+      "url": "https://ss64.com/afconvert.html",
+      "options": {
+        "sub": "Audio File Convert"
+      },
+      "ctx_menu_items": null
+    },
+    "afinfo": {
+      "text": "afinfo",
+      "url": "https://ss64.com/afinfo.html",
+      "options": {
+        "sub": "Audio File Info"
+      },
+      "ctx_menu_items": null
+    },
+    "afplay": {
+      "text": "afplay",
+      "url": "https://ss64.com/afplay.html",
+      "options": {
+        "sub": "Audio File Play"
+      },
+      "ctx_menu_items": null
+    },
+    "airport": {
+      "text": "airport",
+      "url": "https://ss64.com/airport.html",
+      "options": {
+        "sub": "Manage Apple AirPort"
+      },
+      "ctx_menu_items": null
+    },
+    "alias": {
+      "text": "alias",
+      "url": "https://ss64.com/alias.html",
+      "options": {
+        "sub": "Create an alias •"
+      },
+      "ctx_menu_items": null
+    },
+    "alloc": {
+      "text": "alloc",
+      "url": "https://ss64.com/",
+      "options": {
+        "sub": "List used and free memory"
+      },
+      "ctx_menu_items": null
+    },
+    "apropos": {
+      "text": "apropos",
+      "url": "https://ss64.com/apropos.html",
+      "options": {
+        "sub": "Search the whatis database for strings"
+      },
+      "ctx_menu_items": null
+    },
+    "asr": {
+      "text": "asr",
+      "url": "https://ss64.com/asr.html",
+      "options": {
+        "sub": "Apple Software Restore"
+      },
+      "ctx_menu_items": null
+    },
+    "atsutil": {
+      "text": "atsutil",
+      "url": "https://ss64.com/",
+      "options": {
+        "sub": "Font registration system utility"
+      },
+      "ctx_menu_items": null
+    },
+    "automator": {
+      "text": "automator",
+      "url": "https://ss64.com/",
+      "options": {
+        "sub": "Run an Automator workflow"
+      },
+      "ctx_menu_items": null
+    },
+    "awk": {
+      "text": "awk",
+      "url": "https://ss64.com/awk.html",
+      "options": {
+        "sub": "Find and Replace text within file(s)"
+      },
+      "ctx_menu_items": null
+    },
+    "basename": {
+      "text": "basename",
+      "url": "https://ss64.com/basename.html",
+      "options": {
+        "sub": "Convert a full pathname to just a filename"
+      },
+      "ctx_menu_items": null
+    },
+    "bash": {
+      "text": "bash",
+      "url": "https://ss64.com/bash.html",
+      "options": {
+        "sub": "Bourne-Again SHell"
+      },
+      "ctx_menu_items": null
+    },
+    "bc": {
+      "text": "bc",
+      "url": "https://ss64.com/bc.html",
+      "options": {
+        "sub": "Arbitrary precision calculator language"
+      },
+      "ctx_menu_items": null
+    },
+    "bg": {
+      "text": "bg",
+      "url": "https://ss64.com/bg.html",
+      "options": {
+        "sub": "Send to background •"
+      },
+      "ctx_menu_items": null
+    },
+    "bind": {
+      "text": "bind",
+      "url": "https://ss64.com/bind.html",
+      "options": {
+        "sub": "Set or display readline key and function bindings •"
+      },
+      "ctx_menu_items": null
+    },
+    "bless": {
+      "text": "bless",
+      "url": "https://ss64.com/bless.html",
+      "options": {
+        "sub": "Set volume bootability and startup disk options"
+      },
+      "ctx_menu_items": null
+    },
+    "break": {
+      "text": "break",
+      "url": "https://ss64.com/break.html",
+      "options": {
+        "sub": "Exit from a For, While, Until or Select loop •"
+      },
+      "ctx_menu_items": null
+    },
+    "brew": {
+      "text": "brew",
+      "url": "https://ss64.com/brew.html",
+      "options": {
+        "sub": "Package manager"
+      },
+      "ctx_menu_items": null
+    },
+    "builtin": {
+      "text": "builtin",
+      "url": "https://ss64.com/builtin.html",
+      "options": {
+        "sub": "Execute a shell builtin •"
+      },
+      "ctx_menu_items": null
+    },
+    "bzip2": {
+      "text": "bzip2",
+      "url": "https://ss64.com/bzip.html",
+      "options": {
+        "sub": "Compress or decompress files"
+      },
+      "ctx_menu_items": null
+    },
+    "caffeinate": {
+      "text": "caffeinate",
+      "url": "https://ss64.com/caffeinate.html",
+      "options": {
+        "sub": "Prevent the system from sleeping"
+      },
+      "ctx_menu_items": null
+    },
+    "cal": {
+      "text": "cal",
+      "url": "https://ss64.com/cal.html",
+      "options": {
+        "sub": "Display a calendar"
+      },
+      "ctx_menu_items": null
+    },
+    "calendar": {
+      "text": "calendar",
+      "url": "https://ss64.com/calendar.html",
+      "options": {
+        "sub": "Reminder Service"
+      },
+      "ctx_menu_items": null
+    },
+    "caller": {
+      "text": "caller",
+      "url": "https://ss64.com/caller.html",
+      "options": {
+        "sub": "Return the context of a subroutine call •"
+      },
+      "ctx_menu_items": null
+    },
+    "cancel": {
+      "text": "cancel",
+      "url": "https://ss64.com/cancel.html",
+      "options": {
+        "sub": "Cancel print jobs"
+      },
+      "ctx_menu_items": null
+    },
+    "case": {
+      "text": "case",
+      "url": "https://ss64.com/case.html",
+      "options": {
+        "sub": "Conditionally perform a command •"
+      },
+      "ctx_menu_items": null
+    },
+    "cat": {
+      "text": "cat",
+      "url": "https://ss64.com/cat.html",
+      "options": {
+        "sub": "Concatenate and print (display) the content of files"
+      },
+      "ctx_menu_items": null
+    },
+    "cd": {
+      "text": "cd",
+      "url": "https://ss64.com/cd.html",
+      "options": {
+        "sub": "Change Directory •"
+      },
+      "ctx_menu_items": null
+    },
+    "chflags": {
+      "text": "chflags",
+      "url": "https://ss64.com/chflags.html",
+      "options": {
+        "sub": "Change a file or folder’s flags"
+      },
+      "ctx_menu_items": null
+    },
+    "chgrp": {
+      "text": "chgrp",
+      "url": "https://ss64.com/chgrp.html",
+      "options": {
+        "sub": "Change group ownership"
+      },
+      "ctx_menu_items": null
+    },
+    "chmod": {
+      "text": "chmod",
+      "url": "https://ss64.com/chmod.html",
+      "options": {
+        "sub": "Change access permissions"
+      },
+      "ctx_menu_items": null
+    },
+    "chown": {
+      "text": "chown",
+      "url": "https://ss64.com/chown.html",
+      "options": {
+        "sub": "Change file owner and group"
+      },
+      "ctx_menu_items": null
+    },
+    "chroot": {
+      "text": "chroot",
+      "url": "https://ss64.com/chroot.html",
+      "options": {
+        "sub": "Run a command with a different root directory"
+      },
+      "ctx_menu_items": null
+    },
+    "chsh": {
+      "text": "chsh",
+      "url": "https://ss64.com/chsh.html",
+      "options": {
+        "sub": "Add or change user database information, change default shell"
+      },
+      "ctx_menu_items": null
+    },
+    "cksum": {
+      "text": "cksum",
+      "url": "https://ss64.com/cksum.html",
+      "options": {
+        "sub": "Print CRC checksum and byte counts"
+      },
+      "ctx_menu_items": null
+    },
+    "clear": {
+      "text": "clear",
+      "url": "https://ss64.com/",
+      "options": {
+        "sub": "Clear terminal screen"
+      },
+      "ctx_menu_items": null
+    },
+    "cmp": {
+      "text": "cmp",
+      "url": "https://ss64.com/cmp.html",
+      "options": {
+        "sub": "Compare two files"
+      },
+      "ctx_menu_items": null
+    },
+    "codesign": {
+      "text": "codesign",
+      "url": "https://ss64.com/codesign.html",
+      "options": {
+        "sub": "Create and manipulate code signatures"
+      },
+      "ctx_menu_items": null
+    },
+    "comm": {
+      "text": "comm",
+      "url": "https://ss64.com/comm.html",
+      "options": {
+        "sub": "Compare two sorted files line by line"
+      },
+      "ctx_menu_items": null
+    },
+    "command": {
+      "text": "command",
+      "url": "https://ss64.com/command.html",
+      "options": {
+        "sub": "Run a command (not a function) •"
+      },
+      "ctx_menu_items": null
+    },
+    "complete": {
+      "text": "complete",
+      "url": "https://ss64.com/complete.html",
+      "options": {
+        "sub": "Edit a command completion [word/pattern/list] •"
+      },
+      "ctx_menu_items": null
+    },
+    "continue": {
+      "text": "continue",
+      "url": "https://ss64.com/continue.html",
+      "options": {
+        "sub": "Resume the next iteration of a loop •"
+      },
+      "ctx_menu_items": null
+    },
+    "cp": {
+      "text": "cp",
+      "url": "https://ss64.com/cp.html",
+      "options": {
+        "sub": "Copy one or more files to another location"
+      },
+      "ctx_menu_items": null
+    },
+    "cpio": {
+      "text": "cpio",
+      "url": "https://ss64.com/cpio.html",
+      "options": {
+        "sub": "Copy files to and from archives"
+      },
+      "ctx_menu_items": null
+    },
+    "createhomedir": {
+      "text": "createhomedir",
+      "url": "https://ss64.com/createhomedir.html",
+      "options": {
+        "sub": "Create and populate home directories on the local computer"
+      },
+      "ctx_menu_items": null
+    },
+    "cron": {
+      "text": "cron",
+      "url": "https://ss64.com/cron.html",
+      "options": {
+        "sub": "Daemon to execute scheduled commands"
+      },
+      "ctx_menu_items": null
+    },
+    "crontab": {
+      "text": "crontab",
+      "url": "https://ss64.com/crontab.html",
+      "options": {
+        "sub": "Schedule a command to run at a later date/time"
+      },
+      "ctx_menu_items": null
+    },
+    "csplit": {
+      "text": "csplit",
+      "url": "https://ss64.com/csplit.html",
+      "options": {
+        "sub": "Split a file into context-determined pieces"
+      },
+      "ctx_menu_items": null
+    },
+    "csrutil": {
+      "text": "csrutil",
+      "url": "https://ss64.com/csrutil.html",
+      "options": {
+        "sub": "Configure System Integrity Protection (SIP)"
+      },
+      "ctx_menu_items": null
+    },
+    "cupsfilter": {
+      "text": "cupsfilter",
+      "url": "https://ss64.com/cupsfilter.html",
+      "options": {
+        "sub": "Convert a file to another format using cups filters"
+      },
+      "ctx_menu_items": null
+    },
+    "curl": {
+      "text": "curl",
+      "url": "https://ss64.com/curl.html",
+      "options": {
+        "sub": "Transfer data  from or to a server"
+      },
+      "ctx_menu_items": null
+    },
+    "cut": {
+      "text": "cut",
+      "url": "https://ss64.com/cut.html",
+      "options": {
+        "sub": "Divide a file into several parts"
+      },
+      "ctx_menu_items": null
+    },
+    "date": {
+      "text": "date",
+      "url": "https://ss64.com/date.html",
+      "options": {
+        "sub": "Display or change the date & time"
+      },
+      "ctx_menu_items": null
+    },
+    "dc": {
+      "text": "dc",
+      "url": "https://ss64.com/dc.html",
+      "options": {
+        "sub": "Desk Calculator"
+      },
+      "ctx_menu_items": null
+    },
+    "dd": {
+      "text": "dd",
+      "url": "https://ss64.com/dd.html",
+      "options": {
+        "sub": "Data Duplicator - convert and copy a file, clone disks"
+      },
+      "ctx_menu_items": null
+    },
+    "declare": {
+      "text": "declare",
+      "url": "https://ss64.com/declare.html",
+      "options": {
+        "sub": "Declare variable & set attributes •"
+      },
+      "ctx_menu_items": null
+    },
+    "defaults": {
+      "text": "defaults",
+      "url": "https://ss64.com/defaults.html",
+      "options": {
+        "sub": "Set preferences, show hidden files"
+      },
+      "ctx_menu_items": null
+    },
+    "df": {
+      "text": "df",
+      "url": "https://ss64.com/df.html",
+      "options": {
+        "sub": "Display free disk space"
+      },
+      "ctx_menu_items": null
+    },
+    "diff": {
+      "text": "diff",
+      "url": "https://ss64.com/diff.html",
+      "options": {
+        "sub": "Display the differences between two files"
+      },
+      "ctx_menu_items": null
+    },
+    "diff3": {
+      "text": "diff3",
+      "url": "https://ss64.com/diff3.html",
+      "options": {
+        "sub": "Show differences among three files"
+      },
+      "ctx_menu_items": null
+    },
+    "dig": {
+      "text": "dig",
+      "url": "https://ss64.com/dig.html",
+      "options": {
+        "sub": "DNS lookup"
+      },
+      "ctx_menu_items": null
+    },
+    "dirname": {
+      "text": "dirname",
+      "url": "https://ss64.com/dirname.html",
+      "options": {
+        "sub": "Convert a full pathname to just a path"
+      },
+      "ctx_menu_items": null
+    },
+    "dirs": {
+      "text": "dirs",
+      "url": "https://ss64.com/dirs.html",
+      "options": {
+        "sub": "Display list of remembered directories •"
+      },
+      "ctx_menu_items": null
+    },
+    "diskutil": {
+      "text": "diskutil",
+      "url": "https://ss64.com/diskutil.html",
+      "options": {
+        "sub": "Disk utilities - Format, Verify, Repair"
+      },
+      "ctx_menu_items": null
+    },
+    "disown": {
+      "text": "disown",
+      "url": "https://ss64.com/disown.html",
+      "options": {
+        "sub": "Unbind a job from the current login session •"
+      },
+      "ctx_menu_items": null
+    },
+    "ditto": {
+      "text": "ditto",
+      "url": "https://ss64.com/ditto.html",
+      "options": {
+        "sub": "Copy files and folders"
+      },
+      "ctx_menu_items": null
+    },
+    "dot_clean": {
+      "text": "dot_clean",
+      "url": "https://ss64.com/dot_clean.html",
+      "options": {
+        "sub": "Remove dot-underscore files"
+      },
+      "ctx_menu_items": null
+    },
+    "drutil": {
+      "text": "drutil",
+      "url": "https://ss64.com/drutil.html",
+      "options": {
+        "sub": "Interact with CD/DVD burners"
+      },
+      "ctx_menu_items": null
+    },
+    "dscacheutil": {
+      "text": "dscacheutil",
+      "url": "https://ss64.com/dscacheutil.html",
+      "options": {
+        "sub": "Query or flush the Directory Service/DNS cache"
+      },
+      "ctx_menu_items": null
+    },
+    "dseditgroup": {
+      "text": "dseditgroup",
+      "url": "https://ss64.com/dseditgroup.html",
+      "options": {
+        "sub": "Edit, create, manipulate, or delete groups"
+      },
+      "ctx_menu_items": null
+    },
+    "dsenableroot": {
+      "text": "dsenableroot",
+      "url": "https://ss64.com/dsenableroot.html",
+      "options": {
+        "sub": "Enable root access"
+      },
+      "ctx_menu_items": null
+    },
+    "dsmemberutil": {
+      "text": "dsmemberutil",
+      "url": "https://ss64.com/",
+      "options": {
+        "sub": "View user and groups rights"
+      },
+      "ctx_menu_items": null
+    },
+    "dscl": {
+      "text": "dscl",
+      "url": "https://ss64.com/dscl.html",
+      "options": {
+        "sub": "Directory Service command line utility"
+      },
+      "ctx_menu_items": null
+    },
+    "du": {
+      "text": "du",
+      "url": "https://ss64.com/du.html",
+      "options": {
+        "sub": "Estimate file space usage"
+      },
+      "ctx_menu_items": null
+    },
+    "echo": {
+      "text": "echo",
+      "url": "https://ss64.com/echo.html",
+      "options": {
+        "sub": "Display text on screen •"
+      },
+      "ctx_menu_items": null
+    },
+    "ed": {
+      "text": "ed",
+      "url": "https://ss64.com/",
+      "options": {
+        "sub": "A line-oriented text editor (edlin)"
+      },
+      "ctx_menu_items": null
+    },
+    "enable": {
+      "text": "enable",
+      "url": "https://ss64.com/enable.html",
+      "options": {
+        "sub": "Enable and disable builtin shell commands •"
+      },
+      "ctx_menu_items": null
+    },
+    "env": {
+      "text": "env",
+      "url": "https://ss64.com/env.html",
+      "options": {
+        "sub": "List or Set environment variables"
+      },
+      "ctx_menu_items": null
+    },
+    "eval": {
+      "text": "eval",
+      "url": "https://ss64.com/eval.html",
+      "options": {
+        "sub": "Evaluate several commands/arguments •"
+      },
+      "ctx_menu_items": null
+    },
+    "exec": {
+      "text": "exec",
+      "url": "https://ss64.com/exec.html",
+      "options": {
+        "sub": "Execute a command •"
+      },
+      "ctx_menu_items": null
+    },
+    "exit": {
+      "text": "exit",
+      "url": "https://ss64.com/exit.html",
+      "options": {
+        "sub": "Exit the shell •"
+      },
+      "ctx_menu_items": null
+    },
+    "execsnoop": {
+      "text": "execsnoop",
+      "url": "https://ss64.com/execsnoop.html",
+      "options": {
+        "sub": "Snoop new process execution"
+      },
+      "ctx_menu_items": null
+    },
+    "expand": {
+      "text": "expand",
+      "url": "https://ss64.com/expand.html",
+      "options": {
+        "sub": "Convert tabs to spaces"
+      },
+      "ctx_menu_items": null
+    },
+    "expect": {
+      "text": "expect",
+      "url": "https://ss64.com/",
+      "options": {
+        "sub": "Programmed dialogue with interactive programs\r\nAlso see AppleScript"
+      },
+      "ctx_menu_items": null
+    },
+    "export": {
+      "text": "export",
+      "url": "https://ss64.com/export.html",
+      "options": {
+        "sub": "Set an environment variable •"
+      },
+      "ctx_menu_items": null
+    },
+    "expr": {
+      "text": "expr",
+      "url": "https://ss64.com/expr.html",
+      "options": {
+        "sub": "Evaluate expressions"
+      },
+      "ctx_menu_items": null
+    },
+    "false": {
+      "text": "false",
+      "url": "https://ss64.com/false.html",
+      "options": {
+        "sub": "Do nothing, unsuccessfully"
+      },
+      "ctx_menu_items": null
+    },
+    "fc": {
+      "text": "fc",
+      "url": "https://ss64.com/fc.html",
+      "options": {
+        "sub": "Fix command (history)"
+      },
+      "ctx_menu_items": null
+    },
+    "fdisk": {
+      "text": "fdisk",
+      "url": "https://ss64.com/fdisk.html",
+      "options": {
+        "sub": "Partition table manipulator for Darwin UFS/HFS/DOS"
+      },
+      "ctx_menu_items": null
+    },
+    "fdesetup": {
+      "text": "fdesetup",
+      "url": "https://ss64.com/",
+      "options": {
+        "sub": "FileVault configuration, list FileVault users"
+      },
+      "ctx_menu_items": null
+    },
+    "fg": {
+      "text": "fg",
+      "url": "https://ss64.com/fg.html",
+      "options": {
+        "sub": "Send job to foreground •"
+      },
+      "ctx_menu_items": null
+    },
+    "file": {
+      "text": "file",
+      "url": "https://ss64.com/file.html",
+      "options": {
+        "sub": "Determine file type"
+      },
+      "ctx_menu_items": null
+    },
+    "find": {
+      "text": "find",
+      "url": "https://ss64.com/find.html",
+      "options": {
+        "sub": "Search for files that meet a desired criteria"
+      },
+      "ctx_menu_items": null
+    },
+    "fmt": {
+      "text": "fmt",
+      "url": "https://ss64.com/fmt.html",
+      "options": {
+        "sub": "Reformat paragraph text"
+      },
+      "ctx_menu_items": null
+    },
+    "fold": {
+      "text": "fold",
+      "url": "https://ss64.com/fold.html",
+      "options": {
+        "sub": "Wrap text to fit a specified width"
+      },
+      "ctx_menu_items": null
+    },
+    "for": {
+      "text": "for",
+      "url": "https://ss64.com/for.html",
+      "options": {
+        "sub": "Loop command •"
+      },
+      "ctx_menu_items": null
+    },
+    "fsck": {
+      "text": "fsck",
+      "url": "https://ss64.com/fsck.html",
+      "options": {
+        "sub": "Filesystem consistency check and repair"
+      },
+      "ctx_menu_items": null
+    },
+    "fs_usage": {
+      "text": "fs_usage",
+      "url": "https://ss64.com/fs_usage.html",
+      "options": {
+        "sub": "Filesystem usage (process/pathname)"
+      },
+      "ctx_menu_items": null
+    },
+    "ftp": {
+      "text": "ftp",
+      "url": "https://ss64.com/ftp.html",
+      "options": {
+        "sub": "Internet file transfer program"
+      },
+      "ctx_menu_items": null
+    },
+    "function": {
+      "text": "function",
+      "url": "https://ss64.com/function.html",
+      "options": {
+        "sub": "Define Function Macros"
+      },
+      "ctx_menu_items": null
+    },
+    "fuser": {
+      "text": "fuser",
+      "url": "https://ss64.com/fuser.html",
+      "options": {
+        "sub": "List processes that have one or more files open"
+      },
+      "ctx_menu_items": null
+    },
+    "GetFileInfo": {
+      "text": "GetFileInfo",
+      "url": "https://ss64.com/getfileinfo.html",
+      "options": {
+        "sub": "Get attributes of HFS+ files"
+      },
+      "ctx_menu_items": null
+    },
+    "getopt": {
+      "text": "getopt",
+      "url": "https://ss64.com/getopt.html",
+      "options": {
+        "sub": "Parse positional parameters"
+      },
+      "ctx_menu_items": null
+    },
+    "getopts": {
+      "text": "getopts",
+      "url": "https://ss64.com/getopts.html",
+      "options": {
+        "sub": "Parse positional parameters •"
+      },
+      "ctx_menu_items": null
+    },
+    "goto": {
+      "text": "goto",
+      "url": "https://ss64.com/goto.html",
+      "options": {
+        "sub": "Jump to label and continue execution"
+      },
+      "ctx_menu_items": null
+    },
+    "grep": {
+      "text": "grep",
+      "url": "https://ss64.com/grep.html",
+      "options": {
+        "sub": "Search file(s) for lines that match a given pattern"
+      },
+      "ctx_menu_items": null
+    },
+    "groups": {
+      "text": "groups",
+      "url": "https://ss64.com/id.html",
+      "options": {
+        "sub": "Print group names a user is in"
+      },
+      "ctx_menu_items": null
+    },
+    "gzip": {
+      "text": "gzip",
+      "url": "https://ss64.com/gzip.html",
+      "options": {
+        "sub": "Compress or decompress files"
+      },
+      "ctx_menu_items": null
+    },
+    "halt": {
+      "text": "halt",
+      "url": "https://ss64.com/halt.html",
+      "options": {
+        "sub": "Stop and restart the Operating System"
+      },
+      "ctx_menu_items": null
+    },
+    "hash": {
+      "text": "hash",
+      "url": "https://ss64.com/hash.html",
+      "options": {
+        "sub": "Refresh the cached/remembered location of commands •"
+      },
+      "ctx_menu_items": null
+    },
+    "head": {
+      "text": "head",
+      "url": "https://ss64.com/head.html",
+      "options": {
+        "sub": "Display the first lines of a file"
+      },
+      "ctx_menu_items": null
+    },
+    "hdiutil": {
+      "text": "hdiutil",
+      "url": "https://ss64.com/hdiutil.html",
+      "options": {
+        "sub": "Manipulate iso disk images"
+      },
+      "ctx_menu_items": null
+    },
+    "history": {
+      "text": "history",
+      "url": "https://ss64.com/history.html",
+      "options": {
+        "sub": "Command History •"
+      },
+      "ctx_menu_items": null
+    },
+    "hostname": {
+      "text": "hostname",
+      "url": "https://ss64.com/hostname.html",
+      "options": {
+        "sub": "Print or set system name"
+      },
+      "ctx_menu_items": null
+    },
+    "iconv": {
+      "text": "iconv",
+      "url": "https://ss64.com/iconv.html",
+      "options": {
+        "sub": "Convert the character set of a file"
+      },
+      "ctx_menu_items": null
+    },
+    "id": {
+      "text": "id",
+      "url": "https://ss64.com/id.html",
+      "options": {
+        "sub": "Print user and group names/id’s"
+      },
+      "ctx_menu_items": null
+    },
+    "if": {
+      "text": "if",
+      "url": "https://ss64.com/if.html",
+      "options": {
+        "sub": "Conditionally perform a command •"
+      },
+      "ctx_menu_items": null
+    },
+    "ifconfig": {
+      "text": "ifconfig",
+      "url": "https://ss64.com/ifconfig.html",
+      "options": {
+        "sub": "Configure network interface parameters"
+      },
+      "ctx_menu_items": null
+    },
+    "iostat": {
+      "text": "iostat",
+      "url": "https://ss64.com/iostat.html",
+      "options": {
+        "sub": "Report CPU and i/o statistics"
+      },
+      "ctx_menu_items": null
+    },
+    "ipconfig": {
+      "text": "ipconfig",
+      "url": "https://ss64.com/ipconfig.html",
+      "options": {
+        "sub": "View and control IP configuration state"
+      },
+      "ctx_menu_items": null
+    },
+    "info": {
+      "text": "info",
+      "url": "https://ss64.com/info.html",
+      "options": {
+        "sub": "Help info"
+      },
+      "ctx_menu_items": null
+    },
+    "install": {
+      "text": "install",
+      "url": "https://ss64.com/install.html",
+      "options": {
+        "sub": "Copy files and set attributes"
+      },
+      "ctx_menu_items": null
+    },
+    "installer": {
+      "text": "installer",
+      "url": "https://ss64.com/installer.html",
+      "options": {
+        "sub": "System software and .pkg package installer tool"
+      },
+      "ctx_menu_items": null
+    },
+    "iosnoop": {
+      "text": "iosnoop",
+      "url": "https://ss64.com/iosnoop.html",
+      "options": {
+        "sub": "Snoop I/O events as they occur"
+      },
+      "ctx_menu_items": null
+    },
+    "jobs": {
+      "text": "jobs",
+      "url": "https://ss64.com/jobs.html",
+      "options": {
+        "sub": "List active jobs •"
+      },
+      "ctx_menu_items": null
+    },
+    "join": {
+      "text": "join",
+      "url": "https://ss64.com/join.html",
+      "options": {
+        "sub": "Join lines on a common field"
+      },
+      "ctx_menu_items": null
+    },
+    "kextfind": {
+      "text": "kextfind",
+      "url": "https://ss64.com/kextfind.html",
+      "options": {
+        "sub": "List kernel extensions"
+      },
+      "ctx_menu_items": null
+    },
+    "kextstat": {
+      "text": "kextstat",
+      "url": "https://ss64.com/kextstat.html",
+      "options": {
+        "sub": "Display status of loaded kernel extensions (kexts)"
+      },
+      "ctx_menu_items": null
+    },
+    "kextunload": {
+      "text": "kextunload",
+      "url": "https://ss64.com/kextunload.html",
+      "options": {
+        "sub": "Terminate driver instances and unload kernel extensions."
+      },
+      "ctx_menu_items": null
+    },
+    "keytool": {
+      "text": "keytool",
+      "url": "https://ss64.com/",
+      "options": {
+        "sub": "Key and certificate management tool"
+      },
+      "ctx_menu_items": null
+    },
+    "kickstart": {
+      "text": "kickstart",
+      "url": "https://ss64.com/kickstart.html",
+      "options": {
+        "sub": "Configure Apple Remote Desktop"
+      },
+      "ctx_menu_items": null
+    },
+    "kill": {
+      "text": "kill",
+      "url": "https://ss64.com/kill.html",
+      "options": {
+        "sub": "Kill a process by specifying its PID"
+      },
+      "ctx_menu_items": null
+    },
+    "killall": {
+      "text": "killall",
+      "url": "https://ss64.com/killall.html",
+      "options": {
+        "sub": "Kill processes by name"
+      },
+      "ctx_menu_items": null
+    },
+    "klist": {
+      "text": "klist",
+      "url": "https://ss64.com/klist.html",
+      "options": {
+        "sub": "List cached Kerberos tickets"
+      },
+      "ctx_menu_items": null
+    },
+    "l": {
+      "text": "l",
+      "url": "https://ss64.com/ls.html",
+      "options": {
+        "sub": "List files in long format (ls -l)"
+      },
+      "ctx_menu_items": null
+    },
+    "last": {
+      "text": "last",
+      "url": "https://ss64.com/last.html",
+      "options": {
+        "sub": "Indicate last logins of users and ttys"
+      },
+      "ctx_menu_items": null
+    },
+    "launchctl": {
+      "text": "launchctl",
+      "url": "https://ss64.com/launchctl.html",
+      "options": {
+        "sub": "Load or unload daemons/agents"
+      },
+      "ctx_menu_items": null
+    },
+    "ll": {
+      "text": "ll",
+      "url": "https://ss64.com/ls.html",
+      "options": {
+        "sub": "List files in long format, showing invisible files (ls -la)"
+      },
+      "ctx_menu_items": null
+    },
+    "leave": {
+      "text": "leave",
+      "url": "https://ss64.com/leave.html",
+      "options": {
+        "sub": "Remind you when you have to leave"
+      },
+      "ctx_menu_items": null
+    },
+    "less": {
+      "text": "less",
+      "url": "https://ss64.com/less.html",
+      "options": {
+        "sub": "Display output one screen at a time"
+      },
+      "ctx_menu_items": null
+    },
+    "let": {
+      "text": "let",
+      "url": "https://ss64.com/let.html",
+      "options": {
+        "sub": "Evaluate expression •"
+      },
+      "ctx_menu_items": null
+    },
+    "lipo": {
+      "text": "lipo",
+      "url": "https://ss64.com/lipo.html",
+      "options": {
+        "sub": "Convert a universal binary"
+      },
+      "ctx_menu_items": null
+    },
+    "ln": {
+      "text": "ln",
+      "url": "https://ss64.com/ln.html",
+      "options": {
+        "sub": "Make links between files (hard links, symbolic links)"
+      },
+      "ctx_menu_items": null
+    },
+    "local": {
+      "text": "local",
+      "url": "https://ss64.com/local.html",
+      "options": {
+        "sub": "Set a local (function) variable •"
+      },
+      "ctx_menu_items": null
+    },
+    "locate": {
+      "text": "locate",
+      "url": "https://ss64.com/locate.html",
+      "options": {
+        "sub": "Find files"
+      },
+      "ctx_menu_items": null
+    },
+    "log": {
+      "text": "log",
+      "url": "https://ss64.com/log.html",
+      "options": {
+        "sub": "Access system wide log messages"
+      },
+      "ctx_menu_items": null
+    },
+    "logname": {
+      "text": "logname",
+      "url": "https://ss64.com/logname.html",
+      "options": {
+        "sub": "Print current login name"
+      },
+      "ctx_menu_items": null
+    },
+    "login": {
+      "text": "login",
+      "url": "https://ss64.com/login.html",
+      "options": {
+        "sub": "log into the computer"
+      },
+      "ctx_menu_items": null
+    },
+    "logout": {
+      "text": "logout",
+      "url": "https://ss64.com/logout.html",
+      "options": {
+        "sub": "Exit a login shell (bye) •"
+      },
+      "ctx_menu_items": null
+    },
+    "look": {
+      "text": "look",
+      "url": "https://ss64.com/look.html",
+      "options": {
+        "sub": "Display lines beginning with a given string"
+      },
+      "ctx_menu_items": null
+    },
+    "lp": {
+      "text": "lp",
+      "url": "https://ss64.com/lp.html",
+      "options": {
+        "sub": "Print files"
+      },
+      "ctx_menu_items": null
+    },
+    "lpr": {
+      "text": "lpr",
+      "url": "https://ss64.com/lpr.html",
+      "options": {
+        "sub": "Print files"
+      },
+      "ctx_menu_items": null
+    },
+    "lprm": {
+      "text": "lprm",
+      "url": "https://ss64.com/lprm.html",
+      "options": {
+        "sub": "Remove jobs from the print queue"
+      },
+      "ctx_menu_items": null
+    },
+    "lpstat": {
+      "text": "lpstat",
+      "url": "https://ss64.com/lpstat.html",
+      "options": {
+        "sub": "Printer status information"
+      },
+      "ctx_menu_items": null
+    },
+    "ls": {
+      "text": "ls",
+      "url": "https://ss64.com/ls.html",
+      "options": {
+        "sub": "List information about file(s)"
+      },
+      "ctx_menu_items": null
+    },
+    "lsregister": {
+      "text": "lsregister",
+      "url": "https://ss64.com/lsregister.html",
+      "options": {
+        "sub": "Reset the Launch Services database"
+      },
+      "ctx_menu_items": null
+    },
+    "lsbom": {
+      "text": "lsbom",
+      "url": "https://ss64.com/lsbom.html",
+      "options": {
+        "sub": "List a bill of materials file"
+      },
+      "ctx_menu_items": null
+    },
+    "lsof": {
+      "text": "lsof",
+      "url": "https://ss64.com/lsof.html",
+      "options": {
+        "sub": "List open files"
+      },
+      "ctx_menu_items": null
+    },
+    "man": {
+      "text": "man",
+      "url": "https://ss64.com/",
+      "options": {
+        "sub": "Help manual"
+      },
+      "ctx_menu_items": null
+    },
+    "md5": {
+      "text": "md5",
+      "url": "https://ss64.com/md5.html",
+      "options": {
+        "sub": "Calculate a checksum for a file"
+      },
+      "ctx_menu_items": null
+    },
+    "mdfind": {
+      "text": "mdfind",
+      "url": "https://ss64.com/mdfind.html",
+      "options": {
+        "sub": "Spotlight search"
+      },
+      "ctx_menu_items": null
+    },
+    "mdimport": {
+      "text": "mdimport",
+      "url": "https://ss64.com/mdimport.html",
+      "options": {
+        "sub": "Import file hierarchies into the Spotlight datastore."
+      },
+      "ctx_menu_items": null
+    },
+    "mdls": {
+      "text": "mdls",
+      "url": "https://ss64.com/mdls.html",
+      "options": {
+        "sub": "List the metadata attributes for a specified file"
+      },
+      "ctx_menu_items": null
+    },
+    "mdutil": {
+      "text": "mdutil",
+      "url": "https://ss64.com/mdutil.html",
+      "options": {
+        "sub": "Manage Spotlight metadata store"
+      },
+      "ctx_menu_items": null
+    },
+    "mkdir": {
+      "text": "mkdir",
+      "url": "https://ss64.com/mkdir.html",
+      "options": {
+        "sub": "Create new folder(s)"
+      },
+      "ctx_menu_items": null
+    },
+    "mkfifo": {
+      "text": "mkfifo",
+      "url": "https://ss64.com/mkfifo.html",
+      "options": {
+        "sub": "Make FIFOs (named pipes)"
+      },
+      "ctx_menu_items": null
+    },
+    "mkfile": {
+      "text": "mkfile",
+      "url": "https://ss64.com/mkfile.html",
+      "options": {
+        "sub": "Make a file"
+      },
+      "ctx_menu_items": null
+    },
+    "mktemp": {
+      "text": "mktemp",
+      "url": "https://ss64.com/mktemp.html",
+      "options": {
+        "sub": "Make a temporary file"
+      },
+      "ctx_menu_items": null
+    },
+    "more": {
+      "text": "more",
+      "url": "https://ss64.com/more.html",
+      "options": {
+        "sub": "Display output one screen at a time"
+      },
+      "ctx_menu_items": null
+    },
+    "mount": {
+      "text": "mount",
+      "url": "https://ss64.com/mount.html",
+      "options": {
+        "sub": "Mount a file system"
+      },
+      "ctx_menu_items": null
+    },
+    "msgs": {
+      "text": "msgs",
+      "url": "https://ss64.com/",
+      "options": {
+        "sub": "System messages"
+      },
+      "ctx_menu_items": null
+    },
+    "mtree": {
+      "text": "mtree",
+      "url": "https://ss64.com/",
+      "options": {
+        "sub": "Map a directory hierarchy"
+      },
+      "ctx_menu_items": null
+    },
+    "mv": {
+      "text": "mv",
+      "url": "https://ss64.com/mv.html",
+      "options": {
+        "sub": "Move or rename files or directories"
+      },
+      "ctx_menu_items": null
+    },
+    "nano": {
+      "text": "nano",
+      "url": "https://ss64.com/nano.html",
+      "options": {
+        "sub": "Simple text editor"
+      },
+      "ctx_menu_items": null
+    },
+    "nc/netcat": {
+      "text": "nc/netcat",
+      "url": "https://ss64.com/nc.html",
+      "options": {
+        "sub": "Read and write data across networks"
+      },
+      "ctx_menu_items": null
+    },
+    "net": {
+      "text": "net",
+      "url": "https://ss64.com/net.html",
+      "options": {
+        "sub": "Manage network resources"
+      },
+      "ctx_menu_items": null
+    },
+    "netstat": {
+      "text": "netstat",
+      "url": "https://ss64.com/",
+      "options": {
+        "sub": "Show network status"
+      },
+      "ctx_menu_items": null
+    },
+    "networkQuality": {
+      "text": "networkQuality",
+      "url": "https://ss64.com/networkquality.html",
+      "options": {
+        "sub": "Network quality testing tool"
+      },
+      "ctx_menu_items": null
+    },
+    "networksetup": {
+      "text": "networksetup",
+      "url": "https://ss64.com/networksetup.html",
+      "options": {
+        "sub": "Network and System Preferences"
+      },
+      "ctx_menu_items": null
+    },
+    "nice": {
+      "text": "nice",
+      "url": "https://ss64.com/nice.html",
+      "options": {
+        "sub": "Set the priority of a command"
+      },
+      "ctx_menu_items": null
+    },
+    "nl": {
+      "text": "nl",
+      "url": "https://ss64.com/nl.html",
+      "options": {
+        "sub": "Number lines and write files"
+      },
+      "ctx_menu_items": null
+    },
+    "nohup": {
+      "text": "nohup",
+      "url": "https://ss64.com/nohup.html",
+      "options": {
+        "sub": "Run a command immune to hangups"
+      },
+      "ctx_menu_items": null
+    },
+    "ntfs.util": {
+      "text": "ntfs.util",
+      "url": "https://ss64.com/ntfs-util.html",
+      "options": {
+        "sub": "NTFS file system utility"
+      },
+      "ctx_menu_items": null
+    },
+    "nvram": {
+      "text": "nvram",
+      "url": "https://ss64.com/nvram.html",
+      "options": {
+        "sub": "Manipulate  firmware variables"
+      },
+      "ctx_menu_items": null
+    },
+    "onintr": {
+      "text": "onintr",
+      "url": "https://ss64.com/onintr.html",
+      "options": {
+        "sub": "Control the action of a shell interrupt"
+      },
+      "ctx_menu_items": null
+    },
+    "open": {
+      "text": "open",
+      "url": "https://ss64.com/open.html",
+      "options": {
+        "sub": "Open a file/folder/URL/Application"
+      },
+      "ctx_menu_items": null
+    },
+    "opensnoop": {
+      "text": "opensnoop",
+      "url": "https://ss64.com/opensnoop.html",
+      "options": {
+        "sub": "Snoop file opens as they occur"
+      },
+      "ctx_menu_items": null
+    },
+    "openssl": {
+      "text": "openssl",
+      "url": "https://ss64.com/openssl.html",
+      "options": {
+        "sub": "OpenSSL command line"
+      },
+      "ctx_menu_items": null
+    },
+    "osacompile": {
+      "text": "osacompile",
+      "url": "https://ss64.com/osacompile.html",
+      "options": {
+        "sub": "Compile AppleScript"
+      },
+      "ctx_menu_items": null
+    },
+    "osascript": {
+      "text": "osascript",
+      "url": "https://ss64.com/osascript.html",
+      "options": {
+        "sub": "Execute AppleScript"
+      },
+      "ctx_menu_items": null
+    },
+    "passwd": {
+      "text": "passwd",
+      "url": "https://ss64.com/passwd.html",
+      "options": {
+        "sub": "Modify a user password"
+      },
+      "ctx_menu_items": null
+    },
+    "paste": {
+      "text": "paste",
+      "url": "https://ss64.com/paste.html",
+      "options": {
+        "sub": "Merge lines of files"
+      },
+      "ctx_menu_items": null
+    },
+    "pbcopy": {
+      "text": "pbcopy",
+      "url": "https://ss64.com/pbcopy.html",
+      "options": {
+        "sub": "Copy data to the clipboard"
+      },
+      "ctx_menu_items": null
+    },
+    "pbpaste": {
+      "text": "pbpaste",
+      "url": "https://ss64.com/pbpaste.html",
+      "options": {
+        "sub": "Paste data from the Clipboard"
+      },
+      "ctx_menu_items": null
+    },
+    "pbs": {
+      "text": "pbs",
+      "url": "https://ss64.com/pbs.html",
+      "options": {
+        "sub": "General helper tool"
+      },
+      "ctx_menu_items": null
+    },
+    "pdisk": {
+      "text": "pdisk",
+      "url": "https://ss64.com/",
+      "options": {
+        "sub": "Apple partition table editor"
+      },
+      "ctx_menu_items": null
+    },
+    "pfctl": {
+      "text": "pfctl",
+      "url": "https://ss64.com/pfctl.html",
+      "options": {
+        "sub": "Firewall - Control the packet filter and NAT device."
+      },
+      "ctx_menu_items": null
+    },
+    "pgrep": {
+      "text": "pgrep",
+      "url": "https://ss64.com/pkill.html",
+      "options": {
+        "sub": "List processes by a full or partial name"
+      },
+      "ctx_menu_items": null
+    },
+    "ping": {
+      "text": "ping",
+      "url": "https://ss64.com/ping.html",
+      "options": {
+        "sub": "Test a network connection"
+      },
+      "ctx_menu_items": null
+    },
+    "pkill": {
+      "text": "pkill",
+      "url": "https://ss64.com/pkill.html",
+      "options": {
+        "sub": "Kill processes by a full or partial name"
+      },
+      "ctx_menu_items": null
+    },
+    "pkgbuild": {
+      "text": "pkgbuild",
+      "url": "https://ss64.com/",
+      "options": {
+        "sub": "Build a macOS Installer component package"
+      },
+      "ctx_menu_items": null
+    },
+    "pkgutil": {
+      "text": "pkgutil",
+      "url": "https://ss64.com/pkgutil.html",
+      "options": {
+        "sub": "Query and manipulate installed packages"
+      },
+      "ctx_menu_items": null
+    },
+    "plutil": {
+      "text": "plutil",
+      "url": "https://ss64.com/",
+      "options": {
+        "sub": "Property list utility"
+      },
+      "ctx_menu_items": null
+    },
+    "pmset": {
+      "text": "pmset",
+      "url": "https://ss64.com/pmset.html",
+      "options": {
+        "sub": "Power Management settings"
+      },
+      "ctx_menu_items": null
+    },
+    "popd": {
+      "text": "popd",
+      "url": "https://ss64.com/popd.html",
+      "options": {
+        "sub": "Restore the previous value of the current directory •"
+      },
+      "ctx_menu_items": null
+    },
+    "powermetrics": {
+      "text": "powermetrics",
+      "url": "https://ss64.com/powermetrics.html",
+      "options": {
+        "sub": "Display CPU and power usage stats"
+      },
+      "ctx_menu_items": null
+    },
+    "pr": {
+      "text": "pr",
+      "url": "https://ss64.com/pr.html",
+      "options": {
+        "sub": "Convert text files for printing"
+      },
+      "ctx_menu_items": null
+    },
+    "printenv": {
+      "text": "printenv",
+      "url": "https://ss64.com/printenv.html",
+      "options": {
+        "sub": "List environment variables"
+      },
+      "ctx_menu_items": null
+    },
+    "printf": {
+      "text": "printf",
+      "url": "https://ss64.com/printf.html",
+      "options": {
+        "sub": "Format and print data •"
+      },
+      "ctx_menu_items": null
+    },
+    "profiles": {
+      "text": "profiles",
+      "url": "https://ss64.com/profiles.html",
+      "options": {
+        "sub": "Profiles Tool"
+      },
+      "ctx_menu_items": null
+    },
+    "ps": {
+      "text": "ps",
+      "url": "https://ss64.com/ps.html",
+      "options": {
+        "sub": "Process status"
+      },
+      "ctx_menu_items": null
+    },
+    "purge": {
+      "text": "purge",
+      "url": "https://ss64.com/",
+      "options": {
+        "sub": "Force disk cache to be purged (flushed and emptied)"
+      },
+      "ctx_menu_items": null
+    },
+    "pushd": {
+      "text": "pushd",
+      "url": "https://ss64.com/pushd.html",
+      "options": {
+        "sub": "Save and then change the current directory"
+      },
+      "ctx_menu_items": null
+    },
+    "pwd": {
+      "text": "pwd",
+      "url": "https://ss64.com/pwd.html",
+      "options": {
+        "sub": "Print Working Directory •"
+      },
+      "ctx_menu_items": null
+    },
+    "qlmanage": {
+      "text": "qlmanage",
+      "url": "https://ss64.com/qlmanage.html",
+      "options": {
+        "sub": "Quick Look Server debug and management tool"
+      },
+      "ctx_menu_items": null
+    },
+    "quota": {
+      "text": "quota",
+      "url": "https://ss64.com/quota.html",
+      "options": {
+        "sub": "Display disk usage and limits"
+      },
+      "ctx_menu_items": null
+    },
+    "rcp": {
+      "text": "rcp",
+      "url": "https://ss64.com/rcp.html",
+      "options": {
+        "sub": "Copy files between machines"
+      },
+      "ctx_menu_items": null
+    },
+    "read": {
+      "text": "read",
+      "url": "https://ss64.com/read.html",
+      "options": {
+        "sub": "Read one line from standard input •"
+      },
+      "ctx_menu_items": null
+    },
+    "readonly": {
+      "text": "readonly",
+      "url": "https://ss64.com/readonly.html",
+      "options": {
+        "sub": "Mark a variable or function as read-only •"
+      },
+      "ctx_menu_items": null
+    },
+    "realpath": {
+      "text": "realpath",
+      "url": "https://ss64.com/realpath.html",
+      "options": {
+        "sub": "Return resolved physical path"
+      },
+      "ctx_menu_items": null
+    },
+    "reboot": {
+      "text": "reboot",
+      "url": "https://ss64.com/",
+      "options": {
+        "sub": "Stop and restart the system"
+      },
+      "ctx_menu_items": null
+    },
+    "ReportCrash": {
+      "text": "ReportCrash",
+      "url": "https://ss64.com/reportcrash.html",
+      "options": {
+        "sub": "Enable/Disable crash reporting"
+      },
+      "ctx_menu_items": null
+    },
+    "return": {
+      "text": "return",
+      "url": "https://ss64.com/return.html",
+      "options": {
+        "sub": "Exit a function •"
+      },
+      "ctx_menu_items": null
+    },
+    "rev": {
+      "text": "rev",
+      "url": "https://ss64.com/rev.html",
+      "options": {
+        "sub": "Reverse lines of a file"
+      },
+      "ctx_menu_items": null
+    },
+    "rm": {
+      "text": "rm",
+      "url": "https://ss64.com/rm.html",
+      "options": {
+        "sub": "Remove files"
+      },
+      "ctx_menu_items": null
+    },
+    "rmdir": {
+      "text": "rmdir",
+      "url": "https://ss64.com/rmdir.html",
+      "options": {
+        "sub": "Remove folder(s)"
+      },
+      "ctx_menu_items": null
+    },
+    "rsync": {
+      "text": "rsync",
+      "url": "https://ss64.com/rsync.html",
+      "options": {
+        "sub": "Remote file copy - Sync file tree"
+      },
+      "ctx_menu_items": null
+    },
+    "say": {
+      "text": "say",
+      "url": "https://ss64.com/say.html",
+      "options": {
+        "sub": "Convert text to audible speech"
+      },
+      "ctx_menu_items": null
+    },
+    "screen": {
+      "text": "screen",
+      "url": "https://ss64.com/screen.html",
+      "options": {
+        "sub": "Multiplex terminal, run remote shells via ssh"
+      },
+      "ctx_menu_items": null
+    },
+    "screencapture": {
+      "text": "screencapture",
+      "url": "https://ss64.com/screencapture.html",
+      "options": {
+        "sub": "Capture screen image to file or disk"
+      },
+      "ctx_menu_items": null
+    },
+    "scselect": {
+      "text": "scselect",
+      "url": "https://ss64.com/scselect.html",
+      "options": {
+        "sub": "Switch between network locations"
+      },
+      "ctx_menu_items": null
+    },
+    "scutil": {
+      "text": "scutil",
+      "url": "https://ss64.com/scutil.html",
+      "options": {
+        "sub": "Manage system configuration parameters"
+      },
+      "ctx_menu_items": null
+    },
+    "sdiff": {
+      "text": "sdiff",
+      "url": "https://ss64.com/sdiff.html",
+      "options": {
+        "sub": "Merge two files interactively"
+      },
+      "ctx_menu_items": null
+    },
+    "security": {
+      "text": "security",
+      "url": "https://ss64.com/security.html",
+      "options": {
+        "sub": "Administer Keychains, keys, certificates and the Security framework"
+      },
+      "ctx_menu_items": null
+    },
+    "sed": {
+      "text": "sed",
+      "url": "https://ss64.com/sed.html",
+      "options": {
+        "sub": "Stream Editor"
+      },
+      "ctx_menu_items": null
+    },
+    "select": {
+      "text": "select",
+      "url": "https://ss64.com/select.html",
+      "options": {
+        "sub": "Generate a list of items •"
+      },
+      "ctx_menu_items": null
+    },
+    "seq": {
+      "text": "seq",
+      "url": "https://ss64.com/seq.html",
+      "options": {
+        "sub": "Print numeric sequences"
+      },
+      "ctx_menu_items": null
+    },
+    "serverinfo": {
+      "text": "serverinfo",
+      "url": "https://ss64.com/serverinfo.html",
+      "options": {
+        "sub": "Server information"
+      },
+      "ctx_menu_items": null
+    },
+    "set": {
+      "text": "set",
+      "url": "https://ss64.com/set.html",
+      "options": {
+        "sub": "Set a shell variable = value •"
+      },
+      "ctx_menu_items": null
+    },
+    "setfile": {
+      "text": "setfile",
+      "url": "https://ss64.com/setfile.html",
+      "options": {
+        "sub": "Set attributes of HFS+ files"
+      },
+      "ctx_menu_items": null
+    },
+    "sharing": {
+      "text": "sharing",
+      "url": "https://ss64.com/sharing.html",
+      "options": {
+        "sub": "Create share points for afp, ftp and smb services"
+      },
+      "ctx_menu_items": null
+    },
+    "shasum": {
+      "text": "shasum",
+      "url": "https://ss64.com/shasum.html",
+      "options": {
+        "sub": "Print or Check SHA Checksums"
+      },
+      "ctx_menu_items": null
+    },
+    "shift": {
+      "text": "shift",
+      "url": "https://ss64.com/shift.html",
+      "options": {
+        "sub": "Shift positional parameters •"
+      },
+      "ctx_menu_items": null
+    },
+    "shopt": {
+      "text": "shopt",
+      "url": "https://ss64.com/shopt.html",
+      "options": {
+        "sub": "Set shell options •"
+      },
+      "ctx_menu_items": null
+    },
+    "shortcuts": {
+      "text": "shortcuts",
+      "url": "https://ss64.com/shortcuts.html",
+      "options": {
+        "sub": "Manage macOS shortcuts"
+      },
+      "ctx_menu_items": null
+    },
+    "shutdown": {
+      "text": "shutdown",
+      "url": "https://ss64.com/shutdown.html",
+      "options": {
+        "sub": "Shutdown or restart macOS"
+      },
+      "ctx_menu_items": null
+    },
+    "sips": {
+      "text": "sips",
+      "url": "https://ss64.com/sips.html",
+      "options": {
+        "sub": "Scriptable image processing system"
+      },
+      "ctx_menu_items": null
+    },
+    "sleep": {
+      "text": "sleep",
+      "url": "https://ss64.com/sleep.html",
+      "options": {
+        "sub": "Delay for a specified time"
+      },
+      "ctx_menu_items": null
+    },
+    "softwareupdate": {
+      "text": "softwareupdate",
+      "url": "https://ss64.com/softwareupdate.html",
+      "options": {
+        "sub": "System software update tool"
+      },
+      "ctx_menu_items": null
+    },
+    "sort": {
+      "text": "sort",
+      "url": "https://ss64.com/sort.html",
+      "options": {
+        "sub": "Sort text files"
+      },
+      "ctx_menu_items": null
+    },
+    "source": {
+      "text": "source",
+      "url": "https://ss64.com/source.html",
+      "options": {
+        "sub": "Execute commands from a file •"
+      },
+      "ctx_menu_items": null
+    },
+    "spctl": {
+      "text": "spctl",
+      "url": "https://ss64.com/spctl.html",
+      "options": {
+        "sub": "Security assessment policy/Gatekeeper"
+      },
+      "ctx_menu_items": null
+    },
+    "split": {
+      "text": "split",
+      "url": "https://ss64.com/split.html",
+      "options": {
+        "sub": "Split a file into fixed-size pieces"
+      },
+      "ctx_menu_items": null
+    },
+    "sqlite3": {
+      "text": "sqlite3",
+      "url": "https://ss64.com/sqlite3.html",
+      "options": {
+        "sub": "SQL database (download history)"
+      },
+      "ctx_menu_items": null
+    },
+    "srm": {
+      "text": "srm",
+      "url": "https://ss64.com/srm.html",
+      "options": {
+        "sub": "Securely remove files or directories"
+      },
+      "ctx_menu_items": null
+    },
+    "stat": {
+      "text": "stat",
+      "url": "https://ss64.com/stat.html",
+      "options": {
+        "sub": "Display the status of a file"
+      },
+      "ctx_menu_items": null
+    },
+    "stop": {
+      "text": "stop",
+      "url": "https://ss64.com/jobs.html",
+      "options": {
+        "sub": "Stop a job or process"
+      },
+      "ctx_menu_items": null
+    },
+    "su": {
+      "text": "su",
+      "url": "https://ss64.com/su.html",
+      "options": {
+        "sub": "Substitute user identity"
+      },
+      "ctx_menu_items": null
+    },
+    "sudo": {
+      "text": "sudo",
+      "url": "https://ss64.com/sudo.html",
+      "options": {
+        "sub": "Execute a command as another user"
+      },
+      "ctx_menu_items": null
+    },
+    "sum": {
+      "text": "sum",
+      "url": "https://ss64.com/cksum.html",
+      "options": {
+        "sub": "Print a checksum for a file"
+      },
+      "ctx_menu_items": null
+    },
+    "suspend": {
+      "text": "suspend",
+      "url": "https://ss64.com/suspend.html",
+      "options": {
+        "sub": "Suspend execution of this shell •"
+      },
+      "ctx_menu_items": null
+    },
+    "sw_vers": {
+      "text": "sw_vers",
+      "url": "https://ss64.com/sw_vers.html",
+      "options": {
+        "sub": "Print macOS Operating System version"
+      },
+      "ctx_menu_items": null
+    },
+    "sysctl": {
+      "text": "sysctl",
+      "url": "https://ss64.com/sysctl.html",
+      "options": {
+        "sub": "Get or set kernel state"
+      },
+      "ctx_menu_items": null
+    },
+    "system_profiler": {
+      "text": "system_profiler",
+      "url": "https://ss64.com/system_profiler.html",
+      "options": {
+        "sub": "Report system configuration"
+      },
+      "ctx_menu_items": null
+    },
+    "systemsetup": {
+      "text": "systemsetup",
+      "url": "https://ss64.com/systemsetup.html",
+      "options": {
+        "sub": "Computer and display system settings"
+      },
+      "ctx_menu_items": null
+    },
+    "tabs": {
+      "text": "tabs",
+      "url": "https://ss64.com/tabs.html",
+      "options": {
+        "sub": "Set terminal tabs"
+      },
+      "ctx_menu_items": null
+    },
+    "tab2space": {
+      "text": "tab2space",
+      "url": "https://ss64.com/tab2space.html",
+      "options": {
+        "sub": "Expand tabs and ensure consistent cr/lf line endings"
+      },
+      "ctx_menu_items": null
+    },
+    "tail": {
+      "text": "tail",
+      "url": "https://ss64.com/tail.html",
+      "options": {
+        "sub": "Output the last part of files"
+      },
+      "ctx_menu_items": null
+    },
+    "tar": {
+      "text": "tar",
+      "url": "https://ss64.com/tar.html",
+      "options": {
+        "sub": "Tape ARchiver"
+      },
+      "ctx_menu_items": null
+    },
+    "taskpolicy": {
+      "text": "taskpolicy",
+      "url": "https://ss64.com/taskpolicy.html",
+      "options": {
+        "sub": "Execute a program with an altered I/O or scheduling policy"
+      },
+      "ctx_menu_items": null
+    },
+    "tccutil": {
+      "text": "tccutil",
+      "url": "https://ss64.com/tccutil.html",
+      "options": {
+        "sub": "Manage the privacy database"
+      },
+      "ctx_menu_items": null
+    },
+    "tcpdump": {
+      "text": "tcpdump",
+      "url": "https://ss64.com/tcpdump.html",
+      "options": {
+        "sub": "Dump traffic on a network"
+      },
+      "ctx_menu_items": null
+    },
+    "tee": {
+      "text": "tee",
+      "url": "https://ss64.com/tee.html",
+      "options": {
+        "sub": "Redirect output to multiple files"
+      },
+      "ctx_menu_items": null
+    },
+    "test": {
+      "text": "test",
+      "url": "https://ss64.com/test.html",
+      "options": {
+        "sub": "Condition evaluation •"
+      },
+      "ctx_menu_items": null
+    },
+    "textutil": {
+      "text": "textutil",
+      "url": "https://ss64.com/textutil.html",
+      "options": {
+        "sub": "Manipulate text files in various formats (Doc,html,rtf)"
+      },
+      "ctx_menu_items": null
+    },
+    "time": {
+      "text": "time",
+      "url": "https://ss64.com/time.html",
+      "options": {
+        "sub": "Measure Program Resource Use"
+      },
+      "ctx_menu_items": null
+    },
+    "times": {
+      "text": "times",
+      "url": "https://ss64.com/times.html",
+      "options": {
+        "sub": "Print shell & shell process times •"
+      },
+      "ctx_menu_items": null
+    },
+    "tmutil": {
+      "text": "tmutil",
+      "url": "https://ss64.com/tmutil.html",
+      "options": {
+        "sub": "Time Machine utility"
+      },
+      "ctx_menu_items": null
+    },
+    "top": {
+      "text": "top",
+      "url": "https://ss64.com/top.html",
+      "options": {
+        "sub": "Display process information"
+      },
+      "ctx_menu_items": null
+    },
+    "touch": {
+      "text": "touch",
+      "url": "https://ss64.com/touch.html",
+      "options": {
+        "sub": "Change file timestamps"
+      },
+      "ctx_menu_items": null
+    },
+    "tput": {
+      "text": "tput",
+      "url": "https://ss64.com/tput.html",
+      "options": {
+        "sub": "Set terminal-dependent capabilities, color, position"
+      },
+      "ctx_menu_items": null
+    },
+    "tr": {
+      "text": "tr",
+      "url": "https://ss64.com/tr.html",
+      "options": {
+        "sub": "Translate, squeeze, and/or delete characters"
+      },
+      "ctx_menu_items": null
+    },
+    "trap": {
+      "text": "trap",
+      "url": "https://ss64.com/trap.html",
+      "options": {
+        "sub": "Execute a command when the shell receives a signal •"
+      },
+      "ctx_menu_items": null
+    },
+    "traceroute": {
+      "text": "traceroute",
+      "url": "https://ss64.com/traceroute.html",
+      "options": {
+        "sub": "Trace Route to Host"
+      },
+      "ctx_menu_items": null
+    },
+    "traceroute6": {
+      "text": "traceroute6",
+      "url": "https://ss64.com/traceroute6.html",
+      "options": {
+        "sub": "Trace IPv6 Route to Host"
+      },
+      "ctx_menu_items": null
+    },
+    "trimforce": {
+      "text": "trimforce",
+      "url": "https://ss64.com/trimforce.html",
+      "options": {
+        "sub": "Enable TRIM commands on third-party drives"
+      },
+      "ctx_menu_items": null
+    },
+    "true": {
+      "text": "true",
+      "url": "https://ss64.com/true.html",
+      "options": {
+        "sub": "Do nothing, successfully"
+      },
+      "ctx_menu_items": null
+    },
+    "tty": {
+      "text": "tty",
+      "url": "https://ss64.com/tty.html",
+      "options": {
+        "sub": "Print filename of terminal on stdin"
+      },
+      "ctx_menu_items": null
+    },
+    "type": {
+      "text": "type",
+      "url": "https://ss64.com/type.html",
+      "options": {
+        "sub": "Describe a command •"
+      },
+      "ctx_menu_items": null
+    },
+    "ufs.util": {
+      "text": "ufs.util",
+      "url": "https://ss64.com/",
+      "options": {
+        "sub": "Mount/unmount UFS file system"
+      },
+      "ctx_menu_items": null
+    },
+    "ulimit": {
+      "text": "ulimit",
+      "url": "https://ss64.com/ulimit.html",
+      "options": {
+        "sub": "limit the use of system-wide resources •"
+      },
+      "ctx_menu_items": null
+    },
+    "umask": {
+      "text": "umask",
+      "url": "https://ss64.com/umask.html",
+      "options": {
+        "sub": "Users file creation mask"
+      },
+      "ctx_menu_items": null
+    },
+    "umount": {
+      "text": "umount",
+      "url": "https://ss64.com/umount.html",
+      "options": {
+        "sub": "Unmount a device"
+      },
+      "ctx_menu_items": null
+    },
+    "unalias": {
+      "text": "unalias",
+      "url": "https://ss64.com/alias.html",
+      "options": {
+        "sub": "Remove an alias •"
+      },
+      "ctx_menu_items": null
+    },
+    "uname": {
+      "text": "uname",
+      "url": "https://ss64.com/uname.html",
+      "options": {
+        "sub": "Print the Darwin OS Kernel version / release / machine name"
+      },
+      "ctx_menu_items": null
+    },
+    "unexpand": {
+      "text": "unexpand",
+      "url": "https://ss64.com/expand.html",
+      "options": {
+        "sub": "Convert spaces to tabs"
+      },
+      "ctx_menu_items": null
+    },
+    "uniq": {
+      "text": "uniq",
+      "url": "https://ss64.com/uniq.html",
+      "options": {
+        "sub": "Uniquify files"
+      },
+      "ctx_menu_items": null
+    },
+    "units": {
+      "text": "units",
+      "url": "https://ss64.com/units.html",
+      "options": {
+        "sub": "Convert units from one scale to another"
+      },
+      "ctx_menu_items": null
+    },
+    "unset": {
+      "text": "unset",
+      "url": "https://ss64.com/unset.html",
+      "options": {
+        "sub": "Remove variable or function names •"
+      },
+      "ctx_menu_items": null
+    },
+    "until": {
+      "text": "until",
+      "url": "https://ss64.com/until.html",
+      "options": {
+        "sub": "Execute commands (until error)"
+      },
+      "ctx_menu_items": null
+    },
+    "uptime": {
+      "text": "uptime",
+      "url": "https://ss64.com/uptime.html",
+      "options": {
+        "sub": "Show how long system has been running"
+      },
+      "ctx_menu_items": null
+    },
+    "users": {
+      "text": "users",
+      "url": "https://ss64.com/users.html",
+      "options": {
+        "sub": "Print login names of users currently logged in"
+      },
+      "ctx_menu_items": null
+    },
+    "uuencode": {
+      "text": "uuencode",
+      "url": "https://ss64.com/uuencode.html",
+      "options": {
+        "sub": "Encode a binary file"
+      },
+      "ctx_menu_items": null
+    },
+    "uudecode": {
+      "text": "uudecode",
+      "url": "https://ss64.com/uuencode.html",
+      "options": {
+        "sub": "Decode a file created by uuencode"
+      },
+      "ctx_menu_items": null
+    },
+    "uuidgen": {
+      "text": "uuidgen",
+      "url": "https://ss64.com/uuidgen.html",
+      "options": {
+        "sub": "Generate a Unique ID (UUID/GUID)"
+      },
+      "ctx_menu_items": null
+    },
+    "uucp": {
+      "text": "uucp",
+      "url": "https://ss64.com/",
+      "options": {
+        "sub": "Unix to Unix copy"
+      },
+      "ctx_menu_items": null
+    },
+    "vi": {
+      "text": "vi",
+      "url": "https://ss64.com/../vi.html",
+      "options": {
+        "sub": "Text Editor"
+      },
+      "ctx_menu_items": null
+    },
+    "w": {
+      "text": "w",
+      "url": "https://ss64.com/w.html",
+      "options": {
+        "sub": "Show who is logged on and what they are doing"
+      },
+      "ctx_menu_items": null
+    },
+    "wait": {
+      "text": "wait",
+      "url": "https://ss64.com/wait.html",
+      "options": {
+        "sub": "Wait for a process to complete •"
+      },
+      "ctx_menu_items": null
+    },
+    "wait4path": {
+      "text": "wait4path",
+      "url": "https://ss64.com/",
+      "options": {
+        "sub": "Wait for given path to show up in the namespace"
+      },
+      "ctx_menu_items": null
+    },
+    "wall": {
+      "text": "wall",
+      "url": "https://ss64.com/wall.html",
+      "options": {
+        "sub": "Write a message to users"
+      },
+      "ctx_menu_items": null
+    },
+    "wc": {
+      "text": "wc",
+      "url": "https://ss64.com/wc.html",
+      "options": {
+        "sub": "Print byte, word, and line counts"
+      },
+      "ctx_menu_items": null
+    },
+    "wdutil": {
+      "text": "wdutil",
+      "url": "https://ss64.com/wdutil.html",
+      "options": {
+        "sub": "Wireless Diagnostics command line utility"
+      },
+      "ctx_menu_items": null
+    },
+    "whatis": {
+      "text": "whatis",
+      "url": "https://ss64.com/whatis.html",
+      "options": {
+        "sub": "Search the whatis database for complete words"
+      },
+      "ctx_menu_items": null
+    },
+    "whereis": {
+      "text": "whereis",
+      "url": "https://ss64.com/whereis.html",
+      "options": {
+        "sub": "Locate a program"
+      },
+      "ctx_menu_items": null
+    },
+    "which": {
+      "text": "which",
+      "url": "https://ss64.com/which.html",
+      "options": {
+        "sub": "Locate a program file in the user’s path"
+      },
+      "ctx_menu_items": null
+    },
+    "while": {
+      "text": "while",
+      "url": "https://ss64.com/while.html",
+      "options": {
+        "sub": "Loop command •"
+      },
+      "ctx_menu_items": null
+    },
+    "who": {
+      "text": "who",
+      "url": "https://ss64.com/who.html",
+      "options": {
+        "sub": "Print all usernames currently logged on"
+      },
+      "ctx_menu_items": null
+    },
+    "whoami": {
+      "text": "whoami",
+      "url": "https://ss64.com/id.html",
+      "options": {
+        "sub": "Print the current user id and name ('id -un')"
+      },
+      "ctx_menu_items": null
+    },
+    "write": {
+      "text": "write",
+      "url": "https://ss64.com/write.html",
+      "options": {
+        "sub": "Send a message to another user"
+      },
+      "ctx_menu_items": null
+    },
+    "xargs": {
+      "text": "xargs",
+      "url": "https://ss64.com/xargs.html",
+      "options": {
+        "sub": "Execute utility - passing arguments"
+      },
+      "ctx_menu_items": null
+    },
+    "xattr": {
+      "text": "xattr",
+      "url": "https://ss64.com/xattr.html",
+      "options": {
+        "sub": "Display and manipulate extended attributes"
+      },
+      "ctx_menu_items": null
+    },
+    "xcode-select": {
+      "text": "xcode-select",
+      "url": "https://ss64.com/xcode-select.html",
+      "options": {
+        "sub": "Install the command line developer tools"
+      },
+      "ctx_menu_items": null
+    },
+    "xcrun": {
+      "text": "xcrun",
+      "url": "https://ss64.com/xcrun.html",
+      "options": {
+        "sub": "Run or locate development tools and properties"
+      },
+      "ctx_menu_items": null
+    },
+    "xxd": {
+      "text": "xxd",
+      "url": "https://ss64.com/xxd.html",
+      "options": {
+        "sub": "Make a hexdump or do the reverse"
+      },
+      "ctx_menu_items": null
+    },
+    "yes": {
+      "text": "yes",
+      "url": "https://ss64.com/yes.html",
+      "options": {
+        "sub": "Print a string until interrupted"
+      },
+      "ctx_menu_items": null
+    },
+    "zip": {
+      "text": "zip",
+      "url": "https://ss64.com/zip.html",
+      "options": {
+        "sub": "Package and compress (archive) files"
+      },
+      "ctx_menu_items": null
+    },
+    "!!": {
+      "text": "!!",
+      "url": "https://ss64.com/bang.html",
+      "options": {
+        "sub": "Run the last command again"
+      },
+      "ctx_menu_items": null
+    },
+    "#": {
+      "text": "#",
+      "url": "https://ss64.com/",
+      "options": {
+        "sub": "Comment / Remark"
+      },
+      "ctx_menu_items": null
+    }
+  },
+  "name": "ss64.com-mac",
+  "favicon_url": null
 }
