@@ -13,6 +13,7 @@ from pathlib import Path
 from typing import TYPE_CHECKING, Any, ClassVar, Self, TypeVar, overload
 
 from msgspec import Struct, msgpack
+from msgspec import field as struct_field
 
 if TYPE_CHECKING:
     from types import TracebackType
@@ -175,5 +176,5 @@ class BaseSyncParser[KwargsT](_BaseParser[KwargsT]):
 class Entry(Struct):
     text: str
     url: str
-    options: ResultConstructorKwargs | None = None
-    ctx_menu_items: list[str] | None = None
+    options: ResultConstructorKwargs = struct_field(default_factory=dict)  # type: ignore
+    ctx_menu_items: list[str] = struct_field(default_factory=list)
