@@ -23,7 +23,7 @@ runs:
       shell: bash
       run: |
         echo ${{ steps.parser.outcome }}
-        echo ${{ fromJson(steps.parser) }}
+        echo ${{ fromJSON(steps.parser) }}
 
     - name: Print Output.txt
       shell: bash
