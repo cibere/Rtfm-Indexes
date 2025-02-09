@@ -17,7 +17,7 @@ runs:
       id: runner
       shell: bash
       run: |
-        uv run _parsers/${{ inputs.filename }}.py
+        uv run _parsers/${{ inputs.filename }}.py >> $GITHUB_OUTPUT
     
     - name: Print Runner Outcome
       shell: bash
@@ -31,6 +31,11 @@ runs:
         write-mode: overwrite
         contents: |
           ${{ steps.runner.output }}
+    
+    - name: Print Output.txt
+      shell: bash
+      run: |
+        cat output.txt
 
     - name: Handle Error
       if: ${{ steps.runner.outcome == 'failure' }}
