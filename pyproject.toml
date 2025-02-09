@@ -1,3 +1,11 @@
+[project]
+name = "Flow.Launcher.Plugin.rtfm.indexes"
+version = "0.0.1"
+description = "indexes for the flow rtfm plugin"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = []
+
 [tool.ruff]
 exclude = [
     "venv",
