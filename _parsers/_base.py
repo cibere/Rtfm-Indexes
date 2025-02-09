@@ -21,7 +21,7 @@ if TYPE_CHECKING:
 
 parsers_dir = Path(__file__).parent
 root = parsers_dir.parent
-indexes_dir = root / "indexes"
+indexes_dir = root / "indexes_v2"
 indexes_dir.mkdir(exist_ok=True)
 
 KwargsT = TypeVar("KwargsT", default=dict[str, Any])
