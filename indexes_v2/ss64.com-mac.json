@@ -2,7 +2,7 @@
   "cache": {
     "afconvert": {
       "text": "afconvert",
-      "url": "https://ss64.com/afconvert.html",
+      "url": "https://ss64.com/mac/afconvert.html",
       "options": {
         "sub": "Audio File Convert"
       },
@@ -10,7 +10,7 @@
     },
     "afinfo": {
       "text": "afinfo",
-      "url": "https://ss64.com/afinfo.html",
+      "url": "https://ss64.com/mac/afinfo.html",
       "options": {
         "sub": "Audio File Info"
       },
@@ -18,7 +18,7 @@
     },
     "afplay": {
       "text": "afplay",
-      "url": "https://ss64.com/afplay.html",
+      "url": "https://ss64.com/mac/afplay.html",
       "options": {
         "sub": "Audio File Play"
       },
@@ -26,7 +26,7 @@
     },
     "airport": {
       "text": "airport",
-      "url": "https://ss64.com/airport.html",
+      "url": "https://ss64.com/mac/airport.html",
       "options": {
         "sub": "Manage Apple AirPort"
       },
@@ -34,7 +34,7 @@
     },
     "alias": {
       "text": "alias",
-      "url": "https://ss64.com/alias.html",
+      "url": "https://ss64.com/mac/alias.html",
       "options": {
         "sub": "Create an alias •"
       },
@@ -42,7 +42,7 @@
     },
     "alloc": {
       "text": "alloc",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/mac/",
       "options": {
         "sub": "List used and free memory"
       },
@@ -50,7 +50,7 @@
     },
     "apropos": {
       "text": "apropos",
-      "url": "https://ss64.com/apropos.html",
+      "url": "https://ss64.com/mac/apropos.html",
       "options": {
         "sub": "Search the whatis database for strings"
       },
@@ -58,7 +58,7 @@
     },
     "asr": {
       "text": "asr",
-      "url": "https://ss64.com/asr.html",
+      "url": "https://ss64.com/mac/asr.html",
       "options": {
         "sub": "Apple Software Restore"
       },
@@ -66,7 +66,7 @@
     },
     "atsutil": {
       "text": "atsutil",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/mac/",
       "options": {
         "sub": "Font registration system utility"
       },
@@ -74,7 +74,7 @@
     },
     "automator": {
       "text": "automator",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/mac/",
       "options": {
         "sub": "Run an Automator workflow"
       },
@@ -82,7 +82,7 @@
     },
     "awk": {
       "text": "awk",
-      "url": "https://ss64.com/awk.html",
+      "url": "https://ss64.com/mac/awk.html",
       "options": {
         "sub": "Find and Replace text within file(s)"
       },
@@ -90,7 +90,7 @@
     },
     "basename": {
       "text": "basename",
-      "url": "https://ss64.com/basename.html",
+      "url": "https://ss64.com/mac/basename.html",
       "options": {
         "sub": "Convert a full pathname to just a filename"
       },
@@ -98,7 +98,7 @@
     },
     "bash": {
       "text": "bash",
-      "url": "https://ss64.com/bash.html",
+      "url": "https://ss64.com/mac/bash.html",
       "options": {
         "sub": "Bourne-Again SHell"
       },
@@ -106,7 +106,7 @@
     },
     "bc": {
       "text": "bc",
-      "url": "https://ss64.com/bc.html",
+      "url": "https://ss64.com/mac/bc.html",
       "options": {
         "sub": "Arbitrary precision calculator language"
       },
@@ -114,7 +114,7 @@
     },
     "bg": {
       "text": "bg",
-      "url": "https://ss64.com/bg.html",
+      "url": "https://ss64.com/mac/bg.html",
       "options": {
         "sub": "Send to background •"
       },
@@ -122,7 +122,7 @@
     },
     "bind": {
       "text": "bind",
-      "url": "https://ss64.com/bind.html",
+      "url": "https://ss64.com/mac/bind.html",
       "options": {
         "sub": "Set or display readline key and function bindings •"
       },
@@ -130,7 +130,7 @@
     },
     "bless": {
       "text": "bless",
-      "url": "https://ss64.com/bless.html",
+      "url": "https://ss64.com/mac/bless.html",
       "options": {
         "sub": "Set volume bootability and startup disk options"
       },
@@ -138,7 +138,7 @@
     },
     "break": {
       "text": "break",
-      "url": "https://ss64.com/break.html",
+      "url": "https://ss64.com/mac/break.html",
       "options": {
         "sub": "Exit from a For, While, Until or Select loop •"
       },
@@ -146,7 +146,7 @@
     },
     "brew": {
       "text": "brew",
-      "url": "https://ss64.com/brew.html",
+      "url": "https://ss64.com/mac/brew.html",
       "options": {
         "sub": "Package manager"
       },
@@ -154,7 +154,7 @@
     },
     "builtin": {
       "text": "builtin",
-      "url": "https://ss64.com/builtin.html",
+      "url": "https://ss64.com/mac/builtin.html",
       "options": {
         "sub": "Execute a shell builtin •"
       },
@@ -162,7 +162,7 @@
     },
     "bzip2": {
       "text": "bzip2",
-      "url": "https://ss64.com/bzip.html",
+      "url": "https://ss64.com/mac/bzip.html",
       "options": {
         "sub": "Compress or decompress files"
       },
@@ -170,7 +170,7 @@
     },
     "caffeinate": {
       "text": "caffeinate",
-      "url": "https://ss64.com/caffeinate.html",
+      "url": "https://ss64.com/mac/caffeinate.html",
       "options": {
         "sub": "Prevent the system from sleeping"
       },
@@ -178,7 +178,7 @@
     },
     "cal": {
       "text": "cal",
-      "url": "https://ss64.com/cal.html",
+      "url": "https://ss64.com/mac/cal.html",
       "options": {
         "sub": "Display a calendar"
       },
@@ -186,7 +186,7 @@
     },
     "calendar": {
       "text": "calendar",
-      "url": "https://ss64.com/calendar.html",
+      "url": "https://ss64.com/mac/calendar.html",
       "options": {
         "sub": "Reminder Service"
       },
@@ -194,7 +194,7 @@
     },
     "caller": {
       "text": "caller",
-      "url": "https://ss64.com/caller.html",
+      "url": "https://ss64.com/mac/caller.html",
       "options": {
         "sub": "Return the context of a subroutine call •"
       },
@@ -202,7 +202,7 @@
     },
     "cancel": {
       "text": "cancel",
-      "url": "https://ss64.com/cancel.html",
+      "url": "https://ss64.com/mac/cancel.html",
       "options": {
         "sub": "Cancel print jobs"
       },
@@ -210,7 +210,7 @@
     },
     "case": {
       "text": "case",
-      "url": "https://ss64.com/case.html",
+      "url": "https://ss64.com/mac/case.html",
       "options": {
         "sub": "Conditionally perform a command •"
       },
@@ -218,7 +218,7 @@
     },
     "cat": {
       "text": "cat",
-      "url": "https://ss64.com/cat.html",
+      "url": "https://ss64.com/mac/cat.html",
       "options": {
         "sub": "Concatenate and print (display) the content of files"
       },
@@ -226,7 +226,7 @@
     },
     "cd": {
       "text": "cd",
-      "url": "https://ss64.com/cd.html",
+      "url": "https://ss64.com/mac/cd.html",
       "options": {
         "sub": "Change Directory •"
       },
@@ -234,7 +234,7 @@
     },
     "chflags": {
       "text": "chflags",
-      "url": "https://ss64.com/chflags.html",
+      "url": "https://ss64.com/mac/chflags.html",
       "options": {
         "sub": "Change a file or folder’s flags"
       },
@@ -242,7 +242,7 @@
     },
     "chgrp": {
       "text": "chgrp",
-      "url": "https://ss64.com/chgrp.html",
+      "url": "https://ss64.com/mac/chgrp.html",
       "options": {
         "sub": "Change group ownership"
       },
@@ -250,7 +250,7 @@
     },
     "chmod": {
       "text": "chmod",
-      "url": "https://ss64.com/chmod.html",
+      "url": "https://ss64.com/mac/chmod.html",
       "options": {
         "sub": "Change access permissions"
       },
@@ -258,7 +258,7 @@
     },
     "chown": {
       "text": "chown",
-      "url": "https://ss64.com/chown.html",
+      "url": "https://ss64.com/mac/chown.html",
       "options": {
         "sub": "Change file owner and group"
       },
@@ -266,7 +266,7 @@
     },
     "chroot": {
       "text": "chroot",
-      "url": "https://ss64.com/chroot.html",
+      "url": "https://ss64.com/mac/chroot.html",
       "options": {
         "sub": "Run a command with a different root directory"
       },
@@ -274,7 +274,7 @@
     },
     "chsh": {
       "text": "chsh",
-      "url": "https://ss64.com/chsh.html",
+      "url": "https://ss64.com/mac/chsh.html",
       "options": {
         "sub": "Add or change user database information, change default shell"
       },
@@ -282,7 +282,7 @@
     },
     "cksum": {
       "text": "cksum",
-      "url": "https://ss64.com/cksum.html",
+      "url": "https://ss64.com/mac/cksum.html",
       "options": {
         "sub": "Print CRC checksum and byte counts"
       },
@@ -290,7 +290,7 @@
     },
     "clear": {
       "text": "clear",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/mac/",
       "options": {
         "sub": "Clear terminal screen"
       },
@@ -298,7 +298,7 @@
     },
     "cmp": {
       "text": "cmp",
-      "url": "https://ss64.com/cmp.html",
+      "url": "https://ss64.com/mac/cmp.html",
       "options": {
         "sub": "Compare two files"
       },
@@ -306,7 +306,7 @@
     },
     "codesign": {
       "text": "codesign",
-      "url": "https://ss64.com/codesign.html",
+      "url": "https://ss64.com/mac/codesign.html",
       "options": {
         "sub": "Create and manipulate code signatures"
       },
@@ -314,7 +314,7 @@
     },
     "comm": {
       "text": "comm",
-      "url": "https://ss64.com/comm.html",
+      "url": "https://ss64.com/mac/comm.html",
       "options": {
         "sub": "Compare two sorted files line by line"
       },
@@ -322,7 +322,7 @@
     },
     "command": {
       "text": "command",
-      "url": "https://ss64.com/command.html",
+      "url": "https://ss64.com/mac/command.html",
       "options": {
         "sub": "Run a command (not a function) •"
       },
@@ -330,7 +330,7 @@
     },
     "complete": {
       "text": "complete",
-      "url": "https://ss64.com/complete.html",
+      "url": "https://ss64.com/mac/complete.html",
       "options": {
         "sub": "Edit a command completion [word/pattern/list] •"
       },
@@ -338,7 +338,7 @@
     },
     "continue": {
       "text": "continue",
-      "url": "https://ss64.com/continue.html",
+      "url": "https://ss64.com/mac/continue.html",
       "options": {
         "sub": "Resume the next iteration of a loop •"
       },
@@ -346,7 +346,7 @@
     },
     "cp": {
       "text": "cp",
-      "url": "https://ss64.com/cp.html",
+      "url": "https://ss64.com/mac/cp.html",
       "options": {
         "sub": "Copy one or more files to another location"
       },
@@ -354,7 +354,7 @@
     },
     "cpio": {
       "text": "cpio",
-      "url": "https://ss64.com/cpio.html",
+      "url": "https://ss64.com/mac/cpio.html",
       "options": {
         "sub": "Copy files to and from archives"
       },
@@ -362,7 +362,7 @@
     },
     "createhomedir": {
       "text": "createhomedir",
-      "url": "https://ss64.com/createhomedir.html",
+      "url": "https://ss64.com/mac/createhomedir.html",
       "options": {
         "sub": "Create and populate home directories on the local computer"
       },
@@ -370,7 +370,7 @@
     },
     "cron": {
       "text": "cron",
-      "url": "https://ss64.com/cron.html",
+      "url": "https://ss64.com/mac/cron.html",
       "options": {
         "sub": "Daemon to execute scheduled commands"
       },
@@ -378,7 +378,7 @@
     },
     "crontab": {
       "text": "crontab",
-      "url": "https://ss64.com/crontab.html",
+      "url": "https://ss64.com/mac/crontab.html",
       "options": {
         "sub": "Schedule a command to run at a later date/time"
       },
@@ -386,7 +386,7 @@
     },
     "csplit": {
       "text": "csplit",
-      "url": "https://ss64.com/csplit.html",
+      "url": "https://ss64.com/mac/csplit.html",
       "options": {
         "sub": "Split a file into context-determined pieces"
       },
@@ -394,7 +394,7 @@
     },
     "csrutil": {
       "text": "csrutil",
-      "url": "https://ss64.com/csrutil.html",
+      "url": "https://ss64.com/mac/csrutil.html",
       "options": {
         "sub": "Configure System Integrity Protection (SIP)"
       },
@@ -402,7 +402,7 @@
     },
     "cupsfilter": {
       "text": "cupsfilter",
-      "url": "https://ss64.com/cupsfilter.html",
+      "url": "https://ss64.com/mac/cupsfilter.html",
       "options": {
         "sub": "Convert a file to another format using cups filters"
       },
@@ -410,7 +410,7 @@
     },
     "curl": {
       "text": "curl",
-      "url": "https://ss64.com/curl.html",
+      "url": "https://ss64.com/mac/curl.html",
       "options": {
         "sub": "Transfer data  from or to a server"
       },
@@ -418,7 +418,7 @@
     },
     "cut": {
       "text": "cut",
-      "url": "https://ss64.com/cut.html",
+      "url": "https://ss64.com/mac/cut.html",
       "options": {
         "sub": "Divide a file into several parts"
       },
@@ -426,7 +426,7 @@
     },
     "date": {
       "text": "date",
-      "url": "https://ss64.com/date.html",
+      "url": "https://ss64.com/mac/date.html",
       "options": {
         "sub": "Display or change the date & time"
       },
@@ -434,7 +434,7 @@
     },
     "dc": {
       "text": "dc",
-      "url": "https://ss64.com/dc.html",
+      "url": "https://ss64.com/mac/dc.html",
       "options": {
         "sub": "Desk Calculator"
       },
@@ -442,7 +442,7 @@
     },
     "dd": {
       "text": "dd",
-      "url": "https://ss64.com/dd.html",
+      "url": "https://ss64.com/mac/dd.html",
       "options": {
         "sub": "Data Duplicator - convert and copy a file, clone disks"
       },
@@ -450,7 +450,7 @@
     },
     "declare": {
       "text": "declare",
-      "url": "https://ss64.com/declare.html",
+      "url": "https://ss64.com/mac/declare.html",
       "options": {
         "sub": "Declare variable & set attributes •"
       },
@@ -458,7 +458,7 @@
     },
     "defaults": {
       "text": "defaults",
-      "url": "https://ss64.com/defaults.html",
+      "url": "https://ss64.com/mac/defaults.html",
       "options": {
         "sub": "Set preferences, show hidden files"
       },
@@ -466,7 +466,7 @@
     },
     "df": {
       "text": "df",
-      "url": "https://ss64.com/df.html",
+      "url": "https://ss64.com/mac/df.html",
       "options": {
         "sub": "Display free disk space"
       },
@@ -474,7 +474,7 @@
     },
     "diff": {
       "text": "diff",
-      "url": "https://ss64.com/diff.html",
+      "url": "https://ss64.com/mac/diff.html",
       "options": {
         "sub": "Display the differences between two files"
       },
@@ -482,7 +482,7 @@
     },
     "diff3": {
       "text": "diff3",
-      "url": "https://ss64.com/diff3.html",
+      "url": "https://ss64.com/mac/diff3.html",
       "options": {
         "sub": "Show differences among three files"
       },
@@ -490,7 +490,7 @@
     },
     "dig": {
       "text": "dig",
-      "url": "https://ss64.com/dig.html",
+      "url": "https://ss64.com/mac/dig.html",
       "options": {
         "sub": "DNS lookup"
       },
@@ -498,7 +498,7 @@
     },
     "dirname": {
       "text": "dirname",
-      "url": "https://ss64.com/dirname.html",
+      "url": "https://ss64.com/mac/dirname.html",
       "options": {
         "sub": "Convert a full pathname to just a path"
       },
@@ -506,7 +506,7 @@
     },
     "dirs": {
       "text": "dirs",
-      "url": "https://ss64.com/dirs.html",
+      "url": "https://ss64.com/mac/dirs.html",
       "options": {
         "sub": "Display list of remembered directories •"
       },
@@ -514,7 +514,7 @@
     },
     "diskutil": {
       "text": "diskutil",
-      "url": "https://ss64.com/diskutil.html",
+      "url": "https://ss64.com/mac/diskutil.html",
       "options": {
         "sub": "Disk utilities - Format, Verify, Repair"
       },
@@ -522,7 +522,7 @@
     },
     "disown": {
       "text": "disown",
-      "url": "https://ss64.com/disown.html",
+      "url": "https://ss64.com/mac/disown.html",
       "options": {
         "sub": "Unbind a job from the current login session •"
       },
@@ -530,7 +530,7 @@
     },
     "ditto": {
       "text": "ditto",
-      "url": "https://ss64.com/ditto.html",
+      "url": "https://ss64.com/mac/ditto.html",
       "options": {
         "sub": "Copy files and folders"
       },
@@ -538,7 +538,7 @@
     },
     "dot_clean": {
       "text": "dot_clean",
-      "url": "https://ss64.com/dot_clean.html",
+      "url": "https://ss64.com/mac/dot_clean.html",
       "options": {
         "sub": "Remove dot-underscore files"
       },
@@ -546,7 +546,7 @@
     },
     "drutil": {
       "text": "drutil",
-      "url": "https://ss64.com/drutil.html",
+      "url": "https://ss64.com/mac/drutil.html",
       "options": {
         "sub": "Interact with CD/DVD burners"
       },
@@ -554,7 +554,7 @@
     },
     "dscacheutil": {
       "text": "dscacheutil",
-      "url": "https://ss64.com/dscacheutil.html",
+      "url": "https://ss64.com/mac/dscacheutil.html",
       "options": {
         "sub": "Query or flush the Directory Service/DNS cache"
       },
@@ -562,7 +562,7 @@
     },
     "dseditgroup": {
       "text": "dseditgroup",
-      "url": "https://ss64.com/dseditgroup.html",
+      "url": "https://ss64.com/mac/dseditgroup.html",
       "options": {
         "sub": "Edit, create, manipulate, or delete groups"
       },
@@ -570,7 +570,7 @@
     },
     "dsenableroot": {
       "text": "dsenableroot",
-      "url": "https://ss64.com/dsenableroot.html",
+      "url": "https://ss64.com/mac/dsenableroot.html",
       "options": {
         "sub": "Enable root access"
       },
@@ -578,7 +578,7 @@
     },
     "dsmemberutil": {
       "text": "dsmemberutil",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/mac/",
       "options": {
         "sub": "View user and groups rights"
       },
@@ -586,7 +586,7 @@
     },
     "dscl": {
       "text": "dscl",
-      "url": "https://ss64.com/dscl.html",
+      "url": "https://ss64.com/mac/dscl.html",
       "options": {
         "sub": "Directory Service command line utility"
       },
@@ -594,7 +594,7 @@
     },
     "du": {
       "text": "du",
-      "url": "https://ss64.com/du.html",
+      "url": "https://ss64.com/mac/du.html",
       "options": {
         "sub": "Estimate file space usage"
       },
@@ -602,7 +602,7 @@
     },
     "echo": {
       "text": "echo",
-      "url": "https://ss64.com/echo.html",
+      "url": "https://ss64.com/mac/echo.html",
       "options": {
         "sub": "Display text on screen •"
       },
@@ -610,7 +610,7 @@
     },
     "ed": {
       "text": "ed",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/mac/",
       "options": {
         "sub": "A line-oriented text editor (edlin)"
       },
@@ -618,7 +618,7 @@
     },
     "enable": {
       "text": "enable",
-      "url": "https://ss64.com/enable.html",
+      "url": "https://ss64.com/mac/enable.html",
       "options": {
         "sub": "Enable and disable builtin shell commands •"
       },
@@ -626,7 +626,7 @@
     },
     "env": {
       "text": "env",
-      "url": "https://ss64.com/env.html",
+      "url": "https://ss64.com/mac/env.html",
       "options": {
         "sub": "List or Set environment variables"
       },
@@ -634,7 +634,7 @@
     },
     "eval": {
       "text": "eval",
-      "url": "https://ss64.com/eval.html",
+      "url": "https://ss64.com/mac/eval.html",
       "options": {
         "sub": "Evaluate several commands/arguments •"
       },
@@ -642,7 +642,7 @@
     },
     "exec": {
       "text": "exec",
-      "url": "https://ss64.com/exec.html",
+      "url": "https://ss64.com/mac/exec.html",
       "options": {
         "sub": "Execute a command •"
       },
@@ -650,7 +650,7 @@
     },
     "exit": {
       "text": "exit",
-      "url": "https://ss64.com/exit.html",
+      "url": "https://ss64.com/mac/exit.html",
       "options": {
         "sub": "Exit the shell •"
       },
@@ -658,7 +658,7 @@
     },
     "execsnoop": {
       "text": "execsnoop",
-      "url": "https://ss64.com/execsnoop.html",
+      "url": "https://ss64.com/mac/execsnoop.html",
       "options": {
         "sub": "Snoop new process execution"
       },
@@ -666,7 +666,7 @@
     },
     "expand": {
       "text": "expand",
-      "url": "https://ss64.com/expand.html",
+      "url": "https://ss64.com/mac/expand.html",
       "options": {
         "sub": "Convert tabs to spaces"
       },
@@ -674,7 +674,7 @@
     },
     "expect": {
       "text": "expect",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/mac/",
       "options": {
         "sub": "Programmed dialogue with interactive programs\r\nAlso see AppleScript"
       },
@@ -682,7 +682,7 @@
     },
     "export": {
       "text": "export",
-      "url": "https://ss64.com/export.html",
+      "url": "https://ss64.com/mac/export.html",
       "options": {
         "sub": "Set an environment variable •"
       },
@@ -690,7 +690,7 @@
     },
     "expr": {
       "text": "expr",
-      "url": "https://ss64.com/expr.html",
+      "url": "https://ss64.com/mac/expr.html",
       "options": {
         "sub": "Evaluate expressions"
       },
@@ -698,7 +698,7 @@
     },
     "false": {
       "text": "false",
-      "url": "https://ss64.com/false.html",
+      "url": "https://ss64.com/mac/false.html",
       "options": {
         "sub": "Do nothing, unsuccessfully"
       },
@@ -706,7 +706,7 @@
     },
     "fc": {
       "text": "fc",
-      "url": "https://ss64.com/fc.html",
+      "url": "https://ss64.com/mac/fc.html",
       "options": {
         "sub": "Fix command (history)"
       },
@@ -714,7 +714,7 @@
     },
     "fdisk": {
       "text": "fdisk",
-      "url": "https://ss64.com/fdisk.html",
+      "url": "https://ss64.com/mac/fdisk.html",
       "options": {
         "sub": "Partition table manipulator for Darwin UFS/HFS/DOS"
       },
@@ -722,7 +722,7 @@
     },
     "fdesetup": {
       "text": "fdesetup",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/mac/",
       "options": {
         "sub": "FileVault configuration, list FileVault users"
       },
@@ -730,7 +730,7 @@
     },
     "fg": {
       "text": "fg",
-      "url": "https://ss64.com/fg.html",
+      "url": "https://ss64.com/mac/fg.html",
       "options": {
         "sub": "Send job to foreground •"
       },
@@ -738,7 +738,7 @@
     },
     "file": {
       "text": "file",
-      "url": "https://ss64.com/file.html",
+      "url": "https://ss64.com/mac/file.html",
       "options": {
         "sub": "Determine file type"
       },
@@ -746,7 +746,7 @@
     },
     "find": {
       "text": "find",
-      "url": "https://ss64.com/find.html",
+      "url": "https://ss64.com/mac/find.html",
       "options": {
         "sub": "Search for files that meet a desired criteria"
       },
@@ -754,7 +754,7 @@
     },
     "fmt": {
       "text": "fmt",
-      "url": "https://ss64.com/fmt.html",
+      "url": "https://ss64.com/mac/fmt.html",
       "options": {
         "sub": "Reformat paragraph text"
       },
@@ -762,7 +762,7 @@
     },
     "fold": {
       "text": "fold",
-      "url": "https://ss64.com/fold.html",
+      "url": "https://ss64.com/mac/fold.html",
       "options": {
         "sub": "Wrap text to fit a specified width"
       },
@@ -770,7 +770,7 @@
     },
     "for": {
       "text": "for",
-      "url": "https://ss64.com/for.html",
+      "url": "https://ss64.com/mac/for.html",
       "options": {
         "sub": "Loop command •"
       },
@@ -778,7 +778,7 @@
     },
     "fsck": {
       "text": "fsck",
-      "url": "https://ss64.com/fsck.html",
+      "url": "https://ss64.com/mac/fsck.html",
       "options": {
         "sub": "Filesystem consistency check and repair"
       },
@@ -786,7 +786,7 @@
     },
     "fs_usage": {
       "text": "fs_usage",
-      "url": "https://ss64.com/fs_usage.html",
+      "url": "https://ss64.com/mac/fs_usage.html",
       "options": {
         "sub": "Filesystem usage (process/pathname)"
       },
@@ -794,7 +794,7 @@
     },
     "ftp": {
       "text": "ftp",
-      "url": "https://ss64.com/ftp.html",
+      "url": "https://ss64.com/mac/ftp.html",
       "options": {
         "sub": "Internet file transfer program"
       },
@@ -802,7 +802,7 @@
     },
     "function": {
       "text": "function",
-      "url": "https://ss64.com/function.html",
+      "url": "https://ss64.com/mac/function.html",
       "options": {
         "sub": "Define Function Macros"
       },
@@ -810,7 +810,7 @@
     },
     "fuser": {
       "text": "fuser",
-      "url": "https://ss64.com/fuser.html",
+      "url": "https://ss64.com/mac/fuser.html",
       "options": {
         "sub": "List processes that have one or more files open"
       },
@@ -818,7 +818,7 @@
     },
     "GetFileInfo": {
       "text": "GetFileInfo",
-      "url": "https://ss64.com/getfileinfo.html",
+      "url": "https://ss64.com/mac/getfileinfo.html",
       "options": {
         "sub": "Get attributes of HFS+ files"
       },
@@ -826,7 +826,7 @@
     },
     "getopt": {
       "text": "getopt",
-      "url": "https://ss64.com/getopt.html",
+      "url": "https://ss64.com/mac/getopt.html",
       "options": {
         "sub": "Parse positional parameters"
       },
@@ -834,7 +834,7 @@
     },
     "getopts": {
       "text": "getopts",
-      "url": "https://ss64.com/getopts.html",
+      "url": "https://ss64.com/mac/getopts.html",
       "options": {
         "sub": "Parse positional parameters •"
       },
@@ -842,7 +842,7 @@
     },
     "goto": {
       "text": "goto",
-      "url": "https://ss64.com/goto.html",
+      "url": "https://ss64.com/mac/goto.html",
       "options": {
         "sub": "Jump to label and continue execution"
       },
@@ -850,7 +850,7 @@
     },
     "grep": {
       "text": "grep",
-      "url": "https://ss64.com/grep.html",
+      "url": "https://ss64.com/mac/grep.html",
       "options": {
         "sub": "Search file(s) for lines that match a given pattern"
       },
@@ -858,7 +858,7 @@
     },
     "groups": {
       "text": "groups",
-      "url": "https://ss64.com/id.html",
+      "url": "https://ss64.com/mac/id.html",
       "options": {
         "sub": "Print group names a user is in"
       },
@@ -866,7 +866,7 @@
     },
     "gzip": {
       "text": "gzip",
-      "url": "https://ss64.com/gzip.html",
+      "url": "https://ss64.com/mac/gzip.html",
       "options": {
         "sub": "Compress or decompress files"
       },
@@ -874,7 +874,7 @@
     },
     "halt": {
       "text": "halt",
-      "url": "https://ss64.com/halt.html",
+      "url": "https://ss64.com/mac/halt.html",
       "options": {
         "sub": "Stop and restart the Operating System"
       },
@@ -882,7 +882,7 @@
     },
     "hash": {
       "text": "hash",
-      "url": "https://ss64.com/hash.html",
+      "url": "https://ss64.com/mac/hash.html",
       "options": {
         "sub": "Refresh the cached/remembered location of commands •"
       },
@@ -890,7 +890,7 @@
     },
     "head": {
       "text": "head",
-      "url": "https://ss64.com/head.html",
+      "url": "https://ss64.com/mac/head.html",
       "options": {
         "sub": "Display the first lines of a file"
       },
@@ -898,7 +898,7 @@
     },
     "hdiutil": {
       "text": "hdiutil",
-      "url": "https://ss64.com/hdiutil.html",
+      "url": "https://ss64.com/mac/hdiutil.html",
       "options": {
         "sub": "Manipulate iso disk images"
       },
@@ -906,7 +906,7 @@
     },
     "history": {
       "text": "history",
-      "url": "https://ss64.com/history.html",
+      "url": "https://ss64.com/mac/history.html",
       "options": {
         "sub": "Command History •"
       },
@@ -914,7 +914,7 @@
     },
     "hostname": {
       "text": "hostname",
-      "url": "https://ss64.com/hostname.html",
+      "url": "https://ss64.com/mac/hostname.html",
       "options": {
         "sub": "Print or set system name"
       },
@@ -922,7 +922,7 @@
     },
     "iconv": {
       "text": "iconv",
-      "url": "https://ss64.com/iconv.html",
+      "url": "https://ss64.com/mac/iconv.html",
       "options": {
         "sub": "Convert the character set of a file"
       },
@@ -930,7 +930,7 @@
     },
     "id": {
       "text": "id",
-      "url": "https://ss64.com/id.html",
+      "url": "https://ss64.com/mac/id.html",
       "options": {
         "sub": "Print user and group names/id’s"
       },
@@ -938,7 +938,7 @@
     },
     "if": {
       "text": "if",
-      "url": "https://ss64.com/if.html",
+      "url": "https://ss64.com/mac/if.html",
       "options": {
         "sub": "Conditionally perform a command •"
       },
@@ -946,7 +946,7 @@
     },
     "ifconfig": {
       "text": "ifconfig",
-      "url": "https://ss64.com/ifconfig.html",
+      "url": "https://ss64.com/mac/ifconfig.html",
       "options": {
         "sub": "Configure network interface parameters"
       },
@@ -954,7 +954,7 @@
     },
     "iostat": {
       "text": "iostat",
-      "url": "https://ss64.com/iostat.html",
+      "url": "https://ss64.com/mac/iostat.html",
       "options": {
         "sub": "Report CPU and i/o statistics"
       },
@@ -962,7 +962,7 @@
     },
     "ipconfig": {
       "text": "ipconfig",
-      "url": "https://ss64.com/ipconfig.html",
+      "url": "https://ss64.com/mac/ipconfig.html",
       "options": {
         "sub": "View and control IP configuration state"
       },
@@ -970,7 +970,7 @@
     },
     "info": {
       "text": "info",
-      "url": "https://ss64.com/info.html",
+      "url": "https://ss64.com/mac/info.html",
       "options": {
         "sub": "Help info"
       },
@@ -978,7 +978,7 @@
     },
     "install": {
       "text": "install",
-      "url": "https://ss64.com/install.html",
+      "url": "https://ss64.com/mac/install.html",
       "options": {
         "sub": "Copy files and set attributes"
       },
@@ -986,7 +986,7 @@
     },
     "installer": {
       "text": "installer",
-      "url": "https://ss64.com/installer.html",
+      "url": "https://ss64.com/mac/installer.html",
       "options": {
         "sub": "System software and .pkg package installer tool"
       },
@@ -994,7 +994,7 @@
     },
     "iosnoop": {
       "text": "iosnoop",
-      "url": "https://ss64.com/iosnoop.html",
+      "url": "https://ss64.com/mac/iosnoop.html",
       "options": {
         "sub": "Snoop I/O events as they occur"
       },
@@ -1002,7 +1002,7 @@
     },
     "jobs": {
       "text": "jobs",
-      "url": "https://ss64.com/jobs.html",
+      "url": "https://ss64.com/mac/jobs.html",
       "options": {
         "sub": "List active jobs •"
       },
@@ -1010,7 +1010,7 @@
     },
     "join": {
       "text": "join",
-      "url": "https://ss64.com/join.html",
+      "url": "https://ss64.com/mac/join.html",
       "options": {
         "sub": "Join lines on a common field"
       },
@@ -1018,7 +1018,7 @@
     },
     "kextfind": {
       "text": "kextfind",
-      "url": "https://ss64.com/kextfind.html",
+      "url": "https://ss64.com/mac/kextfind.html",
       "options": {
         "sub": "List kernel extensions"
       },
@@ -1026,7 +1026,7 @@
     },
     "kextstat": {
       "text": "kextstat",
-      "url": "https://ss64.com/kextstat.html",
+      "url": "https://ss64.com/mac/kextstat.html",
       "options": {
         "sub": "Display status of loaded kernel extensions (kexts)"
       },
@@ -1034,7 +1034,7 @@
     },
     "kextunload": {
       "text": "kextunload",
-      "url": "https://ss64.com/kextunload.html",
+      "url": "https://ss64.com/mac/kextunload.html",
       "options": {
         "sub": "Terminate driver instances and unload kernel extensions."
       },
@@ -1042,7 +1042,7 @@
     },
     "keytool": {
       "text": "keytool",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/mac/",
       "options": {
         "sub": "Key and certificate management tool"
       },
@@ -1050,7 +1050,7 @@
     },
     "kickstart": {
       "text": "kickstart",
-      "url": "https://ss64.com/kickstart.html",
+      "url": "https://ss64.com/mac/kickstart.html",
       "options": {
         "sub": "Configure Apple Remote Desktop"
       },
@@ -1058,7 +1058,7 @@
     },
     "kill": {
       "text": "kill",
-      "url": "https://ss64.com/kill.html",
+      "url": "https://ss64.com/mac/kill.html",
       "options": {
         "sub": "Kill a process by specifying its PID"
       },
@@ -1066,7 +1066,7 @@
     },
     "killall": {
       "text": "killall",
-      "url": "https://ss64.com/killall.html",
+      "url": "https://ss64.com/mac/killall.html",
       "options": {
         "sub": "Kill processes by name"
       },
@@ -1074,7 +1074,7 @@
     },
     "klist": {
       "text": "klist",
-      "url": "https://ss64.com/klist.html",
+      "url": "https://ss64.com/mac/klist.html",
       "options": {
         "sub": "List cached Kerberos tickets"
       },
@@ -1082,7 +1082,7 @@
     },
     "l": {
       "text": "l",
-      "url": "https://ss64.com/ls.html",
+      "url": "https://ss64.com/mac/ls.html",
       "options": {
         "sub": "List files in long format (ls -l)"
       },
@@ -1090,7 +1090,7 @@
     },
     "last": {
       "text": "last",
-      "url": "https://ss64.com/last.html",
+      "url": "https://ss64.com/mac/last.html",
       "options": {
         "sub": "Indicate last logins of users and ttys"
       },
@@ -1098,7 +1098,7 @@
     },
     "launchctl": {
       "text": "launchctl",
-      "url": "https://ss64.com/launchctl.html",
+      "url": "https://ss64.com/mac/launchctl.html",
       "options": {
         "sub": "Load or unload daemons/agents"
       },
@@ -1106,7 +1106,7 @@
     },
     "ll": {
       "text": "ll",
-      "url": "https://ss64.com/ls.html",
+      "url": "https://ss64.com/mac/ls.html",
       "options": {
         "sub": "List files in long format, showing invisible files (ls -la)"
       },
@@ -1114,7 +1114,7 @@
     },
     "leave": {
       "text": "leave",
-      "url": "https://ss64.com/leave.html",
+      "url": "https://ss64.com/mac/leave.html",
       "options": {
         "sub": "Remind you when you have to leave"
       },
@@ -1122,7 +1122,7 @@
     },
     "less": {
       "text": "less",
-      "url": "https://ss64.com/less.html",
+      "url": "https://ss64.com/mac/less.html",
       "options": {
         "sub": "Display output one screen at a time"
       },
@@ -1130,7 +1130,7 @@
     },
     "let": {
       "text": "let",
-      "url": "https://ss64.com/let.html",
+      "url": "https://ss64.com/mac/let.html",
       "options": {
         "sub": "Evaluate expression •"
       },
@@ -1138,7 +1138,7 @@
     },
     "lipo": {
       "text": "lipo",
-      "url": "https://ss64.com/lipo.html",
+      "url": "https://ss64.com/mac/lipo.html",
       "options": {
         "sub": "Convert a universal binary"
       },
@@ -1146,7 +1146,7 @@
     },
     "ln": {
       "text": "ln",
-      "url": "https://ss64.com/ln.html",
+      "url": "https://ss64.com/mac/ln.html",
       "options": {
         "sub": "Make links between files (hard links, symbolic links)"
       },
@@ -1154,7 +1154,7 @@
     },
     "local": {
       "text": "local",
-      "url": "https://ss64.com/local.html",
+      "url": "https://ss64.com/mac/local.html",
       "options": {
         "sub": "Set a local (function) variable •"
       },
@@ -1162,7 +1162,7 @@
     },
     "locate": {
       "text": "locate",
-      "url": "https://ss64.com/locate.html",
+      "url": "https://ss64.com/mac/locate.html",
       "options": {
         "sub": "Find files"
       },
@@ -1170,7 +1170,7 @@
     },
     "log": {
       "text": "log",
-      "url": "https://ss64.com/log.html",
+      "url": "https://ss64.com/mac/log.html",
       "options": {
         "sub": "Access system wide log messages"
       },
@@ -1178,7 +1178,7 @@
     },
     "logname": {
       "text": "logname",
-      "url": "https://ss64.com/logname.html",
+      "url": "https://ss64.com/mac/logname.html",
       "options": {
         "sub": "Print current login name"
       },
@@ -1186,7 +1186,7 @@
     },
     "login": {
       "text": "login",
-      "url": "https://ss64.com/login.html",
+      "url": "https://ss64.com/mac/login.html",
       "options": {
         "sub": "log into the computer"
       },
@@ -1194,7 +1194,7 @@
     },
     "logout": {
       "text": "logout",
-      "url": "https://ss64.com/logout.html",
+      "url": "https://ss64.com/mac/logout.html",
       "options": {
         "sub": "Exit a login shell (bye) •"
       },
@@ -1202,7 +1202,7 @@
     },
     "look": {
       "text": "look",
-      "url": "https://ss64.com/look.html",
+      "url": "https://ss64.com/mac/look.html",
       "options": {
         "sub": "Display lines beginning with a given string"
       },
@@ -1210,7 +1210,7 @@
     },
     "lp": {
       "text": "lp",
-      "url": "https://ss64.com/lp.html",
+      "url": "https://ss64.com/mac/lp.html",
       "options": {
         "sub": "Print files"
       },
@@ -1218,7 +1218,7 @@
     },
     "lpr": {
       "text": "lpr",
-      "url": "https://ss64.com/lpr.html",
+      "url": "https://ss64.com/mac/lpr.html",
       "options": {
         "sub": "Print files"
       },
@@ -1226,7 +1226,7 @@
     },
     "lprm": {
       "text": "lprm",
-      "url": "https://ss64.com/lprm.html",
+      "url": "https://ss64.com/mac/lprm.html",
       "options": {
         "sub": "Remove jobs from the print queue"
       },
@@ -1234,7 +1234,7 @@
     },
     "lpstat": {
       "text": "lpstat",
-      "url": "https://ss64.com/lpstat.html",
+      "url": "https://ss64.com/mac/lpstat.html",
       "options": {
         "sub": "Printer status information"
       },
@@ -1242,7 +1242,7 @@
     },
     "ls": {
       "text": "ls",
-      "url": "https://ss64.com/ls.html",
+      "url": "https://ss64.com/mac/ls.html",
       "options": {
         "sub": "List information about file(s)"
       },
@@ -1250,7 +1250,7 @@
     },
     "lsregister": {
       "text": "lsregister",
-      "url": "https://ss64.com/lsregister.html",
+      "url": "https://ss64.com/mac/lsregister.html",
       "options": {
         "sub": "Reset the Launch Services database"
       },
@@ -1258,7 +1258,7 @@
     },
     "lsbom": {
       "text": "lsbom",
-      "url": "https://ss64.com/lsbom.html",
+      "url": "https://ss64.com/mac/lsbom.html",
       "options": {
         "sub": "List a bill of materials file"
       },
@@ -1266,7 +1266,7 @@
     },
     "lsof": {
       "text": "lsof",
-      "url": "https://ss64.com/lsof.html",
+      "url": "https://ss64.com/mac/lsof.html",
       "options": {
         "sub": "List open files"
       },
@@ -1274,7 +1274,7 @@
     },
     "man": {
       "text": "man",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/mac/",
       "options": {
         "sub": "Help manual"
       },
@@ -1282,7 +1282,7 @@
     },
     "md5": {
       "text": "md5",
-      "url": "https://ss64.com/md5.html",
+      "url": "https://ss64.com/mac/md5.html",
       "options": {
         "sub": "Calculate a checksum for a file"
       },
@@ -1290,7 +1290,7 @@
     },
     "mdfind": {
       "text": "mdfind",
-      "url": "https://ss64.com/mdfind.html",
+      "url": "https://ss64.com/mac/mdfind.html",
       "options": {
         "sub": "Spotlight search"
       },
@@ -1298,7 +1298,7 @@
     },
     "mdimport": {
       "text": "mdimport",
-      "url": "https://ss64.com/mdimport.html",
+      "url": "https://ss64.com/mac/mdimport.html",
       "options": {
         "sub": "Import file hierarchies into the Spotlight datastore."
       },
@@ -1306,7 +1306,7 @@
     },
     "mdls": {
       "text": "mdls",
-      "url": "https://ss64.com/mdls.html",
+      "url": "https://ss64.com/mac/mdls.html",
       "options": {
         "sub": "List the metadata attributes for a specified file"
       },
@@ -1314,7 +1314,7 @@
     },
     "mdutil": {
       "text": "mdutil",
-      "url": "https://ss64.com/mdutil.html",
+      "url": "https://ss64.com/mac/mdutil.html",
       "options": {
         "sub": "Manage Spotlight metadata store"
       },
@@ -1322,7 +1322,7 @@
     },
     "mkdir": {
       "text": "mkdir",
-      "url": "https://ss64.com/mkdir.html",
+      "url": "https://ss64.com/mac/mkdir.html",
       "options": {
         "sub": "Create new folder(s)"
       },
@@ -1330,7 +1330,7 @@
     },
     "mkfifo": {
       "text": "mkfifo",
-      "url": "https://ss64.com/mkfifo.html",
+      "url": "https://ss64.com/mac/mkfifo.html",
       "options": {
         "sub": "Make FIFOs (named pipes)"
       },
@@ -1338,7 +1338,7 @@
     },
     "mkfile": {
       "text": "mkfile",
-      "url": "https://ss64.com/mkfile.html",
+      "url": "https://ss64.com/mac/mkfile.html",
       "options": {
         "sub": "Make a file"
       },
@@ -1346,7 +1346,7 @@
     },
     "mktemp": {
       "text": "mktemp",
-      "url": "https://ss64.com/mktemp.html",
+      "url": "https://ss64.com/mac/mktemp.html",
       "options": {
         "sub": "Make a temporary file"
       },
@@ -1354,7 +1354,7 @@
     },
     "more": {
       "text": "more",
-      "url": "https://ss64.com/more.html",
+      "url": "https://ss64.com/mac/more.html",
       "options": {
         "sub": "Display output one screen at a time"
       },
@@ -1362,7 +1362,7 @@
     },
     "mount": {
       "text": "mount",
-      "url": "https://ss64.com/mount.html",
+      "url": "https://ss64.com/mac/mount.html",
       "options": {
         "sub": "Mount a file system"
       },
@@ -1370,7 +1370,7 @@
     },
     "msgs": {
       "text": "msgs",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/mac/",
       "options": {
         "sub": "System messages"
       },
@@ -1378,7 +1378,7 @@
     },
     "mtree": {
       "text": "mtree",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/mac/",
       "options": {
         "sub": "Map a directory hierarchy"
       },
@@ -1386,7 +1386,7 @@
     },
     "mv": {
       "text": "mv",
-      "url": "https://ss64.com/mv.html",
+      "url": "https://ss64.com/mac/mv.html",
       "options": {
         "sub": "Move or rename files or directories"
       },
@@ -1394,7 +1394,7 @@
     },
     "nano": {
       "text": "nano",
-      "url": "https://ss64.com/nano.html",
+      "url": "https://ss64.com/mac/nano.html",
       "options": {
         "sub": "Simple text editor"
       },
@@ -1402,7 +1402,7 @@
     },
     "nc/netcat": {
       "text": "nc/netcat",
-      "url": "https://ss64.com/nc.html",
+      "url": "https://ss64.com/mac/nc.html",
       "options": {
         "sub": "Read and write data across networks"
       },
@@ -1410,7 +1410,7 @@
     },
     "net": {
       "text": "net",
-      "url": "https://ss64.com/net.html",
+      "url": "https://ss64.com/mac/net.html",
       "options": {
         "sub": "Manage network resources"
       },
@@ -1418,7 +1418,7 @@
     },
     "netstat": {
       "text": "netstat",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/mac/",
       "options": {
         "sub": "Show network status"
       },
@@ -1426,7 +1426,7 @@
     },
     "networkQuality": {
       "text": "networkQuality",
-      "url": "https://ss64.com/networkquality.html",
+      "url": "https://ss64.com/mac/networkquality.html",
       "options": {
         "sub": "Network quality testing tool"
       },
@@ -1434,7 +1434,7 @@
     },
     "networksetup": {
       "text": "networksetup",
-      "url": "https://ss64.com/networksetup.html",
+      "url": "https://ss64.com/mac/networksetup.html",
       "options": {
         "sub": "Network and System Preferences"
       },
@@ -1442,7 +1442,7 @@
     },
     "nice": {
       "text": "nice",
-      "url": "https://ss64.com/nice.html",
+      "url": "https://ss64.com/mac/nice.html",
       "options": {
         "sub": "Set the priority of a command"
       },
@@ -1450,7 +1450,7 @@
     },
     "nl": {
       "text": "nl",
-      "url": "https://ss64.com/nl.html",
+      "url": "https://ss64.com/mac/nl.html",
       "options": {
         "sub": "Number lines and write files"
       },
@@ -1458,7 +1458,7 @@
     },
     "nohup": {
       "text": "nohup",
-      "url": "https://ss64.com/nohup.html",
+      "url": "https://ss64.com/mac/nohup.html",
       "options": {
         "sub": "Run a command immune to hangups"
       },
@@ -1466,7 +1466,7 @@
     },
     "ntfs.util": {
       "text": "ntfs.util",
-      "url": "https://ss64.com/ntfs-util.html",
+      "url": "https://ss64.com/mac/ntfs-util.html",
       "options": {
         "sub": "NTFS file system utility"
       },
@@ -1474,7 +1474,7 @@
     },
     "nvram": {
       "text": "nvram",
-      "url": "https://ss64.com/nvram.html",
+      "url": "https://ss64.com/mac/nvram.html",
       "options": {
         "sub": "Manipulate  firmware variables"
       },
@@ -1482,7 +1482,7 @@
     },
     "onintr": {
       "text": "onintr",
-      "url": "https://ss64.com/onintr.html",
+      "url": "https://ss64.com/mac/onintr.html",
       "options": {
         "sub": "Control the action of a shell interrupt"
       },
@@ -1490,7 +1490,7 @@
     },
     "open": {
       "text": "open",
-      "url": "https://ss64.com/open.html",
+      "url": "https://ss64.com/mac/open.html",
       "options": {
         "sub": "Open a file/folder/URL/Application"
       },
@@ -1498,7 +1498,7 @@
     },
     "opensnoop": {
       "text": "opensnoop",
-      "url": "https://ss64.com/opensnoop.html",
+      "url": "https://ss64.com/mac/opensnoop.html",
       "options": {
         "sub": "Snoop file opens as they occur"
       },
@@ -1506,7 +1506,7 @@
     },
     "openssl": {
       "text": "openssl",
-      "url": "https://ss64.com/openssl.html",
+      "url": "https://ss64.com/mac/openssl.html",
       "options": {
         "sub": "OpenSSL command line"
       },
@@ -1514,7 +1514,7 @@
     },
     "osacompile": {
       "text": "osacompile",
-      "url": "https://ss64.com/osacompile.html",
+      "url": "https://ss64.com/mac/osacompile.html",
       "options": {
         "sub": "Compile AppleScript"
       },
@@ -1522,7 +1522,7 @@
     },
     "osascript": {
       "text": "osascript",
-      "url": "https://ss64.com/osascript.html",
+      "url": "https://ss64.com/mac/osascript.html",
       "options": {
         "sub": "Execute AppleScript"
       },
@@ -1530,7 +1530,7 @@
     },
     "passwd": {
       "text": "passwd",
-      "url": "https://ss64.com/passwd.html",
+      "url": "https://ss64.com/mac/passwd.html",
       "options": {
         "sub": "Modify a user password"
       },
@@ -1538,7 +1538,7 @@
     },
     "paste": {
       "text": "paste",
-      "url": "https://ss64.com/paste.html",
+      "url": "https://ss64.com/mac/paste.html",
       "options": {
         "sub": "Merge lines of files"
       },
@@ -1546,7 +1546,7 @@
     },
     "pbcopy": {
       "text": "pbcopy",
-      "url": "https://ss64.com/pbcopy.html",
+      "url": "https://ss64.com/mac/pbcopy.html",
       "options": {
         "sub": "Copy data to the clipboard"
       },
@@ -1554,7 +1554,7 @@
     },
     "pbpaste": {
       "text": "pbpaste",
-      "url": "https://ss64.com/pbpaste.html",
+      "url": "https://ss64.com/mac/pbpaste.html",
       "options": {
         "sub": "Paste data from the Clipboard"
       },
@@ -1562,7 +1562,7 @@
     },
     "pbs": {
       "text": "pbs",
-      "url": "https://ss64.com/pbs.html",
+      "url": "https://ss64.com/mac/pbs.html",
       "options": {
         "sub": "General helper tool"
       },
@@ -1570,7 +1570,7 @@
     },
     "pdisk": {
       "text": "pdisk",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/mac/",
       "options": {
         "sub": "Apple partition table editor"
       },
@@ -1578,7 +1578,7 @@
     },
     "pfctl": {
       "text": "pfctl",
-      "url": "https://ss64.com/pfctl.html",
+      "url": "https://ss64.com/mac/pfctl.html",
       "options": {
         "sub": "Firewall - Control the packet filter and NAT device."
       },
@@ -1586,7 +1586,7 @@
     },
     "pgrep": {
       "text": "pgrep",
-      "url": "https://ss64.com/pkill.html",
+      "url": "https://ss64.com/mac/pkill.html",
       "options": {
         "sub": "List processes by a full or partial name"
       },
@@ -1594,7 +1594,7 @@
     },
     "ping": {
       "text": "ping",
-      "url": "https://ss64.com/ping.html",
+      "url": "https://ss64.com/mac/ping.html",
       "options": {
         "sub": "Test a network connection"
       },
@@ -1602,7 +1602,7 @@
     },
     "pkill": {
       "text": "pkill",
-      "url": "https://ss64.com/pkill.html",
+      "url": "https://ss64.com/mac/pkill.html",
       "options": {
         "sub": "Kill processes by a full or partial name"
       },
@@ -1610,7 +1610,7 @@
     },
     "pkgbuild": {
       "text": "pkgbuild",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/mac/",
       "options": {
         "sub": "Build a macOS Installer component package"
       },
@@ -1618,7 +1618,7 @@
     },
     "pkgutil": {
       "text": "pkgutil",
-      "url": "https://ss64.com/pkgutil.html",
+      "url": "https://ss64.com/mac/pkgutil.html",
       "options": {
         "sub": "Query and manipulate installed packages"
       },
@@ -1626,7 +1626,7 @@
     },
     "plutil": {
       "text": "plutil",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/mac/",
       "options": {
         "sub": "Property list utility"
       },
@@ -1634,7 +1634,7 @@
     },
     "pmset": {
       "text": "pmset",
-      "url": "https://ss64.com/pmset.html",
+      "url": "https://ss64.com/mac/pmset.html",
       "options": {
         "sub": "Power Management settings"
       },
@@ -1642,7 +1642,7 @@
     },
     "popd": {
       "text": "popd",
-      "url": "https://ss64.com/popd.html",
+      "url": "https://ss64.com/mac/popd.html",
       "options": {
         "sub": "Restore the previous value of the current directory •"
       },
@@ -1650,7 +1650,7 @@
     },
     "powermetrics": {
       "text": "powermetrics",
-      "url": "https://ss64.com/powermetrics.html",
+      "url": "https://ss64.com/mac/powermetrics.html",
       "options": {
         "sub": "Display CPU and power usage stats"
       },
@@ -1658,7 +1658,7 @@
     },
     "pr": {
       "text": "pr",
-      "url": "https://ss64.com/pr.html",
+      "url": "https://ss64.com/mac/pr.html",
       "options": {
         "sub": "Convert text files for printing"
       },
@@ -1666,7 +1666,7 @@
     },
     "printenv": {
       "text": "printenv",
-      "url": "https://ss64.com/printenv.html",
+      "url": "https://ss64.com/mac/printenv.html",
       "options": {
         "sub": "List environment variables"
       },
@@ -1674,7 +1674,7 @@
     },
     "printf": {
       "text": "printf",
-      "url": "https://ss64.com/printf.html",
+      "url": "https://ss64.com/mac/printf.html",
       "options": {
         "sub": "Format and print data •"
       },
@@ -1682,7 +1682,7 @@
     },
     "profiles": {
       "text": "profiles",
-      "url": "https://ss64.com/profiles.html",
+      "url": "https://ss64.com/mac/profiles.html",
       "options": {
         "sub": "Profiles Tool"
       },
@@ -1690,7 +1690,7 @@
     },
     "ps": {
       "text": "ps",
-      "url": "https://ss64.com/ps.html",
+      "url": "https://ss64.com/mac/ps.html",
       "options": {
         "sub": "Process status"
       },
@@ -1698,7 +1698,7 @@
     },
     "purge": {
       "text": "purge",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/mac/",
       "options": {
         "sub": "Force disk cache to be purged (flushed and emptied)"
       },
@@ -1706,7 +1706,7 @@
     },
     "pushd": {
       "text": "pushd",
-      "url": "https://ss64.com/pushd.html",
+      "url": "https://ss64.com/mac/pushd.html",
       "options": {
         "sub": "Save and then change the current directory"
       },
@@ -1714,7 +1714,7 @@
     },
     "pwd": {
       "text": "pwd",
-      "url": "https://ss64.com/pwd.html",
+      "url": "https://ss64.com/mac/pwd.html",
       "options": {
         "sub": "Print Working Directory •"
       },
@@ -1722,7 +1722,7 @@
     },
     "qlmanage": {
       "text": "qlmanage",
-      "url": "https://ss64.com/qlmanage.html",
+      "url": "https://ss64.com/mac/qlmanage.html",
       "options": {
         "sub": "Quick Look Server debug and management tool"
       },
@@ -1730,7 +1730,7 @@
     },
     "quota": {
       "text": "quota",
-      "url": "https://ss64.com/quota.html",
+      "url": "https://ss64.com/mac/quota.html",
       "options": {
         "sub": "Display disk usage and limits"
       },
@@ -1738,7 +1738,7 @@
     },
     "rcp": {
       "text": "rcp",
-      "url": "https://ss64.com/rcp.html",
+      "url": "https://ss64.com/mac/rcp.html",
       "options": {
         "sub": "Copy files between machines"
       },
@@ -1746,7 +1746,7 @@
     },
     "read": {
       "text": "read",
-      "url": "https://ss64.com/read.html",
+      "url": "https://ss64.com/mac/read.html",
       "options": {
         "sub": "Read one line from standard input •"
       },
@@ -1754,7 +1754,7 @@
     },
     "readonly": {
       "text": "readonly",
-      "url": "https://ss64.com/readonly.html",
+      "url": "https://ss64.com/mac/readonly.html",
       "options": {
         "sub": "Mark a variable or function as read-only •"
       },
@@ -1762,7 +1762,7 @@
     },
     "realpath": {
       "text": "realpath",
-      "url": "https://ss64.com/realpath.html",
+      "url": "https://ss64.com/mac/realpath.html",
       "options": {
         "sub": "Return resolved physical path"
       },
@@ -1770,7 +1770,7 @@
     },
     "reboot": {
       "text": "reboot",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/mac/",
       "options": {
         "sub": "Stop and restart the system"
       },
@@ -1778,7 +1778,7 @@
     },
     "ReportCrash": {
       "text": "ReportCrash",
-      "url": "https://ss64.com/reportcrash.html",
+      "url": "https://ss64.com/mac/reportcrash.html",
       "options": {
         "sub": "Enable/Disable crash reporting"
       },
@@ -1786,7 +1786,7 @@
     },
     "return": {
       "text": "return",
-      "url": "https://ss64.com/return.html",
+      "url": "https://ss64.com/mac/return.html",
       "options": {
         "sub": "Exit a function •"
       },
@@ -1794,7 +1794,7 @@
     },
     "rev": {
       "text": "rev",
-      "url": "https://ss64.com/rev.html",
+      "url": "https://ss64.com/mac/rev.html",
       "options": {
         "sub": "Reverse lines of a file"
       },
@@ -1802,7 +1802,7 @@
     },
     "rm": {
       "text": "rm",
-      "url": "https://ss64.com/rm.html",
+      "url": "https://ss64.com/mac/rm.html",
       "options": {
         "sub": "Remove files"
       },
@@ -1810,7 +1810,7 @@
     },
     "rmdir": {
       "text": "rmdir",
-      "url": "https://ss64.com/rmdir.html",
+      "url": "https://ss64.com/mac/rmdir.html",
       "options": {
         "sub": "Remove folder(s)"
       },
@@ -1818,7 +1818,7 @@
     },
     "rsync": {
       "text": "rsync",
-      "url": "https://ss64.com/rsync.html",
+      "url": "https://ss64.com/mac/rsync.html",
       "options": {
         "sub": "Remote file copy - Sync file tree"
       },
@@ -1826,7 +1826,7 @@
     },
     "say": {
       "text": "say",
-      "url": "https://ss64.com/say.html",
+      "url": "https://ss64.com/mac/say.html",
       "options": {
         "sub": "Convert text to audible speech"
       },
@@ -1834,7 +1834,7 @@
     },
     "screen": {
       "text": "screen",
-      "url": "https://ss64.com/screen.html",
+      "url": "https://ss64.com/mac/screen.html",
       "options": {
         "sub": "Multiplex terminal, run remote shells via ssh"
       },
@@ -1842,7 +1842,7 @@
     },
     "screencapture": {
       "text": "screencapture",
-      "url": "https://ss64.com/screencapture.html",
+      "url": "https://ss64.com/mac/screencapture.html",
       "options": {
         "sub": "Capture screen image to file or disk"
       },
@@ -1850,7 +1850,7 @@
     },
     "scselect": {
       "text": "scselect",
-      "url": "https://ss64.com/scselect.html",
+      "url": "https://ss64.com/mac/scselect.html",
       "options": {
         "sub": "Switch between network locations"
       },
@@ -1858,7 +1858,7 @@
     },
     "scutil": {
       "text": "scutil",
-      "url": "https://ss64.com/scutil.html",
+      "url": "https://ss64.com/mac/scutil.html",
       "options": {
         "sub": "Manage system configuration parameters"
       },
@@ -1866,7 +1866,7 @@
     },
     "sdiff": {
       "text": "sdiff",
-      "url": "https://ss64.com/sdiff.html",
+      "url": "https://ss64.com/mac/sdiff.html",
       "options": {
         "sub": "Merge two files interactively"
       },
@@ -1874,7 +1874,7 @@
     },
     "security": {
       "text": "security",
-      "url": "https://ss64.com/security.html",
+      "url": "https://ss64.com/mac/security.html",
       "options": {
         "sub": "Administer Keychains, keys, certificates and the Security framework"
       },
@@ -1882,7 +1882,7 @@
     },
     "sed": {
       "text": "sed",
-      "url": "https://ss64.com/sed.html",
+      "url": "https://ss64.com/mac/sed.html",
       "options": {
         "sub": "Stream Editor"
       },
@@ -1890,7 +1890,7 @@
     },
     "select": {
       "text": "select",
-      "url": "https://ss64.com/select.html",
+      "url": "https://ss64.com/mac/select.html",
       "options": {
         "sub": "Generate a list of items •"
       },
@@ -1898,7 +1898,7 @@
     },
     "seq": {
       "text": "seq",
-      "url": "https://ss64.com/seq.html",
+      "url": "https://ss64.com/mac/seq.html",
       "options": {
         "sub": "Print numeric sequences"
       },
@@ -1906,7 +1906,7 @@
     },
     "serverinfo": {
       "text": "serverinfo",
-      "url": "https://ss64.com/serverinfo.html",
+      "url": "https://ss64.com/mac/serverinfo.html",
       "options": {
         "sub": "Server information"
       },
@@ -1914,7 +1914,7 @@
     },
     "set": {
       "text": "set",
-      "url": "https://ss64.com/set.html",
+      "url": "https://ss64.com/mac/set.html",
       "options": {
         "sub": "Set a shell variable = value •"
       },
@@ -1922,7 +1922,7 @@
     },
     "setfile": {
       "text": "setfile",
-      "url": "https://ss64.com/setfile.html",
+      "url": "https://ss64.com/mac/setfile.html",
       "options": {
         "sub": "Set attributes of HFS+ files"
       },
@@ -1930,7 +1930,7 @@
     },
     "sharing": {
       "text": "sharing",
-      "url": "https://ss64.com/sharing.html",
+      "url": "https://ss64.com/mac/sharing.html",
       "options": {
         "sub": "Create share points for afp, ftp and smb services"
       },
@@ -1938,7 +1938,7 @@
     },
     "shasum": {
       "text": "shasum",
-      "url": "https://ss64.com/shasum.html",
+      "url": "https://ss64.com/mac/shasum.html",
       "options": {
         "sub": "Print or Check SHA Checksums"
       },
@@ -1946,7 +1946,7 @@
     },
     "shift": {
       "text": "shift",
-      "url": "https://ss64.com/shift.html",
+      "url": "https://ss64.com/mac/shift.html",
       "options": {
         "sub": "Shift positional parameters •"
       },
@@ -1954,7 +1954,7 @@
     },
     "shopt": {
       "text": "shopt",
-      "url": "https://ss64.com/shopt.html",
+      "url": "https://ss64.com/mac/shopt.html",
       "options": {
         "sub": "Set shell options •"
       },
@@ -1962,7 +1962,7 @@
     },
     "shortcuts": {
       "text": "shortcuts",
-      "url": "https://ss64.com/shortcuts.html",
+      "url": "https://ss64.com/mac/shortcuts.html",
       "options": {
         "sub": "Manage macOS shortcuts"
       },
@@ -1970,7 +1970,7 @@
     },
     "shutdown": {
       "text": "shutdown",
-      "url": "https://ss64.com/shutdown.html",
+      "url": "https://ss64.com/mac/shutdown.html",
       "options": {
         "sub": "Shutdown or restart macOS"
       },
@@ -1978,7 +1978,7 @@
     },
     "sips": {
       "text": "sips",
-      "url": "https://ss64.com/sips.html",
+      "url": "https://ss64.com/mac/sips.html",
       "options": {
         "sub": "Scriptable image processing system"
       },
@@ -1986,7 +1986,7 @@
     },
     "sleep": {
       "text": "sleep",
-      "url": "https://ss64.com/sleep.html",
+      "url": "https://ss64.com/mac/sleep.html",
       "options": {
         "sub": "Delay for a specified time"
       },
@@ -1994,7 +1994,7 @@
     },
     "softwareupdate": {
       "text": "softwareupdate",
-      "url": "https://ss64.com/softwareupdate.html",
+      "url": "https://ss64.com/mac/softwareupdate.html",
       "options": {
         "sub": "System software update tool"
       },
@@ -2002,7 +2002,7 @@
     },
     "sort": {
       "text": "sort",
-      "url": "https://ss64.com/sort.html",
+      "url": "https://ss64.com/mac/sort.html",
       "options": {
         "sub": "Sort text files"
       },
@@ -2010,7 +2010,7 @@
     },
     "source": {
       "text": "source",
-      "url": "https://ss64.com/source.html",
+      "url": "https://ss64.com/mac/source.html",
       "options": {
         "sub": "Execute commands from a file •"
       },
@@ -2018,7 +2018,7 @@
     },
     "spctl": {
       "text": "spctl",
-      "url": "https://ss64.com/spctl.html",
+      "url": "https://ss64.com/mac/spctl.html",
       "options": {
         "sub": "Security assessment policy/Gatekeeper"
       },
@@ -2026,7 +2026,7 @@
     },
     "split": {
       "text": "split",
-      "url": "https://ss64.com/split.html",
+      "url": "https://ss64.com/mac/split.html",
       "options": {
         "sub": "Split a file into fixed-size pieces"
       },
@@ -2034,7 +2034,7 @@
     },
     "sqlite3": {
       "text": "sqlite3",
-      "url": "https://ss64.com/sqlite3.html",
+      "url": "https://ss64.com/mac/sqlite3.html",
       "options": {
         "sub": "SQL database (download history)"
       },
@@ -2042,7 +2042,7 @@
     },
     "srm": {
       "text": "srm",
-      "url": "https://ss64.com/srm.html",
+      "url": "https://ss64.com/mac/srm.html",
       "options": {
         "sub": "Securely remove files or directories"
       },
@@ -2050,7 +2050,7 @@
     },
     "stat": {
       "text": "stat",
-      "url": "https://ss64.com/stat.html",
+      "url": "https://ss64.com/mac/stat.html",
       "options": {
         "sub": "Display the status of a file"
       },
@@ -2058,7 +2058,7 @@
     },
     "stop": {
       "text": "stop",
-      "url": "https://ss64.com/jobs.html",
+      "url": "https://ss64.com/mac/jobs.html",
       "options": {
         "sub": "Stop a job or process"
       },
@@ -2066,7 +2066,7 @@
     },
     "su": {
       "text": "su",
-      "url": "https://ss64.com/su.html",
+      "url": "https://ss64.com/mac/su.html",
       "options": {
         "sub": "Substitute user identity"
       },
@@ -2074,7 +2074,7 @@
     },
     "sudo": {
       "text": "sudo",
-      "url": "https://ss64.com/sudo.html",
+      "url": "https://ss64.com/mac/sudo.html",
       "options": {
         "sub": "Execute a command as another user"
       },
@@ -2082,7 +2082,7 @@
     },
     "sum": {
       "text": "sum",
-      "url": "https://ss64.com/cksum.html",
+      "url": "https://ss64.com/mac/cksum.html",
       "options": {
         "sub": "Print a checksum for a file"
       },
@@ -2090,7 +2090,7 @@
     },
     "suspend": {
       "text": "suspend",
-      "url": "https://ss64.com/suspend.html",
+      "url": "https://ss64.com/mac/suspend.html",
       "options": {
         "sub": "Suspend execution of this shell •"
       },
@@ -2098,7 +2098,7 @@
     },
     "sw_vers": {
       "text": "sw_vers",
-      "url": "https://ss64.com/sw_vers.html",
+      "url": "https://ss64.com/mac/sw_vers.html",
       "options": {
         "sub": "Print macOS Operating System version"
       },
@@ -2106,7 +2106,7 @@
     },
     "sysctl": {
       "text": "sysctl",
-      "url": "https://ss64.com/sysctl.html",
+      "url": "https://ss64.com/mac/sysctl.html",
       "options": {
         "sub": "Get or set kernel state"
       },
@@ -2114,7 +2114,7 @@
     },
     "system_profiler": {
       "text": "system_profiler",
-      "url": "https://ss64.com/system_profiler.html",
+      "url": "https://ss64.com/mac/system_profiler.html",
       "options": {
         "sub": "Report system configuration"
       },
@@ -2122,7 +2122,7 @@
     },
     "systemsetup": {
       "text": "systemsetup",
-      "url": "https://ss64.com/systemsetup.html",
+      "url": "https://ss64.com/mac/systemsetup.html",
       "options": {
         "sub": "Computer and display system settings"
       },
@@ -2130,7 +2130,7 @@
     },
     "tabs": {
       "text": "tabs",
-      "url": "https://ss64.com/tabs.html",
+      "url": "https://ss64.com/mac/tabs.html",
       "options": {
         "sub": "Set terminal tabs"
       },
@@ -2138,7 +2138,7 @@
     },
     "tab2space": {
       "text": "tab2space",
-      "url": "https://ss64.com/tab2space.html",
+      "url": "https://ss64.com/mac/tab2space.html",
       "options": {
         "sub": "Expand tabs and ensure consistent cr/lf line endings"
       },
@@ -2146,7 +2146,7 @@
     },
     "tail": {
       "text": "tail",
-      "url": "https://ss64.com/tail.html",
+      "url": "https://ss64.com/mac/tail.html",
       "options": {
         "sub": "Output the last part of files"
       },
@@ -2154,7 +2154,7 @@
     },
     "tar": {
       "text": "tar",
-      "url": "https://ss64.com/tar.html",
+      "url": "https://ss64.com/mac/tar.html",
       "options": {
         "sub": "Tape ARchiver"
       },
@@ -2162,7 +2162,7 @@
     },
     "taskpolicy": {
       "text": "taskpolicy",
-      "url": "https://ss64.com/taskpolicy.html",
+      "url": "https://ss64.com/mac/taskpolicy.html",
       "options": {
         "sub": "Execute a program with an altered I/O or scheduling policy"
       },
@@ -2170,7 +2170,7 @@
     },
     "tccutil": {
       "text": "tccutil",
-      "url": "https://ss64.com/tccutil.html",
+      "url": "https://ss64.com/mac/tccutil.html",
       "options": {
         "sub": "Manage the privacy database"
       },
@@ -2178,7 +2178,7 @@
     },
     "tcpdump": {
       "text": "tcpdump",
-      "url": "https://ss64.com/tcpdump.html",
+      "url": "https://ss64.com/mac/tcpdump.html",
       "options": {
         "sub": "Dump traffic on a network"
       },
@@ -2186,7 +2186,7 @@
     },
     "tee": {
       "text": "tee",
-      "url": "https://ss64.com/tee.html",
+      "url": "https://ss64.com/mac/tee.html",
       "options": {
         "sub": "Redirect output to multiple files"
       },
@@ -2194,7 +2194,7 @@
     },
     "test": {
       "text": "test",
-      "url": "https://ss64.com/test.html",
+      "url": "https://ss64.com/mac/test.html",
       "options": {
         "sub": "Condition evaluation •"
       },
@@ -2202,7 +2202,7 @@
     },
     "textutil": {
       "text": "textutil",
-      "url": "https://ss64.com/textutil.html",
+      "url": "https://ss64.com/mac/textutil.html",
       "options": {
         "sub": "Manipulate text files in various formats (Doc,html,rtf)"
       },
@@ -2210,7 +2210,7 @@
     },
     "time": {
       "text": "time",
-      "url": "https://ss64.com/time.html",
+      "url": "https://ss64.com/mac/time.html",
       "options": {
         "sub": "Measure Program Resource Use"
       },
@@ -2218,7 +2218,7 @@
     },
     "times": {
       "text": "times",
-      "url": "https://ss64.com/times.html",
+      "url": "https://ss64.com/mac/times.html",
       "options": {
         "sub": "Print shell & shell process times •"
       },
@@ -2226,7 +2226,7 @@
     },
     "tmutil": {
       "text": "tmutil",
-      "url": "https://ss64.com/tmutil.html",
+      "url": "https://ss64.com/mac/tmutil.html",
       "options": {
         "sub": "Time Machine utility"
       },
@@ -2234,7 +2234,7 @@
     },
     "top": {
       "text": "top",
-      "url": "https://ss64.com/top.html",
+      "url": "https://ss64.com/mac/top.html",
       "options": {
         "sub": "Display process information"
       },
@@ -2242,7 +2242,7 @@
     },
     "touch": {
       "text": "touch",
-      "url": "https://ss64.com/touch.html",
+      "url": "https://ss64.com/mac/touch.html",
       "options": {
         "sub": "Change file timestamps"
       },
@@ -2250,7 +2250,7 @@
     },
     "tput": {
       "text": "tput",
-      "url": "https://ss64.com/tput.html",
+      "url": "https://ss64.com/mac/tput.html",
       "options": {
         "sub": "Set terminal-dependent capabilities, color, position"
       },
@@ -2258,7 +2258,7 @@
     },
     "tr": {
       "text": "tr",
-      "url": "https://ss64.com/tr.html",
+      "url": "https://ss64.com/mac/tr.html",
       "options": {
         "sub": "Translate, squeeze, and/or delete characters"
       },
@@ -2266,7 +2266,7 @@
     },
     "trap": {
       "text": "trap",
-      "url": "https://ss64.com/trap.html",
+      "url": "https://ss64.com/mac/trap.html",
       "options": {
         "sub": "Execute a command when the shell receives a signal •"
       },
@@ -2274,7 +2274,7 @@
     },
     "traceroute": {
       "text": "traceroute",
-      "url": "https://ss64.com/traceroute.html",
+      "url": "https://ss64.com/mac/traceroute.html",
       "options": {
         "sub": "Trace Route to Host"
       },
@@ -2282,7 +2282,7 @@
     },
     "traceroute6": {
       "text": "traceroute6",
-      "url": "https://ss64.com/traceroute6.html",
+      "url": "https://ss64.com/mac/traceroute6.html",
       "options": {
         "sub": "Trace IPv6 Route to Host"
       },
@@ -2290,7 +2290,7 @@
     },
     "trimforce": {
       "text": "trimforce",
-      "url": "https://ss64.com/trimforce.html",
+      "url": "https://ss64.com/mac/trimforce.html",
       "options": {
         "sub": "Enable TRIM commands on third-party drives"
       },
@@ -2298,7 +2298,7 @@
     },
     "true": {
       "text": "true",
-      "url": "https://ss64.com/true.html",
+      "url": "https://ss64.com/mac/true.html",
       "options": {
         "sub": "Do nothing, successfully"
       },
@@ -2306,7 +2306,7 @@
     },
     "tty": {
       "text": "tty",
-      "url": "https://ss64.com/tty.html",
+      "url": "https://ss64.com/mac/tty.html",
       "options": {
         "sub": "Print filename of terminal on stdin"
       },
@@ -2314,7 +2314,7 @@
     },
     "type": {
       "text": "type",
-      "url": "https://ss64.com/type.html",
+      "url": "https://ss64.com/mac/type.html",
       "options": {
         "sub": "Describe a command •"
       },
@@ -2322,7 +2322,7 @@
     },
     "ufs.util": {
       "text": "ufs.util",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/mac/",
       "options": {
         "sub": "Mount/unmount UFS file system"
       },
@@ -2330,7 +2330,7 @@
     },
     "ulimit": {
       "text": "ulimit",
-      "url": "https://ss64.com/ulimit.html",
+      "url": "https://ss64.com/mac/ulimit.html",
       "options": {
         "sub": "limit the use of system-wide resources •"
       },
@@ -2338,7 +2338,7 @@
     },
     "umask": {
       "text": "umask",
-      "url": "https://ss64.com/umask.html",
+      "url": "https://ss64.com/mac/umask.html",
       "options": {
         "sub": "Users file creation mask"
       },
@@ -2346,7 +2346,7 @@
     },
     "umount": {
       "text": "umount",
-      "url": "https://ss64.com/umount.html",
+      "url": "https://ss64.com/mac/umount.html",
       "options": {
         "sub": "Unmount a device"
       },
@@ -2354,7 +2354,7 @@
     },
     "unalias": {
       "text": "unalias",
-      "url": "https://ss64.com/alias.html",
+      "url": "https://ss64.com/mac/alias.html",
       "options": {
         "sub": "Remove an alias •"
       },
@@ -2362,7 +2362,7 @@
     },
     "uname": {
       "text": "uname",
-      "url": "https://ss64.com/uname.html",
+      "url": "https://ss64.com/mac/uname.html",
       "options": {
         "sub": "Print the Darwin OS Kernel version / release / machine name"
       },
@@ -2370,7 +2370,7 @@
     },
     "unexpand": {
       "text": "unexpand",
-      "url": "https://ss64.com/expand.html",
+      "url": "https://ss64.com/mac/expand.html",
       "options": {
         "sub": "Convert spaces to tabs"
       },
@@ -2378,7 +2378,7 @@
     },
     "uniq": {
       "text": "uniq",
-      "url": "https://ss64.com/uniq.html",
+      "url": "https://ss64.com/mac/uniq.html",
       "options": {
         "sub": "Uniquify files"
       },
@@ -2386,7 +2386,7 @@
     },
     "units": {
       "text": "units",
-      "url": "https://ss64.com/units.html",
+      "url": "https://ss64.com/mac/units.html",
       "options": {
         "sub": "Convert units from one scale to another"
       },
@@ -2394,7 +2394,7 @@
     },
     "unset": {
       "text": "unset",
-      "url": "https://ss64.com/unset.html",
+      "url": "https://ss64.com/mac/unset.html",
       "options": {
         "sub": "Remove variable or function names •"
       },
@@ -2402,7 +2402,7 @@
     },
     "until": {
       "text": "until",
-      "url": "https://ss64.com/until.html",
+      "url": "https://ss64.com/mac/until.html",
       "options": {
         "sub": "Execute commands (until error)"
       },
@@ -2410,7 +2410,7 @@
     },
     "uptime": {
       "text": "uptime",
-      "url": "https://ss64.com/uptime.html",
+      "url": "https://ss64.com/mac/uptime.html",
       "options": {
         "sub": "Show how long system has been running"
       },
@@ -2418,7 +2418,7 @@
     },
     "users": {
       "text": "users",
-      "url": "https://ss64.com/users.html",
+      "url": "https://ss64.com/mac/users.html",
       "options": {
         "sub": "Print login names of users currently logged in"
       },
@@ -2426,7 +2426,7 @@
     },
     "uuencode": {
       "text": "uuencode",
-      "url": "https://ss64.com/uuencode.html",
+      "url": "https://ss64.com/mac/uuencode.html",
       "options": {
         "sub": "Encode a binary file"
       },
@@ -2434,7 +2434,7 @@
     },
     "uudecode": {
       "text": "uudecode",
-      "url": "https://ss64.com/uuencode.html",
+      "url": "https://ss64.com/mac/uuencode.html",
       "options": {
         "sub": "Decode a file created by uuencode"
       },
@@ -2442,7 +2442,7 @@
     },
     "uuidgen": {
       "text": "uuidgen",
-      "url": "https://ss64.com/uuidgen.html",
+      "url": "https://ss64.com/mac/uuidgen.html",
       "options": {
         "sub": "Generate a Unique ID (UUID/GUID)"
       },
@@ -2450,7 +2450,7 @@
     },
     "uucp": {
       "text": "uucp",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/mac/",
       "options": {
         "sub": "Unix to Unix copy"
       },
@@ -2458,7 +2458,7 @@
     },
     "vi": {
       "text": "vi",
-      "url": "https://ss64.com/../vi.html",
+      "url": "https://ss64.com/mac/../vi.html",
       "options": {
         "sub": "Text Editor"
       },
@@ -2466,7 +2466,7 @@
     },
     "w": {
       "text": "w",
-      "url": "https://ss64.com/w.html",
+      "url": "https://ss64.com/mac/w.html",
       "options": {
         "sub": "Show who is logged on and what they are doing"
       },
@@ -2474,7 +2474,7 @@
     },
     "wait": {
       "text": "wait",
-      "url": "https://ss64.com/wait.html",
+      "url": "https://ss64.com/mac/wait.html",
       "options": {
         "sub": "Wait for a process to complete •"
       },
@@ -2482,7 +2482,7 @@
     },
     "wait4path": {
       "text": "wait4path",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/mac/",
       "options": {
         "sub": "Wait for given path to show up in the namespace"
       },
@@ -2490,7 +2490,7 @@
     },
     "wall": {
       "text": "wall",
-      "url": "https://ss64.com/wall.html",
+      "url": "https://ss64.com/mac/wall.html",
       "options": {
         "sub": "Write a message to users"
       },
@@ -2498,7 +2498,7 @@
     },
     "wc": {
       "text": "wc",
-      "url": "https://ss64.com/wc.html",
+      "url": "https://ss64.com/mac/wc.html",
       "options": {
         "sub": "Print byte, word, and line counts"
       },
@@ -2506,7 +2506,7 @@
     },
     "wdutil": {
       "text": "wdutil",
-      "url": "https://ss64.com/wdutil.html",
+      "url": "https://ss64.com/mac/wdutil.html",
       "options": {
         "sub": "Wireless Diagnostics command line utility"
       },
@@ -2514,7 +2514,7 @@
     },
     "whatis": {
       "text": "whatis",
-      "url": "https://ss64.com/whatis.html",
+      "url": "https://ss64.com/mac/whatis.html",
       "options": {
         "sub": "Search the whatis database for complete words"
       },
@@ -2522,7 +2522,7 @@
     },
     "whereis": {
       "text": "whereis",
-      "url": "https://ss64.com/whereis.html",
+      "url": "https://ss64.com/mac/whereis.html",
       "options": {
         "sub": "Locate a program"
       },
@@ -2530,7 +2530,7 @@
     },
     "which": {
       "text": "which",
-      "url": "https://ss64.com/which.html",
+      "url": "https://ss64.com/mac/which.html",
       "options": {
         "sub": "Locate a program file in the user’s path"
       },
@@ -2538,7 +2538,7 @@
     },
     "while": {
       "text": "while",
-      "url": "https://ss64.com/while.html",
+      "url": "https://ss64.com/mac/while.html",
       "options": {
         "sub": "Loop command •"
       },
@@ -2546,7 +2546,7 @@
     },
     "who": {
       "text": "who",
-      "url": "https://ss64.com/who.html",
+      "url": "https://ss64.com/mac/who.html",
       "options": {
         "sub": "Print all usernames currently logged on"
       },
@@ -2554,7 +2554,7 @@
     },
     "whoami": {
       "text": "whoami",
-      "url": "https://ss64.com/id.html",
+      "url": "https://ss64.com/mac/id.html",
       "options": {
         "sub": "Print the current user id and name ('id -un')"
       },
@@ -2562,7 +2562,7 @@
     },
     "write": {
       "text": "write",
-      "url": "https://ss64.com/write.html",
+      "url": "https://ss64.com/mac/write.html",
       "options": {
         "sub": "Send a message to another user"
       },
@@ -2570,7 +2570,7 @@
     },
     "xargs": {
       "text": "xargs",
-      "url": "https://ss64.com/xargs.html",
+      "url": "https://ss64.com/mac/xargs.html",
       "options": {
         "sub": "Execute utility - passing arguments"
       },
@@ -2578,7 +2578,7 @@
     },
     "xattr": {
       "text": "xattr",
-      "url": "https://ss64.com/xattr.html",
+      "url": "https://ss64.com/mac/xattr.html",
       "options": {
         "sub": "Display and manipulate extended attributes"
       },
@@ -2586,7 +2586,7 @@
     },
     "xcode-select": {
       "text": "xcode-select",
-      "url": "https://ss64.com/xcode-select.html",
+      "url": "https://ss64.com/mac/xcode-select.html",
       "options": {
         "sub": "Install the command line developer tools"
       },
@@ -2594,7 +2594,7 @@
     },
     "xcrun": {
       "text": "xcrun",
-      "url": "https://ss64.com/xcrun.html",
+      "url": "https://ss64.com/mac/xcrun.html",
       "options": {
         "sub": "Run or locate development tools and properties"
       },
@@ -2602,7 +2602,7 @@
     },
     "xxd": {
       "text": "xxd",
-      "url": "https://ss64.com/xxd.html",
+      "url": "https://ss64.com/mac/xxd.html",
       "options": {
         "sub": "Make a hexdump or do the reverse"
       },
@@ -2610,7 +2610,7 @@
     },
     "yes": {
       "text": "yes",
-      "url": "https://ss64.com/yes.html",
+      "url": "https://ss64.com/mac/yes.html",
       "options": {
         "sub": "Print a string until interrupted"
       },
@@ -2618,7 +2618,7 @@
     },
     "zip": {
       "text": "zip",
-      "url": "https://ss64.com/zip.html",
+      "url": "https://ss64.com/mac/zip.html",
       "options": {
         "sub": "Package and compress (archive) files"
       },
@@ -2626,7 +2626,7 @@
     },
     "!!": {
       "text": "!!",
-      "url": "https://ss64.com/bang.html",
+      "url": "https://ss64.com/mac/bang.html",
       "options": {
         "sub": "Run the last command again"
       },
@@ -2634,7 +2634,7 @@
     },
     "#": {
       "text": "#",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/mac/",
       "options": {
         "sub": "Comment / Remark"
       },

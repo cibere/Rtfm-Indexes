@@ -2,7 +2,7 @@
   "cache": {
     "%": {
       "text": "%",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/ps/",
       "options": {
         "sub": "Alias for ForEach-Object."
       },
@@ -10,7 +10,7 @@
     },
     "?": {
       "text": "?",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/ps/",
       "options": {
         "sub": "Alias for Where-Object."
       },
@@ -18,7 +18,7 @@
     },
     "Get-Acl": {
       "text": "Get-Acl",
-      "url": "https://ss64.com/get-acl.html",
+      "url": "https://ss64.com/ps/get-acl.html",
       "options": {
         "sub": "Get permission settings for a file or registry key."
       },
@@ -26,7 +26,7 @@
     },
     "Set-Acl": {
       "text": "Set-Acl",
-      "url": "https://ss64.com/set-acl.html",
+      "url": "https://ss64.com/ps/set-acl.html",
       "options": {
         "sub": "Set permissions."
       },
@@ -34,7 +34,7 @@
     },
     "Active Directory": {
       "text": "Active Directory",
-      "url": "https://ss64.com/ad.html",
+      "url": "https://ss64.com/ps/ad.html",
       "options": {
         "sub": "Account, Computer, Group and User cmdlets."
       },
@@ -42,7 +42,7 @@
     },
     "Get-Alias": {
       "text": "Get-Alias",
-      "url": "https://ss64.com/get-alias.html",
+      "url": "https://ss64.com/ps/get-alias.html",
       "options": {
         "sub": "Return alias names for Cmdlets."
       },
@@ -50,7 +50,7 @@
     },
     "gal": {
       "text": "gal",
-      "url": "https://ss64.com/get-alias.html",
+      "url": "https://ss64.com/ps/get-alias.html",
       "options": {
         "sub": "Alias of: Get-Alias | Return alias names for Cmdlets."
       },
@@ -58,7 +58,7 @@
     },
     "Export-Alias": {
       "text": "Export-Alias",
-      "url": "https://ss64.com/export-alias.html",
+      "url": "https://ss64.com/ps/export-alias.html",
       "options": {
         "sub": "Export currently defined aliases to a file."
       },
@@ -66,7 +66,7 @@
     },
     "epal": {
       "text": "epal",
-      "url": "https://ss64.com/export-alias.html",
+      "url": "https://ss64.com/ps/export-alias.html",
       "options": {
         "sub": "Alias of: Export-Alias | Export currently defined aliases to a file."
       },
@@ -74,7 +74,7 @@
     },
     "Import-Alias": {
       "text": "Import-Alias",
-      "url": "https://ss64.com/import-alias.html",
+      "url": "https://ss64.com/ps/import-alias.html",
       "options": {
         "sub": "Import an alias list from a file."
       },
@@ -82,7 +82,7 @@
     },
     "ipal": {
       "text": "ipal",
-      "url": "https://ss64.com/import-alias.html",
+      "url": "https://ss64.com/ps/import-alias.html",
       "options": {
         "sub": "Alias of: Import-Alias | Import an alias list from a file."
       },
@@ -90,7 +90,7 @@
     },
     "New-Alias": {
       "text": "New-Alias",
-      "url": "https://ss64.com/new-alias.html",
+      "url": "https://ss64.com/ps/new-alias.html",
       "options": {
         "sub": "Create a new alias."
       },
@@ -98,7 +98,7 @@
     },
     "nal": {
       "text": "nal",
-      "url": "https://ss64.com/new-alias.html",
+      "url": "https://ss64.com/ps/new-alias.html",
       "options": {
         "sub": "Alias of: New-Alias | Create a new alias."
       },
@@ -106,7 +106,7 @@
     },
     "Set-Alias": {
       "text": "Set-Alias",
-      "url": "https://ss64.com/set-alias.html",
+      "url": "https://ss64.com/ps/set-alias.html",
       "options": {
         "sub": "Create or change an alias."
       },
@@ -114,7 +114,7 @@
     },
     "sal": {
       "text": "sal",
-      "url": "https://ss64.com/set-alias.html",
+      "url": "https://ss64.com/ps/set-alias.html",
       "options": {
         "sub": "Alias of: Set-Alias | Create or change an alias."
       },
@@ -122,7 +122,7 @@
     },
     "Get-AppvClientPackage": {
       "text": "Get-AppvClientPackage",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/ps/",
       "options": {
         "sub": "Return App-V Client Packages."
       },
@@ -130,7 +130,7 @@
     },
     "Get-AppxPackage": {
       "text": "Get-AppxPackage",
-      "url": "https://ss64.com/get-appxpackage.html",
+      "url": "https://ss64.com/ps/get-appxpackage.html",
       "options": {
         "sub": "List the app packages installed in a user profile."
       },
@@ -138,7 +138,7 @@
     },
     "Remove-AppxPackage": {
       "text": "Remove-AppxPackage",
-      "url": "https://ss64.com/remove-appxpackage.html",
+      "url": "https://ss64.com/ps/remove-appxpackage.html",
       "options": {
         "sub": "Remove an app package from a user account."
       },
@@ -146,7 +146,7 @@
     },
     "Add-AppxProvisionedPackage": {
       "text": "Add-AppxProvisionedPackage",
-      "url": "https://ss64.com/add-appxprovisionedpackage.html",
+      "url": "https://ss64.com/ps/add-appxprovisionedpackage.html",
       "options": {
         "sub": "Add an appx package to a Windows image (will install for each new user)."
       },
@@ -154,7 +154,7 @@
     },
     "Get-AppxProvisionedPackage": {
       "text": "Get-AppxProvisionedPackage",
-      "url": "https://ss64.com/get-appxprovisionedpackage.html",
+      "url": "https://ss64.com/ps/get-appxprovisionedpackage.html",
       "options": {
         "sub": "Get information about appx packages in an image via DISM."
       },
@@ -162,7 +162,7 @@
     },
     "Remove-AppxProvisionedPackage": {
       "text": "Remove-AppxProvisionedPackage",
-      "url": "https://ss64.com/remove-appxprovisionedpackage.html",
+      "url": "https://ss64.com/ps/remove-appxprovisionedpackage.html",
       "options": {
         "sub": "Remove an appx package from a Windows image."
       },
@@ -170,7 +170,7 @@
     },
     "Compress-Archive": {
       "text": "Compress-Archive",
-      "url": "https://ss64.com/compress-archive.html",
+      "url": "https://ss64.com/ps/compress-archive.html",
       "options": {
         "sub": "Create a new archive/zipped file. [PS 5+]"
       },
@@ -178,7 +178,7 @@
     },
     "Expand-Archive": {
       "text": "Expand-Archive",
-      "url": "https://ss64.com/expand-archive.html",
+      "url": "https://ss64.com/ps/expand-archive.html",
       "options": {
         "sub": "Extract files from an archive (zipped) file [PS 5+]"
       },
@@ -186,7 +186,7 @@
     },
     "Get-AuthenticodeSignature": {
       "text": "Get-AuthenticodeSignature",
-      "url": "https://ss64.com/get-authenticodesignature.html",
+      "url": "https://ss64.com/ps/get-authenticodesignature.html",
       "options": {
         "sub": "Get the signature object associated with a file."
       },
@@ -194,7 +194,7 @@
     },
     "Set-AuthenticodeSignature": {
       "text": "Set-AuthenticodeSignature",
-      "url": "https://ss64.com/set-authenticodesignature.html",
+      "url": "https://ss64.com/ps/set-authenticodesignature.html",
       "options": {
         "sub": "Place a signature in a .ps1 script or other file."
       },
@@ -202,7 +202,7 @@
     },
     "Backup-GPO": {
       "text": "Backup-GPO",
-      "url": "https://ss64.com/backup-gpo.html",
+      "url": "https://ss64.com/ps/backup-gpo.html",
       "options": {
         "sub": "Backup group policy objects (GPOs)."
       },
@@ -210,7 +210,7 @@
     },
     "Begin": {
       "text": "Begin",
-      "url": "https://ss64.com/syntax-function-input.html",
+      "url": "https://ss64.com/ps/syntax-function-input.html",
       "options": {
         "sub": "Function BEGIN block."
       },
@@ -218,7 +218,7 @@
     },
     "BITS": {
       "text": "BITS",
-      "url": "https://ss64.com/bits.html",
+      "url": "https://ss64.com/ps/bits.html",
       "options": {
         "sub": "Background Intelligent Transfer Service cmdlets."
       },
@@ -226,7 +226,7 @@
     },
     "Enable-BitLocker": {
       "text": "Enable-BitLocker",
-      "url": "https://ss64.com/enable-bitlocker.html",
+      "url": "https://ss64.com/ps/enable-bitlocker.html",
       "options": {
         "sub": "Enable encryption for a BitLocker volume."
       },
@@ -234,7 +234,7 @@
     },
     "Enable-BitLockerAutoUnlock": {
       "text": "Enable-BitLockerAutoUnlock",
-      "url": "https://ss64.com/enable-bitlockerautounlock.html",
+      "url": "https://ss64.com/ps/enable-bitlockerautounlock.html",
       "options": {
         "sub": "Enable automatic unlocking for a BitLocker volume."
       },
@@ -242,7 +242,7 @@
     },
     "Disable-BitLocker": {
       "text": "Disable-BitLocker",
-      "url": "https://ss64.com/disable-bitlocker.html",
+      "url": "https://ss64.com/ps/disable-bitlocker.html",
       "options": {
         "sub": "Disable encryption for a BitLocker volume."
       },
@@ -250,7 +250,7 @@
     },
     "Resume-Bitlocker": {
       "text": "Resume-Bitlocker",
-      "url": "https://ss64.com/resume-bitlocker.html",
+      "url": "https://ss64.com/ps/resume-bitlocker.html",
       "options": {
         "sub": "Resume Bitlocker encryption for the specified volume."
       },
@@ -258,7 +258,7 @@
     },
     "Suspend-BitLocker": {
       "text": "Suspend-BitLocker",
-      "url": "https://ss64.com/suspend-bitlocker.html",
+      "url": "https://ss64.com/ps/suspend-bitlocker.html",
       "options": {
         "sub": "Suspend Bitlocker encryption for the specified volume."
       },
@@ -266,7 +266,7 @@
     },
     "Add-BitLockerKeyProtector": {
       "text": "Add-BitLockerKeyProtector",
-      "url": "https://ss64.com/add-bitlockerkeyprotector.html",
+      "url": "https://ss64.com/ps/add-bitlockerkeyprotector.html",
       "options": {
         "sub": "Add a key protector for a BitLocker volume."
       },
@@ -274,7 +274,7 @@
     },
     "Remove-BitLockerKeyProtector": {
       "text": "Remove-BitLockerKeyProtector",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/ps/",
       "options": {
         "sub": "Remove a key protector from a BitLocker volume."
       },
@@ -282,7 +282,7 @@
     },
     "Get-BitLockerVolume": {
       "text": "Get-BitLockerVolume",
-      "url": "https://ss64.com/get-bitlockervolume.html",
+      "url": "https://ss64.com/ps/get-bitlockervolume.html",
       "options": {
         "sub": "Get information about volumes BitLocker can protect."
       },
@@ -290,7 +290,7 @@
     },
     "Break": {
       "text": "Break",
-      "url": "https://ss64.com/break.html",
+      "url": "https://ss64.com/ps/break.html",
       "options": {
         "sub": "Exit a program loop."
       },
@@ -298,7 +298,7 @@
     },
     "Catch": {
       "text": "Catch",
-      "url": "https://ss64.com/try.html",
+      "url": "https://ss64.com/ps/try.html",
       "options": {
         "sub": "Handle a terminating error within a scriptblock."
       },
@@ -306,7 +306,7 @@
     },
     "Export-Certificate": {
       "text": "Export-Certificate",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/ps/",
       "options": {
         "sub": "Export a certificate from a certificate store into a file."
       },
@@ -314,7 +314,7 @@
     },
     "Get-Certificate": {
       "text": "Get-Certificate",
-      "url": "https://ss64.com/get-certificate.html",
+      "url": "https://ss64.com/ps/get-certificate.html",
       "options": {
         "sub": "Submit/retrieve a certificate request to an enrollment server and install."
       },
@@ -322,7 +322,7 @@
     },
     "Import-Certificate": {
       "text": "Import-Certificate",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/ps/",
       "options": {
         "sub": "Import one or more certificates into a certificate store."
       },
@@ -330,7 +330,7 @@
     },
     "Set-Location": {
       "text": "Set-Location",
-      "url": "https://ss64.com/set-location.html",
+      "url": "https://ss64.com/ps/set-location.html",
       "options": {
         "sub": "Set the current working location."
       },
@@ -338,7 +338,7 @@
     },
     "cd": {
       "text": "cd",
-      "url": "https://ss64.com/set-location.html",
+      "url": "https://ss64.com/ps/set-location.html",
       "options": {
         "sub": "Alias of: Set-Location | Set the current working location."
       },
@@ -346,7 +346,7 @@
     },
     "chdir": {
       "text": "chdir",
-      "url": "https://ss64.com/set-location.html",
+      "url": "https://ss64.com/ps/set-location.html",
       "options": {
         "sub": "Alias of: Set-Location | Set the current working location."
       },
@@ -354,7 +354,7 @@
     },
     "sl": {
       "text": "sl",
-      "url": "https://ss64.com/set-location.html",
+      "url": "https://ss64.com/ps/set-location.html",
       "options": {
         "sub": "Alias of: Set-Location | Set the current working location."
       },
@@ -362,7 +362,7 @@
     },
     "Get-ChildItem": {
       "text": "Get-ChildItem",
-      "url": "https://ss64.com/get-childitem.html",
+      "url": "https://ss64.com/ps/get-childitem.html",
       "options": {
         "sub": "Get child items (contents of a folder or registry key)."
       },
@@ -370,7 +370,7 @@
     },
     "dir": {
       "text": "dir",
-      "url": "https://ss64.com/get-childitem.html",
+      "url": "https://ss64.com/ps/get-childitem.html",
       "options": {
         "sub": "Alias of: Get-ChildItem | Get child items (contents of a folder or registry key)."
       },
@@ -378,7 +378,7 @@
     },
     "ls": {
       "text": "ls",
-      "url": "https://ss64.com/get-childitem.html",
+      "url": "https://ss64.com/ps/get-childitem.html",
       "options": {
         "sub": "Alias of: Get-ChildItem | Get child items (contents of a folder or registry key)."
       },
@@ -386,7 +386,7 @@
     },
     "gci": {
       "text": "gci",
-      "url": "https://ss64.com/get-childitem.html",
+      "url": "https://ss64.com/ps/get-childitem.html",
       "options": {
         "sub": "Alias of: Get-ChildItem | Get child items (contents of a folder or registry key)."
       },
@@ -394,7 +394,7 @@
     },
     "Clear-Host": {
       "text": "Clear-Host",
-      "url": "https://ss64.com/clear-host.html",
+      "url": "https://ss64.com/ps/clear-host.html",
       "options": {
         "sub": "Clear the screen."
       },
@@ -402,7 +402,7 @@
     },
     "clear": {
       "text": "clear",
-      "url": "https://ss64.com/clear-host.html",
+      "url": "https://ss64.com/ps/clear-host.html",
       "options": {
         "sub": "Alias of: Clear-Host | Clear the screen."
       },
@@ -410,7 +410,7 @@
     },
     "cls": {
       "text": "cls",
-      "url": "https://ss64.com/clear-host.html",
+      "url": "https://ss64.com/ps/clear-host.html",
       "options": {
         "sub": "Alias of: Clear-Host | Clear the screen."
       },
@@ -418,7 +418,7 @@
     },
     "Clear-Item": {
       "text": "Clear-Item",
-      "url": "https://ss64.com/clear-item.html",
+      "url": "https://ss64.com/ps/clear-item.html",
       "options": {
         "sub": "Remove content from a variable or an alias."
       },
@@ -426,7 +426,7 @@
     },
     "cli": {
       "text": "cli",
-      "url": "https://ss64.com/clear-item.html",
+      "url": "https://ss64.com/ps/clear-item.html",
       "options": {
         "sub": "Alias of: Clear-Item | Remove content from a variable or an alias."
       },
@@ -434,7 +434,7 @@
     },
     "Get-CimAssociatedInstance": {
       "text": "Get-CimAssociatedInstance",
-      "url": "https://ss64.com/get-cimassociatedinstance.html",
+      "url": "https://ss64.com/ps/get-cimassociatedinstance.html",
       "options": {
         "sub": "Retrieve CIM instance by an association."
       },
@@ -442,7 +442,7 @@
     },
     "Get-CimClass": {
       "text": "Get-CimClass",
-      "url": "https://ss64.com/get-cimclass.html",
+      "url": "https://ss64.com/ps/get-cimclass.html",
       "options": {
         "sub": "Get a list of CIM classes in a specific namespace."
       },
@@ -450,7 +450,7 @@
     },
     "gcls": {
       "text": "gcls",
-      "url": "https://ss64.com/get-cimclass.html",
+      "url": "https://ss64.com/ps/get-cimclass.html",
       "options": {
         "sub": "Alias of: Get-CimClass | Get a list of CIM classes in a specific namespace."
       },
@@ -458,7 +458,7 @@
     },
     "Register-CimIndicationEvent": {
       "text": "Register-CimIndicationEvent",
-      "url": "https://ss64.com/register-cimindicationevent.html",
+      "url": "https://ss64.com/ps/register-cimindicationevent.html",
       "options": {
         "sub": "Subscribe to indications using a filter or query expression."
       },
@@ -466,7 +466,7 @@
     },
     "New-CimInstance": {
       "text": "New-CimInstance",
-      "url": "https://ss64.com/new-ciminstance.html",
+      "url": "https://ss64.com/ps/new-ciminstance.html",
       "options": {
         "sub": "Create a new instance of a class."
       },
@@ -474,7 +474,7 @@
     },
     "ncim": {
       "text": "ncim",
-      "url": "https://ss64.com/new-ciminstance.html",
+      "url": "https://ss64.com/ps/new-ciminstance.html",
       "options": {
         "sub": "Alias of: New-CimInstance | Create a new instance of a class."
       },
@@ -482,7 +482,7 @@
     },
     "Get-CimInstance": {
       "text": "Get-CimInstance",
-      "url": "https://ss64.com/get-ciminstance.html",
+      "url": "https://ss64.com/ps/get-ciminstance.html",
       "options": {
         "sub": "Get a managed resource (storage, network, software etc)."
       },
@@ -490,7 +490,7 @@
     },
     "gcim": {
       "text": "gcim",
-      "url": "https://ss64.com/get-ciminstance.html",
+      "url": "https://ss64.com/ps/get-ciminstance.html",
       "options": {
         "sub": "Alias of: Get-CimInstance | Get a managed resource (storage, network, software etc)."
       },
@@ -498,7 +498,7 @@
     },
     "Remove-CimInstance": {
       "text": "Remove-CimInstance",
-      "url": "https://ss64.com/remove-ciminstance.html",
+      "url": "https://ss64.com/ps/remove-ciminstance.html",
       "options": {
         "sub": "Remove a CIM instance from a computer."
       },
@@ -506,7 +506,7 @@
     },
     "rcim": {
       "text": "rcim",
-      "url": "https://ss64.com/remove-ciminstance.html",
+      "url": "https://ss64.com/ps/remove-ciminstance.html",
       "options": {
         "sub": "Alias of: Remove-CimInstance | Remove a CIM instance from a computer."
       },
@@ -514,7 +514,7 @@
     },
     "Set-CimInstance": {
       "text": "Set-CimInstance",
-      "url": "https://ss64.com/set-ciminstance.html",
+      "url": "https://ss64.com/ps/set-ciminstance.html",
       "options": {
         "sub": "Modify a CIM instance on a CIM server."
       },
@@ -522,7 +522,7 @@
     },
     "scim": {
       "text": "scim",
-      "url": "https://ss64.com/set-ciminstance.html",
+      "url": "https://ss64.com/ps/set-ciminstance.html",
       "options": {
         "sub": "Alias of: Set-CimInstance | Modify a CIM instance on a CIM server."
       },
@@ -530,7 +530,7 @@
     },
     "Invoke-CimMethod": {
       "text": "Invoke-CimMethod",
-      "url": "https://ss64.com/invoke-cimmethod.html",
+      "url": "https://ss64.com/ps/invoke-cimmethod.html",
       "options": {
         "sub": "Invoke a method of a CIM class or CIM instance."
       },
@@ -538,7 +538,7 @@
     },
     "icim": {
       "text": "icim",
-      "url": "https://ss64.com/invoke-cimmethod.html",
+      "url": "https://ss64.com/ps/invoke-cimmethod.html",
       "options": {
         "sub": "Alias of: Invoke-CimMethod | Invoke a method of a CIM class or CIM instance."
       },
@@ -546,7 +546,7 @@
     },
     "Get-CimSession": {
       "text": "Get-CimSession",
-      "url": "https://ss64.com/get-cimsession.html",
+      "url": "https://ss64.com/ps/get-cimsession.html",
       "options": {
         "sub": "Get current CIM session objects."
       },
@@ -554,7 +554,7 @@
     },
     "gcms": {
       "text": "gcms",
-      "url": "https://ss64.com/get-cimsession.html",
+      "url": "https://ss64.com/ps/get-cimsession.html",
       "options": {
         "sub": "Alias of: Get-CimSession | Get current CIM session objects."
       },
@@ -562,7 +562,7 @@
     },
     "New-CimSession": {
       "text": "New-CimSession",
-      "url": "https://ss64.com/new-cimsession.html",
+      "url": "https://ss64.com/ps/new-cimsession.html",
       "options": {
         "sub": "Create a CIM session."
       },
@@ -570,7 +570,7 @@
     },
     "ncms": {
       "text": "ncms",
-      "url": "https://ss64.com/new-cimsession.html",
+      "url": "https://ss64.com/ps/new-cimsession.html",
       "options": {
         "sub": "Alias of: New-CimSession | Create a CIM session."
       },
@@ -578,7 +578,7 @@
     },
     "New-CimSessionOption": {
       "text": "New-CimSessionOption",
-      "url": "https://ss64.com/new-cimsessionoption.html",
+      "url": "https://ss64.com/ps/new-cimsessionoption.html",
       "options": {
         "sub": "Advanced options for New-CimSession."
       },
@@ -586,7 +586,7 @@
     },
     "Remove-CimSession": {
       "text": "Remove-CimSession",
-      "url": "https://ss64.com/remove-cimsession.html",
+      "url": "https://ss64.com/ps/remove-cimsession.html",
       "options": {
         "sub": "Remove one or more CIM session objects."
       },
@@ -594,7 +594,7 @@
     },
     "rcms": {
       "text": "rcms",
-      "url": "https://ss64.com/remove-cimsession.html",
+      "url": "https://ss64.com/ps/remove-cimsession.html",
       "options": {
         "sub": "Alias of: Remove-CimSession | Remove one or more CIM session objects."
       },
@@ -602,7 +602,7 @@
     },
     "Get-Clipboard": {
       "text": "Get-Clipboard",
-      "url": "https://ss64.com/get-clipboard.html",
+      "url": "https://ss64.com/ps/get-clipboard.html",
       "options": {
         "sub": "Get the current Windows clipboard entry."
       },
@@ -610,7 +610,7 @@
     },
     "Set-Clipboard": {
       "text": "Set-Clipboard",
-      "url": "https://ss64.com/set-clipboard.html",
+      "url": "https://ss64.com/ps/set-clipboard.html",
       "options": {
         "sub": "Set the current Windows clipboard entry."
       },
@@ -618,7 +618,7 @@
     },
     "Get-Command": {
       "text": "Get-Command",
-      "url": "https://ss64.com/get-command.html",
+      "url": "https://ss64.com/ps/get-command.html",
       "options": {
         "sub": "Retrieve basic information about a command."
       },
@@ -626,7 +626,7 @@
     },
     "gcm": {
       "text": "gcm",
-      "url": "https://ss64.com/get-command.html",
+      "url": "https://ss64.com/ps/get-command.html",
       "options": {
         "sub": "Alias of: Get-Command | Retrieve basic information about a command."
       },
@@ -634,7 +634,7 @@
     },
     "Invoke-Command": {
       "text": "Invoke-Command",
-      "url": "https://ss64.com/invoke-command.html",
+      "url": "https://ss64.com/ps/invoke-command.html",
       "options": {
         "sub": "Run commands on local and remote computers."
       },
@@ -642,7 +642,7 @@
     },
     "icm": {
       "text": "icm",
-      "url": "https://ss64.com/invoke-command.html",
+      "url": "https://ss64.com/ps/invoke-command.html",
       "options": {
         "sub": "Alias of: Invoke-Command | Run commands on local and remote computers."
       },
@@ -650,7 +650,7 @@
     },
     "Show-Command": {
       "text": "Show-Command",
-      "url": "https://ss64.com/show-command.html",
+      "url": "https://ss64.com/ps/show-command.html",
       "options": {
         "sub": "Create PowerShell commands in a graphical command window."
       },
@@ -658,7 +658,7 @@
     },
     "shcm": {
       "text": "shcm",
-      "url": "https://ss64.com/show-command.html",
+      "url": "https://ss64.com/ps/show-command.html",
       "options": {
         "sub": "Alias of: Show-Command | Create PowerShell commands in a graphical command window."
       },
@@ -666,7 +666,7 @@
     },
     "Measure-Command": {
       "text": "Measure-Command",
-      "url": "https://ss64.com/measure-command.html",
+      "url": "https://ss64.com/ps/measure-command.html",
       "options": {
         "sub": "Measure the running time of a script block or cmdlet."
       },
@@ -674,7 +674,7 @@
     },
     "Trace-Command": {
       "text": "Trace-Command",
-      "url": "https://ss64.com/trace-command.html",
+      "url": "https://ss64.com/ps/trace-command.html",
       "options": {
         "sub": "Trace an expression or command."
       },
@@ -682,7 +682,7 @@
     },
     "Add-Computer": {
       "text": "Add-Computer",
-      "url": "https://ss64.com/add-computer.html",
+      "url": "https://ss64.com/ps/add-computer.html",
       "options": {
         "sub": "Add a computer to the domain."
       },
@@ -690,7 +690,7 @@
     },
     "Checkpoint-Computer": {
       "text": "Checkpoint-Computer",
-      "url": "https://ss64.com/checkpoint-computer.html",
+      "url": "https://ss64.com/ps/checkpoint-computer.html",
       "options": {
         "sub": "Create a system restore point."
       },
@@ -698,7 +698,7 @@
     },
     "Remove-Computer": {
       "text": "Remove-Computer",
-      "url": "https://ss64.com/remove-computer.html",
+      "url": "https://ss64.com/ps/remove-computer.html",
       "options": {
         "sub": "Remove the local computer from a workgroup or domain."
       },
@@ -706,7 +706,7 @@
     },
     "Rename-Computer": {
       "text": "Rename-Computer",
-      "url": "https://ss64.com/rename-computer.html",
+      "url": "https://ss64.com/ps/rename-computer.html",
       "options": {
         "sub": "Rename a computer."
       },
@@ -714,7 +714,7 @@
     },
     "Restart-Computer": {
       "text": "Restart-Computer",
-      "url": "https://ss64.com/restart-computer.html",
+      "url": "https://ss64.com/ps/restart-computer.html",
       "options": {
         "sub": "Restart the Operating System on a computer."
       },
@@ -722,7 +722,7 @@
     },
     "Restore-Computer": {
       "text": "Restore-Computer",
-      "url": "https://ss64.com/restore-computer.html",
+      "url": "https://ss64.com/ps/restore-computer.html",
       "options": {
         "sub": "Restore the computer to a previous state."
       },
@@ -730,7 +730,7 @@
     },
     "Stop-Computer": {
       "text": "Stop-Computer",
-      "url": "https://ss64.com/stop-computer.html",
+      "url": "https://ss64.com/ps/stop-computer.html",
       "options": {
         "sub": "Stop (shut down) a computer."
       },
@@ -738,7 +738,7 @@
     },
     "Get-ComputerInfo": {
       "text": "Get-ComputerInfo",
-      "url": "https://ss64.com/get-computerinfo.html",
+      "url": "https://ss64.com/ps/get-computerinfo.html",
       "options": {
         "sub": "Get system and Operating System properties."
       },
@@ -746,7 +746,7 @@
     },
     "Reset-ComputerMachinePassword": {
       "text": "Reset-ComputerMachinePassword",
-      "url": "https://ss64.com/reset-computermachinepassword.html",
+      "url": "https://ss64.com/ps/reset-computermachinepassword.html",
       "options": {
         "sub": "Reset the machine account password for the computer."
       },
@@ -754,7 +754,7 @@
     },
     "Enable-ComputerRestore": {
       "text": "Enable-ComputerRestore",
-      "url": "https://ss64.com/enable-computerrestore.html",
+      "url": "https://ss64.com/ps/enable-computerrestore.html",
       "options": {
         "sub": "Enable System Restore on a drive."
       },
@@ -762,7 +762,7 @@
     },
     "Test-ComputerSecureChannel": {
       "text": "Test-ComputerSecureChannel",
-      "url": "https://ss64.com/test-computersecurechannel.html",
+      "url": "https://ss64.com/ps/test-computersecurechannel.html",
       "options": {
         "sub": "Test and repair the secure channel to the domain."
       },
@@ -770,7 +770,7 @@
     },
     "Add-Content": {
       "text": "Add-Content",
-      "url": "https://ss64.com/add-content.html",
+      "url": "https://ss64.com/ps/add-content.html",
       "options": {
         "sub": "Add to the content of the item."
       },
@@ -778,7 +778,7 @@
     },
     "ac": {
       "text": "ac",
-      "url": "https://ss64.com/add-content.html",
+      "url": "https://ss64.com/ps/add-content.html",
       "options": {
         "sub": "Alias of: Add-Content | Add to the content of the item."
       },
@@ -786,7 +786,7 @@
     },
     "Get-Content": {
       "text": "Get-Content",
-      "url": "https://ss64.com/get-content.html",
+      "url": "https://ss64.com/ps/get-content.html",
       "options": {
         "sub": "Get content from item (specific location)."
       },
@@ -794,7 +794,7 @@
     },
     "cat": {
       "text": "cat",
-      "url": "https://ss64.com/get-content.html",
+      "url": "https://ss64.com/ps/get-content.html",
       "options": {
         "sub": "Alias of: Get-Content | Get content from item (specific location)."
       },
@@ -802,7 +802,7 @@
     },
     "type": {
       "text": "type",
-      "url": "https://ss64.com/get-content.html",
+      "url": "https://ss64.com/ps/get-content.html",
       "options": {
         "sub": "Alias of: Get-Content | Get content from item (specific location)."
       },
@@ -810,7 +810,7 @@
     },
     "gc": {
       "text": "gc",
-      "url": "https://ss64.com/get-content.html",
+      "url": "https://ss64.com/ps/get-content.html",
       "options": {
         "sub": "Alias of: Get-Content | Get content from item (specific location)."
       },
@@ -818,7 +818,7 @@
     },
     "Set-Content": {
       "text": "Set-Content",
-      "url": "https://ss64.com/set-content.html",
+      "url": "https://ss64.com/ps/set-content.html",
       "options": {
         "sub": "Set content in the item (specific location)."
       },
@@ -826,7 +826,7 @@
     },
     "sc": {
       "text": "sc",
-      "url": "https://ss64.com/set-content.html",
+      "url": "https://ss64.com/ps/set-content.html",
       "options": {
         "sub": "Alias of: Set-Content | Set content in the item (specific location)."
       },
@@ -834,7 +834,7 @@
     },
     "Clear-Content": {
       "text": "Clear-Content",
-      "url": "https://ss64.com/clear-content.html",
+      "url": "https://ss64.com/ps/clear-content.html",
       "options": {
         "sub": "Remove content from a file/item."
       },
@@ -842,7 +842,7 @@
     },
     "clc": {
       "text": "clc",
-      "url": "https://ss64.com/clear-content.html",
+      "url": "https://ss64.com/ps/clear-content.html",
       "options": {
         "sub": "Alias of: Clear-Content | Remove content from a file/item."
       },
@@ -850,7 +850,7 @@
     },
     "Continue": {
       "text": "Continue",
-      "url": "https://ss64.com/continue.html",
+      "url": "https://ss64.com/ps/continue.html",
       "options": {
         "sub": "Skip just this iteration of a loop."
       },
@@ -858,7 +858,7 @@
     },
     "Disable-ComputerRestore": {
       "text": "Disable-ComputerRestore",
-      "url": "https://ss64.com/disable-computerrestore.html",
+      "url": "https://ss64.com/ps/disable-computerrestore.html",
       "options": {
         "sub": "Disable System Restore on a drive."
       },
@@ -866,7 +866,7 @@
     },
     "Get-ComputerRestorePoint": {
       "text": "Get-ComputerRestorePoint",
-      "url": "https://ss64.com/get-computerrestorepoint.html",
+      "url": "https://ss64.com/ps/get-computerrestorepoint.html",
       "options": {
         "sub": "Get the restore points on the local computer."
       },
@@ -874,7 +874,7 @@
     },
     "Test-Connection": {
       "text": "Test-Connection",
-      "url": "https://ss64.com/test-connection.html",
+      "url": "https://ss64.com/ps/test-connection.html",
       "options": {
         "sub": "Ping one or more computers."
       },
@@ -882,7 +882,7 @@
     },
     "ConvertFrom-CSV": {
       "text": "ConvertFrom-CSV",
-      "url": "https://ss64.com/convertfrom-csv.html",
+      "url": "https://ss64.com/ps/convertfrom-csv.html",
       "options": {
         "sub": "Convert object properties (in CSV format) into CSV objects."
       },
@@ -890,7 +890,7 @@
     },
     "ConvertTo-CSV": {
       "text": "ConvertTo-CSV",
-      "url": "https://ss64.com/convertto-csv.html",
+      "url": "https://ss64.com/ps/convertto-csv.html",
       "options": {
         "sub": "Convert  objects into CSV variable-length strings."
       },
@@ -898,7 +898,7 @@
     },
     "ConvertFrom-Json": {
       "text": "ConvertFrom-Json",
-      "url": "https://ss64.com/convertfrom-json.html",
+      "url": "https://ss64.com/ps/convertfrom-json.html",
       "options": {
         "sub": "Convert a JSON-formatted string to a custom object."
       },
@@ -906,7 +906,7 @@
     },
     "ConvertTo-Json": {
       "text": "ConvertTo-Json",
-      "url": "https://ss64.com/convertto-json.html",
+      "url": "https://ss64.com/ps/convertto-json.html",
       "options": {
         "sub": "Convert an object to a JSON-formatted string."
       },
@@ -914,7 +914,7 @@
     },
     "ConvertTo-Html": {
       "text": "ConvertTo-Html",
-      "url": "https://ss64.com/convertto-html.html",
+      "url": "https://ss64.com/ps/convertto-html.html",
       "options": {
         "sub": "Convert the input into an HTML table."
       },
@@ -922,7 +922,7 @@
     },
     "ConvertTo-Xml": {
       "text": "ConvertTo-Xml",
-      "url": "https://ss64.com/convertto-xml.html",
+      "url": "https://ss64.com/ps/convertto-xml.html",
       "options": {
         "sub": "Convert the input into XML."
       },
@@ -930,7 +930,7 @@
     },
     "ConvertFrom-String": {
       "text": "ConvertFrom-String",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/ps/",
       "options": {
         "sub": "Extract and parse structured properties from a string."
       },
@@ -938,7 +938,7 @@
     },
     "cfs": {
       "text": "cfs",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/ps/",
       "options": {
         "sub": "Alias of: ConvertFrom-String | Extract and parse structured properties from a string."
       },
@@ -946,7 +946,7 @@
     },
     "ConvertFrom-StringData": {
       "text": "ConvertFrom-StringData",
-      "url": "https://ss64.com/convertfrom-stringdata.html",
+      "url": "https://ss64.com/ps/convertfrom-stringdata.html",
       "options": {
         "sub": "Convert a here-string into a hash table."
       },
@@ -954,7 +954,7 @@
     },
     "ConvertFrom-SecureString": {
       "text": "ConvertFrom-SecureString",
-      "url": "https://ss64.com/convertfrom-securestring.html",
+      "url": "https://ss64.com/ps/convertfrom-securestring.html",
       "options": {
         "sub": "Convert a secure string into an encrypted standard string."
       },
@@ -962,7 +962,7 @@
     },
     "ConvertTo-SecureString": {
       "text": "ConvertTo-SecureString",
-      "url": "https://ss64.com/convertto-securestring.html",
+      "url": "https://ss64.com/ps/convertto-securestring.html",
       "options": {
         "sub": "Convert an encrypted standard string into a secure string."
       },
@@ -970,7 +970,7 @@
     },
     "Copy-Item": {
       "text": "Copy-Item",
-      "url": "https://ss64.com/copy-item.html",
+      "url": "https://ss64.com/ps/copy-item.html",
       "options": {
         "sub": "Copy an item from a namespace location."
       },
@@ -978,7 +978,7 @@
     },
     "copy": {
       "text": "copy",
-      "url": "https://ss64.com/copy-item.html",
+      "url": "https://ss64.com/ps/copy-item.html",
       "options": {
         "sub": "Alias of: Copy-Item | Copy an item from a namespace location."
       },
@@ -986,7 +986,7 @@
     },
     "cp": {
       "text": "cp",
-      "url": "https://ss64.com/copy-item.html",
+      "url": "https://ss64.com/ps/copy-item.html",
       "options": {
         "sub": "Alias of: Copy-Item | Copy an item from a namespace location."
       },
@@ -994,7 +994,7 @@
     },
     "cpi": {
       "text": "cpi",
-      "url": "https://ss64.com/copy-item.html",
+      "url": "https://ss64.com/ps/copy-item.html",
       "options": {
         "sub": "Alias of: Copy-Item | Copy an item from a namespace location."
       },
@@ -1002,7 +1002,7 @@
     },
     "Export-Counter": {
       "text": "Export-Counter",
-      "url": "https://ss64.com/export-counter.html",
+      "url": "https://ss64.com/ps/export-counter.html",
       "options": {
         "sub": "Export Performance Counter data to log files."
       },
@@ -1010,7 +1010,7 @@
     },
     "Get-Counter": {
       "text": "Get-Counter",
-      "url": "https://ss64.com/get-counter.html",
+      "url": "https://ss64.com/ps/get-counter.html",
       "options": {
         "sub": "Get performance counter data."
       },
@@ -1018,7 +1018,7 @@
     },
     "Import-Counter": {
       "text": "Import-Counter",
-      "url": "https://ss64.com/import-counter.html",
+      "url": "https://ss64.com/ps/import-counter.html",
       "options": {
         "sub": "Import performance counter log files."
       },
@@ -1026,7 +1026,7 @@
     },
     "Get-Credential": {
       "text": "Get-Credential",
-      "url": "https://ss64.com/get-credential.html",
+      "url": "https://ss64.com/ps/get-credential.html",
       "options": {
         "sub": "Get a security credential (username/password)."
       },
@@ -1034,7 +1034,7 @@
     },
     "Get-Culture": {
       "text": "Get-Culture",
-      "url": "https://ss64.com/get-culture.html",
+      "url": "https://ss64.com/ps/get-culture.html",
       "options": {
         "sub": "Get region information (language and keyboard layout)."
       },
@@ -1042,7 +1042,7 @@
     },
     "Set-Culture": {
       "text": "Set-Culture",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/ps/",
       "options": {
         "sub": "Set the user culture for the current user account."
       },
@@ -1050,7 +1050,7 @@
     },
     "Get-Date": {
       "text": "Get-Date",
-      "url": "https://ss64.com/get-date.html",
+      "url": "https://ss64.com/ps/get-date.html",
       "options": {
         "sub": "Get current date and time."
       },
@@ -1058,7 +1058,7 @@
     },
     "Set-Date": {
       "text": "Set-Date",
-      "url": "https://ss64.com/set-date.html",
+      "url": "https://ss64.com/ps/set-date.html",
       "options": {
         "sub": "Set system time on the host system."
       },
@@ -1066,7 +1066,7 @@
     },
     "Dir": {
       "text": "Dir",
-      "url": "https://ss64.com/get-childitem.html",
+      "url": "https://ss64.com/ps/get-childitem.html",
       "options": {
         "sub": "Alias of: Get-ChildItem | Get child items (contents of a folder or registry key)."
       },
@@ -1074,7 +1074,7 @@
     },
     "Clear-Disk": {
       "text": "Clear-Disk",
-      "url": "https://ss64.com/clear-disk.html",
+      "url": "https://ss64.com/ps/clear-disk.html",
       "options": {
         "sub": "Remove all partition information and un-initialize a disk, erasing all data."
       },
@@ -1082,7 +1082,7 @@
     },
     "Get-Disk": {
       "text": "Get-Disk",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/ps/",
       "options": {
         "sub": "Get one or more disks visible to the OS."
       },
@@ -1090,7 +1090,7 @@
     },
     "Set-Disk": {
       "text": "Set-Disk",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/ps/",
       "options": {
         "sub": "Set attributes and update a physical disk."
       },
@@ -1098,7 +1098,7 @@
     },
     "Initialize-Disk": {
       "text": "Initialize-Disk",
-      "url": "https://ss64.com/initialize-disk.html",
+      "url": "https://ss64.com/ps/initialize-disk.html",
       "options": {
         "sub": "Initialize a RAW disk for first use, this enables formatting."
       },
@@ -1106,7 +1106,7 @@
     },
     "Mount-DiskImage": {
       "text": "Mount-DiskImage",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/ps/",
       "options": {
         "sub": "Mount a previously created disk image (virtual HD or ISO)"
       },
@@ -1114,7 +1114,7 @@
     },
     "Remove-Item": {
       "text": "Remove-Item",
-      "url": "https://ss64.com/remove-item.html",
+      "url": "https://ss64.com/ps/remove-item.html",
       "options": {
         "sub": "Remove an item."
       },
@@ -1122,7 +1122,7 @@
     },
     "Del": {
       "text": "Del",
-      "url": "https://ss64.com/remove-item.html",
+      "url": "https://ss64.com/ps/remove-item.html",
       "options": {
         "sub": "Alias of: Remove-Item | Delete an item."
       },
@@ -1130,7 +1130,7 @@
     },
     "erase": {
       "text": "erase",
-      "url": "https://ss64.com/remove-item.html",
+      "url": "https://ss64.com/ps/remove-item.html",
       "options": {
         "sub": "Alias of: Remove-Item | Remove an item."
       },
@@ -1138,7 +1138,7 @@
     },
     "rd": {
       "text": "rd",
-      "url": "https://ss64.com/remove-item.html",
+      "url": "https://ss64.com/ps/remove-item.html",
       "options": {
         "sub": "Alias of: Remove-Item | Remove an item."
       },
@@ -1146,7 +1146,7 @@
     },
     "rm": {
       "text": "rm",
-      "url": "https://ss64.com/remove-item.html",
+      "url": "https://ss64.com/ps/remove-item.html",
       "options": {
         "sub": "Alias of: Remove-Item | Remove an item."
       },
@@ -1154,7 +1154,7 @@
     },
     "rmdir": {
       "text": "rmdir",
-      "url": "https://ss64.com/remove-item.html",
+      "url": "https://ss64.com/ps/remove-item.html",
       "options": {
         "sub": "Alias of: Remove-Item | Remove an item."
       },
@@ -1162,7 +1162,7 @@
     },
     "Compare-Object": {
       "text": "Compare-Object",
-      "url": "https://ss64.com/compare-object.html",
+      "url": "https://ss64.com/ps/compare-object.html",
       "options": {
         "sub": "Compare the properties of objects."
       },
@@ -1170,7 +1170,7 @@
     },
     "diff": {
       "text": "diff",
-      "url": "https://ss64.com/compare-object.html",
+      "url": "https://ss64.com/ps/compare-object.html",
       "options": {
         "sub": "Alias of: Compare-Object | Compare the properties of objects."
       },
@@ -1178,7 +1178,7 @@
     },
     "compare": {
       "text": "compare",
-      "url": "https://ss64.com/compare-object.html",
+      "url": "https://ss64.com/ps/compare-object.html",
       "options": {
         "sub": "Alias of: Compare-Object | Compare the properties of objects."
       },
@@ -1186,7 +1186,7 @@
     },
     "Get-DnsClientCache": {
       "text": "Get-DnsClientCache",
-      "url": "https://ss64.com/get-dnsclientcache.html",
+      "url": "https://ss64.com/ps/get-dnsclientcache.html",
       "options": {
         "sub": "Retrieve the content of the local DNS client cache."
       },
@@ -1194,7 +1194,7 @@
     },
     "Clear-DnsClientCache": {
       "text": "Clear-DnsClientCache",
-      "url": "https://ss64.com/clear-dnsclientcache.html",
+      "url": "https://ss64.com/ps/clear-dnsclientcache.html",
       "options": {
         "sub": "Clear the content of the DNS client cache."
       },
@@ -1202,7 +1202,7 @@
     },
     "Get-DnsClientServerAddress": {
       "text": "Get-DnsClientServerAddress",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/ps/",
       "options": {
         "sub": "Get a DNS server IP address from the interface TCP/IP properties."
       },
@@ -1210,7 +1210,7 @@
     },
     "Set-DnsClientServerAddress": {
       "text": "Set-DnsClientServerAddress",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/ps/",
       "options": {
         "sub": "Set a DNS server IP address on the interface TCP/IP properties."
       },
@@ -1218,7 +1218,7 @@
     },
     "Resolve-DnsName": {
       "text": "Resolve-DnsName",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/ps/",
       "options": {
         "sub": "Perform a DNS name query resolution for a specified name."
       },
@@ -1226,7 +1226,7 @@
     },
     "Do": {
       "text": "Do",
-      "url": "https://ss64.com/do.html",
+      "url": "https://ss64.com/ps/do.html",
       "options": {
         "sub": "Loop while a condition is True."
       },
@@ -1234,7 +1234,7 @@
     },
     "Get-DscConfiguration": {
       "text": "Get-DscConfiguration",
-      "url": "https://ss64.com/get-dscconfiguration.html",
+      "url": "https://ss64.com/ps/get-dscconfiguration.html",
       "options": {
         "sub": "Get the current config. of a node."
       },
@@ -1242,7 +1242,7 @@
     },
     "Get-DscLocalConfigurationManager": {
       "text": "Get-DscLocalConfigurationManager",
-      "url": "https://ss64.com/get-dsclocalconfigurationmanager.html",
+      "url": "https://ss64.com/ps/get-dsclocalconfigurationmanager.html",
       "options": {
         "sub": "Get Local Config Manager settings."
       },
@@ -1250,7 +1250,7 @@
     },
     "Get-DscResource": {
       "text": "Get-DscResource",
-      "url": "https://ss64.com/get-dscresource.html",
+      "url": "https://ss64.com/ps/get-dscresource.html",
       "options": {
         "sub": "Get Desired State Config. resources from a computer."
       },
@@ -1258,7 +1258,7 @@
     },
     "New-DSCCheckSum": {
       "text": "New-DSCCheckSum",
-      "url": "https://ss64.com/new-dscchecksum.html",
+      "url": "https://ss64.com/ps/new-dscchecksum.html",
       "options": {
         "sub": "Create checksum files for DSC docs/resources."
       },
@@ -1266,7 +1266,7 @@
     },
     "Start-DscConfiguration": {
       "text": "Start-DscConfiguration",
-      "url": "https://ss64.com/start-dscconfiguration.html",
+      "url": "https://ss64.com/ps/start-dscconfiguration.html",
       "options": {
         "sub": "Apply Desired State config to nodes."
       },
@@ -1274,7 +1274,7 @@
     },
     "Write-Output": {
       "text": "Write-Output",
-      "url": "https://ss64.com/write-output.html",
+      "url": "https://ss64.com/ps/write-output.html",
       "options": {
         "sub": "Write an object to the pipeline (1)."
       },
@@ -1282,7 +1282,7 @@
     },
     "Echo": {
       "text": "Echo",
-      "url": "https://ss64.com/write-output.html",
+      "url": "https://ss64.com/ps/write-output.html",
       "options": {
         "sub": "Alias of: Write-Output | Write an object to the pipeline."
       },
@@ -1290,7 +1290,7 @@
     },
     "End": {
       "text": "End",
-      "url": "https://ss64.com/syntax-function-input.html",
+      "url": "https://ss64.com/ps/syntax-function-input.html",
       "options": {
         "sub": "Function END block."
       },
@@ -1298,7 +1298,7 @@
     },
     "Get-Error": {
       "text": "Get-Error",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/ps/",
       "options": {
         "sub": "Get Error"
       },
@@ -1306,7 +1306,7 @@
     },
     "gerr": {
       "text": "gerr",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/ps/",
       "options": {
         "sub": "Alias of: Get-Error | Get Error"
       },
@@ -1314,7 +1314,7 @@
     },
     "Get-Event": {
       "text": "Get-Event",
-      "url": "https://ss64.com/get-event.html",
+      "url": "https://ss64.com/ps/get-event.html",
       "options": {
         "sub": "Get events in the PowerShell event queue."
       },
@@ -1322,7 +1322,7 @@
     },
     "New-Event": {
       "text": "New-Event",
-      "url": "https://ss64.com/new-event.html",
+      "url": "https://ss64.com/ps/new-event.html",
       "options": {
         "sub": "Create a new event."
       },
@@ -1330,7 +1330,7 @@
     },
     "Remove-Event": {
       "text": "Remove-Event",
-      "url": "https://ss64.com/remove-event.html",
+      "url": "https://ss64.com/ps/remove-event.html",
       "options": {
         "sub": "Delete events from the event queue."
       },
@@ -1338,7 +1338,7 @@
     },
     "Unregister-Event": {
       "text": "Unregister-Event",
-      "url": "https://ss64.com/unregister-event.html",
+      "url": "https://ss64.com/ps/unregister-event.html",
       "options": {
         "sub": "Cancel an event subscription."
       },
@@ -1346,7 +1346,7 @@
     },
     "Wait-Event": {
       "text": "Wait-Event",
-      "url": "https://ss64.com/wait-event.html",
+      "url": "https://ss64.com/ps/wait-event.html",
       "options": {
         "sub": "Wait until a particular event is raised."
       },
@@ -1354,7 +1354,7 @@
     },
     "Clear-EventLog": {
       "text": "Clear-EventLog",
-      "url": "https://ss64.com/clear-eventlog.html",
+      "url": "https://ss64.com/ps/clear-eventlog.html",
       "options": {
         "sub": "Delete all entries from an event log."
       },
@@ -1362,7 +1362,7 @@
     },
     "Get-Eventlog": {
       "text": "Get-Eventlog",
-      "url": "https://ss64.com/get-eventlog.html",
+      "url": "https://ss64.com/ps/get-eventlog.html",
       "options": {
         "sub": "Get event log data (2003)."
       },
@@ -1370,7 +1370,7 @@
     },
     "Limit-EventLog": {
       "text": "Limit-EventLog",
-      "url": "https://ss64.com/limit-eventlog.html",
+      "url": "https://ss64.com/ps/limit-eventlog.html",
       "options": {
         "sub": "Limit the size of the event log."
       },
@@ -1378,7 +1378,7 @@
     },
     "New-Eventlog": {
       "text": "New-Eventlog",
-      "url": "https://ss64.com/new-eventlog.html",
+      "url": "https://ss64.com/ps/new-eventlog.html",
       "options": {
         "sub": "Create a new event log and a new event source."
       },
@@ -1386,7 +1386,7 @@
     },
     "Remove-EventLog": {
       "text": "Remove-EventLog",
-      "url": "https://ss64.com/remove-eventlog.html",
+      "url": "https://ss64.com/ps/remove-eventlog.html",
       "options": {
         "sub": "Delete an event log."
       },
@@ -1394,7 +1394,7 @@
     },
     "Show-EventLog": {
       "text": "Show-EventLog",
-      "url": "https://ss64.com/show-eventlog.html",
+      "url": "https://ss64.com/ps/show-eventlog.html",
       "options": {
         "sub": "Display an event log."
       },
@@ -1402,7 +1402,7 @@
     },
     "Write-EventLog": {
       "text": "Write-EventLog",
-      "url": "https://ss64.com/write-eventlog.html",
+      "url": "https://ss64.com/ps/write-eventlog.html",
       "options": {
         "sub": "Write an event to an event log."
       },
@@ -1410,7 +1410,7 @@
     },
     "Get-WinEvent": {
       "text": "Get-WinEvent",
-      "url": "https://ss64.com/get-winevent.html",
+      "url": "https://ss64.com/ps/get-winevent.html",
       "options": {
         "sub": "Get event log data (Vista+)."
       },
@@ -1418,7 +1418,7 @@
     },
     "Get-EventSubscriber": {
       "text": "Get-EventSubscriber",
-      "url": "https://ss64.com/get-eventsubscriber.html",
+      "url": "https://ss64.com/ps/get-eventsubscriber.html",
       "options": {
         "sub": "Get event subscribers."
       },
@@ -1426,7 +1426,7 @@
     },
     "Register-EngineEvent": {
       "text": "Register-EngineEvent",
-      "url": "https://ss64.com/register-engineevent.html",
+      "url": "https://ss64.com/ps/register-engineevent.html",
       "options": {
         "sub": "Subscribe to PowerShell events."
       },
@@ -1434,7 +1434,7 @@
     },
     "Register-ObjectEvent": {
       "text": "Register-ObjectEvent",
-      "url": "https://ss64.com/register-objectevent.html",
+      "url": "https://ss64.com/ps/register-objectevent.html",
       "options": {
         "sub": "Subscribe to .NET events."
       },
@@ -1442,7 +1442,7 @@
     },
     "Register-WmiEvent": {
       "text": "Register-WmiEvent",
-      "url": "https://ss64.com/register-wmievent.html",
+      "url": "https://ss64.com/ps/register-wmievent.html",
       "options": {
         "sub": "Subscribe to a WMI event."
       },
@@ -1450,7 +1450,7 @@
     },
     "Get-ExecutionPolicy": {
       "text": "Get-ExecutionPolicy",
-      "url": "https://ss64.com/get-executionpolicy.html",
+      "url": "https://ss64.com/ps/get-executionpolicy.html",
       "options": {
         "sub": "Get the execution policy for the shell."
       },
@@ -1458,7 +1458,7 @@
     },
     "Set-ExecutionPolicy": {
       "text": "Set-ExecutionPolicy",
-      "url": "https://ss64.com/set-executionpolicy.html",
+      "url": "https://ss64.com/ps/set-executionpolicy.html",
       "options": {
         "sub": "Change the execution policy (user preference)."
       },
@@ -1466,7 +1466,7 @@
     },
     "Export-Clixml": {
       "text": "Export-Clixml",
-      "url": "https://ss64.com/export-clixml.html",
+      "url": "https://ss64.com/ps/export-clixml.html",
       "options": {
         "sub": "Produce a clixml representation of PowerShell objects."
       },
@@ -1474,7 +1474,7 @@
     },
     "Export-Console": {
       "text": "Export-Console",
-      "url": "https://ss64.com/export-console.html",
+      "url": "https://ss64.com/ps/export-console.html",
       "options": {
         "sub": "Export console configuration to a file."
       },
@@ -1482,7 +1482,7 @@
     },
     "Export-Csv": {
       "text": "Export-Csv",
-      "url": "https://ss64.com/export-csv.html",
+      "url": "https://ss64.com/ps/export-csv.html",
       "options": {
         "sub": "Export to Comma Separated Values (spreadsheet)."
       },
@@ -1490,7 +1490,7 @@
     },
     "epcsv": {
       "text": "epcsv",
-      "url": "https://ss64.com/export-csv.html",
+      "url": "https://ss64.com/ps/export-csv.html",
       "options": {
         "sub": "Alias of: Export-Csv | Export to Comma Separated Values (spreadsheet)."
       },
@@ -1498,7 +1498,7 @@
     },
     "Exit-PSSession": {
       "text": "Exit-PSSession",
-      "url": "https://ss64.com/exit-pssession.html",
+      "url": "https://ss64.com/ps/exit-pssession.html",
       "options": {
         "sub": "End an interactive session with a remote computer."
       },
@@ -1506,7 +1506,7 @@
     },
     "exsn": {
       "text": "exsn",
-      "url": "https://ss64.com/exit-pssession.html",
+      "url": "https://ss64.com/ps/exit-pssession.html",
       "options": {
         "sub": "Alias of: Exit-PSSession | End an interactive session with a remote computer."
       },
@@ -1514,7 +1514,7 @@
     },
     "Exit": {
       "text": "Exit",
-      "url": "https://ss64.com/exit.html",
+      "url": "https://ss64.com/ps/exit.html",
       "options": {
         "sub": "Exit a script or exit PowerShell."
       },
@@ -1522,7 +1522,7 @@
     },
     "-F operator": {
       "text": "-F operator",
-      "url": "https://ss64.com/syntax-f-operator.html",
+      "url": "https://ss64.com/ps/syntax-f-operator.html",
       "options": {
         "sub": "Format operator."
       },
@@ -1530,7 +1530,7 @@
     },
     "Unblock-File": {
       "text": "Unblock-File",
-      "url": "https://ss64.com/unblock-file.html",
+      "url": "https://ss64.com/ps/unblock-file.html",
       "options": {
         "sub": "Unblock files downloaded from the Internet."
       },
@@ -1538,7 +1538,7 @@
     },
     "Get-FileHash": {
       "text": "Get-FileHash",
-      "url": "https://ss64.com/get-filehash.html",
+      "url": "https://ss64.com/ps/get-filehash.html",
       "options": {
         "sub": "Compute the hash value for a file."
       },
@@ -1546,7 +1546,7 @@
     },
     "ForEach-Object": {
       "text": "ForEach-Object",
-      "url": "https://ss64.com/foreach-object.html",
+      "url": "https://ss64.com/ps/foreach-object.html",
       "options": {
         "sub": "Loop through each item in the pipeline ( % )."
       },
@@ -1554,7 +1554,7 @@
     },
     "foreach": {
       "text": "foreach",
-      "url": "https://ss64.com/foreach-object.html",
+      "url": "https://ss64.com/ps/foreach-object.html",
       "options": {
         "sub": "Alias of: ForEach-Object | Loop through each item in the pipeline ( % )."
       },
@@ -1562,7 +1562,7 @@
     },
     "ForEach": {
       "text": "ForEach",
-      "url": "https://ss64.com/foreach-method.html",
+      "url": "https://ss64.com/ps/foreach-method.html",
       "options": {
         "sub": "Loop through each item in a collection."
       },
@@ -1570,7 +1570,7 @@
     },
     "For": {
       "text": "For",
-      "url": "https://ss64.com/for.html",
+      "url": "https://ss64.com/ps/for.html",
       "options": {
         "sub": "Loop through items that match a condition."
       },
@@ -1578,7 +1578,7 @@
     },
     "Format-Custom": {
       "text": "Format-Custom",
-      "url": "https://ss64.com/format-custom.html",
+      "url": "https://ss64.com/ps/format-custom.html",
       "options": {
         "sub": "Format output using a customized view."
       },
@@ -1586,7 +1586,7 @@
     },
     "fc": {
       "text": "fc",
-      "url": "https://ss64.com/format-custom.html",
+      "url": "https://ss64.com/ps/format-custom.html",
       "options": {
         "sub": "Alias of: Format-Custom | Format output using a customized view."
       },
@@ -1594,7 +1594,7 @@
     },
     "Format-Hex": {
       "text": "Format-Hex",
-      "url": "https://ss64.com/format-hex.html",
+      "url": "https://ss64.com/ps/format-hex.html",
       "options": {
         "sub": "Display a file or other input as hexadecimal."
       },
@@ -1602,7 +1602,7 @@
     },
     "fhx": {
       "text": "fhx",
-      "url": "https://ss64.com/format-hex.html",
+      "url": "https://ss64.com/ps/format-hex.html",
       "options": {
         "sub": "Alias of: Format-Hex | Display a file or other input as hexadecimal."
       },
@@ -1610,7 +1610,7 @@
     },
     "Format-List": {
       "text": "Format-List",
-      "url": "https://ss64.com/format-list.html",
+      "url": "https://ss64.com/ps/format-list.html",
       "options": {
         "sub": "Format output as a list of properties, each on a new line."
       },
@@ -1618,7 +1618,7 @@
     },
     "fl": {
       "text": "fl",
-      "url": "https://ss64.com/format-list.html",
+      "url": "https://ss64.com/ps/format-list.html",
       "options": {
         "sub": "Alias of: Format-List | Format output as a list of properties, each on a new line."
       },
@@ -1626,7 +1626,7 @@
     },
     "Format-Table": {
       "text": "Format-Table",
-      "url": "https://ss64.com/format-table.html",
+      "url": "https://ss64.com/ps/format-table.html",
       "options": {
         "sub": "Format output as a table."
       },
@@ -1634,7 +1634,7 @@
     },
     "ft": {
       "text": "ft",
-      "url": "https://ss64.com/format-table.html",
+      "url": "https://ss64.com/ps/format-table.html",
       "options": {
         "sub": "Alias of: Format-Table | Format output as a table."
       },
@@ -1642,7 +1642,7 @@
     },
     "Format-Wide": {
       "text": "Format-Wide",
-      "url": "https://ss64.com/format-wide.html",
+      "url": "https://ss64.com/ps/format-wide.html",
       "options": {
         "sub": "Format output as a table listing one property only."
       },
@@ -1650,7 +1650,7 @@
     },
     "fw": {
       "text": "fw",
-      "url": "https://ss64.com/format-wide.html",
+      "url": "https://ss64.com/ps/format-wide.html",
       "options": {
         "sub": "Alias of: Format-Wide | Format output as a table listing one property only."
       },
@@ -1658,7 +1658,7 @@
     },
     "Export-FormatData": {
       "text": "Export-FormatData",
-      "url": "https://ss64.com/export-formatdata.html",
+      "url": "https://ss64.com/ps/export-formatdata.html",
       "options": {
         "sub": "Save formatting data from the current session."
       },
@@ -1666,7 +1666,7 @@
     },
     "Get-FormatData": {
       "text": "Get-FormatData",
-      "url": "https://ss64.com/get-formatdata.html",
+      "url": "https://ss64.com/ps/get-formatdata.html",
       "options": {
         "sub": "Get the formatting data in the current session."
       },
@@ -1674,7 +1674,7 @@
     },
     "Get-Item": {
       "text": "Get-Item",
-      "url": "https://ss64.com/get-item.html",
+      "url": "https://ss64.com/ps/get-item.html",
       "options": {
         "sub": "Get a file object or get a registry (or other namespace) object."
       },
@@ -1682,7 +1682,7 @@
     },
     "gi": {
       "text": "gi",
-      "url": "https://ss64.com/get-item.html",
+      "url": "https://ss64.com/ps/get-item.html",
       "options": {
         "sub": "Alias of: Get-Item | Get a file object or get a registry (or other namespace) object."
       },
@@ -1690,7 +1690,7 @@
     },
     "Restore-GPO": {
       "text": "Restore-GPO",
-      "url": "https://ss64.com/restore-gpo.html",
+      "url": "https://ss64.com/ps/restore-gpo.html",
       "options": {
         "sub": "Restore one or all GPOs from a GPO backup."
       },
@@ -1698,7 +1698,7 @@
     },
     "Import-GPO": {
       "text": "Import-GPO",
-      "url": "https://ss64.com/import-gpo.html",
+      "url": "https://ss64.com/ps/import-gpo.html",
       "options": {
         "sub": "Import Group Policy settings into a specified GPO from a GPO backup."
       },
@@ -1706,7 +1706,7 @@
     },
     "Group-Object": {
       "text": "Group-Object",
-      "url": "https://ss64.com/group-object.html",
+      "url": "https://ss64.com/ps/group-object.html",
       "options": {
         "sub": "Group objects that contain the same value."
       },
@@ -1714,7 +1714,7 @@
     },
     "group": {
       "text": "group",
-      "url": "https://ss64.com/group-object.html",
+      "url": "https://ss64.com/ps/group-object.html",
       "options": {
         "sub": "Alias of: Group-Object | Group objects that contain the same value."
       },
@@ -1722,7 +1722,7 @@
     },
     "New-Guid": {
       "text": "New-Guid",
-      "url": "https://ss64.com/new-guid.html",
+      "url": "https://ss64.com/ps/new-guid.html",
       "options": {
         "sub": "Create a GUID."
       },
@@ -1730,7 +1730,7 @@
     },
     "Get-Help": {
       "text": "Get-Help",
-      "url": "https://ss64.com/get-help.html",
+      "url": "https://ss64.com/ps/get-help.html",
       "options": {
         "sub": "Open the help file."
       },
@@ -1738,7 +1738,7 @@
     },
     "help": {
       "text": "help",
-      "url": "https://ss64.com/get-help.html",
+      "url": "https://ss64.com/ps/get-help.html",
       "options": {
         "sub": "Alias of: Get-Help | Open the help file."
       },
@@ -1746,7 +1746,7 @@
     },
     "Update-Help": {
       "text": "Update-Help",
-      "url": "https://ss64.com/update-help.html",
+      "url": "https://ss64.com/ps/update-help.html",
       "options": {
         "sub": "Download and install help files."
       },
@@ -1754,7 +1754,7 @@
     },
     "Add-History": {
       "text": "Add-History",
-      "url": "https://ss64.com/add-history.html",
+      "url": "https://ss64.com/ps/add-history.html",
       "options": {
         "sub": "Add entries to the session history."
       },
@@ -1762,7 +1762,7 @@
     },
     "Clear-History": {
       "text": "Clear-History",
-      "url": "https://ss64.com/clear-history.html",
+      "url": "https://ss64.com/ps/clear-history.html",
       "options": {
         "sub": "Delete entries from the session history."
       },
@@ -1770,7 +1770,7 @@
     },
     "clhy": {
       "text": "clhy",
-      "url": "https://ss64.com/clear-history.html",
+      "url": "https://ss64.com/ps/clear-history.html",
       "options": {
         "sub": "Alias of: Clear-History | Delete entries from the session history."
       },
@@ -1778,7 +1778,7 @@
     },
     "Get-History": {
       "text": "Get-History",
-      "url": "https://ss64.com/get-history.html",
+      "url": "https://ss64.com/ps/get-history.html",
       "options": {
         "sub": "Get a listing of the session history."
       },
@@ -1786,7 +1786,7 @@
     },
     "history": {
       "text": "history",
-      "url": "https://ss64.com/get-history.html",
+      "url": "https://ss64.com/ps/get-history.html",
       "options": {
         "sub": "Alias of: Get-History | Get a listing of the session history."
       },
@@ -1794,7 +1794,7 @@
     },
     "h": {
       "text": "h",
-      "url": "https://ss64.com/get-history.html",
+      "url": "https://ss64.com/ps/get-history.html",
       "options": {
         "sub": "Alias of: Get-History | Get a listing of the session history."
       },
@@ -1802,7 +1802,7 @@
     },
     "ghy": {
       "text": "ghy",
-      "url": "https://ss64.com/get-history.html",
+      "url": "https://ss64.com/ps/get-history.html",
       "options": {
         "sub": "Alias of: Get-History | Get a listing of the session history."
       },
@@ -1810,7 +1810,7 @@
     },
     "Invoke-History": {
       "text": "Invoke-History",
-      "url": "https://ss64.com/invoke-history.html",
+      "url": "https://ss64.com/ps/invoke-history.html",
       "options": {
         "sub": "Invoke a previously executed Cmdlet."
       },
@@ -1818,7 +1818,7 @@
     },
     "r": {
       "text": "r",
-      "url": "https://ss64.com/invoke-history.html",
+      "url": "https://ss64.com/ps/invoke-history.html",
       "options": {
         "sub": "Alias of: Invoke-History | Invoke a previously executed Cmdlet."
       },
@@ -1826,7 +1826,7 @@
     },
     "ihy": {
       "text": "ihy",
-      "url": "https://ss64.com/invoke-history.html",
+      "url": "https://ss64.com/ps/invoke-history.html",
       "options": {
         "sub": "Alias of: Invoke-History | Invoke a previously executed Cmdlet."
       },
@@ -1834,7 +1834,7 @@
     },
     "Get-Host": {
       "text": "Get-Host",
-      "url": "https://ss64.com/get-host.html",
+      "url": "https://ss64.com/ps/get-host.html",
       "options": {
         "sub": "Get host information (PowerShell Version and Region)."
       },
@@ -1842,7 +1842,7 @@
     },
     "Out-Host": {
       "text": "Out-Host",
-      "url": "https://ss64.com/out-host.html",
+      "url": "https://ss64.com/ps/out-host.html",
       "options": {
         "sub": "Send output to the host."
       },
@@ -1850,7 +1850,7 @@
     },
     "oh": {
       "text": "oh",
-      "url": "https://ss64.com/out-host.html",
+      "url": "https://ss64.com/ps/out-host.html",
       "options": {
         "sub": "Alias of: Out-Host | Send output to the host."
       },
@@ -1858,7 +1858,7 @@
     },
     "Read-Host": {
       "text": "Read-Host",
-      "url": "https://ss64.com/read-host.html",
+      "url": "https://ss64.com/ps/read-host.html",
       "options": {
         "sub": "Read a line of input from the host console."
       },
@@ -1866,7 +1866,7 @@
     },
     "Write-Host": {
       "text": "Write-Host",
-      "url": "https://ss64.com/write-host.html",
+      "url": "https://ss64.com/ps/write-host.html",
       "options": {
         "sub": "Display text on screen."
       },
@@ -1874,7 +1874,7 @@
     },
     "Get-HotFix": {
       "text": "Get-HotFix",
-      "url": "https://ss64.com/get-hotfix.html",
+      "url": "https://ss64.com/ps/get-hotfix.html",
       "options": {
         "sub": "Get Installed hotfixes."
       },
@@ -1882,7 +1882,7 @@
     },
     "IF": {
       "text": "IF",
-      "url": "https://ss64.com/if.html",
+      "url": "https://ss64.com/ps/if.html",
       "options": {
         "sub": "Conditionally perform a command."
       },
@@ -1890,7 +1890,7 @@
     },
     "Import-Clixml": {
       "text": "Import-Clixml",
-      "url": "https://ss64.com/import-clixml.html",
+      "url": "https://ss64.com/ps/import-clixml.html",
       "options": {
         "sub": "Import a clixml file and rebuild the PS object."
       },
@@ -1898,7 +1898,7 @@
     },
     "Import-Csv": {
       "text": "Import-Csv",
-      "url": "https://ss64.com/import-csv.html",
+      "url": "https://ss64.com/ps/import-csv.html",
       "options": {
         "sub": "Take values from a CSV list and send objects down the pipeline."
       },
@@ -1906,7 +1906,7 @@
     },
     "ipcsv": {
       "text": "ipcsv",
-      "url": "https://ss64.com/import-csv.html",
+      "url": "https://ss64.com/ps/import-csv.html",
       "options": {
         "sub": "Alias of: Import-Csv | Take values from a CSV list and send objects down the pipeline."
       },
@@ -1914,7 +1914,7 @@
     },
     "Import-PfxCertificate": {
       "text": "Import-PfxCertificate",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/ps/",
       "options": {
         "sub": "Import certificates and keys from a Personal Information Exchange(PFX) file."
       },
@@ -1922,7 +1922,7 @@
     },
     "Write-Information": {
       "text": "Write-Information",
-      "url": "https://ss64.com/write-information.html",
+      "url": "https://ss64.com/ps/write-information.html",
       "options": {
         "sub": "Write to the information data stream (6)."
       },
@@ -1930,7 +1930,7 @@
     },
     "Get-InitiatorPort": {
       "text": "Get-InitiatorPort",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/ps/",
       "options": {
         "sub": "Get one or more host bus adapter (HBA) initiator ports."
       },
@@ -1938,7 +1938,7 @@
     },
     "Install-Module": {
       "text": "Install-Module",
-      "url": "https://ss64.com/install-module.html",
+      "url": "https://ss64.com/ps/install-module.html",
       "options": {
         "sub": "Download and install modules from an online repository."
       },
@@ -1946,7 +1946,7 @@
     },
     "Install-Package": {
       "text": "Install-Package",
-      "url": "https://ss64.com/install-package.html",
+      "url": "https://ss64.com/ps/install-package.html",
       "options": {
         "sub": "Install one or more software packages."
       },
@@ -1954,7 +1954,7 @@
     },
     "Invoke-Expression": {
       "text": "Invoke-Expression",
-      "url": "https://ss64.com/invoke-expression.html",
+      "url": "https://ss64.com/ps/invoke-expression.html",
       "options": {
         "sub": "Run a PowerShell expression."
       },
@@ -1962,7 +1962,7 @@
     },
     "iex": {
       "text": "iex",
-      "url": "https://ss64.com/invoke-expression.html",
+      "url": "https://ss64.com/ps/invoke-expression.html",
       "options": {
         "sub": "Alias of: Invoke-Expression | Run a PowerShell expression."
       },
@@ -1970,7 +1970,7 @@
     },
     "Invoke-WebRequest": {
       "text": "Invoke-WebRequest",
-      "url": "https://ss64.com/invoke-webrequest.html",
+      "url": "https://ss64.com/ps/invoke-webrequest.html",
       "options": {
         "sub": "Get content from a web page."
       },
@@ -1978,7 +1978,7 @@
     },
     "iwr": {
       "text": "iwr",
-      "url": "https://ss64.com/invoke-webrequest.html",
+      "url": "https://ss64.com/ps/invoke-webrequest.html",
       "options": {
         "sub": "Alias of: Invoke-WebRequest | Get content from a web page."
       },
@@ -1986,7 +1986,7 @@
     },
     "Invoke-RestMethod": {
       "text": "Invoke-RestMethod",
-      "url": "https://ss64.com/invoke-restmethod.html",
+      "url": "https://ss64.com/ps/invoke-restmethod.html",
       "options": {
         "sub": "Send an HTTP or HTTPS request to a RESTful web service."
       },
@@ -1994,7 +1994,7 @@
     },
     "irm": {
       "text": "irm",
-      "url": "https://ss64.com/invoke-restmethod.html",
+      "url": "https://ss64.com/ps/invoke-restmethod.html",
       "options": {
         "sub": "Alias of: Invoke-RestMethod | Send an HTTP or HTTPS request to a RESTful web service."
       },
@@ -2002,7 +2002,7 @@
     },
     "Get-NetIPAddress": {
       "text": "Get-NetIPAddress",
-      "url": "https://ss64.com/get-netipaddress.html",
+      "url": "https://ss64.com/ps/get-netipaddress.html",
       "options": {
         "sub": "Get IP address configuration."
       },
@@ -2010,7 +2010,7 @@
     },
     "Invoke-Item": {
       "text": "Invoke-Item",
-      "url": "https://ss64.com/invoke-item.html",
+      "url": "https://ss64.com/ps/invoke-item.html",
       "options": {
         "sub": "Invoke an executable or open a file (START)."
       },
@@ -2018,7 +2018,7 @@
     },
     "ii": {
       "text": "ii",
-      "url": "https://ss64.com/invoke-item.html",
+      "url": "https://ss64.com/ps/invoke-item.html",
       "options": {
         "sub": "Alias of: Invoke-Item | Invoke an executable or open a file (START)."
       },
@@ -2026,7 +2026,7 @@
     },
     "New-Item": {
       "text": "New-Item",
-      "url": "https://ss64.com/new-item.html",
+      "url": "https://ss64.com/ps/new-item.html",
       "options": {
         "sub": "Create a new item in a namespace."
       },
@@ -2034,7 +2034,7 @@
     },
     "md": {
       "text": "md",
-      "url": "https://ss64.com/new-item.html",
+      "url": "https://ss64.com/ps/new-item.html",
       "options": {
         "sub": "Alias of: New-Item | Create a new item in a namespace."
       },
@@ -2042,7 +2042,7 @@
     },
     "mkdir": {
       "text": "mkdir",
-      "url": "https://ss64.com/new-item.html",
+      "url": "https://ss64.com/ps/new-item.html",
       "options": {
         "sub": "Alias of: New-Item | Create a new item in a namespace."
       },
@@ -2050,7 +2050,7 @@
     },
     "ni": {
       "text": "ni",
-      "url": "https://ss64.com/new-item.html",
+      "url": "https://ss64.com/ps/new-item.html",
       "options": {
         "sub": "Alias of: New-Item | Create a new item in a namespace."
       },
@@ -2058,7 +2058,7 @@
     },
     "del": {
       "text": "del",
-      "url": "https://ss64.com/remove-item.html",
+      "url": "https://ss64.com/ps/remove-item.html",
       "options": {
         "sub": "Alias of: Remove-Item | Remove an item."
       },
@@ -2066,7 +2066,7 @@
     },
     "ri": {
       "text": "ri",
-      "url": "https://ss64.com/remove-item.html",
+      "url": "https://ss64.com/ps/remove-item.html",
       "options": {
         "sub": "Alias of: Remove-Item | Remove an item."
       },
@@ -2074,7 +2074,7 @@
     },
     "Set-Item": {
       "text": "Set-Item",
-      "url": "https://ss64.com/set-item.html",
+      "url": "https://ss64.com/ps/set-item.html",
       "options": {
         "sub": "Change the value of an item."
       },
@@ -2082,7 +2082,7 @@
     },
     "si": {
       "text": "si",
-      "url": "https://ss64.com/set-item.html",
+      "url": "https://ss64.com/ps/set-item.html",
       "options": {
         "sub": "Alias of: Set-Item | Change the value of an item."
       },
@@ -2090,7 +2090,7 @@
     },
     "Clear-ItemProperty": {
       "text": "Clear-ItemProperty",
-      "url": "https://ss64.com/clear-itemproperty.html",
+      "url": "https://ss64.com/ps/clear-itemproperty.html",
       "options": {
         "sub": "Remove the property value from a property."
       },
@@ -2098,7 +2098,7 @@
     },
     "clp": {
       "text": "clp",
-      "url": "https://ss64.com/clear-itemproperty.html",
+      "url": "https://ss64.com/ps/clear-itemproperty.html",
       "options": {
         "sub": "Alias of: Clear-ItemProperty | Remove the property value from a property."
       },
@@ -2106,7 +2106,7 @@
     },
     "Copy-ItemProperty": {
       "text": "Copy-ItemProperty",
-      "url": "https://ss64.com/copy-itemproperty.html",
+      "url": "https://ss64.com/ps/copy-itemproperty.html",
       "options": {
         "sub": "Copy a property along with its value."
       },
@@ -2114,7 +2114,7 @@
     },
     "cpp": {
       "text": "cpp",
-      "url": "https://ss64.com/copy-itemproperty.html",
+      "url": "https://ss64.com/ps/copy-itemproperty.html",
       "options": {
         "sub": "Alias of: Copy-ItemProperty | Copy a property along with its value."
       },
@@ -2122,7 +2122,7 @@
     },
     "Get-ItemProperty": {
       "text": "Get-ItemProperty",
-      "url": "https://ss64.com/get-itemproperty.html",
+      "url": "https://ss64.com/ps/get-itemproperty.html",
       "options": {
         "sub": "Retrieve the properties of an object."
       },
@@ -2130,7 +2130,7 @@
     },
     "gp": {
       "text": "gp",
-      "url": "https://ss64.com/get-itemproperty.html",
+      "url": "https://ss64.com/ps/get-itemproperty.html",
       "options": {
         "sub": "Alias of: Get-ItemProperty | Retrieve the properties of an object."
       },
@@ -2138,7 +2138,7 @@
     },
     "Move-ItemProperty": {
       "text": "Move-ItemProperty",
-      "url": "https://ss64.com/move-itemproperty.html",
+      "url": "https://ss64.com/ps/move-itemproperty.html",
       "options": {
         "sub": "Move a property from one location to another."
       },
@@ -2146,7 +2146,7 @@
     },
     "mp": {
       "text": "mp",
-      "url": "https://ss64.com/move-itemproperty.html",
+      "url": "https://ss64.com/ps/move-itemproperty.html",
       "options": {
         "sub": "Alias of: Move-ItemProperty | Move a property from one location to another."
       },
@@ -2154,7 +2154,7 @@
     },
     "New-ItemProperty": {
       "text": "New-ItemProperty",
-      "url": "https://ss64.com/new-itemproperty.html",
+      "url": "https://ss64.com/ps/new-itemproperty.html",
       "options": {
         "sub": "Set a new property."
       },
@@ -2162,7 +2162,7 @@
     },
     "Remove-ItemProperty": {
       "text": "Remove-ItemProperty",
-      "url": "https://ss64.com/remove-itemproperty.html",
+      "url": "https://ss64.com/ps/remove-itemproperty.html",
       "options": {
         "sub": "Remove a property and its value."
       },
@@ -2170,7 +2170,7 @@
     },
     "rp": {
       "text": "rp",
-      "url": "https://ss64.com/remove-itemproperty.html",
+      "url": "https://ss64.com/ps/remove-itemproperty.html",
       "options": {
         "sub": "Alias of: Remove-ItemProperty | Remove a property and its value."
       },
@@ -2178,7 +2178,7 @@
     },
     "Rename-ItemProperty": {
       "text": "Rename-ItemProperty",
-      "url": "https://ss64.com/rename-itemproperty.html",
+      "url": "https://ss64.com/ps/rename-itemproperty.html",
       "options": {
         "sub": "Rename a property of an item."
       },
@@ -2186,7 +2186,7 @@
     },
     "rnp": {
       "text": "rnp",
-      "url": "https://ss64.com/rename-itemproperty.html",
+      "url": "https://ss64.com/ps/rename-itemproperty.html",
       "options": {
         "sub": "Alias of: Rename-ItemProperty | Rename a property of an item."
       },
@@ -2194,7 +2194,7 @@
     },
     "Set-ItemProperty": {
       "text": "Set-ItemProperty",
-      "url": "https://ss64.com/set-itemproperty.html",
+      "url": "https://ss64.com/ps/set-itemproperty.html",
       "options": {
         "sub": "Set a property at the specified location to a specified value."
       },
@@ -2202,7 +2202,7 @@
     },
     "sp": {
       "text": "sp",
-      "url": "https://ss64.com/set-itemproperty.html",
+      "url": "https://ss64.com/ps/set-itemproperty.html",
       "options": {
         "sub": "Alias of: Set-ItemProperty | Set a property at the specified location to a specified value."
       },
@@ -2210,7 +2210,7 @@
     },
     "Get-ItemPropertyValue": {
       "text": "Get-ItemPropertyValue",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/ps/",
       "options": {
         "sub": "Get the value for one or more properties of a specified item."
       },
@@ -2218,7 +2218,7 @@
     },
     "gpv": {
       "text": "gpv",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/ps/",
       "options": {
         "sub": "Alias of: Get-ItemPropertyValue | Get the value for one or more properties of a specified item."
       },
@@ -2226,7 +2226,7 @@
     },
     "Get-Job": {
       "text": "Get-Job",
-      "url": "https://ss64.com/get-job.html",
+      "url": "https://ss64.com/ps/get-job.html",
       "options": {
         "sub": "Get PowerShell background jobs that are running."
       },
@@ -2234,7 +2234,7 @@
     },
     "gjb": {
       "text": "gjb",
-      "url": "https://ss64.com/get-job.html",
+      "url": "https://ss64.com/ps/get-job.html",
       "options": {
         "sub": "Alias of: Get-Job | Get PowerShell background jobs that are running."
       },
@@ -2242,7 +2242,7 @@
     },
     "Receive-Job": {
       "text": "Receive-Job",
-      "url": "https://ss64.com/receive-job.html",
+      "url": "https://ss64.com/ps/receive-job.html",
       "options": {
         "sub": "Get PowerShell background job results."
       },
@@ -2250,7 +2250,7 @@
     },
     "rcjb": {
       "text": "rcjb",
-      "url": "https://ss64.com/receive-job.html",
+      "url": "https://ss64.com/ps/receive-job.html",
       "options": {
         "sub": "Alias of: Receive-Job | Get PowerShell background job results."
       },
@@ -2258,7 +2258,7 @@
     },
     "Remove-Job": {
       "text": "Remove-Job",
-      "url": "https://ss64.com/remove-job.html",
+      "url": "https://ss64.com/ps/remove-job.html",
       "options": {
         "sub": "Delete a PowerShell background job."
       },
@@ -2266,7 +2266,7 @@
     },
     "rjb": {
       "text": "rjb",
-      "url": "https://ss64.com/remove-job.html",
+      "url": "https://ss64.com/ps/remove-job.html",
       "options": {
         "sub": "Alias of: Remove-Job | Delete a PowerShell background job."
       },
@@ -2274,7 +2274,7 @@
     },
     "Resume-Job": {
       "text": "Resume-Job",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/ps/",
       "options": {
         "sub": "Restart a suspended job."
       },
@@ -2282,7 +2282,7 @@
     },
     "rujb": {
       "text": "rujb",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/ps/",
       "options": {
         "sub": "Alias of: Resume-Job | Restart a suspended job."
       },
@@ -2290,7 +2290,7 @@
     },
     "Start-Job": {
       "text": "Start-Job",
-      "url": "https://ss64.com/start-job.html",
+      "url": "https://ss64.com/ps/start-job.html",
       "options": {
         "sub": "Start a PowerShell background job."
       },
@@ -2298,7 +2298,7 @@
     },
     "sajb": {
       "text": "sajb",
-      "url": "https://ss64.com/start-job.html",
+      "url": "https://ss64.com/ps/start-job.html",
       "options": {
         "sub": "Alias of: Start-Job | Start a PowerShell background job."
       },
@@ -2306,7 +2306,7 @@
     },
     "Stop-Job": {
       "text": "Stop-Job",
-      "url": "https://ss64.com/stop-job.html",
+      "url": "https://ss64.com/ps/stop-job.html",
       "options": {
         "sub": "Stop a PowerShell background job."
       },
@@ -2314,7 +2314,7 @@
     },
     "spjb": {
       "text": "spjb",
-      "url": "https://ss64.com/stop-job.html",
+      "url": "https://ss64.com/ps/stop-job.html",
       "options": {
         "sub": "Alias of: Stop-Job | Stop a PowerShell background job."
       },
@@ -2322,7 +2322,7 @@
     },
     "Suspend-Job": {
       "text": "Suspend-Job",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/ps/",
       "options": {
         "sub": "Suspend a PowerShell background job."
       },
@@ -2330,7 +2330,7 @@
     },
     "sujb": {
       "text": "sujb",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/ps/",
       "options": {
         "sub": "Alias of: Suspend-Job | Suspend a PowerShell background job."
       },
@@ -2338,7 +2338,7 @@
     },
     "Wait-Job": {
       "text": "Wait-Job",
-      "url": "https://ss64.com/wait-job.html",
+      "url": "https://ss64.com/ps/wait-job.html",
       "options": {
         "sub": "Wait for a background job."
       },
@@ -2346,7 +2346,7 @@
     },
     "wjb": {
       "text": "wjb",
-      "url": "https://ss64.com/wait-job.html",
+      "url": "https://ss64.com/ps/wait-job.html",
       "options": {
         "sub": "Alias of: Wait-Job | Wait for a background job."
       },
@@ -2354,7 +2354,7 @@
     },
     "Job Trigger cmdlets": {
       "text": "Job Trigger cmdlets",
-      "url": "https://ss64.com/scheduler.html",
+      "url": "https://ss64.com/ps/scheduler.html",
       "options": {
         "sub": "Get/Set Scheduled job triggers."
       },
@@ -2362,7 +2362,7 @@
     },
     "Stop-Process": {
       "text": "Stop-Process",
-      "url": "https://ss64.com/stop-process.html",
+      "url": "https://ss64.com/ps/stop-process.html",
       "options": {
         "sub": "Stop a running process."
       },
@@ -2370,7 +2370,7 @@
     },
     "kill": {
       "text": "kill",
-      "url": "https://ss64.com/stop-process.html",
+      "url": "https://ss64.com/ps/stop-process.html",
       "options": {
         "sub": "Alias of: Stop-Process | Stop a running process."
       },
@@ -2378,7 +2378,7 @@
     },
     "spps": {
       "text": "spps",
-      "url": "https://ss64.com/stop-process.html",
+      "url": "https://ss64.com/ps/stop-process.html",
       "options": {
         "sub": "Alias of: Stop-Process | Stop a running process."
       },
@@ -2386,7 +2386,7 @@
     },
     "Add-KdsRootKey": {
       "text": "Add-KdsRootKey",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/ps/",
       "options": {
         "sub": "Generate a new root key for the MS.Group KdsSvc within AD."
       },
@@ -2394,7 +2394,7 @@
     },
     "Update-List": {
       "text": "Update-List",
-      "url": "https://ss64.com/update-list.html",
+      "url": "https://ss64.com/ps/update-list.html",
       "options": {
         "sub": "Add and remove items from a collection."
       },
@@ -2402,7 +2402,7 @@
     },
     "Get-LocalGroup": {
       "text": "Get-LocalGroup",
-      "url": "https://ss64.com/get-localgroup.html",
+      "url": "https://ss64.com/ps/get-localgroup.html",
       "options": {
         "sub": "Get the local security groups."
       },
@@ -2410,7 +2410,7 @@
     },
     "Remove-LocalGroup": {
       "text": "Remove-LocalGroup",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/ps/",
       "options": {
         "sub": "Remove a local security group."
       },
@@ -2418,7 +2418,7 @@
     },
     "Rename-LocalGroup": {
       "text": "Rename-LocalGroup",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/ps/",
       "options": {
         "sub": "Rename a local security group."
       },
@@ -2426,7 +2426,7 @@
     },
     "Set-LocalGroup": {
       "text": "Set-LocalGroup",
-      "url": "https://ss64.com/set-localgroup.html",
+      "url": "https://ss64.com/ps/set-localgroup.html",
       "options": {
         "sub": "Change a local security group."
       },
@@ -2434,7 +2434,7 @@
     },
     "Add-LocalGroupMember": {
       "text": "Add-LocalGroupMember",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/ps/",
       "options": {
         "sub": "Add members to a local group."
       },
@@ -2442,7 +2442,7 @@
     },
     "Get-LocalGroupMember": {
       "text": "Get-LocalGroupMember",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/ps/",
       "options": {
         "sub": "Get members from a local group."
       },
@@ -2450,7 +2450,7 @@
     },
     "New-LocalUser": {
       "text": "New-LocalUser",
-      "url": "https://ss64.com/new-localuser.html",
+      "url": "https://ss64.com/ps/new-localuser.html",
       "options": {
         "sub": "Create a local user account."
       },
@@ -2458,7 +2458,7 @@
     },
     "Set-LocalUser": {
       "text": "Set-LocalUser",
-      "url": "https://ss64.com/set-localuser.html",
+      "url": "https://ss64.com/ps/set-localuser.html",
       "options": {
         "sub": "Modify a local user account."
       },
@@ -2466,7 +2466,7 @@
     },
     "Get-Location": {
       "text": "Get-Location",
-      "url": "https://ss64.com/get-location.html",
+      "url": "https://ss64.com/ps/get-location.html",
       "options": {
         "sub": "Get and display the current location."
       },
@@ -2474,7 +2474,7 @@
     },
     "pwd": {
       "text": "pwd",
-      "url": "https://ss64.com/get-location.html",
+      "url": "https://ss64.com/ps/get-location.html",
       "options": {
         "sub": "Alias of: Get-Location | Get and display the current location."
       },
@@ -2482,7 +2482,7 @@
     },
     "gl": {
       "text": "gl",
-      "url": "https://ss64.com/get-location.html",
+      "url": "https://ss64.com/ps/get-location.html",
       "options": {
         "sub": "Alias of: Get-Location | Get and display the current location."
       },
@@ -2490,7 +2490,7 @@
     },
     "Pop-Location": {
       "text": "Pop-Location",
-      "url": "https://ss64.com/pop-location.html",
+      "url": "https://ss64.com/ps/pop-location.html",
       "options": {
         "sub": "Set the current working location from the stack."
       },
@@ -2498,7 +2498,7 @@
     },
     "popd": {
       "text": "popd",
-      "url": "https://ss64.com/pop-location.html",
+      "url": "https://ss64.com/ps/pop-location.html",
       "options": {
         "sub": "Alias of: Pop-Location | Set the current working location from the stack."
       },
@@ -2506,7 +2506,7 @@
     },
     "Push-Location": {
       "text": "Push-Location",
-      "url": "https://ss64.com/push-location.html",
+      "url": "https://ss64.com/ps/push-location.html",
       "options": {
         "sub": "Push a location to the stack."
       },
@@ -2514,7 +2514,7 @@
     },
     "pushd": {
       "text": "pushd",
-      "url": "https://ss64.com/push-location.html",
+      "url": "https://ss64.com/ps/push-location.html",
       "options": {
         "sub": "Alias of: Push-Location | Push a location to the stack."
       },
@@ -2522,7 +2522,7 @@
     },
     "Get-WinSystemLocale": {
       "text": "Get-WinSystemLocale",
-      "url": "https://ss64.com/get-winsystemlocale.html",
+      "url": "https://ss64.com/ps/get-winsystemlocale.html",
       "options": {
         "sub": "Get the System-locale setting for the current computer."
       },
@@ -2530,7 +2530,7 @@
     },
     "Send-MailMessage": {
       "text": "Send-MailMessage",
-      "url": "https://ss64.com/send-mailmessage.html",
+      "url": "https://ss64.com/ps/send-mailmessage.html",
       "options": {
         "sub": "Send an email message."
       },
@@ -2538,7 +2538,7 @@
     },
     "Measure-Object": {
       "text": "Measure-Object",
-      "url": "https://ss64.com/measure-object.html",
+      "url": "https://ss64.com/ps/measure-object.html",
       "options": {
         "sub": "Measure the properties of an object."
       },
@@ -2546,7 +2546,7 @@
     },
     "measure": {
       "text": "measure",
-      "url": "https://ss64.com/measure-object.html",
+      "url": "https://ss64.com/ps/measure-object.html",
       "options": {
         "sub": "Alias of: Measure-Object | Measure the properties of an object."
       },
@@ -2554,7 +2554,7 @@
     },
     "Add-Member": {
       "text": "Add-Member",
-      "url": "https://ss64.com/add-member.html",
+      "url": "https://ss64.com/ps/add-member.html",
       "options": {
         "sub": "Add a member to an instance of a PowerShell object."
       },
@@ -2562,7 +2562,7 @@
     },
     "Get-Member": {
       "text": "Get-Member",
-      "url": "https://ss64.com/get-member.html",
+      "url": "https://ss64.com/ps/get-member.html",
       "options": {
         "sub": "Enumerate the properties of an object."
       },
@@ -2570,7 +2570,7 @@
     },
     "gm": {
       "text": "gm",
-      "url": "https://ss64.com/get-member.html",
+      "url": "https://ss64.com/ps/get-member.html",
       "options": {
         "sub": "Alias of: Get-Member | Enumerate the properties of an object."
       },
@@ -2578,7 +2578,7 @@
     },
     "MessageBox": {
       "text": "MessageBox",
-      "url": "https://ss64.com/messagebox.html",
+      "url": "https://ss64.com/ps/messagebox.html",
       "options": {
         "sub": "Display a message box to the user"
       },
@@ -2586,7 +2586,7 @@
     },
     "Find-Module": {
       "text": "Find-Module",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/ps/",
       "options": {
         "sub": "Find modules from an online gallery."
       },
@@ -2594,7 +2594,7 @@
     },
     "Get-Module": {
       "text": "Get-Module",
-      "url": "https://ss64.com/get-module.html",
+      "url": "https://ss64.com/ps/get-module.html",
       "options": {
         "sub": "Get the modules imported to the session."
       },
@@ -2602,7 +2602,7 @@
     },
     "gmo": {
       "text": "gmo",
-      "url": "https://ss64.com/get-module.html",
+      "url": "https://ss64.com/ps/get-module.html",
       "options": {
         "sub": "Alias of: Get-Module | Get the modules imported to the session."
       },
@@ -2610,7 +2610,7 @@
     },
     "Import-Module": {
       "text": "Import-Module",
-      "url": "https://ss64.com/import-module.html",
+      "url": "https://ss64.com/ps/import-module.html",
       "options": {
         "sub": "Add a module to the session."
       },
@@ -2618,7 +2618,7 @@
     },
     "ipmo": {
       "text": "ipmo",
-      "url": "https://ss64.com/import-module.html",
+      "url": "https://ss64.com/ps/import-module.html",
       "options": {
         "sub": "Alias of: Import-Module | Add a module to the session."
       },
@@ -2626,7 +2626,7 @@
     },
     "New-Module": {
       "text": "New-Module",
-      "url": "https://ss64.com/new-module.html",
+      "url": "https://ss64.com/ps/new-module.html",
       "options": {
         "sub": "Create a new dynamic module (only in memory)."
       },
@@ -2634,7 +2634,7 @@
     },
     "nmo": {
       "text": "nmo",
-      "url": "https://ss64.com/new-module.html",
+      "url": "https://ss64.com/ps/new-module.html",
       "options": {
         "sub": "Alias of: New-Module | Create a new dynamic module (only in memory)."
       },
@@ -2642,7 +2642,7 @@
     },
     "Remove-Module": {
       "text": "Remove-Module",
-      "url": "https://ss64.com/remove-module.html",
+      "url": "https://ss64.com/ps/remove-module.html",
       "options": {
         "sub": "Remove a module from the current session."
       },
@@ -2650,7 +2650,7 @@
     },
     "rmo": {
       "text": "rmo",
-      "url": "https://ss64.com/remove-module.html",
+      "url": "https://ss64.com/ps/remove-module.html",
       "options": {
         "sub": "Alias of: Remove-Module | Remove a module from the current session."
       },
@@ -2658,7 +2658,7 @@
     },
     "Save-Module": {
       "text": "Save-Module",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/ps/",
       "options": {
         "sub": "Save a module locally without installing it."
       },
@@ -2666,7 +2666,7 @@
     },
     "Get-InstalledModule": {
       "text": "Get-InstalledModule",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/ps/",
       "options": {
         "sub": "Get installed modules on a computer."
       },
@@ -2674,7 +2674,7 @@
     },
     "Uninstall-Module": {
       "text": "Uninstall-Module",
-      "url": "https://ss64.com/uninstall-module.html",
+      "url": "https://ss64.com/ps/uninstall-module.html",
       "options": {
         "sub": "Uninstall a module."
       },
@@ -2682,7 +2682,7 @@
     },
     "Update-Module": {
       "text": "Update-Module",
-      "url": "https://ss64.com/update-module.html",
+      "url": "https://ss64.com/ps/update-module.html",
       "options": {
         "sub": "Download/install a new module version."
       },
@@ -2690,7 +2690,7 @@
     },
     "Export-ModuleMember": {
       "text": "Export-ModuleMember",
-      "url": "https://ss64.com/export-modulemember.html",
+      "url": "https://ss64.com/ps/export-modulemember.html",
       "options": {
         "sub": "Export specific module members."
       },
@@ -2698,7 +2698,7 @@
     },
     "Move-Item": {
       "text": "Move-Item",
-      "url": "https://ss64.com/move-item.html",
+      "url": "https://ss64.com/ps/move-item.html",
       "options": {
         "sub": "Move an item from one location to another."
       },
@@ -2706,7 +2706,7 @@
     },
     "mv": {
       "text": "mv",
-      "url": "https://ss64.com/move-item.html",
+      "url": "https://ss64.com/ps/move-item.html",
       "options": {
         "sub": "Alias of: Move-Item | Move an item from one location to another."
       },
@@ -2714,7 +2714,7 @@
     },
     "move": {
       "text": "move",
-      "url": "https://ss64.com/move-item.html",
+      "url": "https://ss64.com/ps/move-item.html",
       "options": {
         "sub": "Alias of: Move-Item | Move an item from one location to another."
       },
@@ -2722,7 +2722,7 @@
     },
     "mi": {
       "text": "mi",
-      "url": "https://ss64.com/move-item.html",
+      "url": "https://ss64.com/ps/move-item.html",
       "options": {
         "sub": "Alias of: Move-Item | Move an item from one location to another."
       },
@@ -2730,7 +2730,7 @@
     },
     "Set-MpPreference": {
       "text": "Set-MpPreference",
-      "url": "https://ss64.com/set-mppreference.html",
+      "url": "https://ss64.com/ps/set-mppreference.html",
       "options": {
         "sub": "Configure preferences for Windows Defender."
       },
@@ -2738,7 +2738,7 @@
     },
     "Get-NetAdapter": {
       "text": "Get-NetAdapter",
-      "url": "https://ss64.com/get-netadapter.html",
+      "url": "https://ss64.com/ps/get-netadapter.html",
       "options": {
         "sub": "Get the basic network adapter properties."
       },
@@ -2746,7 +2746,7 @@
     },
     "Set-NetAdapter": {
       "text": "Set-NetAdapter",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/ps/",
       "options": {
         "sub": "Set the basic network adapter properties."
       },
@@ -2754,7 +2754,7 @@
     },
     "Disable-NetAdapterBinding": {
       "text": "Disable-NetAdapterBinding",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/ps/",
       "options": {
         "sub": "Disable a binding to a network adapter."
       },
@@ -2762,7 +2762,7 @@
     },
     "Get-NetAdapterVmq": {
       "text": "Get-NetAdapterVmq",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/ps/",
       "options": {
         "sub": "Get the VMQ properties of a network adapter."
       },
@@ -2770,7 +2770,7 @@
     },
     "Set-NetAdapterVmq": {
       "text": "Set-NetAdapterVmq",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/ps/",
       "options": {
         "sub": "Set the VMQ properties of a network adapter."
       },
@@ -2778,7 +2778,7 @@
     },
     "Test-NetConnection": {
       "text": "Test-NetConnection",
-      "url": "https://ss64.com/test-netconnection.html",
+      "url": "https://ss64.com/ps/test-netconnection.html",
       "options": {
         "sub": "Display diagnostic information for a connection."
       },
@@ -2786,7 +2786,7 @@
     },
     "tnc": {
       "text": "tnc",
-      "url": "https://ss64.com/test-netconnection.html",
+      "url": "https://ss64.com/ps/test-netconnection.html",
       "options": {
         "sub": "Alias of: Test-NetConnection | Display diagnostic information for a connection."
       },
@@ -2794,7 +2794,7 @@
     },
     "Get-NetConnectionProfile": {
       "text": "Get-NetConnectionProfile",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/ps/",
       "options": {
         "sub": "Get a connection profile."
       },
@@ -2802,7 +2802,7 @@
     },
     "Set-NetConnectionProfile": {
       "text": "Set-NetConnectionProfile",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/ps/",
       "options": {
         "sub": "Set a connection profile."
       },
@@ -2810,7 +2810,7 @@
     },
     "Set-NetFirewallProfile": {
       "text": "Set-NetFirewallProfile",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/ps/",
       "options": {
         "sub": "Configure per-profile settings of Windows Firewall."
       },
@@ -2818,7 +2818,7 @@
     },
     "Enable-NetFirewallRule": {
       "text": "Enable-NetFirewallRule",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/ps/",
       "options": {
         "sub": "Enable a previously disabled firewall rule."
       },
@@ -2826,7 +2826,7 @@
     },
     "Set-NetFirewallRule": {
       "text": "Set-NetFirewallRule",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/ps/",
       "options": {
         "sub": "Modify existing firewall rules."
       },
@@ -2834,7 +2834,7 @@
     },
     "Get-NetFirewallRule": {
       "text": "Get-NetFirewallRule",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/ps/",
       "options": {
         "sub": "Retrieve firewall rules from the target computer."
       },
@@ -2842,7 +2842,7 @@
     },
     "New-NetFirewallRule": {
       "text": "New-NetFirewallRule",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/ps/",
       "options": {
         "sub": "Create a new firewall rule and add to a target computer."
       },
@@ -2850,7 +2850,7 @@
     },
     "New-NetIPAddress": {
       "text": "New-NetIPAddress",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/ps/",
       "options": {
         "sub": "Create and configure an IP address."
       },
@@ -2858,7 +2858,7 @@
     },
     "Remove-NetIPAddress": {
       "text": "Remove-NetIPAddress",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/ps/",
       "options": {
         "sub": "Remove an IP address and its configuration."
       },
@@ -2866,7 +2866,7 @@
     },
     "Set-NetIPAddress": {
       "text": "Set-NetIPAddress",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/ps/",
       "options": {
         "sub": "Modify the configuration of an IP address."
       },
@@ -2874,7 +2874,7 @@
     },
     "Get-NetIPConfiguration": {
       "text": "Get-NetIPConfiguration",
-      "url": "https://ss64.com/get-netipconfiguration.html",
+      "url": "https://ss64.com/ps/get-netipconfiguration.html",
       "options": {
         "sub": "Get IP network configuration."
       },
@@ -2882,7 +2882,7 @@
     },
     "Get-NetIPInterface": {
       "text": "Get-NetIPInterface",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/ps/",
       "options": {
         "sub": "Get an IP interface."
       },
@@ -2890,7 +2890,7 @@
     },
     "Set-NetIPInterface": {
       "text": "Set-NetIPInterface",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/ps/",
       "options": {
         "sub": "Modify an IP interface."
       },
@@ -2898,7 +2898,7 @@
     },
     "New-NetLbfoTeam": {
       "text": "New-NetLbfoTeam",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/ps/",
       "options": {
         "sub": "Create a new NIC team."
       },
@@ -2906,7 +2906,7 @@
     },
     "New-NetNat": {
       "text": "New-NetNat",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/ps/",
       "options": {
         "sub": "Create a NAT object."
       },
@@ -2914,7 +2914,7 @@
     },
     "New-NetRoute": {
       "text": "New-NetRoute",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/ps/",
       "options": {
         "sub": "Create a route in the IP routing table."
       },
@@ -2922,7 +2922,7 @@
     },
     "Get-NetTCPConnection": {
       "text": "Get-NetTCPConnection",
-      "url": "https://ss64.com/get-nettcpconnection.html",
+      "url": "https://ss64.com/ps/get-nettcpconnection.html",
       "options": {
         "sub": "Get TCP connections."
       },
@@ -2930,7 +2930,7 @@
     },
     "Set-NetTCPSetting": {
       "text": "Set-NetTCPSetting",
-      "url": "https://ss64.com/set-nettcpsetting.html",
+      "url": "https://ss64.com/ps/set-nettcpsetting.html",
       "options": {
         "sub": "Modify a TCP setting."
       },
@@ -2938,7 +2938,7 @@
     },
     "New-Object": {
       "text": "New-Object",
-      "url": "https://ss64.com/new-object.html",
+      "url": "https://ss64.com/ps/new-object.html",
       "options": {
         "sub": "Create a new .Net object."
       },
@@ -2946,7 +2946,7 @@
     },
     "Select-Object": {
       "text": "Select-Object",
-      "url": "https://ss64.com/select-object.html",
+      "url": "https://ss64.com/ps/select-object.html",
       "options": {
         "sub": "Select properties of objects."
       },
@@ -2954,7 +2954,7 @@
     },
     "select": {
       "text": "select",
-      "url": "https://ss64.com/select-object.html",
+      "url": "https://ss64.com/ps/select-object.html",
       "options": {
         "sub": "Alias of: Select-Object | Select properties of objects."
       },
@@ -2962,7 +2962,7 @@
     },
     "Sort-Object": {
       "text": "Sort-Object",
-      "url": "https://ss64.com/sort-object.html",
+      "url": "https://ss64.com/ps/sort-object.html",
       "options": {
         "sub": "Sort objects by property value."
       },
@@ -2970,7 +2970,7 @@
     },
     "sort": {
       "text": "sort",
-      "url": "https://ss64.com/sort-object.html",
+      "url": "https://ss64.com/ps/sort-object.html",
       "options": {
         "sub": "Alias of: Sort-Object | Sort objects by property value."
       },
@@ -2978,7 +2978,7 @@
     },
     "Where-Object": {
       "text": "Where-Object",
-      "url": "https://ss64.com/where-object.html",
+      "url": "https://ss64.com/ps/where-object.html",
       "options": {
         "sub": "Filter input from the pipeline."
       },
@@ -2986,7 +2986,7 @@
     },
     "Add-OdbcDsn": {
       "text": "Add-OdbcDsn",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/ps/",
       "options": {
         "sub": "Add an ODBC DSN."
       },
@@ -2994,7 +2994,7 @@
     },
     "Out-Default": {
       "text": "Out-Default",
-      "url": "https://ss64.com/out-default.html",
+      "url": "https://ss64.com/ps/out-default.html",
       "options": {
         "sub": "Set the destination of default output."
       },
@@ -3002,7 +3002,7 @@
     },
     "Out-File": {
       "text": "Out-File",
-      "url": "https://ss64.com/out-file.html",
+      "url": "https://ss64.com/ps/out-file.html",
       "options": {
         "sub": "Send output to a file."
       },
@@ -3010,7 +3010,7 @@
     },
     ">": {
       "text": ">",
-      "url": "https://ss64.com/out-file.html",
+      "url": "https://ss64.com/ps/out-file.html",
       "options": {
         "sub": "Alias of: Out-File | Send output to a file."
       },
@@ -3018,7 +3018,7 @@
     },
     "Out-GridView": {
       "text": "Out-GridView",
-      "url": "https://ss64.com/out-gridview.html",
+      "url": "https://ss64.com/ps/out-gridview.html",
       "options": {
         "sub": "Send output to an interactive table."
       },
@@ -3026,7 +3026,7 @@
     },
     "ogv": {
       "text": "ogv",
-      "url": "https://ss64.com/out-gridview.html",
+      "url": "https://ss64.com/ps/out-gridview.html",
       "options": {
         "sub": "Alias of: Out-GridView | Send output to an interactive table."
       },
@@ -3034,7 +3034,7 @@
     },
     "Out-Null": {
       "text": "Out-Null",
-      "url": "https://ss64.com/out-null.html",
+      "url": "https://ss64.com/ps/out-null.html",
       "options": {
         "sub": "Send output to null."
       },
@@ -3042,7 +3042,7 @@
     },
     "Out-Printer": {
       "text": "Out-Printer",
-      "url": "https://ss64.com/out-printer.html",
+      "url": "https://ss64.com/ps/out-printer.html",
       "options": {
         "sub": "Send the output to a printer."
       },
@@ -3050,7 +3050,7 @@
     },
     "lp": {
       "text": "lp",
-      "url": "https://ss64.com/out-printer.html",
+      "url": "https://ss64.com/ps/out-printer.html",
       "options": {
         "sub": "Alias of: Out-Printer | Send the output to a printer."
       },
@@ -3058,7 +3058,7 @@
     },
     "Out-String": {
       "text": "Out-String",
-      "url": "https://ss64.com/out-string.html",
+      "url": "https://ss64.com/ps/out-string.html",
       "options": {
         "sub": "Send objects to the host as strings."
       },
@@ -3066,7 +3066,7 @@
     },
     "Get-Package": {
       "text": "Get-Package",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/ps/",
       "options": {
         "sub": "Return a list of all software packages installed using Package Management."
       },
@@ -3074,7 +3074,7 @@
     },
     "Find-Package": {
       "text": "Find-Package",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/ps/",
       "options": {
         "sub": "Find software packages in available package sources."
       },
@@ -3082,7 +3082,7 @@
     },
     "Uninstall-Package": {
       "text": "Uninstall-Package",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/ps/",
       "options": {
         "sub": "Uninstall one or more software packages."
       },
@@ -3090,7 +3090,7 @@
     },
     "Install-PackageProvider": {
       "text": "Install-PackageProvider",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/ps/",
       "options": {
         "sub": "Install one or more Package Management package providers."
       },
@@ -3098,7 +3098,7 @@
     },
     "Param": {
       "text": "Param",
-      "url": "https://ss64.com/syntax-args.html",
+      "url": "https://ss64.com/ps/syntax-args.html",
       "options": {
         "sub": "Script Parameters."
       },
@@ -3106,7 +3106,7 @@
     },
     "Get-Partition": {
       "text": "Get-Partition",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/ps/",
       "options": {
         "sub": "Return a list of partition objects."
       },
@@ -3114,7 +3114,7 @@
     },
     "New-Partition": {
       "text": "New-Partition",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/ps/",
       "options": {
         "sub": "Create a new partition on an existing Disk object."
       },
@@ -3122,7 +3122,7 @@
     },
     "Resize-Partition": {
       "text": "Resize-Partition",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/ps/",
       "options": {
         "sub": "Resize a partition and the underlying file system."
       },
@@ -3130,7 +3130,7 @@
     },
     "Set-Partition": {
       "text": "Set-Partition",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/ps/",
       "options": {
         "sub": "Set attributes of a partition: active, read-only, offline."
       },
@@ -3138,7 +3138,7 @@
     },
     "Convert-Path": {
       "text": "Convert-Path",
-      "url": "https://ss64.com/convert-path.html",
+      "url": "https://ss64.com/ps/convert-path.html",
       "options": {
         "sub": "Convert a ps path to a provider path."
       },
@@ -3146,7 +3146,7 @@
     },
     "cvpa": {
       "text": "cvpa",
-      "url": "https://ss64.com/convert-path.html",
+      "url": "https://ss64.com/ps/convert-path.html",
       "options": {
         "sub": "Alias of: Convert-Path | Convert a ps path to a provider path."
       },
@@ -3154,7 +3154,7 @@
     },
     "Join-Path": {
       "text": "Join-Path",
-      "url": "https://ss64.com/join-path.html",
+      "url": "https://ss64.com/ps/join-path.html",
       "options": {
         "sub": "Combine a path and one or more child-paths."
       },
@@ -3162,7 +3162,7 @@
     },
     "Resolve-Path": {
       "text": "Resolve-Path",
-      "url": "https://ss64.com/resolve-path.html",
+      "url": "https://ss64.com/ps/resolve-path.html",
       "options": {
         "sub": "Resolves the wildcards in a path."
       },
@@ -3170,7 +3170,7 @@
     },
     "rvpa": {
       "text": "rvpa",
-      "url": "https://ss64.com/resolve-path.html",
+      "url": "https://ss64.com/ps/resolve-path.html",
       "options": {
         "sub": "Alias of: Resolve-Path | Resolves the wildcards in a path."
       },
@@ -3178,7 +3178,7 @@
     },
     "Split-Path": {
       "text": "Split-Path",
-      "url": "https://ss64.com/split-path.html",
+      "url": "https://ss64.com/ps/split-path.html",
       "options": {
         "sub": "Return part of a path."
       },
@@ -3186,7 +3186,7 @@
     },
     "Test-Path": {
       "text": "Test-Path",
-      "url": "https://ss64.com/test-path.html",
+      "url": "https://ss64.com/ps/test-path.html",
       "options": {
         "sub": "Return true if the path exists, otherwise return false."
       },
@@ -3194,7 +3194,7 @@
     },
     "Pause": {
       "text": "Pause",
-      "url": "https://ss64.com/pause.html",
+      "url": "https://ss64.com/ps/pause.html",
       "options": {
         "sub": "Pause and display the message \"Press Enter to continue...\""
       },
@@ -3202,7 +3202,7 @@
     },
     "Invoke-Pester": {
       "text": "Invoke-Pester",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/ps/",
       "options": {
         "sub": "Invoke Pester to recursively run all tests."
       },
@@ -3210,7 +3210,7 @@
     },
     "Export-PfxCertificate": {
       "text": "Export-PfxCertificate",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/ps/",
       "options": {
         "sub": "Export a certificate or a PFXData object to a PFX file."
       },
@@ -3218,7 +3218,7 @@
     },
     "Get-PfxCertificate": {
       "text": "Get-PfxCertificate",
-      "url": "https://ss64.com/get-pfxcert.html",
+      "url": "https://ss64.com/ps/get-pfxcert.html",
       "options": {
         "sub": "Get pfx certificate information."
       },
@@ -3226,7 +3226,7 @@
     },
     "Get-PhysicalDisk": {
       "text": "Get-PhysicalDisk",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/ps/",
       "options": {
         "sub": "Retrieve a list of Physical Disk objects."
       },
@@ -3234,7 +3234,7 @@
     },
     "Remove-PhysicalDisk": {
       "text": "Remove-PhysicalDisk",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/ps/",
       "options": {
         "sub": "Remove a physical disk from a specified storage pool."
       },
@@ -3242,7 +3242,7 @@
     },
     "Set-PhysicalDisk": {
       "text": "Set-PhysicalDisk",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/ps/",
       "options": {
         "sub": "Set attributes on a specific physical disk."
       },
@@ -3250,7 +3250,7 @@
     },
     "Get-PnpDevice": {
       "text": "Get-PnpDevice",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/ps/",
       "options": {
         "sub": "Return information about PnP devices."
       },
@@ -3258,7 +3258,7 @@
     },
     "Powershell": {
       "text": "Powershell",
-      "url": "https://ss64.com/powershell.html",
+      "url": "https://ss64.com/ps/powershell.html",
       "options": {
         "sub": "Launch a PowerShell session/run a script."
       },
@@ -3266,7 +3266,7 @@
     },
     "pwsh": {
       "text": "pwsh",
-      "url": "https://ss64.com/powershell.html",
+      "url": "https://ss64.com/ps/powershell.html",
       "options": {
         "sub": "Alias of: Powershell | Launch a PowerShell session/run a script."
       },
@@ -3274,7 +3274,7 @@
     },
     "Add-Printer": {
       "text": "Add-Printer",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/ps/",
       "options": {
         "sub": "Add a printer to the specified computer."
       },
@@ -3282,7 +3282,7 @@
     },
     "Get-Printer": {
       "text": "Get-Printer",
-      "url": "https://ss64.com/get-printer.html",
+      "url": "https://ss64.com/ps/get-printer.html",
       "options": {
         "sub": "Retrieve a list of printers installed on a computer."
       },
@@ -3290,7 +3290,7 @@
     },
     "Remove-Printer": {
       "text": "Remove-Printer",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/ps/",
       "options": {
         "sub": "Remove a printer from the specified computer."
       },
@@ -3298,7 +3298,7 @@
     },
     "Set-Printer": {
       "text": "Set-Printer",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/ps/",
       "options": {
         "sub": "Update the configuration of an existing printer."
       },
@@ -3306,7 +3306,7 @@
     },
     "Add-PrinterDriver": {
       "text": "Add-PrinterDriver",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/ps/",
       "options": {
         "sub": "Install a printer driver on the computer."
       },
@@ -3314,7 +3314,7 @@
     },
     "Add-PrinterPort": {
       "text": "Add-PrinterPort",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/ps/",
       "options": {
         "sub": "Install a printer port on the computer."
       },
@@ -3322,7 +3322,7 @@
     },
     "Get-PrintJob": {
       "text": "Get-PrintJob",
-      "url": "https://ss64.com/get-printjob.html",
+      "url": "https://ss64.com/ps/get-printjob.html",
       "options": {
         "sub": "Retrieve a list of print jobs from the specified printer."
       },
@@ -3330,7 +3330,7 @@
     },
     "Process": {
       "text": "Process",
-      "url": "https://ss64.com/syntax-function-input.html",
+      "url": "https://ss64.com/ps/syntax-function-input.html",
       "options": {
         "sub": "Function PROCESS block."
       },
@@ -3338,7 +3338,7 @@
     },
     "Get-Process": {
       "text": "Get-Process",
-      "url": "https://ss64.com/get-process.html",
+      "url": "https://ss64.com/ps/get-process.html",
       "options": {
         "sub": "Get a list of processes on a machine."
       },
@@ -3346,7 +3346,7 @@
     },
     "ps": {
       "text": "ps",
-      "url": "https://ss64.com/get-process.html",
+      "url": "https://ss64.com/ps/get-process.html",
       "options": {
         "sub": "Alias of: Get-Process | Get a list of processes on a machine."
       },
@@ -3354,7 +3354,7 @@
     },
     "gps": {
       "text": "gps",
-      "url": "https://ss64.com/get-process.html",
+      "url": "https://ss64.com/ps/get-process.html",
       "options": {
         "sub": "Alias of: Get-Process | Get a list of processes on a machine."
       },
@@ -3362,7 +3362,7 @@
     },
     "Debug-Process": {
       "text": "Debug-Process",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/ps/",
       "options": {
         "sub": "Attach a debugger to a running process."
       },
@@ -3370,7 +3370,7 @@
     },
     "Start-Process": {
       "text": "Start-Process",
-      "url": "https://ss64.com/start-process.html",
+      "url": "https://ss64.com/ps/start-process.html",
       "options": {
         "sub": "Start one or more processes."
       },
@@ -3378,7 +3378,7 @@
     },
     "start": {
       "text": "start",
-      "url": "https://ss64.com/start-process.html",
+      "url": "https://ss64.com/ps/start-process.html",
       "options": {
         "sub": "Alias of: Start-Process | Start one or more processes."
       },
@@ -3386,7 +3386,7 @@
     },
     "saps": {
       "text": "saps",
-      "url": "https://ss64.com/start-process.html",
+      "url": "https://ss64.com/ps/start-process.html",
       "options": {
         "sub": "Alias of: Start-Process | Start one or more processes."
       },
@@ -3394,7 +3394,7 @@
     },
     "Wait-Process": {
       "text": "Wait-Process",
-      "url": "https://ss64.com/wait-process.html",
+      "url": "https://ss64.com/ps/wait-process.html",
       "options": {
         "sub": "Wait for a process to stop."
       },
@@ -3402,7 +3402,7 @@
     },
     "Enable-PSBreakpoint": {
       "text": "Enable-PSBreakpoint",
-      "url": "https://ss64.com/enable-psbreakpoint.html",
+      "url": "https://ss64.com/ps/enable-psbreakpoint.html",
       "options": {
         "sub": "Enable a breakpoint in the current console."
       },
@@ -3410,7 +3410,7 @@
     },
     "ebp": {
       "text": "ebp",
-      "url": "https://ss64.com/enable-psbreakpoint.html",
+      "url": "https://ss64.com/ps/enable-psbreakpoint.html",
       "options": {
         "sub": "Alias of: Enable-PSBreakpoint | Enable a breakpoint in the current console."
       },
@@ -3418,7 +3418,7 @@
     },
     "Disable-PSBreakpoint": {
       "text": "Disable-PSBreakpoint",
-      "url": "https://ss64.com/disable-psbreakpoint.html",
+      "url": "https://ss64.com/ps/disable-psbreakpoint.html",
       "options": {
         "sub": "Disable a breakpoint in the current console."
       },
@@ -3426,7 +3426,7 @@
     },
     "dbp": {
       "text": "dbp",
-      "url": "https://ss64.com/disable-psbreakpoint.html",
+      "url": "https://ss64.com/ps/disable-psbreakpoint.html",
       "options": {
         "sub": "Alias of: Disable-PSBreakpoint | Disable a breakpoint in the current console."
       },
@@ -3434,7 +3434,7 @@
     },
     "Get-PSBreakpoint": {
       "text": "Get-PSBreakpoint",
-      "url": "https://ss64.com/get-psbreakpoint.html",
+      "url": "https://ss64.com/ps/get-psbreakpoint.html",
       "options": {
         "sub": "Get the currently set breakpoints."
       },
@@ -3442,7 +3442,7 @@
     },
     "gbp": {
       "text": "gbp",
-      "url": "https://ss64.com/get-psbreakpoint.html",
+      "url": "https://ss64.com/ps/get-psbreakpoint.html",
       "options": {
         "sub": "Alias of: Get-PSBreakpoint | Get the currently set breakpoints."
       },
@@ -3450,7 +3450,7 @@
     },
     "Set-PSBreakpoint": {
       "text": "Set-PSBreakpoint",
-      "url": "https://ss64.com/set-psbreakpoint.html",
+      "url": "https://ss64.com/ps/set-psbreakpoint.html",
       "options": {
         "sub": "Set a breakpoint on a line, command, or variable."
       },
@@ -3458,7 +3458,7 @@
     },
     "sbp": {
       "text": "sbp",
-      "url": "https://ss64.com/set-psbreakpoint.html",
+      "url": "https://ss64.com/ps/set-psbreakpoint.html",
       "options": {
         "sub": "Alias of: Set-PSBreakpoint | Set a breakpoint on a line, command, or variable."
       },
@@ -3466,7 +3466,7 @@
     },
     "Remove-PSBreakpoint": {
       "text": "Remove-PSBreakpoint",
-      "url": "https://ss64.com/remove-psbreakpoint.html",
+      "url": "https://ss64.com/ps/remove-psbreakpoint.html",
       "options": {
         "sub": "Delete breakpoints from the current console."
       },
@@ -3474,7 +3474,7 @@
     },
     "rbp": {
       "text": "rbp",
-      "url": "https://ss64.com/remove-psbreakpoint.html",
+      "url": "https://ss64.com/ps/remove-psbreakpoint.html",
       "options": {
         "sub": "Alias of: Remove-PSBreakpoint | Delete breakpoints from the current console."
       },
@@ -3482,7 +3482,7 @@
     },
     "Get-PSCallStack": {
       "text": "Get-PSCallStack",
-      "url": "https://ss64.com/get-pscallstack.html",
+      "url": "https://ss64.com/ps/get-pscallstack.html",
       "options": {
         "sub": "Display the current call stack."
       },
@@ -3490,7 +3490,7 @@
     },
     "gcs": {
       "text": "gcs",
-      "url": "https://ss64.com/get-pscallstack.html",
+      "url": "https://ss64.com/ps/get-pscallstack.html",
       "options": {
         "sub": "Alias of: Get-PSCallStack | Display the current call stack."
       },
@@ -3498,7 +3498,7 @@
     },
     "Get-PSDrive": {
       "text": "Get-PSDrive",
-      "url": "https://ss64.com/get-psdrive.html",
+      "url": "https://ss64.com/ps/get-psdrive.html",
       "options": {
         "sub": "Get drive information (DriveInfo)."
       },
@@ -3506,7 +3506,7 @@
     },
     "gdr": {
       "text": "gdr",
-      "url": "https://ss64.com/get-psdrive.html",
+      "url": "https://ss64.com/ps/get-psdrive.html",
       "options": {
         "sub": "Alias of: Get-PSDrive | Get drive information (DriveInfo)."
       },
@@ -3514,7 +3514,7 @@
     },
     "New-PSDrive": {
       "text": "New-PSDrive",
-      "url": "https://ss64.com/new-psdrive.html",
+      "url": "https://ss64.com/ps/new-psdrive.html",
       "options": {
         "sub": "Create a mapped network drive."
       },
@@ -3522,7 +3522,7 @@
     },
     "mount": {
       "text": "mount",
-      "url": "https://ss64.com/new-psdrive.html",
+      "url": "https://ss64.com/ps/new-psdrive.html",
       "options": {
         "sub": "Alias of: New-PSDrive | Create a mapped network drive."
       },
@@ -3530,7 +3530,7 @@
     },
     "ndr": {
       "text": "ndr",
-      "url": "https://ss64.com/new-psdrive.html",
+      "url": "https://ss64.com/ps/new-psdrive.html",
       "options": {
         "sub": "Alias of: New-PSDrive | Create a mapped network drive."
       },
@@ -3538,7 +3538,7 @@
     },
     "Remove-PSDrive": {
       "text": "Remove-PSDrive",
-      "url": "https://ss64.com/remove-psdrive.html",
+      "url": "https://ss64.com/ps/remove-psdrive.html",
       "options": {
         "sub": "Remove a provider/drive from its location."
       },
@@ -3546,7 +3546,7 @@
     },
     "rdr": {
       "text": "rdr",
-      "url": "https://ss64.com/remove-psdrive.html",
+      "url": "https://ss64.com/ps/remove-psdrive.html",
       "options": {
         "sub": "Alias of: Remove-PSDrive | Remove a provider/drive from its location."
       },
@@ -3554,7 +3554,7 @@
     },
     "Get-PSProvider": {
       "text": "Get-PSProvider",
-      "url": "https://ss64.com/get-psprovider.html",
+      "url": "https://ss64.com/ps/get-psprovider.html",
       "options": {
         "sub": "Get information for the specified provider."
       },
@@ -3562,7 +3562,7 @@
     },
     "Set-PSdebug": {
       "text": "Set-PSdebug",
-      "url": "https://ss64.com/set-psdebug.html",
+      "url": "https://ss64.com/ps/set-psdebug.html",
       "options": {
         "sub": "Turn script debugging on or off."
       },
@@ -3570,7 +3570,7 @@
     },
     "Disable-PSRemoting": {
       "text": "Disable-PSRemoting",
-      "url": "https://ss64.com/disable-psremoting.html",
+      "url": "https://ss64.com/ps/disable-psremoting.html",
       "options": {
         "sub": "Disable remote session configuration on the local computer."
       },
@@ -3578,7 +3578,7 @@
     },
     "Enable-PSRemoting": {
       "text": "Enable-PSRemoting",
-      "url": "https://ss64.com/enable-psremoting.html",
+      "url": "https://ss64.com/ps/enable-psremoting.html",
       "options": {
         "sub": "Configure the computer to receive remote commands."
       },
@@ -3586,7 +3586,7 @@
     },
     "Get-PSRepository": {
       "text": "Get-PSRepository",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/ps/",
       "options": {
         "sub": "Get PowerShell repositories."
       },
@@ -3594,7 +3594,7 @@
     },
     "Register-PSRepository": {
       "text": "Register-PSRepository",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/ps/",
       "options": {
         "sub": "Register a PowerShell repository."
       },
@@ -3602,7 +3602,7 @@
     },
     "Set-PSRepository": {
       "text": "Set-PSRepository",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/ps/",
       "options": {
         "sub": "Set values for a registered repository."
       },
@@ -3610,7 +3610,7 @@
     },
     "Connect-PSSession": {
       "text": "Connect-PSSession",
-      "url": "https://ss64.com/connect-pssession.html",
+      "url": "https://ss64.com/ps/connect-pssession.html",
       "options": {
         "sub": "Reconnect to a disconnected session."
       },
@@ -3618,7 +3618,7 @@
     },
     "cnsn": {
       "text": "cnsn",
-      "url": "https://ss64.com/connect-pssession.html",
+      "url": "https://ss64.com/ps/connect-pssession.html",
       "options": {
         "sub": "Alias of: Connect-PSSession | Reconnect to a disconnected session."
       },
@@ -3626,7 +3626,7 @@
     },
     "Disconnect-PSSession": {
       "text": "Disconnect-PSSession",
-      "url": "https://ss64.com/disconnect-pssession.html",
+      "url": "https://ss64.com/ps/disconnect-pssession.html",
       "options": {
         "sub": "Disconnect from a session."
       },
@@ -3634,7 +3634,7 @@
     },
     "dnsn": {
       "text": "dnsn",
-      "url": "https://ss64.com/disconnect-pssession.html",
+      "url": "https://ss64.com/ps/disconnect-pssession.html",
       "options": {
         "sub": "Alias of: Disconnect-PSSession | Disconnect from a session."
       },
@@ -3642,7 +3642,7 @@
     },
     "Enter-PSSession": {
       "text": "Enter-PSSession",
-      "url": "https://ss64.com/enter-pssession.html",
+      "url": "https://ss64.com/ps/enter-pssession.html",
       "options": {
         "sub": "Start an interactive session with a remote computer."
       },
@@ -3650,7 +3650,7 @@
     },
     "etsn": {
       "text": "etsn",
-      "url": "https://ss64.com/enter-pssession.html",
+      "url": "https://ss64.com/ps/enter-pssession.html",
       "options": {
         "sub": "Alias of: Enter-PSSession | Start an interactive session with a remote computer."
       },
@@ -3658,7 +3658,7 @@
     },
     "Export-PSSession": {
       "text": "Export-PSSession",
-      "url": "https://ss64.com/export-pssession.html",
+      "url": "https://ss64.com/ps/export-pssession.html",
       "options": {
         "sub": "Import commands and save them in a PowerShell module."
       },
@@ -3666,7 +3666,7 @@
     },
     "epsn": {
       "text": "epsn",
-      "url": "https://ss64.com/export-pssession.html",
+      "url": "https://ss64.com/ps/export-pssession.html",
       "options": {
         "sub": "Alias of: Export-PSSession | Import commands and save them in a PowerShell module."
       },
@@ -3674,7 +3674,7 @@
     },
     "Get-PSSession": {
       "text": "Get-PSSession",
-      "url": "https://ss64.com/get-pssession.html",
+      "url": "https://ss64.com/ps/get-pssession.html",
       "options": {
         "sub": "Get the PSSessions in the current session."
       },
@@ -3682,7 +3682,7 @@
     },
     "gsn": {
       "text": "gsn",
-      "url": "https://ss64.com/get-pssession.html",
+      "url": "https://ss64.com/ps/get-pssession.html",
       "options": {
         "sub": "Alias of: Get-PSSession | Get the PSSessions in the current session."
       },
@@ -3690,7 +3690,7 @@
     },
     "Import-PSSession": {
       "text": "Import-PSSession",
-      "url": "https://ss64.com/import-pssession.html",
+      "url": "https://ss64.com/ps/import-pssession.html",
       "options": {
         "sub": "Import commands from another session."
       },
@@ -3698,7 +3698,7 @@
     },
     "ipsn": {
       "text": "ipsn",
-      "url": "https://ss64.com/import-pssession.html",
+      "url": "https://ss64.com/ps/import-pssession.html",
       "options": {
         "sub": "Alias of: Import-PSSession | Import commands from another session."
       },
@@ -3706,7 +3706,7 @@
     },
     "New-PSSession": {
       "text": "New-PSSession",
-      "url": "https://ss64.com/new-pssession.html",
+      "url": "https://ss64.com/ps/new-pssession.html",
       "options": {
         "sub": "Create a persistent connection to a local or remote computer."
       },
@@ -3714,7 +3714,7 @@
     },
     "nsn": {
       "text": "nsn",
-      "url": "https://ss64.com/new-pssession.html",
+      "url": "https://ss64.com/ps/new-pssession.html",
       "options": {
         "sub": "Alias of: New-PSSession | Create a persistent connection to a local or remote computer."
       },
@@ -3722,7 +3722,7 @@
     },
     "Receive-PSSession": {
       "text": "Receive-PSSession",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/ps/",
       "options": {
         "sub": "Receive a PSSession."
       },
@@ -3730,7 +3730,7 @@
     },
     "rcsn": {
       "text": "rcsn",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/ps/",
       "options": {
         "sub": "Alias of: Receive-PSSession | Receive a PSSession."
       },
@@ -3738,7 +3738,7 @@
     },
     "Remove-PSSession": {
       "text": "Remove-PSSession",
-      "url": "https://ss64.com/remove-pssession.html",
+      "url": "https://ss64.com/ps/remove-pssession.html",
       "options": {
         "sub": "Close PowerShell sessions."
       },
@@ -3746,7 +3746,7 @@
     },
     "rsn": {
       "text": "rsn",
-      "url": "https://ss64.com/remove-pssession.html",
+      "url": "https://ss64.com/ps/remove-pssession.html",
       "options": {
         "sub": "Alias of: Remove-PSSession | Close PowerShell sessions."
       },
@@ -3754,7 +3754,7 @@
     },
     "Disable-PSSessionConfiguration": {
       "text": "Disable-PSSessionConfiguration",
-      "url": "https://ss64.com/disable-pssessionconfiguration.html",
+      "url": "https://ss64.com/ps/disable-pssessionconfiguration.html",
       "options": {
         "sub": "Disable session configurations on the local computer."
       },
@@ -3762,7 +3762,7 @@
     },
     "Enable-PSSessionConfiguration": {
       "text": "Enable-PSSessionConfiguration",
-      "url": "https://ss64.com/enable-pssessionconfiguration.html",
+      "url": "https://ss64.com/ps/enable-pssessionconfiguration.html",
       "options": {
         "sub": "Enable session configurations on the local computer."
       },
@@ -3770,7 +3770,7 @@
     },
     "Get-PSSessionConfiguration": {
       "text": "Get-PSSessionConfiguration",
-      "url": "https://ss64.com/get-pssessionconfiguration.html",
+      "url": "https://ss64.com/ps/get-pssessionconfiguration.html",
       "options": {
         "sub": "Get the registered PS session configuration."
       },
@@ -3778,7 +3778,7 @@
     },
     "Register-PSSessionConfiguration": {
       "text": "Register-PSSessionConfiguration",
-      "url": "https://ss64.com/register-pssessionconfiguration.html",
+      "url": "https://ss64.com/ps/register-pssessionconfiguration.html",
       "options": {
         "sub": "Create and register a new PS session configuration."
       },
@@ -3786,7 +3786,7 @@
     },
     "Set-PSSessionConfiguration": {
       "text": "Set-PSSessionConfiguration",
-      "url": "https://ss64.com/set-pssessionconfiguration.html",
+      "url": "https://ss64.com/ps/set-pssessionconfiguration.html",
       "options": {
         "sub": "Change properties of a registered session configuration."
       },
@@ -3794,7 +3794,7 @@
     },
     "Unregister-PSSessionConfiguration": {
       "text": "Unregister-PSSessionConfiguration",
-      "url": "https://ss64.com/unregister-pssessionconfiguration.html",
+      "url": "https://ss64.com/ps/unregister-pssessionconfiguration.html",
       "options": {
         "sub": "Delete registered PS session configuration."
       },
@@ -3802,7 +3802,7 @@
     },
     "New-PSSessionConfigurationFile": {
       "text": "New-PSSessionConfigurationFile",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/ps/",
       "options": {
         "sub": "Create a file that defines a session configuration."
       },
@@ -3810,7 +3810,7 @@
     },
     "New-PSSessionOption": {
       "text": "New-PSSessionOption",
-      "url": "https://ss64.com/new-pssessionoption.html",
+      "url": "https://ss64.com/ps/new-pssessionoption.html",
       "options": {
         "sub": "Advanced options for a PSSession."
       },
@@ -3818,7 +3818,7 @@
     },
     "Add-PsSnapIn": {
       "text": "Add-PsSnapIn",
-      "url": "https://ss64.com/add-pssnapin.html",
+      "url": "https://ss64.com/ps/add-pssnapin.html",
       "options": {
         "sub": "Add snap-ins to the console."
       },
@@ -3826,7 +3826,7 @@
     },
     "Get-PsSnapin": {
       "text": "Get-PsSnapin",
-      "url": "https://ss64.com/get-pssnapin.html",
+      "url": "https://ss64.com/ps/get-pssnapin.html",
       "options": {
         "sub": "List PowerShell snap-ins on this computer."
       },
@@ -3834,7 +3834,7 @@
     },
     "Remove-PSSnapin": {
       "text": "Remove-PSSnapin",
-      "url": "https://ss64.com/remove-pssnapin.html",
+      "url": "https://ss64.com/ps/remove-pssnapin.html",
       "options": {
         "sub": "Remove PowerShell snap-ins from the console."
       },
@@ -3842,7 +3842,7 @@
     },
     "Get-Random": {
       "text": "Get-Random",
-      "url": "https://ss64.com/get-random.html",
+      "url": "https://ss64.com/ps/get-random.html",
       "options": {
         "sub": "Get a random number."
       },
@@ -3850,7 +3850,7 @@
     },
     "Clear-RecycleBin": {
       "text": "Clear-RecycleBin",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/ps/",
       "options": {
         "sub": "Clear the RecycleBin."
       },
@@ -3858,7 +3858,7 @@
     },
     "Rename-Item": {
       "text": "Rename-Item",
-      "url": "https://ss64.com/rename-item.html",
+      "url": "https://ss64.com/ps/rename-item.html",
       "options": {
         "sub": "Change the name of an existing item."
       },
@@ -3866,7 +3866,7 @@
     },
     "ren": {
       "text": "ren",
-      "url": "https://ss64.com/rename-item.html",
+      "url": "https://ss64.com/ps/rename-item.html",
       "options": {
         "sub": "Alias of: Rename-Item | Change the name of an existing item."
       },
@@ -3874,7 +3874,7 @@
     },
     "rni": {
       "text": "rni",
-      "url": "https://ss64.com/rename-item.html",
+      "url": "https://ss64.com/ps/rename-item.html",
       "options": {
         "sub": "Alias of: Rename-Item | Change the name of an existing item."
       },
@@ -3882,7 +3882,7 @@
     },
     "Return": {
       "text": "Return",
-      "url": "https://ss64.com/return.html",
+      "url": "https://ss64.com/ps/return.html",
       "options": {
         "sub": "Exit the current scope, (function, script, or script block)."
       },
@@ -3890,7 +3890,7 @@
     },
     "Run/Call": {
       "text": "Run/Call",
-      "url": "https://ss64.com/call.html",
+      "url": "https://ss64.com/ps/call.html",
       "options": {
         "sub": "Run a command (call operator)."
       },
@@ -3898,7 +3898,7 @@
     },
     "&": {
       "text": "&",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/ps/",
       "options": {
         "sub": "Run a command, script or function. Call operator."
       },
@@ -3906,7 +3906,7 @@
     },
     "Scheduler cmdlets": {
       "text": "Scheduler cmdlets",
-      "url": "https://ss64.com/scheduler.html",
+      "url": "https://ss64.com/ps/scheduler.html",
       "options": {
         "sub": "Get/Set scheduled jobs."
       },
@@ -3914,7 +3914,7 @@
     },
     "Confirm-SecureBootUEFI": {
       "text": "Confirm-SecureBootUEFI",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/ps/",
       "options": {
         "sub": "Confirm that Secure Boot is enabled on the local computer."
       },
@@ -3922,7 +3922,7 @@
     },
     "Select-XML": {
       "text": "Select-XML",
-      "url": "https://ss64.com/select-xml.html",
+      "url": "https://ss64.com/ps/select-xml.html",
       "options": {
         "sub": "Find text in an XML string or document."
       },
@@ -3930,7 +3930,7 @@
     },
     "New-SelfSignedCertificate": {
       "text": "New-SelfSignedCertificate",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/ps/",
       "options": {
         "sub": "Create a new self-signed certificate for testing purposes."
       },
@@ -3938,7 +3938,7 @@
     },
     "Get-Service": {
       "text": "Get-Service",
-      "url": "https://ss64.com/get-service.html",
+      "url": "https://ss64.com/ps/get-service.html",
       "options": {
         "sub": "Get a list of services."
       },
@@ -3946,7 +3946,7 @@
     },
     "gsv": {
       "text": "gsv",
-      "url": "https://ss64.com/get-service.html",
+      "url": "https://ss64.com/ps/get-service.html",
       "options": {
         "sub": "Alias of: Get-Service | Get a list of services."
       },
@@ -3954,7 +3954,7 @@
     },
     "New-Service": {
       "text": "New-Service",
-      "url": "https://ss64.com/new-service.html",
+      "url": "https://ss64.com/ps/new-service.html",
       "options": {
         "sub": "Create a new service."
       },
@@ -3962,7 +3962,7 @@
     },
     "Restart-Service": {
       "text": "Restart-Service",
-      "url": "https://ss64.com/restart-service.html",
+      "url": "https://ss64.com/ps/restart-service.html",
       "options": {
         "sub": "Stop and then restart a service."
       },
@@ -3970,7 +3970,7 @@
     },
     "Resume-Service": {
       "text": "Resume-Service",
-      "url": "https://ss64.com/resume-service.html",
+      "url": "https://ss64.com/ps/resume-service.html",
       "options": {
         "sub": "Resume a suspended service."
       },
@@ -3978,7 +3978,7 @@
     },
     "Set-Service": {
       "text": "Set-Service",
-      "url": "https://ss64.com/set-service.html",
+      "url": "https://ss64.com/ps/set-service.html",
       "options": {
         "sub": "Change the start mode/properties of a service."
       },
@@ -3986,7 +3986,7 @@
     },
     "Start-Service": {
       "text": "Start-Service",
-      "url": "https://ss64.com/start-service.html",
+      "url": "https://ss64.com/ps/start-service.html",
       "options": {
         "sub": "Start a stopped service."
       },
@@ -3994,7 +3994,7 @@
     },
     "sasv": {
       "text": "sasv",
-      "url": "https://ss64.com/start-service.html",
+      "url": "https://ss64.com/ps/start-service.html",
       "options": {
         "sub": "Alias of: Start-Service | Start a stopped service."
       },
@@ -4002,7 +4002,7 @@
     },
     "Stop-Service": {
       "text": "Stop-Service",
-      "url": "https://ss64.com/stop-service.html",
+      "url": "https://ss64.com/ps/stop-service.html",
       "options": {
         "sub": "Stop a running service."
       },
@@ -4010,7 +4010,7 @@
     },
     "spsv": {
       "text": "spsv",
-      "url": "https://ss64.com/stop-service.html",
+      "url": "https://ss64.com/ps/stop-service.html",
       "options": {
         "sub": "Alias of: Stop-Service | Stop a running service."
       },
@@ -4018,7 +4018,7 @@
     },
     "Suspend-Service": {
       "text": "Suspend-Service",
-      "url": "https://ss64.com/suspend-service.html",
+      "url": "https://ss64.com/ps/suspend-service.html",
       "options": {
         "sub": "Suspend a running service."
       },
@@ -4026,7 +4026,7 @@
     },
     "Get-SmbConnection": {
       "text": "Get-SmbConnection",
-      "url": "https://ss64.com/get-smbconnection.html",
+      "url": "https://ss64.com/ps/get-smbconnection.html",
       "options": {
         "sub": "Retrieve the connections established from the SMB client to the SMB servers."
       },
@@ -4034,7 +4034,7 @@
     },
     "Get-SmbOpenFile": {
       "text": "Get-SmbOpenFile",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/ps/",
       "options": {
         "sub": "Information about files that are open on behalf of SMB server clients."
       },
@@ -4042,7 +4042,7 @@
     },
     "Get-SMBMapping": {
       "text": "Get-SMBMapping",
-      "url": "https://ss64.com/get-smbmapping.html",
+      "url": "https://ss64.com/ps/get-smbmapping.html",
       "options": {
         "sub": "Get an SMB mapping."
       },
@@ -4050,7 +4050,7 @@
     },
     "New-SmbMapping": {
       "text": "New-SmbMapping",
-      "url": "https://ss64.com/new-smbmapping.html",
+      "url": "https://ss64.com/ps/new-smbmapping.html",
       "options": {
         "sub": "Create an SMB mapping."
       },
@@ -4058,7 +4058,7 @@
     },
     "Remove-SmbMapping": {
       "text": "Remove-SmbMapping",
-      "url": "https://ss64.com/remove-smbmapping.html",
+      "url": "https://ss64.com/ps/remove-smbmapping.html",
       "options": {
         "sub": "Remove an SMB mapping."
       },
@@ -4066,7 +4066,7 @@
     },
     "Get-SmbSession": {
       "text": "Get-SmbSession",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/ps/",
       "options": {
         "sub": "Retrieve information about current SMB sessions."
       },
@@ -4074,7 +4074,7 @@
     },
     "Set-SmbClientConfiguration": {
       "text": "Set-SmbClientConfiguration",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/ps/",
       "options": {
         "sub": "Set the SMB client configuration."
       },
@@ -4082,7 +4082,7 @@
     },
     "Get-SmbServerConfiguration": {
       "text": "Get-SmbServerConfiguration",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/ps/",
       "options": {
         "sub": "Get the SMB Server configuration."
       },
@@ -4090,7 +4090,7 @@
     },
     "Set-SmbServerConfiguration": {
       "text": "Set-SmbServerConfiguration",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/ps/",
       "options": {
         "sub": "Set the SMB Server configuration."
       },
@@ -4098,7 +4098,7 @@
     },
     "Get-SmbShare": {
       "text": "Get-SmbShare",
-      "url": "https://ss64.com/get-smbshare.html",
+      "url": "https://ss64.com/ps/get-smbshare.html",
       "options": {
         "sub": "Retrieve the SMB shares on the computer."
       },
@@ -4106,7 +4106,7 @@
     },
     "Set-SmbShare": {
       "text": "Set-SmbShare",
-      "url": "https://ss64.com/set-smbshare.html",
+      "url": "https://ss64.com/ps/set-smbshare.html",
       "options": {
         "sub": "Modify the properties of an SMB share."
       },
@@ -4114,7 +4114,7 @@
     },
     "New-SmbShare": {
       "text": "New-SmbShare",
-      "url": "https://ss64.com/new-smbshare.html",
+      "url": "https://ss64.com/ps/new-smbshare.html",
       "options": {
         "sub": "Create an SMB share."
       },
@@ -4122,7 +4122,7 @@
     },
     "Remove-SmbShare": {
       "text": "Remove-SmbShare",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/ps/",
       "options": {
         "sub": "Remove an SMB share."
       },
@@ -4130,7 +4130,7 @@
     },
     "Get-SmbShareAccess": {
       "text": "Get-SmbShareAccess",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/ps/",
       "options": {
         "sub": "Retrieve the ACL of an SMB share."
       },
@@ -4138,7 +4138,7 @@
     },
     "Grant-SmbShareAccess": {
       "text": "Grant-SmbShareAccess",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/ps/",
       "options": {
         "sub": "Add an allow ACE for a trustee to the security descriptor of the SMB share."
       },
@@ -4146,7 +4146,7 @@
     },
     "Set-StrictMode": {
       "text": "Set-StrictMode",
-      "url": "https://ss64.com/set-strictmode.html",
+      "url": "https://ss64.com/ps/set-strictmode.html",
       "options": {
         "sub": "Enforce coding rules in expressions & scripts."
       },
@@ -4154,7 +4154,7 @@
     },
     "Get-StartApps": {
       "text": "Get-StartApps",
-      "url": "https://ss64.com/get-startapps.html",
+      "url": "https://ss64.com/ps/get-startapps.html",
       "options": {
         "sub": "Get the names and IDs of apps installed on the Start Menu."
       },
@@ -4162,7 +4162,7 @@
     },
     "Export-StartLayout": {
       "text": "Export-StartLayout",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/ps/",
       "options": {
         "sub": "Export layout of the Start screen as an .xml file."
       },
@@ -4170,7 +4170,7 @@
     },
     "Import-StartLayout": {
       "text": "Import-StartLayout",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/ps/",
       "options": {
         "sub": "Import the layout of the Start into a mounted Windows image."
       },
@@ -4178,7 +4178,7 @@
     },
     "Start-Sleep": {
       "text": "Start-Sleep",
-      "url": "https://ss64.com/start-sleep.html",
+      "url": "https://ss64.com/ps/start-sleep.html",
       "options": {
         "sub": "Suspend shell, script, or runspace activity."
       },
@@ -4186,7 +4186,7 @@
     },
     "sleep": {
       "text": "sleep",
-      "url": "https://ss64.com/start-sleep.html",
+      "url": "https://ss64.com/ps/start-sleep.html",
       "options": {
         "sub": "Alias of: Start-Sleep | Suspend shell, script, or runspace activity."
       },
@@ -4194,7 +4194,7 @@
     },
     "Get-StorageJob": {
       "text": "Get-StorageJob",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/ps/",
       "options": {
         "sub": "Information about long-running Storage module jobs, such as a repair task."
       },
@@ -4202,7 +4202,7 @@
     },
     "New-StoragePool": {
       "text": "New-StoragePool",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/ps/",
       "options": {
         "sub": "Create a new storage pool using a group of physical disks."
       },
@@ -4210,7 +4210,7 @@
     },
     "Switch": {
       "text": "Switch",
-      "url": "https://ss64.com/switch.html",
+      "url": "https://ss64.com/ps/switch.html",
       "options": {
         "sub": "Check multiple conditions."
       },
@@ -4218,7 +4218,7 @@
     },
     "Select-String": {
       "text": "Select-String",
-      "url": "https://ss64.com/select-string.html",
+      "url": "https://ss64.com/ps/select-string.html",
       "options": {
         "sub": "Search through strings or files for patterns."
       },
@@ -4226,7 +4226,7 @@
     },
     "sls": {
       "text": "sls",
-      "url": "https://ss64.com/select-string.html",
+      "url": "https://ss64.com/ps/select-string.html",
       "options": {
         "sub": "Alias of: Select-String | Search through strings or files for patterns."
       },
@@ -4234,7 +4234,7 @@
     },
     "Tee-Object": {
       "text": "Tee-Object",
-      "url": "https://ss64.com/tee-object.html",
+      "url": "https://ss64.com/ps/tee-object.html",
       "options": {
         "sub": "Send input objects to two places."
       },
@@ -4242,7 +4242,7 @@
     },
     "tee": {
       "text": "tee",
-      "url": "https://ss64.com/tee-object.html",
+      "url": "https://ss64.com/ps/tee-object.html",
       "options": {
         "sub": "Alias of: Tee-Object | Send input objects to two places."
       },
@@ -4250,7 +4250,7 @@
     },
     "New-Timespan": {
       "text": "New-Timespan",
-      "url": "https://ss64.com/new-timespan.html",
+      "url": "https://ss64.com/ps/new-timespan.html",
       "options": {
         "sub": "Create a timespan object."
       },
@@ -4258,7 +4258,7 @@
     },
     "Get-TimeZone": {
       "text": "Get-TimeZone",
-      "url": "https://ss64.com/get-timezone.html",
+      "url": "https://ss64.com/ps/get-timezone.html",
       "options": {
         "sub": "Get the current time zone or a list of available time zones."
       },
@@ -4266,7 +4266,7 @@
     },
     "gtz": {
       "text": "gtz",
-      "url": "https://ss64.com/get-timezone.html",
+      "url": "https://ss64.com/ps/get-timezone.html",
       "options": {
         "sub": "Alias of: Get-TimeZone | Get the current time zone or a list of available time zones."
       },
@@ -4274,7 +4274,7 @@
     },
     "Set-TimeZone": {
       "text": "Set-TimeZone",
-      "url": "https://ss64.com/set-timezone.html",
+      "url": "https://ss64.com/ps/set-timezone.html",
       "options": {
         "sub": "Set the system time zone to a specified time zone."
       },
@@ -4282,7 +4282,7 @@
     },
     "stz": {
       "text": "stz",
-      "url": "https://ss64.com/set-timezone.html",
+      "url": "https://ss64.com/ps/set-timezone.html",
       "options": {
         "sub": "Alias of: Set-TimeZone | Set the system time zone to a specified time zone."
       },
@@ -4290,7 +4290,7 @@
     },
     "Get-TlsCipherSuite": {
       "text": "Get-TlsCipherSuite",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/ps/",
       "options": {
         "sub": "Get the list of cipher suites for TLS for a computer."
       },
@@ -4298,7 +4298,7 @@
     },
     "Get-Tpm": {
       "text": "Get-Tpm",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/ps/",
       "options": {
         "sub": "Trusted Platform Module (TPM)."
       },
@@ -4306,7 +4306,7 @@
     },
     "trcm": {
       "text": "trcm",
-      "url": "https://ss64.com/trace-command.html",
+      "url": "https://ss64.com/ps/trace-command.html",
       "options": {
         "sub": "Alias of: Trace-Command | Trace an expression or command."
       },
@@ -4314,7 +4314,7 @@
     },
     "Get-Tracesource": {
       "text": "Get-Tracesource",
-      "url": "https://ss64.com/get-tracesource.html",
+      "url": "https://ss64.com/ps/get-tracesource.html",
       "options": {
         "sub": "Get components that are instrumented for tracing."
       },
@@ -4322,7 +4322,7 @@
     },
     "Set-Tracesource": {
       "text": "Set-Tracesource",
-      "url": "https://ss64.com/set-tracesource.html",
+      "url": "https://ss64.com/ps/set-tracesource.html",
       "options": {
         "sub": "Trace a PowerShell component."
       },
@@ -4330,7 +4330,7 @@
     },
     "Start-Transaction": {
       "text": "Start-Transaction",
-      "url": "https://ss64.com/start-transaction.html",
+      "url": "https://ss64.com/ps/start-transaction.html",
       "options": {
         "sub": "Start a new transaction."
       },
@@ -4338,7 +4338,7 @@
     },
     "Complete-Transaction": {
       "text": "Complete-Transaction",
-      "url": "https://ss64.com/complete-transaction.html",
+      "url": "https://ss64.com/ps/complete-transaction.html",
       "options": {
         "sub": "Commit the transaction."
       },
@@ -4346,7 +4346,7 @@
     },
     "Get-Transaction": {
       "text": "Get-Transaction",
-      "url": "https://ss64.com/get-transaction.html",
+      "url": "https://ss64.com/ps/get-transaction.html",
       "options": {
         "sub": "Get information about the active transaction."
       },
@@ -4354,7 +4354,7 @@
     },
     "Use-Transaction": {
       "text": "Use-Transaction",
-      "url": "https://ss64.com/use-transaction.html",
+      "url": "https://ss64.com/ps/use-transaction.html",
       "options": {
         "sub": "Add a command or expression to the transaction."
       },
@@ -4362,7 +4362,7 @@
     },
     "Undo-Transaction": {
       "text": "Undo-Transaction",
-      "url": "https://ss64.com/undo-transaction.html",
+      "url": "https://ss64.com/ps/undo-transaction.html",
       "options": {
         "sub": "Roll back a transaction."
       },
@@ -4370,7 +4370,7 @@
     },
     "Start-Transcript": {
       "text": "Start-Transcript",
-      "url": "https://ss64.com/start-transcript.html",
+      "url": "https://ss64.com/ps/start-transcript.html",
       "options": {
         "sub": "Start a transcript of a command shell session."
       },
@@ -4378,7 +4378,7 @@
     },
     "Stop-Transcript": {
       "text": "Stop-Transcript",
-      "url": "https://ss64.com/stop-transcript.html",
+      "url": "https://ss64.com/ps/stop-transcript.html",
       "options": {
         "sub": "Stop the transcription process."
       },
@@ -4386,7 +4386,7 @@
     },
     "Trap": {
       "text": "Trap",
-      "url": "https://ss64.com/trap.html",
+      "url": "https://ss64.com/ps/trap.html",
       "options": {
         "sub": "Handle a terminating error."
       },
@@ -4394,7 +4394,7 @@
     },
     "Try ... Catch": {
       "text": "Try ... Catch",
-      "url": "https://ss64.com/try.html",
+      "url": "https://ss64.com/ps/try.html",
       "options": {
         "sub": "Handle a terminating error within a scriptblock."
       },
@@ -4402,7 +4402,7 @@
     },
     "Add-Type": {
       "text": "Add-Type",
-      "url": "https://ss64.com/add-type.html",
+      "url": "https://ss64.com/ps/add-type.html",
       "options": {
         "sub": "Add a .NET Framework type to a PowerShell session."
       },
@@ -4410,7 +4410,7 @@
     },
     "Update-TypeData": {
       "text": "Update-TypeData",
-      "url": "https://ss64.com/update-typedata.html",
+      "url": "https://ss64.com/ps/update-typedata.html",
       "options": {
         "sub": "Update extended type configuration."
       },
@@ -4418,7 +4418,7 @@
     },
     "Get-Uiculture": {
       "text": "Get-Uiculture",
-      "url": "https://ss64.com/get-uiculture.html",
+      "url": "https://ss64.com/ps/get-uiculture.html",
       "options": {
         "sub": "Get the ui culture information."
       },
@@ -4426,7 +4426,7 @@
     },
     "Get-Unique": {
       "text": "Get-Unique",
-      "url": "https://ss64.com/get-unique.html",
+      "url": "https://ss64.com/ps/get-unique.html",
       "options": {
         "sub": "Get the unique items in a collection."
       },
@@ -4434,7 +4434,7 @@
     },
     "gu": {
       "text": "gu",
-      "url": "https://ss64.com/get-unique.html",
+      "url": "https://ss64.com/ps/get-unique.html",
       "options": {
         "sub": "Alias of: Get-Unique | Get the unique items in a collection."
       },
@@ -4442,7 +4442,7 @@
     },
     "Update-Formatdata": {
       "text": "Update-Formatdata",
-      "url": "https://ss64.com/update-formatdata.html",
+      "url": "https://ss64.com/ps/update-formatdata.html",
       "options": {
         "sub": "Update and append format data files."
       },
@@ -4450,7 +4450,7 @@
     },
     "Update-Typedata": {
       "text": "Update-Typedata",
-      "url": "https://ss64.com/update-typedata.html",
+      "url": "https://ss64.com/ps/update-typedata.html",
       "options": {
         "sub": "Update the current extended type configuration."
       },
@@ -4458,7 +4458,7 @@
     },
     "Clear-Variable": {
       "text": "Clear-Variable",
-      "url": "https://ss64.com/clear-variable.html",
+      "url": "https://ss64.com/ps/clear-variable.html",
       "options": {
         "sub": "Remove the value from a variable."
       },
@@ -4466,7 +4466,7 @@
     },
     "clv": {
       "text": "clv",
-      "url": "https://ss64.com/clear-variable.html",
+      "url": "https://ss64.com/ps/clear-variable.html",
       "options": {
         "sub": "Alias of: Clear-Variable | Remove the value from a variable."
       },
@@ -4474,7 +4474,7 @@
     },
     "Get-Variable": {
       "text": "Get-Variable",
-      "url": "https://ss64.com/get-variable.html",
+      "url": "https://ss64.com/ps/get-variable.html",
       "options": {
         "sub": "Get a PowerShell variable."
       },
@@ -4482,7 +4482,7 @@
     },
     "gv": {
       "text": "gv",
-      "url": "https://ss64.com/get-variable.html",
+      "url": "https://ss64.com/ps/get-variable.html",
       "options": {
         "sub": "Alias of: Get-Variable | Get a PowerShell variable."
       },
@@ -4490,7 +4490,7 @@
     },
     "New-Variable": {
       "text": "New-Variable",
-      "url": "https://ss64.com/new-variable.html",
+      "url": "https://ss64.com/ps/new-variable.html",
       "options": {
         "sub": "Create a new variable."
       },
@@ -4498,7 +4498,7 @@
     },
     "nv": {
       "text": "nv",
-      "url": "https://ss64.com/new-variable.html",
+      "url": "https://ss64.com/ps/new-variable.html",
       "options": {
         "sub": "Alias of: New-Variable | Create a new variable."
       },
@@ -4506,7 +4506,7 @@
     },
     "Remove-Variable": {
       "text": "Remove-Variable",
-      "url": "https://ss64.com/remove-variable.html",
+      "url": "https://ss64.com/ps/remove-variable.html",
       "options": {
         "sub": "Remove a variable and its value."
       },
@@ -4514,7 +4514,7 @@
     },
     "rv": {
       "text": "rv",
-      "url": "https://ss64.com/remove-variable.html",
+      "url": "https://ss64.com/ps/remove-variable.html",
       "options": {
         "sub": "Alias of: Remove-Variable | Remove a variable and its value."
       },
@@ -4522,7 +4522,7 @@
     },
     "Set-Variable": {
       "text": "Set-Variable",
-      "url": "https://ss64.com/set-variable.html",
+      "url": "https://ss64.com/ps/set-variable.html",
       "options": {
         "sub": "Set a variable and a value."
       },
@@ -4530,7 +4530,7 @@
     },
     "set": {
       "text": "set",
-      "url": "https://ss64.com/set-variable.html",
+      "url": "https://ss64.com/ps/set-variable.html",
       "options": {
         "sub": "Alias of: Set-Variable | Set a variable and a value."
       },
@@ -4538,7 +4538,7 @@
     },
     "sv": {
       "text": "sv",
-      "url": "https://ss64.com/set-variable.html",
+      "url": "https://ss64.com/ps/set-variable.html",
       "options": {
         "sub": "Alias of: Set-Variable | Set a variable and a value."
       },
@@ -4546,7 +4546,7 @@
     },
     "Get-VirtualDisk": {
       "text": "Get-VirtualDisk",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/ps/",
       "options": {
         "sub": "Return a list of VirtualDisks across storage pools/providers."
       },
@@ -4554,7 +4554,7 @@
     },
     "New-VirtualDisk": {
       "text": "New-VirtualDisk",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/ps/",
       "options": {
         "sub": "Create a new virtual disk in the specified storage pool."
       },
@@ -4562,7 +4562,7 @@
     },
     "Get-Volume": {
       "text": "Get-Volume",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/ps/",
       "options": {
         "sub": "Get the specified Volume object, or all Volume objects."
       },
@@ -4570,7 +4570,7 @@
     },
     "Format-Volume": {
       "text": "Format-Volume",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/ps/",
       "options": {
         "sub": "Format one or more volumes."
       },
@@ -4578,7 +4578,7 @@
     },
     "New-Volume": {
       "text": "New-Volume",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/ps/",
       "options": {
         "sub": "Create a volume with the specified file system."
       },
@@ -4586,7 +4586,7 @@
     },
     "Optimize-Volume": {
       "text": "Optimize-Volume",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/ps/",
       "options": {
         "sub": "Optimize a volume."
       },
@@ -4594,7 +4594,7 @@
     },
     "Repair-Volume": {
       "text": "Repair-Volume",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/ps/",
       "options": {
         "sub": "Perform repairs on a volume."
       },
@@ -4602,7 +4602,7 @@
     },
     "Add-VpnConnection": {
       "text": "Add-VpnConnection",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/ps/",
       "options": {
         "sub": "Add a VPN connection to the Connection Manager phone book."
       },
@@ -4610,7 +4610,7 @@
     },
     "Get-VpnConnection": {
       "text": "Get-VpnConnection",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/ps/",
       "options": {
         "sub": "Retrieve the specified VPN connection profile information."
       },
@@ -4618,7 +4618,7 @@
     },
     "Set-VpnConnection": {
       "text": "Set-VpnConnection",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/ps/",
       "options": {
         "sub": "Change the config. of a VPN connection profile."
       },
@@ -4626,7 +4626,7 @@
     },
     "Add-VpnConnectionRoute": {
       "text": "Add-VpnConnectionRoute",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/ps/",
       "options": {
         "sub": "Add a route to a VPN connection."
       },
@@ -4634,7 +4634,7 @@
     },
     "Checkpoint-WebApplicationMonitoring": {
       "text": "Checkpoint-WebApplicationMonitoring",
-      "url": "https://ss64.com/checkpoint-webapplicationmonitoring.html",
+      "url": "https://ss64.com/ps/checkpoint-webapplicationmonitoring.html",
       "options": {
         "sub": "Create a checkpoint for an IIS web app."
       },
@@ -4642,7 +4642,7 @@
     },
     "Get-WebApplicationMonitoringStatus": {
       "text": "Get-WebApplicationMonitoringStatus",
-      "url": "https://ss64.com/get-webapplicationmonitoringstatus.html",
+      "url": "https://ss64.com/ps/get-webapplicationmonitoringstatus.html",
       "options": {
         "sub": "Get the monitoring status of web apps."
       },
@@ -4650,7 +4650,7 @@
     },
     "New-WebServiceProxy": {
       "text": "New-WebServiceProxy",
-      "url": "https://ss64.com/new-webserviceproxy.html",
+      "url": "https://ss64.com/ps/new-webserviceproxy.html",
       "options": {
         "sub": "Create a Web service proxy object."
       },
@@ -4658,7 +4658,7 @@
     },
     "where": {
       "text": "where",
-      "url": "https://ss64.com/where-object.html",
+      "url": "https://ss64.com/ps/where-object.html",
       "options": {
         "sub": "Alias of: Where-Object | Filter input from the pipeline."
       },
@@ -4666,7 +4666,7 @@
     },
     "Where": {
       "text": "Where",
-      "url": "https://ss64.com/where-method.html",
+      "url": "https://ss64.com/ps/where-method.html",
       "options": {
         "sub": "Filter objects from a collection."
       },
@@ -4674,7 +4674,7 @@
     },
     "While": {
       "text": "While",
-      "url": "https://ss64.com/while.html",
+      "url": "https://ss64.com/ps/while.html",
       "options": {
         "sub": "Loop while a condition is True."
       },
@@ -4682,7 +4682,7 @@
     },
     "Add-WindowsCapability": {
       "text": "Add-WindowsCapability",
-      "url": "https://ss64.com/add-windowscapability.html",
+      "url": "https://ss64.com/ps/add-windowscapability.html",
       "options": {
         "sub": "Install a Windows capability package on the specified OS image."
       },
@@ -4690,7 +4690,7 @@
     },
     "Get-WindowsCapability": {
       "text": "Get-WindowsCapability",
-      "url": "https://ss64.com/get-windowscapability.html",
+      "url": "https://ss64.com/ps/get-windowscapability.html",
       "options": {
         "sub": "Get capabilities for an image or a running OS."
       },
@@ -4698,7 +4698,7 @@
     },
     "Remove-WindowsCapability": {
       "text": "Remove-WindowsCapability",
-      "url": "https://ss64.com/remove-windowscapability.html",
+      "url": "https://ss64.com/ps/remove-windowscapability.html",
       "options": {
         "sub": "Uninstall a Windows capability package from an image."
       },
@@ -4706,7 +4706,7 @@
     },
     "Export-WindowsDriver": {
       "text": "Export-WindowsDriver",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/ps/",
       "options": {
         "sub": " "
       },
@@ -4714,7 +4714,7 @@
     },
     "Add-WindowsFeature": {
       "text": "Add-WindowsFeature",
-      "url": "https://ss64.com/add-windowsfeature.html",
+      "url": "https://ss64.com/ps/add-windowsfeature.html",
       "options": {
         "sub": "Install roles, role services, and features. (Server 2008 R2)."
       },
@@ -4722,7 +4722,7 @@
     },
     "Get-WindowsFeature": {
       "text": "Get-WindowsFeature",
-      "url": "https://ss64.com/get-windowsfeature.html",
+      "url": "https://ss64.com/ps/get-windowsfeature.html",
       "options": {
         "sub": "Retrieve roles, role services, and features."
       },
@@ -4730,7 +4730,7 @@
     },
     "Install-WindowsFeature": {
       "text": "Install-WindowsFeature",
-      "url": "https://ss64.com/install-windowsfeature.html",
+      "url": "https://ss64.com/ps/install-windowsfeature.html",
       "options": {
         "sub": "Install roles, role services, or features (Server 2012 R2)."
       },
@@ -4738,7 +4738,7 @@
     },
     "Uninstall-WindowsFeature": {
       "text": "Uninstall-WindowsFeature",
-      "url": "https://ss64.com/uninstall-windowsfeature.html",
+      "url": "https://ss64.com/ps/uninstall-windowsfeature.html",
       "options": {
         "sub": "Uninstall/remove roles, role services, and features (2012 R2)"
       },
@@ -4746,7 +4746,7 @@
     },
     "Mount-WindowsImage": {
       "text": "Mount-WindowsImage",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/ps/",
       "options": {
         "sub": "Mount a Windows image (WIM or VHD file) to a directory on the local computer."
       },
@@ -4754,7 +4754,7 @@
     },
     "Repair-WindowsImage": {
       "text": "Repair-WindowsImage",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/ps/",
       "options": {
         "sub": "Repair a Windows image in a WIM or VHD file."
       },
@@ -4762,7 +4762,7 @@
     },
     "Disable-WindowsOptionalFeature": {
       "text": "Disable-WindowsOptionalFeature",
-      "url": "https://ss64.com/disable-windowsoptionalfeature.html",
+      "url": "https://ss64.com/ps/disable-windowsoptionalfeature.html",
       "options": {
         "sub": "Disable a feature in a Windows image."
       },
@@ -4770,7 +4770,7 @@
     },
     "Enable-WindowsOptionalFeature": {
       "text": "Enable-WindowsOptionalFeature",
-      "url": "https://ss64.com/enable-windowsoptionalfeature.html",
+      "url": "https://ss64.com/ps/enable-windowsoptionalfeature.html",
       "options": {
         "sub": "Enable a feature in a Windows image."
       },
@@ -4778,7 +4778,7 @@
     },
     "Get-WindowsOptionalFeature": {
       "text": "Get-WindowsOptionalFeature",
-      "url": "https://ss64.com/get-windowsoptionalfeature.html",
+      "url": "https://ss64.com/ps/get-windowsoptionalfeature.html",
       "options": {
         "sub": "Get information about optional features in a Windows image."
       },
@@ -4786,7 +4786,7 @@
     },
     "Add-WindowsPackage": {
       "text": "Add-WindowsPackage",
-      "url": "https://ss64.com/add-windowspackage.html",
+      "url": "https://ss64.com/ps/add-windowspackage.html",
       "options": {
         "sub": "Add a single .cab or .msu file to a Windows image."
       },
@@ -4794,7 +4794,7 @@
     },
     "Get-WindowsPackage": {
       "text": "Get-WindowsPackage",
-      "url": "https://ss64.com/get-windowspackage.html",
+      "url": "https://ss64.com/ps/get-windowspackage.html",
       "options": {
         "sub": "Get information about packages in a Windows image."
       },
@@ -4802,7 +4802,7 @@
     },
     "Remove-WindowsPackage": {
       "text": "Remove-WindowsPackage",
-      "url": "https://ss64.com/remove-windowspackage.html",
+      "url": "https://ss64.com/ps/remove-windowspackage.html",
       "options": {
         "sub": "Remove a package from a Windows image."
       },
@@ -4810,7 +4810,7 @@
     },
     "Get-WindowsUpdateLog": {
       "text": "Get-WindowsUpdateLog",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/ps/",
       "options": {
         "sub": "Merge Windows Update .etl files into a single log file."
       },
@@ -4818,7 +4818,7 @@
     },
     "Set-WinSystemLocale": {
       "text": "Set-WinSystemLocale",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/ps/",
       "options": {
         "sub": "Set the system locale for the current computer."
       },
@@ -4826,7 +4826,7 @@
     },
     "Set-WinUserLanguageList": {
       "text": "Set-WinUserLanguageList",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/ps/",
       "options": {
         "sub": "Set the language list/properties for the current user."
       },
@@ -4834,7 +4834,7 @@
     },
     "Write-Debug": {
       "text": "Write-Debug",
-      "url": "https://ss64.com/write-debug.html",
+      "url": "https://ss64.com/ps/write-debug.html",
       "options": {
         "sub": "Write a debug message to the console (5)."
       },
@@ -4842,7 +4842,7 @@
     },
     "Write-Error": {
       "text": "Write-Error",
-      "url": "https://ss64.com/write-error.html",
+      "url": "https://ss64.com/ps/write-error.html",
       "options": {
         "sub": "Write an object to the error pipeline (2)."
       },
@@ -4850,7 +4850,7 @@
     },
     "write": {
       "text": "write",
-      "url": "https://ss64.com/write-output.html",
+      "url": "https://ss64.com/ps/write-output.html",
       "options": {
         "sub": "Alias of: Write-Output | Write an object to the pipeline (1)."
       },
@@ -4858,7 +4858,7 @@
     },
     "echo": {
       "text": "echo",
-      "url": "https://ss64.com/write-output.html",
+      "url": "https://ss64.com/ps/write-output.html",
       "options": {
         "sub": "Alias of: Write-Output | Write an object to the pipeline (1)."
       },
@@ -4866,7 +4866,7 @@
     },
     "Write-Progress": {
       "text": "Write-Progress",
-      "url": "https://ss64.com/write-progress.html",
+      "url": "https://ss64.com/ps/write-progress.html",
       "options": {
         "sub": "Display a progress bar."
       },
@@ -4874,7 +4874,7 @@
     },
     "Write-Verbose": {
       "text": "Write-Verbose",
-      "url": "https://ss64.com/write-verbose.html",
+      "url": "https://ss64.com/ps/write-verbose.html",
       "options": {
         "sub": "Write a string to the host’s verbose display (4)."
       },
@@ -4882,7 +4882,7 @@
     },
     "Write-Warning": {
       "text": "Write-Warning",
-      "url": "https://ss64.com/write-warning.html",
+      "url": "https://ss64.com/ps/write-warning.html",
       "options": {
         "sub": "Write a warning string (3) in reverse video to the display."
       },
@@ -4890,7 +4890,7 @@
     },
     "Set-WmiInstance": {
       "text": "Set-WmiInstance",
-      "url": "https://ss64.com/set-wmiinstance.html",
+      "url": "https://ss64.com/ps/set-wmiinstance.html",
       "options": {
         "sub": "Create or update an instance of an existing WMI class."
       },
@@ -4898,7 +4898,7 @@
     },
     "swmi": {
       "text": "swmi",
-      "url": "https://ss64.com/set-wmiinstance.html",
+      "url": "https://ss64.com/ps/set-wmiinstance.html",
       "options": {
         "sub": "Alias of: Set-WmiInstance | Create or update an instance of an existing WMI class."
       },
@@ -4906,7 +4906,7 @@
     },
     "Invoke-WmiMethod": {
       "text": "Invoke-WmiMethod",
-      "url": "https://ss64.com/invoke-wmimethod.html",
+      "url": "https://ss64.com/ps/invoke-wmimethod.html",
       "options": {
         "sub": "Call WMI methods."
       },
@@ -4914,7 +4914,7 @@
     },
     "iwmi": {
       "text": "iwmi",
-      "url": "https://ss64.com/invoke-wmimethod.html",
+      "url": "https://ss64.com/ps/invoke-wmimethod.html",
       "options": {
         "sub": "Alias of: Invoke-WmiMethod | Call WMI methods."
       },
@@ -4922,7 +4922,7 @@
     },
     "Get-WmiObject": {
       "text": "Get-WmiObject",
-      "url": "https://ss64.com/get-wmiobject.html",
+      "url": "https://ss64.com/ps/get-wmiobject.html",
       "options": {
         "sub": "Get WMI class information."
       },
@@ -4930,7 +4930,7 @@
     },
     "gwmi": {
       "text": "gwmi",
-      "url": "https://ss64.com/get-wmiobject.html",
+      "url": "https://ss64.com/ps/get-wmiobject.html",
       "options": {
         "sub": "Alias of: Get-WmiObject | Get WMI class information."
       },
@@ -4938,7 +4938,7 @@
     },
     "Remove-WmiObject": {
       "text": "Remove-WmiObject",
-      "url": "https://ss64.com/remove-wmiobject.html",
+      "url": "https://ss64.com/ps/remove-wmiobject.html",
       "options": {
         "sub": "Delete an instance of a WMI class."
       },
@@ -4946,7 +4946,7 @@
     },
     "rwmi": {
       "text": "rwmi",
-      "url": "https://ss64.com/remove-wmiobject.html",
+      "url": "https://ss64.com/ps/remove-wmiobject.html",
       "options": {
         "sub": "Alias of: Remove-WmiObject | Delete an instance of a WMI class."
       },
@@ -4954,7 +4954,7 @@
     },
     "Connect-WSMan": {
       "text": "Connect-WSMan",
-      "url": "https://ss64.com/connect-wsman.html",
+      "url": "https://ss64.com/ps/connect-wsman.html",
       "options": {
         "sub": "Connect to the WinRM service on a remote computer."
       },
@@ -4962,7 +4962,7 @@
     },
     "Disconnect-WSMan": {
       "text": "Disconnect-WSMan",
-      "url": "https://ss64.com/disconnect-wsman.html",
+      "url": "https://ss64.com/ps/disconnect-wsman.html",
       "options": {
         "sub": "Disconnect from the WinRM service on a remote computer."
       },
@@ -4970,7 +4970,7 @@
     },
     "Test-WSMan": {
       "text": "Test-WSMan",
-      "url": "https://ss64.com/test-wsman.html",
+      "url": "https://ss64.com/ps/test-wsman.html",
       "options": {
         "sub": "Test if a computer is setup to receive remote commands."
       },
@@ -4978,7 +4978,7 @@
     },
     "Invoke-WSManAction": {
       "text": "Invoke-WSManAction",
-      "url": "https://ss64.com/invoke-wsmanaction.html",
+      "url": "https://ss64.com/ps/invoke-wsmanaction.html",
       "options": {
         "sub": "Invoke an action on a specified object."
       },
@@ -4986,7 +4986,7 @@
     },
     "Disable-WSManCredSSP": {
       "text": "Disable-WSManCredSSP",
-      "url": "https://ss64.com/disable-wsmancredssp.html",
+      "url": "https://ss64.com/ps/disable-wsmancredssp.html",
       "options": {
         "sub": "Disable Credential Security Service Provider (SSP) authentication."
       },
@@ -4994,7 +4994,7 @@
     },
     "Enable-WSManCredSSP": {
       "text": "Enable-WSManCredSSP",
-      "url": "https://ss64.com/enable-wsmancredssp.html",
+      "url": "https://ss64.com/ps/enable-wsmancredssp.html",
       "options": {
         "sub": "Enable Credential SSP authentication."
       },
@@ -5002,7 +5002,7 @@
     },
     "Get-WSManCredSSP": {
       "text": "Get-WSManCredSSP",
-      "url": "https://ss64.com/get-wsmancredssp.html",
+      "url": "https://ss64.com/ps/get-wsmancredssp.html",
       "options": {
         "sub": "Get the Credential SSP configuration."
       },
@@ -5010,7 +5010,7 @@
     },
     "New-WSManInstance": {
       "text": "New-WSManInstance",
-      "url": "https://ss64.com/new-wsmaninstance.html",
+      "url": "https://ss64.com/ps/new-wsmaninstance.html",
       "options": {
         "sub": "Create a new instance of a management resource."
       },
@@ -5018,7 +5018,7 @@
     },
     "Get-WSManInstance": {
       "text": "Get-WSManInstance",
-      "url": "https://ss64.com/get-wsmaninstance.html",
+      "url": "https://ss64.com/ps/get-wsmaninstance.html",
       "options": {
         "sub": "Display management information (XML or value)."
       },
@@ -5026,7 +5026,7 @@
     },
     "Set-WSManInstance": {
       "text": "Set-WSManInstance",
-      "url": "https://ss64.com/set-wsmaninstance.html",
+      "url": "https://ss64.com/ps/set-wsmaninstance.html",
       "options": {
         "sub": "Modify the management information related to a resource."
       },
@@ -5034,7 +5034,7 @@
     },
     "Remove-WSManInstance": {
       "text": "Remove-WSManInstance",
-      "url": "https://ss64.com/remove-wsmaninstance.html",
+      "url": "https://ss64.com/ps/remove-wsmaninstance.html",
       "options": {
         "sub": "Delete a management resource instance."
       },
@@ -5042,7 +5042,7 @@
     },
     "Set-WSManQuickConfig": {
       "text": "Set-WSManQuickConfig",
-      "url": "https://ss64.com/set-wsmanquickconfig.html",
+      "url": "https://ss64.com/ps/set-wsmanquickconfig.html",
       "options": {
         "sub": "Configure the local computer for remote management."
       },
@@ -5050,7 +5050,7 @@
     },
     "New-WSManSessionOption": {
       "text": "New-WSManSessionOption",
-      "url": "https://ss64.com/new-wsmansessionoption.html",
+      "url": "https://ss64.com/ps/new-wsmansessionoption.html",
       "options": {
         "sub": "Options for WSMan commands."
       },
@@ -5058,7 +5058,7 @@
     },
     "Zipfile": {
       "text": "Zipfile",
-      "url": "https://ss64.com/zip.html",
+      "url": "https://ss64.com/ps/zip.html",
       "options": {
         "sub": "Compress or Extract zip files."
       },
@@ -5066,7 +5066,7 @@
     },
     "#": {
       "text": "#",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/ps/",
       "options": {
         "sub": "Comment / Remark."
       },
@@ -5074,7 +5074,7 @@
     },
     ".": {
       "text": ".",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/ps/",
       "options": {
         "sub": "Run a command script in the current shell. Source or dot operator."
       },
@@ -5082,7 +5082,7 @@
     },
     "--%": {
       "text": "--%",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/ps/",
       "options": {
         "sub": "Stop parsing input."
       },
@@ -5090,7 +5090,7 @@
     },
     "$variable = \"value\"": {
       "text": "$variable = \"value\"",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/ps/",
       "options": {
         "sub": "Define a variable  also: ${n!a#me} = \"value\"."
       },
@@ -5098,7 +5098,7 @@
     },
     "$_": {
       "text": "$_",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/ps/",
       "options": {
         "sub": "The current pipeline object."
       },
@@ -5106,7 +5106,7 @@
     },
     "@(...)": {
       "text": "@(...)",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/ps/",
       "options": {
         "sub": "Force an expression to be evaluated as an array."
       },
@@ -5114,7 +5114,7 @@
     },
     "`": {
       "text": "`",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/ps/",
       "options": {
         "sub": "Escape or Continue on the next line."
       },

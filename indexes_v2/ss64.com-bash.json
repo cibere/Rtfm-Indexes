@@ -2,7 +2,7 @@
   "cache": {
     "&": {
       "text": "&",
-      "url": "https://ss64.com/bg.html",
+      "url": "https://ss64.com/bash/bg.html",
       "options": {
         "sub": "Start a new process in the background"
       },
@@ -10,7 +10,7 @@
     },
     "alias": {
       "text": "alias",
-      "url": "https://ss64.com/alias.html",
+      "url": "https://ss64.com/bash/alias.html",
       "options": {
         "sub": "Create an alias •"
       },
@@ -18,7 +18,7 @@
     },
     "apropos": {
       "text": "apropos",
-      "url": "https://ss64.com/apropos.html",
+      "url": "https://ss64.com/bash/apropos.html",
       "options": {
         "sub": "Search Help manual pages (man -k)"
       },
@@ -26,7 +26,7 @@
     },
     "apt": {
       "text": "apt",
-      "url": "https://ss64.com/apt.html",
+      "url": "https://ss64.com/bash/apt.html",
       "options": {
         "sub": "Search for and install software packages (Debian/Ubuntu)"
       },
@@ -34,7 +34,7 @@
     },
     "apt-get": {
       "text": "apt-get",
-      "url": "https://ss64.com/apt-get.html",
+      "url": "https://ss64.com/bash/apt-get.html",
       "options": {
         "sub": "Search for and install software packages (Debian/Ubuntu)"
       },
@@ -42,7 +42,7 @@
     },
     "aptitude": {
       "text": "aptitude",
-      "url": "https://ss64.com/aptitude.html",
+      "url": "https://ss64.com/bash/aptitude.html",
       "options": {
         "sub": "Search for and install software packages (Debian/Ubuntu)"
       },
@@ -50,7 +50,7 @@
     },
     "aspell": {
       "text": "aspell",
-      "url": "https://ss64.com/aspell.html",
+      "url": "https://ss64.com/bash/aspell.html",
       "options": {
         "sub": "Spell Checker"
       },
@@ -58,7 +58,7 @@
     },
     "at": {
       "text": "at",
-      "url": "https://ss64.com/at.html",
+      "url": "https://ss64.com/bash/at.html",
       "options": {
         "sub": "Schedule a command to run once at a particular time"
       },
@@ -66,7 +66,7 @@
     },
     "awk": {
       "text": "awk",
-      "url": "https://ss64.com/awk.html",
+      "url": "https://ss64.com/bash/awk.html",
       "options": {
         "sub": "Find and Replace text, database sort/validate/index"
       },
@@ -74,7 +74,7 @@
     },
     "basename": {
       "text": "basename",
-      "url": "https://ss64.com/basename.html",
+      "url": "https://ss64.com/bash/basename.html",
       "options": {
         "sub": "Strip directory and suffix from filenames"
       },
@@ -82,7 +82,7 @@
     },
     "base32": {
       "text": "base32",
-      "url": "https://ss64.com/base32.html",
+      "url": "https://ss64.com/bash/base32.html",
       "options": {
         "sub": "Base32 encode/decode data and print to standard output"
       },
@@ -90,7 +90,7 @@
     },
     "base64": {
       "text": "base64",
-      "url": "https://ss64.com/base64.html",
+      "url": "https://ss64.com/bash/base64.html",
       "options": {
         "sub": "Base64 encode/decode data and print to standard output"
       },
@@ -98,7 +98,7 @@
     },
     "bash": {
       "text": "bash",
-      "url": "https://ss64.com/bash.html",
+      "url": "https://ss64.com/bash/bash.html",
       "options": {
         "sub": "GNU Bourne-Again SHell"
       },
@@ -106,7 +106,7 @@
     },
     "bc": {
       "text": "bc",
-      "url": "https://ss64.com/bc.html",
+      "url": "https://ss64.com/bash/bc.html",
       "options": {
         "sub": "Arbitrary precision calculator language"
       },
@@ -114,7 +114,7 @@
     },
     "bg": {
       "text": "bg",
-      "url": "https://ss64.com/bg.html",
+      "url": "https://ss64.com/bash/bg.html",
       "options": {
         "sub": "Send to background"
       },
@@ -122,7 +122,7 @@
     },
     "bind": {
       "text": "bind",
-      "url": "https://ss64.com/bind.html",
+      "url": "https://ss64.com/bash/bind.html",
       "options": {
         "sub": "Set or display readline key and function bindings •"
       },
@@ -130,7 +130,7 @@
     },
     "break": {
       "text": "break",
-      "url": "https://ss64.com/break.html",
+      "url": "https://ss64.com/bash/break.html",
       "options": {
         "sub": "Exit from a loop •"
       },
@@ -138,7 +138,7 @@
     },
     "builtin": {
       "text": "builtin",
-      "url": "https://ss64.com/builtin.html",
+      "url": "https://ss64.com/bash/builtin.html",
       "options": {
         "sub": "Run a shell builtin"
       },
@@ -146,7 +146,7 @@
     },
     "bzip2": {
       "text": "bzip2",
-      "url": "https://ss64.com/bzip2.html",
+      "url": "https://ss64.com/bash/bzip2.html",
       "options": {
         "sub": "Compress or decompress named file(s)"
       },
@@ -154,7 +154,7 @@
     },
     "cal": {
       "text": "cal",
-      "url": "https://ss64.com/cal.html",
+      "url": "https://ss64.com/bash/cal.html",
       "options": {
         "sub": "Display a calendar"
       },
@@ -162,7 +162,7 @@
     },
     "caller": {
       "text": "caller",
-      "url": "https://ss64.com/caller.html",
+      "url": "https://ss64.com/bash/caller.html",
       "options": {
         "sub": "Return the context of any active subroutine call •"
       },
@@ -170,7 +170,7 @@
     },
     "case": {
       "text": "case",
-      "url": "https://ss64.com/case.html",
+      "url": "https://ss64.com/bash/case.html",
       "options": {
         "sub": "Conditionally perform a command"
       },
@@ -178,7 +178,7 @@
     },
     "cat": {
       "text": "cat",
-      "url": "https://ss64.com/cat.html",
+      "url": "https://ss64.com/bash/cat.html",
       "options": {
         "sub": "Concatenate and print (display) the content of files"
       },
@@ -186,7 +186,7 @@
     },
     "cd": {
       "text": "cd",
-      "url": "https://ss64.com/cd.html",
+      "url": "https://ss64.com/bash/cd.html",
       "options": {
         "sub": "Change Directory"
       },
@@ -194,7 +194,7 @@
     },
     "cfdisk": {
       "text": "cfdisk",
-      "url": "https://ss64.com/cfdisk.html",
+      "url": "https://ss64.com/bash/cfdisk.html",
       "options": {
         "sub": "Partition table manipulator for Linux"
       },
@@ -202,7 +202,7 @@
     },
     "chattr": {
       "text": "chattr",
-      "url": "https://ss64.com/chattr.html",
+      "url": "https://ss64.com/bash/chattr.html",
       "options": {
         "sub": "Change file attributes on a Linux file system"
       },
@@ -210,7 +210,7 @@
     },
     "chgrp": {
       "text": "chgrp",
-      "url": "https://ss64.com/chgrp.html",
+      "url": "https://ss64.com/bash/chgrp.html",
       "options": {
         "sub": "Change group ownership"
       },
@@ -218,7 +218,7 @@
     },
     "chmod": {
       "text": "chmod",
-      "url": "https://ss64.com/chmod.html",
+      "url": "https://ss64.com/bash/chmod.html",
       "options": {
         "sub": "Change access permissions"
       },
@@ -226,7 +226,7 @@
     },
     "chown": {
       "text": "chown",
-      "url": "https://ss64.com/chown.html",
+      "url": "https://ss64.com/bash/chown.html",
       "options": {
         "sub": "Change file owner and group"
       },
@@ -234,7 +234,7 @@
     },
     "chpasswd": {
       "text": "chpasswd",
-      "url": "https://ss64.com/chpasswd.html",
+      "url": "https://ss64.com/bash/chpasswd.html",
       "options": {
         "sub": "Update passwords in batch mode"
       },
@@ -242,7 +242,7 @@
     },
     "chroot": {
       "text": "chroot",
-      "url": "https://ss64.com/chroot.html",
+      "url": "https://ss64.com/bash/chroot.html",
       "options": {
         "sub": "Run a command with a different root directory"
       },
@@ -250,7 +250,7 @@
     },
     "chkconfig": {
       "text": "chkconfig",
-      "url": "https://ss64.com/chkconfig.html",
+      "url": "https://ss64.com/bash/chkconfig.html",
       "options": {
         "sub": "System services (runlevel)"
       },
@@ -258,7 +258,7 @@
     },
     "cksum": {
       "text": "cksum",
-      "url": "https://ss64.com/cksum.html",
+      "url": "https://ss64.com/bash/cksum.html",
       "options": {
         "sub": "Print CRC checksum and byte counts"
       },
@@ -266,7 +266,7 @@
     },
     "clear": {
       "text": "clear",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/bash/",
       "options": {
         "sub": "Clear the terminal screen/console (ncurses)"
       },
@@ -274,7 +274,7 @@
     },
     "clear_console": {
       "text": "clear_console",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/bash/",
       "options": {
         "sub": "Clear the terminal screen/console (bash)"
       },
@@ -282,7 +282,7 @@
     },
     "cmp": {
       "text": "cmp",
-      "url": "https://ss64.com/cmp.html",
+      "url": "https://ss64.com/bash/cmp.html",
       "options": {
         "sub": "Compare two files"
       },
@@ -290,7 +290,7 @@
     },
     "comm": {
       "text": "comm",
-      "url": "https://ss64.com/comm.html",
+      "url": "https://ss64.com/bash/comm.html",
       "options": {
         "sub": "Compare two sorted files line by line"
       },
@@ -298,7 +298,7 @@
     },
     "command": {
       "text": "command",
-      "url": "https://ss64.com/command.html",
+      "url": "https://ss64.com/bash/command.html",
       "options": {
         "sub": "Run a command - ignoring shell functions •"
       },
@@ -306,7 +306,7 @@
     },
     "continue": {
       "text": "continue",
-      "url": "https://ss64.com/continue.html",
+      "url": "https://ss64.com/bash/continue.html",
       "options": {
         "sub": "Resume the next iteration of a loop •"
       },
@@ -314,7 +314,7 @@
     },
     "cp": {
       "text": "cp",
-      "url": "https://ss64.com/cp.html",
+      "url": "https://ss64.com/bash/cp.html",
       "options": {
         "sub": "Copy one or more files to another location"
       },
@@ -322,7 +322,7 @@
     },
     "cpio": {
       "text": "cpio",
-      "url": "https://ss64.com/cpio.html",
+      "url": "https://ss64.com/bash/cpio.html",
       "options": {
         "sub": "Copy files to and from archives"
       },
@@ -330,7 +330,7 @@
     },
     "cron": {
       "text": "cron",
-      "url": "https://ss64.com/cron.html",
+      "url": "https://ss64.com/bash/cron.html",
       "options": {
         "sub": "Daemon to execute scheduled commands"
       },
@@ -338,7 +338,7 @@
     },
     "crontab": {
       "text": "crontab",
-      "url": "https://ss64.com/crontab.html",
+      "url": "https://ss64.com/bash/crontab.html",
       "options": {
         "sub": "Schedule a command to run at a later time"
       },
@@ -346,7 +346,7 @@
     },
     "csplit": {
       "text": "csplit",
-      "url": "https://ss64.com/csplit.html",
+      "url": "https://ss64.com/bash/csplit.html",
       "options": {
         "sub": "Split a file into context-determined pieces"
       },
@@ -354,7 +354,7 @@
     },
     "curl": {
       "text": "curl",
-      "url": "https://ss64.com/curl.html",
+      "url": "https://ss64.com/bash/curl.html",
       "options": {
         "sub": "Transfer data  from or to a server"
       },
@@ -362,7 +362,7 @@
     },
     "cut": {
       "text": "cut",
-      "url": "https://ss64.com/cut.html",
+      "url": "https://ss64.com/bash/cut.html",
       "options": {
         "sub": "Divide a file into several parts"
       },
@@ -370,7 +370,7 @@
     },
     "date": {
       "text": "date",
-      "url": "https://ss64.com/date.html",
+      "url": "https://ss64.com/bash/date.html",
       "options": {
         "sub": "Display or change the date & time"
       },
@@ -378,7 +378,7 @@
     },
     "dc": {
       "text": "dc",
-      "url": "https://ss64.com/dc.html",
+      "url": "https://ss64.com/bash/dc.html",
       "options": {
         "sub": "Desk Calculator"
       },
@@ -386,7 +386,7 @@
     },
     "dd": {
       "text": "dd",
-      "url": "https://ss64.com/dd.html",
+      "url": "https://ss64.com/bash/dd.html",
       "options": {
         "sub": "Data Duplicator - convert and copy a file, write disk headers, boot records"
       },
@@ -394,7 +394,7 @@
     },
     "ddrescue": {
       "text": "ddrescue",
-      "url": "https://ss64.com/ddrescue.html",
+      "url": "https://ss64.com/bash/ddrescue.html",
       "options": {
         "sub": "Data recovery tool"
       },
@@ -402,7 +402,7 @@
     },
     "declare": {
       "text": "declare",
-      "url": "https://ss64.com/declare.html",
+      "url": "https://ss64.com/bash/declare.html",
       "options": {
         "sub": "Declare variables and give them attributes •"
       },
@@ -410,7 +410,7 @@
     },
     "df": {
       "text": "df",
-      "url": "https://ss64.com/df.html",
+      "url": "https://ss64.com/bash/df.html",
       "options": {
         "sub": "Display free disk space"
       },
@@ -418,7 +418,7 @@
     },
     "diff": {
       "text": "diff",
-      "url": "https://ss64.com/diff.html",
+      "url": "https://ss64.com/bash/diff.html",
       "options": {
         "sub": "Display the differences between two files"
       },
@@ -426,7 +426,7 @@
     },
     "diff3": {
       "text": "diff3",
-      "url": "https://ss64.com/diff3.html",
+      "url": "https://ss64.com/bash/diff3.html",
       "options": {
         "sub": "Show differences among three files"
       },
@@ -434,7 +434,7 @@
     },
     "dig": {
       "text": "dig",
-      "url": "https://ss64.com/dig.html",
+      "url": "https://ss64.com/bash/dig.html",
       "options": {
         "sub": "DNS lookup"
       },
@@ -442,7 +442,7 @@
     },
     "dir": {
       "text": "dir",
-      "url": "https://ss64.com/dir.html",
+      "url": "https://ss64.com/bash/dir.html",
       "options": {
         "sub": "Briefly list directory contents"
       },
@@ -450,7 +450,7 @@
     },
     "dircolors": {
       "text": "dircolors",
-      "url": "https://ss64.com/dircolors.html",
+      "url": "https://ss64.com/bash/dircolors.html",
       "options": {
         "sub": "Colour setup for 'ls'"
       },
@@ -458,7 +458,7 @@
     },
     "dirname": {
       "text": "dirname",
-      "url": "https://ss64.com/dirname.html",
+      "url": "https://ss64.com/bash/dirname.html",
       "options": {
         "sub": "Convert a full pathname to just a path"
       },
@@ -466,7 +466,7 @@
     },
     "dirs": {
       "text": "dirs",
-      "url": "https://ss64.com/dirs.html",
+      "url": "https://ss64.com/bash/dirs.html",
       "options": {
         "sub": "Display list of remembered directories"
       },
@@ -474,7 +474,7 @@
     },
     "dos2unix": {
       "text": "dos2unix",
-      "url": "https://ss64.com/dos2unix.html",
+      "url": "https://ss64.com/bash/dos2unix.html",
       "options": {
         "sub": "Windows/MAC to UNIX text file format converter"
       },
@@ -482,7 +482,7 @@
     },
     "dmesg": {
       "text": "dmesg",
-      "url": "https://ss64.com/dmesg.html",
+      "url": "https://ss64.com/bash/dmesg.html",
       "options": {
         "sub": "Print kernel & driver messages"
       },
@@ -490,7 +490,7 @@
     },
     "dpkg": {
       "text": "dpkg",
-      "url": "https://ss64.com/dpkg.html",
+      "url": "https://ss64.com/bash/dpkg.html",
       "options": {
         "sub": "Package manager  (Debian/Ubuntu)."
       },
@@ -498,7 +498,7 @@
     },
     "du": {
       "text": "du",
-      "url": "https://ss64.com/du.html",
+      "url": "https://ss64.com/bash/du.html",
       "options": {
         "sub": "Estimate file space usage"
       },
@@ -506,7 +506,7 @@
     },
     "echo": {
       "text": "echo",
-      "url": "https://ss64.com/echo.html",
+      "url": "https://ss64.com/bash/echo.html",
       "options": {
         "sub": "Display message on screen •"
       },
@@ -514,7 +514,7 @@
     },
     "egrep": {
       "text": "egrep",
-      "url": "https://ss64.com/egrep.html",
+      "url": "https://ss64.com/bash/egrep.html",
       "options": {
         "sub": "Search file(s) for lines that match an extended expression"
       },
@@ -522,7 +522,7 @@
     },
     "eject": {
       "text": "eject",
-      "url": "https://ss64.com/eject.html",
+      "url": "https://ss64.com/bash/eject.html",
       "options": {
         "sub": "Eject removable media"
       },
@@ -530,7 +530,7 @@
     },
     "enable": {
       "text": "enable",
-      "url": "https://ss64.com/enable.html",
+      "url": "https://ss64.com/bash/enable.html",
       "options": {
         "sub": "Enable and disable builtin shell commands •"
       },
@@ -538,7 +538,7 @@
     },
     "env": {
       "text": "env",
-      "url": "https://ss64.com/env.html",
+      "url": "https://ss64.com/bash/env.html",
       "options": {
         "sub": "Environment variables"
       },
@@ -546,7 +546,7 @@
     },
     "ethtool": {
       "text": "ethtool",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/bash/",
       "options": {
         "sub": "Ethernet card settings"
       },
@@ -554,7 +554,7 @@
     },
     "eval": {
       "text": "eval",
-      "url": "https://ss64.com/eval.html",
+      "url": "https://ss64.com/bash/eval.html",
       "options": {
         "sub": "Evaluate several commands/arguments"
       },
@@ -562,7 +562,7 @@
     },
     "exec": {
       "text": "exec",
-      "url": "https://ss64.com/exec.html",
+      "url": "https://ss64.com/bash/exec.html",
       "options": {
         "sub": "Execute a command"
       },
@@ -570,7 +570,7 @@
     },
     "exit": {
       "text": "exit",
-      "url": "https://ss64.com/exit.html",
+      "url": "https://ss64.com/bash/exit.html",
       "options": {
         "sub": "Exit the shell"
       },
@@ -578,7 +578,7 @@
     },
     "expand": {
       "text": "expand",
-      "url": "https://ss64.com/expand.html",
+      "url": "https://ss64.com/bash/expand.html",
       "options": {
         "sub": "Convert tabs to spaces"
       },
@@ -586,7 +586,7 @@
     },
     "export": {
       "text": "export",
-      "url": "https://ss64.com/export.html",
+      "url": "https://ss64.com/bash/export.html",
       "options": {
         "sub": "Set an environment variable"
       },
@@ -594,7 +594,7 @@
     },
     "expr": {
       "text": "expr",
-      "url": "https://ss64.com/expr.html",
+      "url": "https://ss64.com/bash/expr.html",
       "options": {
         "sub": "Evaluate expressions"
       },
@@ -602,7 +602,7 @@
     },
     "false": {
       "text": "false",
-      "url": "https://ss64.com/false.html",
+      "url": "https://ss64.com/bash/false.html",
       "options": {
         "sub": "Do nothing, unsuccessfully"
       },
@@ -610,7 +610,7 @@
     },
     "fdformat": {
       "text": "fdformat",
-      "url": "https://ss64.com/fdformat.html",
+      "url": "https://ss64.com/bash/fdformat.html",
       "options": {
         "sub": "Low-level format a floppy disk"
       },
@@ -618,7 +618,7 @@
     },
     "fdisk": {
       "text": "fdisk",
-      "url": "https://ss64.com/fdisk.html",
+      "url": "https://ss64.com/bash/fdisk.html",
       "options": {
         "sub": "Partition table manipulator for Linux"
       },
@@ -626,7 +626,7 @@
     },
     "fg": {
       "text": "fg",
-      "url": "https://ss64.com/fg.html",
+      "url": "https://ss64.com/bash/fg.html",
       "options": {
         "sub": "Send job to foreground"
       },
@@ -634,7 +634,7 @@
     },
     "fgrep": {
       "text": "fgrep",
-      "url": "https://ss64.com/fgrep.html",
+      "url": "https://ss64.com/bash/fgrep.html",
       "options": {
         "sub": "Search file(s) for lines that match a fixed string"
       },
@@ -642,7 +642,7 @@
     },
     "file": {
       "text": "file",
-      "url": "https://ss64.com/file.html",
+      "url": "https://ss64.com/bash/file.html",
       "options": {
         "sub": "Determine file type"
       },
@@ -650,7 +650,7 @@
     },
     "find": {
       "text": "find",
-      "url": "https://ss64.com/find.html",
+      "url": "https://ss64.com/bash/find.html",
       "options": {
         "sub": "Search for files that meet a desired criteria"
       },
@@ -658,7 +658,7 @@
     },
     "fmt": {
       "text": "fmt",
-      "url": "https://ss64.com/fmt.html",
+      "url": "https://ss64.com/bash/fmt.html",
       "options": {
         "sub": "Reformat paragraph text"
       },
@@ -666,7 +666,7 @@
     },
     "fold": {
       "text": "fold",
-      "url": "https://ss64.com/fold.html",
+      "url": "https://ss64.com/bash/fold.html",
       "options": {
         "sub": "Wrap text to fit a specified width"
       },
@@ -674,7 +674,7 @@
     },
     "for": {
       "text": "for",
-      "url": "https://ss64.com/for.html",
+      "url": "https://ss64.com/bash/for.html",
       "options": {
         "sub": "Expand words, and execute commands"
       },
@@ -682,7 +682,7 @@
     },
     "format": {
       "text": "format",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/bash/",
       "options": {
         "sub": "Format disks or tapes"
       },
@@ -690,7 +690,7 @@
     },
     "free": {
       "text": "free",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/bash/",
       "options": {
         "sub": "Display memory usage"
       },
@@ -698,7 +698,7 @@
     },
     "fsck": {
       "text": "fsck",
-      "url": "https://ss64.com/fsck.html",
+      "url": "https://ss64.com/bash/fsck.html",
       "options": {
         "sub": "File system consistency check and repair"
       },
@@ -706,7 +706,7 @@
     },
     "ftp": {
       "text": "ftp",
-      "url": "https://ss64.com/ftp.html",
+      "url": "https://ss64.com/bash/ftp.html",
       "options": {
         "sub": "File Transfer Protocol"
       },
@@ -714,7 +714,7 @@
     },
     "function": {
       "text": "function",
-      "url": "https://ss64.com/function.html",
+      "url": "https://ss64.com/bash/function.html",
       "options": {
         "sub": "Define Function Macros"
       },
@@ -722,7 +722,7 @@
     },
     "fuser": {
       "text": "fuser",
-      "url": "https://ss64.com/fuser.html",
+      "url": "https://ss64.com/bash/fuser.html",
       "options": {
         "sub": "Identify/kill the process that is accessing a file"
       },
@@ -730,7 +730,7 @@
     },
     "gawk": {
       "text": "gawk",
-      "url": "https://ss64.com/awk.html",
+      "url": "https://ss64.com/bash/awk.html",
       "options": {
         "sub": "Find and Replace text within file(s)"
       },
@@ -738,7 +738,7 @@
     },
     "getopts": {
       "text": "getopts",
-      "url": "https://ss64.com/getopts.html",
+      "url": "https://ss64.com/bash/getopts.html",
       "options": {
         "sub": "Parse positional parameters"
       },
@@ -746,7 +746,7 @@
     },
     "getfacl": {
       "text": "getfacl",
-      "url": "https://ss64.com/getfacl.html",
+      "url": "https://ss64.com/bash/getfacl.html",
       "options": {
         "sub": "Get file access control lists"
       },
@@ -754,7 +754,7 @@
     },
     "grep": {
       "text": "grep",
-      "url": "https://ss64.com/grep.html",
+      "url": "https://ss64.com/bash/grep.html",
       "options": {
         "sub": "Search file(s) for lines that match a given pattern"
       },
@@ -762,7 +762,7 @@
     },
     "groupadd": {
       "text": "groupadd",
-      "url": "https://ss64.com/groupadd.html",
+      "url": "https://ss64.com/bash/groupadd.html",
       "options": {
         "sub": "Add a user security group"
       },
@@ -770,7 +770,7 @@
     },
     "groupdel": {
       "text": "groupdel",
-      "url": "https://ss64.com/groupdel.html",
+      "url": "https://ss64.com/bash/groupdel.html",
       "options": {
         "sub": "Delete a group"
       },
@@ -778,7 +778,7 @@
     },
     "groupmod": {
       "text": "groupmod",
-      "url": "https://ss64.com/groupmod.html",
+      "url": "https://ss64.com/bash/groupmod.html",
       "options": {
         "sub": "Modify a group"
       },
@@ -786,7 +786,7 @@
     },
     "groups": {
       "text": "groups",
-      "url": "https://ss64.com/groups.html",
+      "url": "https://ss64.com/bash/groups.html",
       "options": {
         "sub": "Print group names a user is in"
       },
@@ -794,7 +794,7 @@
     },
     "gzip": {
       "text": "gzip",
-      "url": "https://ss64.com/gzip.html",
+      "url": "https://ss64.com/bash/gzip.html",
       "options": {
         "sub": "Compress or decompress named file(s)"
       },
@@ -802,7 +802,7 @@
     },
     "hash": {
       "text": "hash",
-      "url": "https://ss64.com/hash.html",
+      "url": "https://ss64.com/bash/hash.html",
       "options": {
         "sub": "Remember the full pathname of a name argument"
       },
@@ -810,7 +810,7 @@
     },
     "head": {
       "text": "head",
-      "url": "https://ss64.com/head.html",
+      "url": "https://ss64.com/bash/head.html",
       "options": {
         "sub": "Output the first part of file(s)"
       },
@@ -818,7 +818,7 @@
     },
     "help": {
       "text": "help",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/bash/",
       "options": {
         "sub": "Display help for a built-in command •"
       },
@@ -826,7 +826,7 @@
     },
     "history": {
       "text": "history",
-      "url": "https://ss64.com/history.html",
+      "url": "https://ss64.com/bash/history.html",
       "options": {
         "sub": "Command History"
       },
@@ -834,7 +834,7 @@
     },
     "hostname": {
       "text": "hostname",
-      "url": "https://ss64.com/hostname.html",
+      "url": "https://ss64.com/bash/hostname.html",
       "options": {
         "sub": "Print or set system name"
       },
@@ -842,7 +842,7 @@
     },
     "htop": {
       "text": "htop",
-      "url": "https://ss64.com/htop.html",
+      "url": "https://ss64.com/bash/htop.html",
       "options": {
         "sub": "Interactive process viewer"
       },
@@ -850,7 +850,7 @@
     },
     "iconv": {
       "text": "iconv",
-      "url": "https://ss64.com/iconv.html",
+      "url": "https://ss64.com/bash/iconv.html",
       "options": {
         "sub": "Convert the character set of a file"
       },
@@ -858,7 +858,7 @@
     },
     "id": {
       "text": "id",
-      "url": "https://ss64.com/id.html",
+      "url": "https://ss64.com/bash/id.html",
       "options": {
         "sub": "Print user and group id’s"
       },
@@ -866,7 +866,7 @@
     },
     "if": {
       "text": "if",
-      "url": "https://ss64.com/if.html",
+      "url": "https://ss64.com/bash/if.html",
       "options": {
         "sub": "Conditionally perform a command"
       },
@@ -874,7 +874,7 @@
     },
     "ifconfig": {
       "text": "ifconfig",
-      "url": "https://ss64.com/ifconfig.html",
+      "url": "https://ss64.com/bash/ifconfig.html",
       "options": {
         "sub": "Configure a network interface"
       },
@@ -882,7 +882,7 @@
     },
     "ifdown": {
       "text": "ifdown",
-      "url": "https://ss64.com/ifup.html",
+      "url": "https://ss64.com/bash/ifup.html",
       "options": {
         "sub": "Stop a network interface"
       },
@@ -890,7 +890,7 @@
     },
     "ifup": {
       "text": "ifup",
-      "url": "https://ss64.com/ifup.html",
+      "url": "https://ss64.com/bash/ifup.html",
       "options": {
         "sub": "Start a network interface up"
       },
@@ -898,7 +898,7 @@
     },
     "import": {
       "text": "import",
-      "url": "https://ss64.com/import.html",
+      "url": "https://ss64.com/bash/import.html",
       "options": {
         "sub": "Capture an X server screen and save the image to file"
       },
@@ -906,7 +906,7 @@
     },
     "install": {
       "text": "install",
-      "url": "https://ss64.com/install.html",
+      "url": "https://ss64.com/bash/install.html",
       "options": {
         "sub": "Copy files and set attributes"
       },
@@ -914,7 +914,7 @@
     },
     "iostat": {
       "text": "iostat",
-      "url": "https://ss64.com/iostat.html",
+      "url": "https://ss64.com/bash/iostat.html",
       "options": {
         "sub": "Report CPU and i/o statistics"
       },
@@ -922,7 +922,7 @@
     },
     "ip": {
       "text": "ip",
-      "url": "https://ss64.com/ip.html",
+      "url": "https://ss64.com/bash/ip.html",
       "options": {
         "sub": "Routing, devices and tunnels"
       },
@@ -930,7 +930,7 @@
     },
     "jobs": {
       "text": "jobs",
-      "url": "https://ss64.com/jobs.html",
+      "url": "https://ss64.com/bash/jobs.html",
       "options": {
         "sub": "List active jobs •"
       },
@@ -938,7 +938,7 @@
     },
     "join": {
       "text": "join",
-      "url": "https://ss64.com/join.html",
+      "url": "https://ss64.com/bash/join.html",
       "options": {
         "sub": "Join lines on a common field"
       },
@@ -946,7 +946,7 @@
     },
     "kill": {
       "text": "kill",
-      "url": "https://ss64.com/kill.html",
+      "url": "https://ss64.com/bash/kill.html",
       "options": {
         "sub": "Kill a process by specifying its PID"
       },
@@ -954,7 +954,7 @@
     },
     "killall": {
       "text": "killall",
-      "url": "https://ss64.com/killall.html",
+      "url": "https://ss64.com/bash/killall.html",
       "options": {
         "sub": "Kill processes by name"
       },
@@ -962,7 +962,7 @@
     },
     "klist": {
       "text": "klist",
-      "url": "https://ss64.com/klist.html",
+      "url": "https://ss64.com/bash/klist.html",
       "options": {
         "sub": "List cached Kerberos tickets"
       },
@@ -970,7 +970,7 @@
     },
     "less": {
       "text": "less",
-      "url": "https://ss64.com/less.html",
+      "url": "https://ss64.com/bash/less.html",
       "options": {
         "sub": "Display output one screen at a time"
       },
@@ -978,7 +978,7 @@
     },
     "let": {
       "text": "let",
-      "url": "https://ss64.com/let.html",
+      "url": "https://ss64.com/bash/let.html",
       "options": {
         "sub": "Perform arithmetic on shell variables •"
       },
@@ -986,7 +986,7 @@
     },
     "link": {
       "text": "link",
-      "url": "https://ss64.com/link.html",
+      "url": "https://ss64.com/bash/link.html",
       "options": {
         "sub": "Create a link to a file"
       },
@@ -994,7 +994,7 @@
     },
     "ln": {
       "text": "ln",
-      "url": "https://ss64.com/ln.html",
+      "url": "https://ss64.com/bash/ln.html",
       "options": {
         "sub": "Create a symbolic link to a file"
       },
@@ -1002,7 +1002,7 @@
     },
     "local": {
       "text": "local",
-      "url": "https://ss64.com/local.html",
+      "url": "https://ss64.com/bash/local.html",
       "options": {
         "sub": "Create a function variable •"
       },
@@ -1010,7 +1010,7 @@
     },
     "locate": {
       "text": "locate",
-      "url": "https://ss64.com/locate.html",
+      "url": "https://ss64.com/bash/locate.html",
       "options": {
         "sub": "Find files"
       },
@@ -1018,7 +1018,7 @@
     },
     "logname": {
       "text": "logname",
-      "url": "https://ss64.com/logname.html",
+      "url": "https://ss64.com/bash/logname.html",
       "options": {
         "sub": "Print current login name"
       },
@@ -1026,7 +1026,7 @@
     },
     "logout": {
       "text": "logout",
-      "url": "https://ss64.com/logout.html",
+      "url": "https://ss64.com/bash/logout.html",
       "options": {
         "sub": "Exit a login shell •"
       },
@@ -1034,7 +1034,7 @@
     },
     "look": {
       "text": "look",
-      "url": "https://ss64.com/look.html",
+      "url": "https://ss64.com/bash/look.html",
       "options": {
         "sub": "Display lines beginning with a given string"
       },
@@ -1042,7 +1042,7 @@
     },
     "lpc": {
       "text": "lpc",
-      "url": "https://ss64.com/lpc.html",
+      "url": "https://ss64.com/bash/lpc.html",
       "options": {
         "sub": "Line printer control program"
       },
@@ -1050,7 +1050,7 @@
     },
     "lpr": {
       "text": "lpr",
-      "url": "https://ss64.com/lpr.html",
+      "url": "https://ss64.com/bash/lpr.html",
       "options": {
         "sub": "Print files"
       },
@@ -1058,7 +1058,7 @@
     },
     "lprint": {
       "text": "lprint",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/bash/",
       "options": {
         "sub": "Print a file"
       },
@@ -1066,7 +1066,7 @@
     },
     "lprintd": {
       "text": "lprintd",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/bash/",
       "options": {
         "sub": "Delete a print job"
       },
@@ -1074,7 +1074,7 @@
     },
     "lprintq": {
       "text": "lprintq",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/bash/",
       "options": {
         "sub": "List the print queue"
       },
@@ -1082,7 +1082,7 @@
     },
     "lprm": {
       "text": "lprm",
-      "url": "https://ss64.com/lprm.html",
+      "url": "https://ss64.com/bash/lprm.html",
       "options": {
         "sub": "Remove jobs from the print queue"
       },
@@ -1090,7 +1090,7 @@
     },
     "lsattr": {
       "text": "lsattr",
-      "url": "https://ss64.com/lsattr.html",
+      "url": "https://ss64.com/bash/lsattr.html",
       "options": {
         "sub": "List file attributes on a Linux second extended file system"
       },
@@ -1098,7 +1098,7 @@
     },
     "lsblk": {
       "text": "lsblk",
-      "url": "https://ss64.com/lsblk.html",
+      "url": "https://ss64.com/bash/lsblk.html",
       "options": {
         "sub": "List block devices"
       },
@@ -1106,7 +1106,7 @@
     },
     "ls": {
       "text": "ls",
-      "url": "https://ss64.com/ls.html",
+      "url": "https://ss64.com/bash/ls.html",
       "options": {
         "sub": "List information about file(s)"
       },
@@ -1114,7 +1114,7 @@
     },
     "lsof": {
       "text": "lsof",
-      "url": "https://ss64.com/lsof.html",
+      "url": "https://ss64.com/bash/lsof.html",
       "options": {
         "sub": "List open files"
       },
@@ -1122,7 +1122,7 @@
     },
     "lspci": {
       "text": "lspci",
-      "url": "https://ss64.com/lspci.html",
+      "url": "https://ss64.com/bash/lspci.html",
       "options": {
         "sub": "List all PCI devices"
       },
@@ -1130,7 +1130,7 @@
     },
     "make": {
       "text": "make",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/bash/",
       "options": {
         "sub": "Recompile a group of programs"
       },
@@ -1138,7 +1138,7 @@
     },
     "man": {
       "text": "man",
-      "url": "https://ss64.com/man.html",
+      "url": "https://ss64.com/bash/man.html",
       "options": {
         "sub": "Help manual"
       },
@@ -1146,7 +1146,7 @@
     },
     "mapfile": {
       "text": "mapfile",
-      "url": "https://ss64.com/mapfile.html",
+      "url": "https://ss64.com/bash/mapfile.html",
       "options": {
         "sub": "Read lines from standard input into an indexed array variable •"
       },
@@ -1154,7 +1154,7 @@
     },
     "md5sum": {
       "text": "md5sum",
-      "url": "https://ss64.com/md5sum.html",
+      "url": "https://ss64.com/bash/md5sum.html",
       "options": {
         "sub": "Compute and check MD5 message digest"
       },
@@ -1162,7 +1162,7 @@
     },
     "mkdir": {
       "text": "mkdir",
-      "url": "https://ss64.com/mkdir.html",
+      "url": "https://ss64.com/bash/mkdir.html",
       "options": {
         "sub": "Create new folder(s)"
       },
@@ -1170,7 +1170,7 @@
     },
     "mkfifo": {
       "text": "mkfifo",
-      "url": "https://ss64.com/mkfifo.html",
+      "url": "https://ss64.com/bash/mkfifo.html",
       "options": {
         "sub": "Make FIFOs (named pipes)"
       },
@@ -1178,7 +1178,7 @@
     },
     "mkfile": {
       "text": "mkfile",
-      "url": "https://ss64.com/mkfile.html",
+      "url": "https://ss64.com/bash/mkfile.html",
       "options": {
         "sub": "Make a file"
       },
@@ -1186,7 +1186,7 @@
     },
     "mkisofs": {
       "text": "mkisofs",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/bash/",
       "options": {
         "sub": "Create a hybrid ISO9660/JOLIET/HFS filesystem"
       },
@@ -1194,7 +1194,7 @@
     },
     "mknod": {
       "text": "mknod",
-      "url": "https://ss64.com/mknod.html",
+      "url": "https://ss64.com/bash/mknod.html",
       "options": {
         "sub": "Make block or character special files"
       },
@@ -1202,7 +1202,7 @@
     },
     "mktemp": {
       "text": "mktemp",
-      "url": "https://ss64.com/mktemp.html",
+      "url": "https://ss64.com/bash/mktemp.html",
       "options": {
         "sub": "Make a temporary file"
       },
@@ -1210,7 +1210,7 @@
     },
     "more": {
       "text": "more",
-      "url": "https://ss64.com/more.html",
+      "url": "https://ss64.com/bash/more.html",
       "options": {
         "sub": "Display output one screen at a time"
       },
@@ -1218,7 +1218,7 @@
     },
     "most": {
       "text": "most",
-      "url": "https://ss64.com/most.html",
+      "url": "https://ss64.com/bash/most.html",
       "options": {
         "sub": "Browse or page through a text file"
       },
@@ -1226,7 +1226,7 @@
     },
     "mount": {
       "text": "mount",
-      "url": "https://ss64.com/mount.html",
+      "url": "https://ss64.com/bash/mount.html",
       "options": {
         "sub": "Mount a file system"
       },
@@ -1234,7 +1234,7 @@
     },
     "mtools": {
       "text": "mtools",
-      "url": "https://ss64.com/mtools.html",
+      "url": "https://ss64.com/bash/mtools.html",
       "options": {
         "sub": "Manipulate MS-DOS files"
       },
@@ -1242,7 +1242,7 @@
     },
     "mtr": {
       "text": "mtr",
-      "url": "https://ss64.com/mtr.html",
+      "url": "https://ss64.com/bash/mtr.html",
       "options": {
         "sub": "Network diagnostics (traceroute/ping)"
       },
@@ -1250,7 +1250,7 @@
     },
     "mv": {
       "text": "mv",
-      "url": "https://ss64.com/mv.html",
+      "url": "https://ss64.com/bash/mv.html",
       "options": {
         "sub": "Move or rename files or directories"
       },
@@ -1258,7 +1258,7 @@
     },
     "mmv": {
       "text": "mmv",
-      "url": "https://ss64.com/mmv.html",
+      "url": "https://ss64.com/bash/mmv.html",
       "options": {
         "sub": "Mass Move and rename (files)"
       },
@@ -1266,7 +1266,7 @@
     },
     "nc": {
       "text": "nc",
-      "url": "https://ss64.com/nc.html",
+      "url": "https://ss64.com/bash/nc.html",
       "options": {
         "sub": "Netcat, read and write data across networks"
       },
@@ -1274,7 +1274,7 @@
     },
     "netstat": {
       "text": "netstat",
-      "url": "https://ss64.com/netstat.html",
+      "url": "https://ss64.com/bash/netstat.html",
       "options": {
         "sub": "Networking connections/stats"
       },
@@ -1282,7 +1282,7 @@
     },
     "nft": {
       "text": "nft",
-      "url": "https://ss64.com/nft.html",
+      "url": "https://ss64.com/bash/nft.html",
       "options": {
         "sub": "nftables for packet filtering and classification"
       },
@@ -1290,7 +1290,7 @@
     },
     "nice": {
       "text": "nice",
-      "url": "https://ss64.com/nice.html",
+      "url": "https://ss64.com/bash/nice.html",
       "options": {
         "sub": "Set the priority of a command or job"
       },
@@ -1298,7 +1298,7 @@
     },
     "nl": {
       "text": "nl",
-      "url": "https://ss64.com/nl.html",
+      "url": "https://ss64.com/bash/nl.html",
       "options": {
         "sub": "Number lines and write files"
       },
@@ -1306,7 +1306,7 @@
     },
     "nohup": {
       "text": "nohup",
-      "url": "https://ss64.com/nohup.html",
+      "url": "https://ss64.com/bash/nohup.html",
       "options": {
         "sub": "Run a command immune to hangups"
       },
@@ -1314,7 +1314,7 @@
     },
     "notify-send": {
       "text": "notify-send",
-      "url": "https://ss64.com/notify-send.html",
+      "url": "https://ss64.com/bash/notify-send.html",
       "options": {
         "sub": "Send desktop notifications"
       },
@@ -1322,7 +1322,7 @@
     },
     "nslookup": {
       "text": "nslookup",
-      "url": "https://ss64.com/nslookup.html",
+      "url": "https://ss64.com/bash/nslookup.html",
       "options": {
         "sub": "Query Internet name servers interactively"
       },
@@ -1330,7 +1330,7 @@
     },
     "open": {
       "text": "open",
-      "url": "https://ss64.com/open.html",
+      "url": "https://ss64.com/bash/open.html",
       "options": {
         "sub": "Open a file in its default application"
       },
@@ -1338,7 +1338,7 @@
     },
     "op": {
       "text": "op",
-      "url": "https://ss64.com/op.html",
+      "url": "https://ss64.com/bash/op.html",
       "options": {
         "sub": "Operator access"
       },
@@ -1346,7 +1346,7 @@
     },
     "passwd": {
       "text": "passwd",
-      "url": "https://ss64.com/passwd.html",
+      "url": "https://ss64.com/bash/passwd.html",
       "options": {
         "sub": "Modify a user password"
       },
@@ -1354,7 +1354,7 @@
     },
     "paste": {
       "text": "paste",
-      "url": "https://ss64.com/paste.html",
+      "url": "https://ss64.com/bash/paste.html",
       "options": {
         "sub": "Merge lines of files"
       },
@@ -1362,7 +1362,7 @@
     },
     "pathchk": {
       "text": "pathchk",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/bash/",
       "options": {
         "sub": "Check file name portability"
       },
@@ -1370,7 +1370,7 @@
     },
     "Perf": {
       "text": "Perf",
-      "url": "https://ss64.com/perf.html",
+      "url": "https://ss64.com/bash/perf.html",
       "options": {
         "sub": "Performance analysis tools for Linux"
       },
@@ -1378,7 +1378,7 @@
     },
     "ping": {
       "text": "ping",
-      "url": "https://ss64.com/ping.html",
+      "url": "https://ss64.com/bash/ping.html",
       "options": {
         "sub": "Test a network connection"
       },
@@ -1386,7 +1386,7 @@
     },
     "pgrep": {
       "text": "pgrep",
-      "url": "https://ss64.com/pkill.html",
+      "url": "https://ss64.com/bash/pkill.html",
       "options": {
         "sub": "List processes by name"
       },
@@ -1394,7 +1394,7 @@
     },
     "pkill": {
       "text": "pkill",
-      "url": "https://ss64.com/pkill.html",
+      "url": "https://ss64.com/bash/pkill.html",
       "options": {
         "sub": "Kill processes by name"
       },
@@ -1402,7 +1402,7 @@
     },
     "popd": {
       "text": "popd",
-      "url": "https://ss64.com/popd.html",
+      "url": "https://ss64.com/bash/popd.html",
       "options": {
         "sub": "Restore the previous value of the current directory"
       },
@@ -1410,7 +1410,7 @@
     },
     "pr": {
       "text": "pr",
-      "url": "https://ss64.com/pr.html",
+      "url": "https://ss64.com/bash/pr.html",
       "options": {
         "sub": "Prepare files for printing"
       },
@@ -1418,7 +1418,7 @@
     },
     "printcap": {
       "text": "printcap",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/bash/",
       "options": {
         "sub": "Printer capability database"
       },
@@ -1426,7 +1426,7 @@
     },
     "printenv": {
       "text": "printenv",
-      "url": "https://ss64.com/printenv.html",
+      "url": "https://ss64.com/bash/printenv.html",
       "options": {
         "sub": "Print environment variables"
       },
@@ -1434,7 +1434,7 @@
     },
     "printf": {
       "text": "printf",
-      "url": "https://ss64.com/printf.html",
+      "url": "https://ss64.com/bash/printf.html",
       "options": {
         "sub": "Format and print data •"
       },
@@ -1442,7 +1442,7 @@
     },
     "ps": {
       "text": "ps",
-      "url": "https://ss64.com/ps.html",
+      "url": "https://ss64.com/bash/ps.html",
       "options": {
         "sub": "Process status"
       },
@@ -1450,7 +1450,7 @@
     },
     "pushd": {
       "text": "pushd",
-      "url": "https://ss64.com/pushd.html",
+      "url": "https://ss64.com/bash/pushd.html",
       "options": {
         "sub": "Save and then change the current directory"
       },
@@ -1458,7 +1458,7 @@
     },
     "pv": {
       "text": "pv",
-      "url": "https://ss64.com/pv.html",
+      "url": "https://ss64.com/bash/pv.html",
       "options": {
         "sub": "Monitor the progress of data through a pipe"
       },
@@ -1466,7 +1466,7 @@
     },
     "pwd": {
       "text": "pwd",
-      "url": "https://ss64.com/pwd.html",
+      "url": "https://ss64.com/bash/pwd.html",
       "options": {
         "sub": "Print Working Directory"
       },
@@ -1474,7 +1474,7 @@
     },
     "quota": {
       "text": "quota",
-      "url": "https://ss64.com/quota.html",
+      "url": "https://ss64.com/bash/quota.html",
       "options": {
         "sub": "Display disk usage and limits"
       },
@@ -1482,7 +1482,7 @@
     },
     "quotacheck": {
       "text": "quotacheck",
-      "url": "https://ss64.com/quotacheck.html",
+      "url": "https://ss64.com/bash/quotacheck.html",
       "options": {
         "sub": "Scan a file system for disk usage"
       },
@@ -1490,7 +1490,7 @@
     },
     "ram": {
       "text": "ram",
-      "url": "https://ss64.com/ram.html",
+      "url": "https://ss64.com/bash/ram.html",
       "options": {
         "sub": "ram disk device"
       },
@@ -1498,7 +1498,7 @@
     },
     "rar": {
       "text": "rar",
-      "url": "https://ss64.com/rar.html",
+      "url": "https://ss64.com/bash/rar.html",
       "options": {
         "sub": "Archive files with compression"
       },
@@ -1506,7 +1506,7 @@
     },
     "rcp": {
       "text": "rcp",
-      "url": "https://ss64.com/rcp.html",
+      "url": "https://ss64.com/bash/rcp.html",
       "options": {
         "sub": "Copy files between two machines"
       },
@@ -1514,7 +1514,7 @@
     },
     "read": {
       "text": "read",
-      "url": "https://ss64.com/read.html",
+      "url": "https://ss64.com/bash/read.html",
       "options": {
         "sub": "Read a line from standard input •"
       },
@@ -1522,7 +1522,7 @@
     },
     "readarray": {
       "text": "readarray",
-      "url": "https://ss64.com/mapfile.html",
+      "url": "https://ss64.com/bash/mapfile.html",
       "options": {
         "sub": "Read from stdin into an array variable •"
       },
@@ -1530,7 +1530,7 @@
     },
     "readonly": {
       "text": "readonly",
-      "url": "https://ss64.com/readonly.html",
+      "url": "https://ss64.com/bash/readonly.html",
       "options": {
         "sub": "Mark variables/functions as readonly"
       },
@@ -1538,7 +1538,7 @@
     },
     "reboot": {
       "text": "reboot",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/bash/",
       "options": {
         "sub": "Reboot the system"
       },
@@ -1546,7 +1546,7 @@
     },
     "rename": {
       "text": "rename",
-      "url": "https://ss64.com/rename.html",
+      "url": "https://ss64.com/bash/rename.html",
       "options": {
         "sub": "Rename files"
       },
@@ -1554,7 +1554,7 @@
     },
     "renice": {
       "text": "renice",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/bash/",
       "options": {
         "sub": "Alter priority of running processes"
       },
@@ -1562,7 +1562,7 @@
     },
     "remsync": {
       "text": "remsync",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/bash/",
       "options": {
         "sub": "Synchronize remote files via email"
       },
@@ -1570,7 +1570,7 @@
     },
     "return": {
       "text": "return",
-      "url": "https://ss64.com/return.html",
+      "url": "https://ss64.com/bash/return.html",
       "options": {
         "sub": "Exit a shell function"
       },
@@ -1578,7 +1578,7 @@
     },
     "rev": {
       "text": "rev",
-      "url": "https://ss64.com/rev.html",
+      "url": "https://ss64.com/bash/rev.html",
       "options": {
         "sub": "Reverse lines of a file"
       },
@@ -1586,7 +1586,7 @@
     },
     "rm": {
       "text": "rm",
-      "url": "https://ss64.com/rm.html",
+      "url": "https://ss64.com/bash/rm.html",
       "options": {
         "sub": "Remove files"
       },
@@ -1594,7 +1594,7 @@
     },
     "rmdir": {
       "text": "rmdir",
-      "url": "https://ss64.com/rmdir.html",
+      "url": "https://ss64.com/bash/rmdir.html",
       "options": {
         "sub": "Remove folder(s)"
       },
@@ -1602,7 +1602,7 @@
     },
     "rsync": {
       "text": "rsync",
-      "url": "https://ss64.com/rsync.html",
+      "url": "https://ss64.com/bash/rsync.html",
       "options": {
         "sub": "Remote file copy (Synchronize file trees)"
       },
@@ -1610,7 +1610,7 @@
     },
     "screen": {
       "text": "screen",
-      "url": "https://ss64.com/screen.html",
+      "url": "https://ss64.com/bash/screen.html",
       "options": {
         "sub": "Multiplex terminal, run remote shells via ssh"
       },
@@ -1618,7 +1618,7 @@
     },
     "scp": {
       "text": "scp",
-      "url": "https://ss64.com/scp.html",
+      "url": "https://ss64.com/bash/scp.html",
       "options": {
         "sub": "Secure copy (remote file copy)"
       },
@@ -1626,7 +1626,7 @@
     },
     "sdiff": {
       "text": "sdiff",
-      "url": "https://ss64.com/sdiff.html",
+      "url": "https://ss64.com/bash/sdiff.html",
       "options": {
         "sub": "Merge two files interactively"
       },
@@ -1634,7 +1634,7 @@
     },
     "sed": {
       "text": "sed",
-      "url": "https://ss64.com/sed.html",
+      "url": "https://ss64.com/bash/sed.html",
       "options": {
         "sub": "Stream Editor"
       },
@@ -1642,7 +1642,7 @@
     },
     "select": {
       "text": "select",
-      "url": "https://ss64.com/select.html",
+      "url": "https://ss64.com/bash/select.html",
       "options": {
         "sub": "Accept user choices via keyboard input"
       },
@@ -1650,7 +1650,7 @@
     },
     "seq": {
       "text": "seq",
-      "url": "https://ss64.com/seq.html",
+      "url": "https://ss64.com/bash/seq.html",
       "options": {
         "sub": "Print numeric sequences"
       },
@@ -1658,7 +1658,7 @@
     },
     "set": {
       "text": "set",
-      "url": "https://ss64.com/set.html",
+      "url": "https://ss64.com/bash/set.html",
       "options": {
         "sub": "Manipulate shell variables and functions"
       },
@@ -1666,7 +1666,7 @@
     },
     "setfacl": {
       "text": "setfacl",
-      "url": "https://ss64.com/setfacl.html",
+      "url": "https://ss64.com/bash/setfacl.html",
       "options": {
         "sub": "Set file access control lists."
       },
@@ -1674,7 +1674,7 @@
     },
     "sftp": {
       "text": "sftp",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/bash/",
       "options": {
         "sub": "Secure File Transfer Program"
       },
@@ -1682,7 +1682,7 @@
     },
     "sha256sum": {
       "text": "sha256sum",
-      "url": "https://ss64.com/sha256sum.html",
+      "url": "https://ss64.com/bash/sha256sum.html",
       "options": {
         "sub": "Compute and check SHA256 (256-bit) checksums"
       },
@@ -1690,7 +1690,7 @@
     },
     "shift": {
       "text": "shift",
-      "url": "https://ss64.com/shift.html",
+      "url": "https://ss64.com/bash/shift.html",
       "options": {
         "sub": "Shift positional parameters"
       },
@@ -1698,7 +1698,7 @@
     },
     "shopt": {
       "text": "shopt",
-      "url": "https://ss64.com/shopt.html",
+      "url": "https://ss64.com/bash/shopt.html",
       "options": {
         "sub": "Shell Options"
       },
@@ -1706,7 +1706,7 @@
     },
     "shuf": {
       "text": "shuf",
-      "url": "https://ss64.com/shuf.html",
+      "url": "https://ss64.com/bash/shuf.html",
       "options": {
         "sub": "Generate random permutations"
       },
@@ -1714,7 +1714,7 @@
     },
     "shutdown": {
       "text": "shutdown",
-      "url": "https://ss64.com/shutdown.html",
+      "url": "https://ss64.com/bash/shutdown.html",
       "options": {
         "sub": "Shutdown or restart Linux"
       },
@@ -1722,7 +1722,7 @@
     },
     "sleep": {
       "text": "sleep",
-      "url": "https://ss64.com/sleep.html",
+      "url": "https://ss64.com/bash/sleep.html",
       "options": {
         "sub": "Delay for a specified time"
       },
@@ -1730,7 +1730,7 @@
     },
     "slocate": {
       "text": "slocate",
-      "url": "https://ss64.com/slocate.html",
+      "url": "https://ss64.com/bash/slocate.html",
       "options": {
         "sub": "Find files"
       },
@@ -1738,7 +1738,7 @@
     },
     "sort": {
       "text": "sort",
-      "url": "https://ss64.com/sort.html",
+      "url": "https://ss64.com/bash/sort.html",
       "options": {
         "sub": "Sort text files"
       },
@@ -1746,7 +1746,7 @@
     },
     "source": {
       "text": "source",
-      "url": "https://ss64.com/source.html",
+      "url": "https://ss64.com/bash/source.html",
       "options": {
         "sub": "Run commands from a file '.'  •"
       },
@@ -1754,7 +1754,7 @@
     },
     "split": {
       "text": "split",
-      "url": "https://ss64.com/split.html",
+      "url": "https://ss64.com/bash/split.html",
       "options": {
         "sub": "Split a file into fixed-size pieces"
       },
@@ -1762,7 +1762,7 @@
     },
     "ss": {
       "text": "ss",
-      "url": "https://ss64.com/ss.html",
+      "url": "https://ss64.com/bash/ss.html",
       "options": {
         "sub": "Socket Statistics"
       },
@@ -1770,7 +1770,7 @@
     },
     "ssh": {
       "text": "ssh",
-      "url": "https://ss64.com/ssh.html",
+      "url": "https://ss64.com/bash/ssh.html",
       "options": {
         "sub": "Secure Shell client (remote login program)"
       },
@@ -1778,7 +1778,7 @@
     },
     "stat": {
       "text": "stat",
-      "url": "https://ss64.com/stat.html",
+      "url": "https://ss64.com/bash/stat.html",
       "options": {
         "sub": "Display file or file system status"
       },
@@ -1786,7 +1786,7 @@
     },
     "strace": {
       "text": "strace",
-      "url": "https://ss64.com/strace.html",
+      "url": "https://ss64.com/bash/strace.html",
       "options": {
         "sub": "Trace system calls and signals"
       },
@@ -1794,7 +1794,7 @@
     },
     "su": {
       "text": "su",
-      "url": "https://ss64.com/su.html",
+      "url": "https://ss64.com/bash/su.html",
       "options": {
         "sub": "Substitute user identity"
       },
@@ -1802,7 +1802,7 @@
     },
     "sudo": {
       "text": "sudo",
-      "url": "https://ss64.com/sudo.html",
+      "url": "https://ss64.com/bash/sudo.html",
       "options": {
         "sub": "Execute a command as another user"
       },
@@ -1810,7 +1810,7 @@
     },
     "sum": {
       "text": "sum",
-      "url": "https://ss64.com/sum.html",
+      "url": "https://ss64.com/bash/sum.html",
       "options": {
         "sub": "Print a checksum for a file"
       },
@@ -1818,7 +1818,7 @@
     },
     "suspend": {
       "text": "suspend",
-      "url": "https://ss64.com/suspend.html",
+      "url": "https://ss64.com/bash/suspend.html",
       "options": {
         "sub": "Suspend execution of this shell •"
       },
@@ -1826,7 +1826,7 @@
     },
     "sync": {
       "text": "sync",
-      "url": "https://ss64.com/sync.html",
+      "url": "https://ss64.com/bash/sync.html",
       "options": {
         "sub": "Synchronize data on disk with memory"
       },
@@ -1834,7 +1834,7 @@
     },
     "tabs": {
       "text": "tabs",
-      "url": "https://ss64.com/tabs.html",
+      "url": "https://ss64.com/bash/tabs.html",
       "options": {
         "sub": "Set tabs on a terminal"
       },
@@ -1842,7 +1842,7 @@
     },
     "tail": {
       "text": "tail",
-      "url": "https://ss64.com/tail.html",
+      "url": "https://ss64.com/bash/tail.html",
       "options": {
         "sub": "Output the last part of a file"
       },
@@ -1850,7 +1850,7 @@
     },
     "tar": {
       "text": "tar",
-      "url": "https://ss64.com/tar.html",
+      "url": "https://ss64.com/bash/tar.html",
       "options": {
         "sub": "Store, list or extract files in an archive"
       },
@@ -1858,7 +1858,7 @@
     },
     "tee": {
       "text": "tee",
-      "url": "https://ss64.com/tee.html",
+      "url": "https://ss64.com/bash/tee.html",
       "options": {
         "sub": "Redirect output to multiple files"
       },
@@ -1866,7 +1866,7 @@
     },
     "test": {
       "text": "test",
-      "url": "https://ss64.com/test.html",
+      "url": "https://ss64.com/bash/test.html",
       "options": {
         "sub": "Evaluate a conditional expression"
       },
@@ -1874,7 +1874,7 @@
     },
     "time": {
       "text": "time",
-      "url": "https://ss64.com/time.html",
+      "url": "https://ss64.com/bash/time.html",
       "options": {
         "sub": "Measure Program running time"
       },
@@ -1882,7 +1882,7 @@
     },
     "timeout": {
       "text": "timeout",
-      "url": "https://ss64.com/timeout.html",
+      "url": "https://ss64.com/bash/timeout.html",
       "options": {
         "sub": "Run a command with a time limit"
       },
@@ -1890,7 +1890,7 @@
     },
     "times": {
       "text": "times",
-      "url": "https://ss64.com/times.html",
+      "url": "https://ss64.com/bash/times.html",
       "options": {
         "sub": "User and system times"
       },
@@ -1898,7 +1898,7 @@
     },
     "tmux": {
       "text": "tmux",
-      "url": "https://ss64.com/tmux.html",
+      "url": "https://ss64.com/bash/tmux.html",
       "options": {
         "sub": "Terminal multiplexer"
       },
@@ -1906,7 +1906,7 @@
     },
     "touch": {
       "text": "touch",
-      "url": "https://ss64.com/touch.html",
+      "url": "https://ss64.com/bash/touch.html",
       "options": {
         "sub": "Change file timestamps"
       },
@@ -1914,7 +1914,7 @@
     },
     "top": {
       "text": "top",
-      "url": "https://ss64.com/top.html",
+      "url": "https://ss64.com/bash/top.html",
       "options": {
         "sub": "List processes running on the system"
       },
@@ -1922,7 +1922,7 @@
     },
     "tput": {
       "text": "tput",
-      "url": "https://ss64.com/tput.html",
+      "url": "https://ss64.com/bash/tput.html",
       "options": {
         "sub": "Set terminal-dependent capabilities, color, position"
       },
@@ -1930,7 +1930,7 @@
     },
     "traceroute": {
       "text": "traceroute",
-      "url": "https://ss64.com/traceroute.html",
+      "url": "https://ss64.com/bash/traceroute.html",
       "options": {
         "sub": "Trace Route to Host"
       },
@@ -1938,7 +1938,7 @@
     },
     "trap": {
       "text": "trap",
-      "url": "https://ss64.com/trap.html",
+      "url": "https://ss64.com/bash/trap.html",
       "options": {
         "sub": "Execute a command when the shell receives a signal •"
       },
@@ -1946,7 +1946,7 @@
     },
     "tr": {
       "text": "tr",
-      "url": "https://ss64.com/tr.html",
+      "url": "https://ss64.com/bash/tr.html",
       "options": {
         "sub": "Translate, squeeze, and/or delete characters"
       },
@@ -1954,7 +1954,7 @@
     },
     "true": {
       "text": "true",
-      "url": "https://ss64.com/true.html",
+      "url": "https://ss64.com/bash/true.html",
       "options": {
         "sub": "Do nothing, successfully"
       },
@@ -1962,7 +1962,7 @@
     },
     "tsort": {
       "text": "tsort",
-      "url": "https://ss64.com/tsort.html",
+      "url": "https://ss64.com/bash/tsort.html",
       "options": {
         "sub": "Topological sort"
       },
@@ -1970,7 +1970,7 @@
     },
     "tty": {
       "text": "tty",
-      "url": "https://ss64.com/tty.html",
+      "url": "https://ss64.com/bash/tty.html",
       "options": {
         "sub": "Print filename of terminal on stdin"
       },
@@ -1978,7 +1978,7 @@
     },
     "type": {
       "text": "type",
-      "url": "https://ss64.com/type.html",
+      "url": "https://ss64.com/bash/type.html",
       "options": {
         "sub": "Describe a command •"
       },
@@ -1986,7 +1986,7 @@
     },
     "ulimit": {
       "text": "ulimit",
-      "url": "https://ss64.com/ulimit.html",
+      "url": "https://ss64.com/bash/ulimit.html",
       "options": {
         "sub": "Limit user resources •"
       },
@@ -1994,7 +1994,7 @@
     },
     "umask": {
       "text": "umask",
-      "url": "https://ss64.com/umask.html",
+      "url": "https://ss64.com/bash/umask.html",
       "options": {
         "sub": "Users file creation mask"
       },
@@ -2002,7 +2002,7 @@
     },
     "umount": {
       "text": "umount",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/bash/",
       "options": {
         "sub": "Unmount a device"
       },
@@ -2010,7 +2010,7 @@
     },
     "unalias": {
       "text": "unalias",
-      "url": "https://ss64.com/alias.html",
+      "url": "https://ss64.com/bash/alias.html",
       "options": {
         "sub": "Remove an alias •"
       },
@@ -2018,7 +2018,7 @@
     },
     "uname": {
       "text": "uname",
-      "url": "https://ss64.com/uname.html",
+      "url": "https://ss64.com/bash/uname.html",
       "options": {
         "sub": "Print system information"
       },
@@ -2026,7 +2026,7 @@
     },
     "unexpand": {
       "text": "unexpand",
-      "url": "https://ss64.com/unexpand.html",
+      "url": "https://ss64.com/bash/unexpand.html",
       "options": {
         "sub": "Convert spaces to tabs"
       },
@@ -2034,7 +2034,7 @@
     },
     "uniq": {
       "text": "uniq",
-      "url": "https://ss64.com/uniq.html",
+      "url": "https://ss64.com/bash/uniq.html",
       "options": {
         "sub": "Uniquify files"
       },
@@ -2042,7 +2042,7 @@
     },
     "units": {
       "text": "units",
-      "url": "https://ss64.com/units.html",
+      "url": "https://ss64.com/bash/units.html",
       "options": {
         "sub": "Convert units from one scale to another"
       },
@@ -2050,7 +2050,7 @@
     },
     "unix2dos": {
       "text": "unix2dos",
-      "url": "https://ss64.com/unix2dos.html",
+      "url": "https://ss64.com/bash/unix2dos.html",
       "options": {
         "sub": "UNIX to Windows or MAC text file format converter"
       },
@@ -2058,7 +2058,7 @@
     },
     "unrar": {
       "text": "unrar",
-      "url": "https://ss64.com/unrar.html",
+      "url": "https://ss64.com/bash/unrar.html",
       "options": {
         "sub": "Extract files from a rar archive"
       },
@@ -2066,7 +2066,7 @@
     },
     "unset": {
       "text": "unset",
-      "url": "https://ss64.com/unset.html",
+      "url": "https://ss64.com/bash/unset.html",
       "options": {
         "sub": "Remove variable or function names"
       },
@@ -2074,7 +2074,7 @@
     },
     "unshar": {
       "text": "unshar",
-      "url": "https://ss64.com/unshar.html",
+      "url": "https://ss64.com/bash/unshar.html",
       "options": {
         "sub": "Unpack shell archive scripts"
       },
@@ -2082,7 +2082,7 @@
     },
     "until": {
       "text": "until",
-      "url": "https://ss64.com/until.html",
+      "url": "https://ss64.com/bash/until.html",
       "options": {
         "sub": "Execute commands (until error)"
       },
@@ -2090,7 +2090,7 @@
     },
     "uptime": {
       "text": "uptime",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/bash/",
       "options": {
         "sub": "Show uptime"
       },
@@ -2098,7 +2098,7 @@
     },
     "useradd": {
       "text": "useradd",
-      "url": "https://ss64.com/useradd.html",
+      "url": "https://ss64.com/bash/useradd.html",
       "options": {
         "sub": "Create new user account"
       },
@@ -2106,7 +2106,7 @@
     },
     "userdel": {
       "text": "userdel",
-      "url": "https://ss64.com/userdel.html",
+      "url": "https://ss64.com/bash/userdel.html",
       "options": {
         "sub": "Delete a user account"
       },
@@ -2114,7 +2114,7 @@
     },
     "usermod": {
       "text": "usermod",
-      "url": "https://ss64.com/usermod.html",
+      "url": "https://ss64.com/bash/usermod.html",
       "options": {
         "sub": "Modify user account"
       },
@@ -2122,7 +2122,7 @@
     },
     "users": {
       "text": "users",
-      "url": "https://ss64.com/users.html",
+      "url": "https://ss64.com/bash/users.html",
       "options": {
         "sub": "List users currently logged in"
       },
@@ -2130,7 +2130,7 @@
     },
     "uuencode": {
       "text": "uuencode",
-      "url": "https://ss64.com/uuencode.html",
+      "url": "https://ss64.com/bash/uuencode.html",
       "options": {
         "sub": "Encode a binary file"
       },
@@ -2138,7 +2138,7 @@
     },
     "uudecode": {
       "text": "uudecode",
-      "url": "https://ss64.com/uuencode.html",
+      "url": "https://ss64.com/bash/uuencode.html",
       "options": {
         "sub": "Decode a file created by uuencode"
       },
@@ -2146,7 +2146,7 @@
     },
     "v": {
       "text": "v",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/bash/",
       "options": {
         "sub": "Verbosely list directory contents ('ls -l -b')"
       },
@@ -2154,7 +2154,7 @@
     },
     "vdir": {
       "text": "vdir",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/bash/",
       "options": {
         "sub": "Verbosely list directory contents ('ls -l -b')"
       },
@@ -2162,7 +2162,7 @@
     },
     "vi": {
       "text": "vi",
-      "url": "https://ss64.com/../vi.html",
+      "url": "https://ss64.com/bash/../vi.html",
       "options": {
         "sub": "Text Editor"
       },
@@ -2170,7 +2170,7 @@
     },
     "vmstat": {
       "text": "vmstat",
-      "url": "https://ss64.com/vmstat.html",
+      "url": "https://ss64.com/bash/vmstat.html",
       "options": {
         "sub": "Report virtual memory statistics"
       },
@@ -2178,7 +2178,7 @@
     },
     "w": {
       "text": "w",
-      "url": "https://ss64.com/w.html",
+      "url": "https://ss64.com/bash/w.html",
       "options": {
         "sub": "Show who is logged on and what they are doing"
       },
@@ -2186,7 +2186,7 @@
     },
     "wait": {
       "text": "wait",
-      "url": "https://ss64.com/wait.html",
+      "url": "https://ss64.com/bash/wait.html",
       "options": {
         "sub": "Wait for a process to complete •"
       },
@@ -2194,7 +2194,7 @@
     },
     "watch": {
       "text": "watch",
-      "url": "https://ss64.com/watch.html",
+      "url": "https://ss64.com/bash/watch.html",
       "options": {
         "sub": "Execute/display a program periodically"
       },
@@ -2202,7 +2202,7 @@
     },
     "wc": {
       "text": "wc",
-      "url": "https://ss64.com/wc.html",
+      "url": "https://ss64.com/bash/wc.html",
       "options": {
         "sub": "Print byte, word, and line counts"
       },
@@ -2210,7 +2210,7 @@
     },
     "whereis": {
       "text": "whereis",
-      "url": "https://ss64.com/whereis.html",
+      "url": "https://ss64.com/bash/whereis.html",
       "options": {
         "sub": "Search the user’s $path, man pages and source files for a program"
       },
@@ -2218,7 +2218,7 @@
     },
     "which": {
       "text": "which",
-      "url": "https://ss64.com/which.html",
+      "url": "https://ss64.com/bash/which.html",
       "options": {
         "sub": "Search the user’s $path for a program file"
       },
@@ -2226,7 +2226,7 @@
     },
     "while": {
       "text": "while",
-      "url": "https://ss64.com/while.html",
+      "url": "https://ss64.com/bash/while.html",
       "options": {
         "sub": "Execute commands"
       },
@@ -2234,7 +2234,7 @@
     },
     "who": {
       "text": "who",
-      "url": "https://ss64.com/who.html",
+      "url": "https://ss64.com/bash/who.html",
       "options": {
         "sub": "Print all usernames currently logged in"
       },
@@ -2242,7 +2242,7 @@
     },
     "whoami": {
       "text": "whoami",
-      "url": "https://ss64.com/whoami.html",
+      "url": "https://ss64.com/bash/whoami.html",
       "options": {
         "sub": "Print the current user id and name ('id -un')"
       },
@@ -2250,7 +2250,7 @@
     },
     "wget": {
       "text": "wget",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/bash/",
       "options": {
         "sub": "Retrieve web pages or files via HTTP, HTTPS or FTP"
       },
@@ -2258,7 +2258,7 @@
     },
     "write": {
       "text": "write",
-      "url": "https://ss64.com/write.html",
+      "url": "https://ss64.com/bash/write.html",
       "options": {
         "sub": "Send a message to another user"
       },
@@ -2266,7 +2266,7 @@
     },
     "xargs": {
       "text": "xargs",
-      "url": "https://ss64.com/xargs.html",
+      "url": "https://ss64.com/bash/xargs.html",
       "options": {
         "sub": "Execute utility, passing constructed argument list(s)"
       },
@@ -2274,7 +2274,7 @@
     },
     "xdg-open": {
       "text": "xdg-open",
-      "url": "https://ss64.com/xdg-open.html",
+      "url": "https://ss64.com/bash/xdg-open.html",
       "options": {
         "sub": "Open a file or URL in the user’s preferred application."
       },
@@ -2282,7 +2282,7 @@
     },
     "xxd": {
       "text": "xxd",
-      "url": "https://ss64.com/xxd.html",
+      "url": "https://ss64.com/bash/xxd.html",
       "options": {
         "sub": "Make a hexdump or do the reverse"
       },
@@ -2290,7 +2290,7 @@
     },
     "xz": {
       "text": "xz",
-      "url": "https://ss64.com/xz.html",
+      "url": "https://ss64.com/bash/xz.html",
       "options": {
         "sub": "Compress or decompress .xz and .lzma files"
       },
@@ -2298,7 +2298,7 @@
     },
     "yes": {
       "text": "yes",
-      "url": "https://ss64.com/yes.html",
+      "url": "https://ss64.com/bash/yes.html",
       "options": {
         "sub": "Print a string until interrupted"
       },
@@ -2306,7 +2306,7 @@
     },
     "zip": {
       "text": "zip",
-      "url": "https://ss64.com/zip.html",
+      "url": "https://ss64.com/bash/zip.html",
       "options": {
         "sub": "Package and compress (archive) files"
       },
@@ -2314,7 +2314,7 @@
     },
     ".": {
       "text": ".",
-      "url": "https://ss64.com/source.html",
+      "url": "https://ss64.com/bash/source.html",
       "options": {
         "sub": "Run a command script in the current shell"
       },
@@ -2322,7 +2322,7 @@
     },
     "!!": {
       "text": "!!",
-      "url": "https://ss64.com/bang.html",
+      "url": "https://ss64.com/bash/bang.html",
       "options": {
         "sub": "Run the last command again"
       },
@@ -2330,7 +2330,7 @@
     },
     "#": {
       "text": "#",
-      "url": "https://ss64.com/rem.html",
+      "url": "https://ss64.com/bash/rem.html",
       "options": {
         "sub": "Comment / Remark"
       },

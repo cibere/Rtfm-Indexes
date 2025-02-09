@@ -2,7 +2,7 @@
   "cache": {
     "AccessChk": {
       "text": "AccessChk",
-      "url": "https://ss64.com/accesschk.html",
+      "url": "https://ss64.com/nt/accesschk.html",
       "options": {
         "sub": "Get the security descriptor (SDDL) for an object (file, directory, reg key)."
       },
@@ -10,7 +10,7 @@
     },
     "ADDUSERS": {
       "text": "ADDUSERS",
-      "url": "https://ss64.com/addusers.html",
+      "url": "https://ss64.com/nt/addusers.html",
       "options": {
         "sub": "Add or list users to/from a CSV file"
       },
@@ -18,7 +18,7 @@
     },
     "ADmodcmd": {
       "text": "ADmodcmd",
-      "url": "https://ss64.com/admodcmd.html",
+      "url": "https://ss64.com/nt/admodcmd.html",
       "options": {
         "sub": "Active Directory Bulk Modify"
       },
@@ -26,7 +26,7 @@
     },
     "ARP": {
       "text": "ARP",
-      "url": "https://ss64.com/arp.html",
+      "url": "https://ss64.com/nt/arp.html",
       "options": {
         "sub": "Address Resolution Protocol"
       },
@@ -34,7 +34,7 @@
     },
     "ASSOC": {
       "text": "ASSOC",
-      "url": "https://ss64.com/assoc.html",
+      "url": "https://ss64.com/nt/assoc.html",
       "options": {
         "sub": "Change file extension associations •"
       },
@@ -42,7 +42,7 @@
     },
     "ATTRIB": {
       "text": "ATTRIB",
-      "url": "https://ss64.com/attrib.html",
+      "url": "https://ss64.com/nt/attrib.html",
       "options": {
         "sub": "Change file attributes"
       },
@@ -50,7 +50,7 @@
     },
     "AUDITPOL": {
       "text": "AUDITPOL",
-      "url": "https://ss64.com/auditpol.html",
+      "url": "https://ss64.com/nt/auditpol.html",
       "options": {
         "sub": "Manage audit policies"
       },
@@ -58,7 +58,7 @@
     },
     "BCDBOOT": {
       "text": "BCDBOOT",
-      "url": "https://ss64.com/bcdboot.html",
+      "url": "https://ss64.com/nt/bcdboot.html",
       "options": {
         "sub": "Create or repair a system partition"
       },
@@ -66,7 +66,7 @@
     },
     "BCDEDIT": {
       "text": "BCDEDIT",
-      "url": "https://ss64.com/bcdedit.html",
+      "url": "https://ss64.com/nt/bcdedit.html",
       "options": {
         "sub": "Manage Boot Configuration Data"
       },
@@ -74,7 +74,7 @@
     },
     "BITSADMIN": {
       "text": "BITSADMIN",
-      "url": "https://ss64.com/bitsadmin.html",
+      "url": "https://ss64.com/nt/bitsadmin.html",
       "options": {
         "sub": "Background Intelligent Transfer Service"
       },
@@ -82,7 +82,7 @@
     },
     "BOOTREC": {
       "text": "BOOTREC",
-      "url": "https://ss64.com/bootrec.html",
+      "url": "https://ss64.com/nt/bootrec.html",
       "options": {
         "sub": "Repair or replace a  partition boot sector"
       },
@@ -90,7 +90,7 @@
     },
     "BREAK": {
       "text": "BREAK",
-      "url": "https://ss64.com/break.html",
+      "url": "https://ss64.com/nt/break.html",
       "options": {
         "sub": "Do nothing, successfully •"
       },
@@ -98,7 +98,7 @@
     },
     "BROWSTAT": {
       "text": "BROWSTAT",
-      "url": "https://ss64.com/browstat.html",
+      "url": "https://ss64.com/nt/browstat.html",
       "options": {
         "sub": "Get domain, browser and PDC info"
       },
@@ -106,7 +106,7 @@
     },
     "CACLS": {
       "text": "CACLS",
-      "url": "https://ss64.com/cacls.html",
+      "url": "https://ss64.com/nt/cacls.html",
       "options": {
         "sub": "Change file permissions"
       },
@@ -114,7 +114,7 @@
     },
     "CALL": {
       "text": "CALL",
-      "url": "https://ss64.com/call.html",
+      "url": "https://ss64.com/nt/call.html",
       "options": {
         "sub": "Call one batch program from another •"
       },
@@ -122,7 +122,7 @@
     },
     "CERTREQ": {
       "text": "CERTREQ",
-      "url": "https://ss64.com/certreq.html",
+      "url": "https://ss64.com/nt/certreq.html",
       "options": {
         "sub": "Request certificate from a certification authority"
       },
@@ -130,7 +130,7 @@
     },
     "CERTUTIL": {
       "text": "CERTUTIL",
-      "url": "https://ss64.com/certutil.html",
+      "url": "https://ss64.com/nt/certutil.html",
       "options": {
         "sub": "Manage certification authority (CA) files and services"
       },
@@ -138,7 +138,7 @@
     },
     "CD": {
       "text": "CD",
-      "url": "https://ss64.com/cd.html",
+      "url": "https://ss64.com/nt/cd.html",
       "options": {
         "sub": "Change Directory - move to a specific Folder •"
       },
@@ -146,7 +146,7 @@
     },
     "CHANGE": {
       "text": "CHANGE",
-      "url": "https://ss64.com/change.html",
+      "url": "https://ss64.com/nt/change.html",
       "options": {
         "sub": "Change Terminal Server Session properties"
       },
@@ -154,7 +154,7 @@
     },
     "CHANGEPK": {
       "text": "CHANGEPK",
-      "url": "https://ss64.com/changepk.html",
+      "url": "https://ss64.com/nt/changepk.html",
       "options": {
         "sub": "Upgrade device Edition/Product Key"
       },
@@ -162,7 +162,7 @@
     },
     "CHCP": {
       "text": "CHCP",
-      "url": "https://ss64.com/chcp.html",
+      "url": "https://ss64.com/nt/chcp.html",
       "options": {
         "sub": "Change the active console Code Page"
       },
@@ -170,7 +170,7 @@
     },
     "CHDIR": {
       "text": "CHDIR",
-      "url": "https://ss64.com/cd.html",
+      "url": "https://ss64.com/nt/cd.html",
       "options": {
         "sub": "Change Directory - move to a specific Folder •"
       },
@@ -178,7 +178,7 @@
     },
     "CHKDSK": {
       "text": "CHKDSK",
-      "url": "https://ss64.com/chkdsk.html",
+      "url": "https://ss64.com/nt/chkdsk.html",
       "options": {
         "sub": "Check Disk - check and repair disk problems"
       },
@@ -186,7 +186,7 @@
     },
     "CHKNTFS": {
       "text": "CHKNTFS",
-      "url": "https://ss64.com/chkntfs.html",
+      "url": "https://ss64.com/nt/chkntfs.html",
       "options": {
         "sub": "Check the NTFS file system"
       },
@@ -194,7 +194,7 @@
     },
     "CHOICE": {
       "text": "CHOICE",
-      "url": "https://ss64.com/choice.html",
+      "url": "https://ss64.com/nt/choice.html",
       "options": {
         "sub": "Accept keyboard input to a batch file"
       },
@@ -202,7 +202,7 @@
     },
     "CIPHER": {
       "text": "CIPHER",
-      "url": "https://ss64.com/cipher.html",
+      "url": "https://ss64.com/nt/cipher.html",
       "options": {
         "sub": "Encrypt or Decrypt files/folders, overwrite data."
       },
@@ -210,7 +210,7 @@
     },
     "CleanMgr": {
       "text": "CleanMgr",
-      "url": "https://ss64.com/cleanmgr.html",
+      "url": "https://ss64.com/nt/cleanmgr.html",
       "options": {
         "sub": "Automated cleanup of Temp files, recycle bin"
       },
@@ -218,7 +218,7 @@
     },
     "CLIP": {
       "text": "CLIP",
-      "url": "https://ss64.com/clip.html",
+      "url": "https://ss64.com/nt/clip.html",
       "options": {
         "sub": "Copy STDIN to the Windows clipboard"
       },
@@ -226,7 +226,7 @@
     },
     "CLS": {
       "text": "CLS",
-      "url": "https://ss64.com/cls.html",
+      "url": "https://ss64.com/nt/cls.html",
       "options": {
         "sub": "Clear the screen •"
       },
@@ -234,7 +234,7 @@
     },
     "CMD": {
       "text": "CMD",
-      "url": "https://ss64.com/cmd.html",
+      "url": "https://ss64.com/nt/cmd.html",
       "options": {
         "sub": "Start a new CMD shell"
       },
@@ -242,7 +242,7 @@
     },
     "CMDKEY": {
       "text": "CMDKEY",
-      "url": "https://ss64.com/cmdkey.html",
+      "url": "https://ss64.com/nt/cmdkey.html",
       "options": {
         "sub": "Manage stored usernames/passwords"
       },
@@ -250,7 +250,7 @@
     },
     "COLOR": {
       "text": "COLOR",
-      "url": "https://ss64.com/color.html",
+      "url": "https://ss64.com/nt/color.html",
       "options": {
         "sub": "Change colors of the CMD window •"
       },
@@ -258,7 +258,7 @@
     },
     "COMP": {
       "text": "COMP",
-      "url": "https://ss64.com/comp.html",
+      "url": "https://ss64.com/nt/comp.html",
       "options": {
         "sub": "Compare the contents of two files or sets of files"
       },
@@ -266,7 +266,7 @@
     },
     "COMPACT": {
       "text": "COMPACT",
-      "url": "https://ss64.com/compact.html",
+      "url": "https://ss64.com/nt/compact.html",
       "options": {
         "sub": "Compress files or folders on an NTFS partition"
       },
@@ -274,7 +274,7 @@
     },
     "CON": {
       "text": "CON",
-      "url": "https://ss64.com/con.html",
+      "url": "https://ss64.com/nt/con.html",
       "options": {
         "sub": "Console input"
       },
@@ -282,7 +282,7 @@
     },
     "CONVERT": {
       "text": "CONVERT",
-      "url": "https://ss64.com/convert.html",
+      "url": "https://ss64.com/nt/convert.html",
       "options": {
         "sub": "Convert a FAT drive to NTFS"
       },
@@ -290,7 +290,7 @@
     },
     "COPY": {
       "text": "COPY",
-      "url": "https://ss64.com/copy.html",
+      "url": "https://ss64.com/nt/copy.html",
       "options": {
         "sub": "Copy one or more files to another location •"
       },
@@ -298,7 +298,7 @@
     },
     "Coreinfo": {
       "text": "Coreinfo",
-      "url": "https://ss64.com/coreinfo.html",
+      "url": "https://ss64.com/nt/coreinfo.html",
       "options": {
         "sub": "Show the mapping between logical & physical processors"
       },
@@ -306,7 +306,7 @@
     },
     "CSCcmd": {
       "text": "CSCcmd",
-      "url": "https://ss64.com/csccmd.html",
+      "url": "https://ss64.com/nt/csccmd.html",
       "options": {
         "sub": "Client-side caching (Offline Files)"
       },
@@ -314,7 +314,7 @@
     },
     "CSVDE": {
       "text": "CSVDE",
-      "url": "https://ss64.com/csvde.html",
+      "url": "https://ss64.com/nt/csvde.html",
       "options": {
         "sub": "Import or Export Active Directory data"
       },
@@ -322,7 +322,7 @@
     },
     "CURL": {
       "text": "CURL",
-      "url": "https://ss64.com/curl.html",
+      "url": "https://ss64.com/nt/curl.html",
       "options": {
         "sub": "Transfer data from or to a server"
       },
@@ -330,7 +330,7 @@
     },
     "DATE": {
       "text": "DATE",
-      "url": "https://ss64.com/date.html",
+      "url": "https://ss64.com/nt/date.html",
       "options": {
         "sub": "Display or set the date •"
       },
@@ -338,7 +338,7 @@
     },
     "DEFRAG": {
       "text": "DEFRAG",
-      "url": "https://ss64.com/defrag.html",
+      "url": "https://ss64.com/nt/defrag.html",
       "options": {
         "sub": "Defragment hard drive"
       },
@@ -346,7 +346,7 @@
     },
     "DEL": {
       "text": "DEL",
-      "url": "https://ss64.com/del.html",
+      "url": "https://ss64.com/nt/del.html",
       "options": {
         "sub": "Delete one or more files •"
       },
@@ -354,7 +354,7 @@
     },
     "DELPROF": {
       "text": "DELPROF",
-      "url": "https://ss64.com/delprof.html",
+      "url": "https://ss64.com/nt/delprof.html",
       "options": {
         "sub": "Delete user profiles"
       },
@@ -362,7 +362,7 @@
     },
     "DELTREE": {
       "text": "DELTREE",
-      "url": "https://ss64.com/deltree.html",
+      "url": "https://ss64.com/nt/deltree.html",
       "options": {
         "sub": "Delete a folder and all subfolders"
       },
@@ -370,7 +370,7 @@
     },
     "DevCon": {
       "text": "DevCon",
-      "url": "https://ss64.com/devcon.html",
+      "url": "https://ss64.com/nt/devcon.html",
       "options": {
         "sub": "Device Manager Command Line Utility"
       },
@@ -378,7 +378,7 @@
     },
     "DIR": {
       "text": "DIR",
-      "url": "https://ss64.com/dir.html",
+      "url": "https://ss64.com/nt/dir.html",
       "options": {
         "sub": "Display a list of files and folders •"
       },
@@ -386,7 +386,7 @@
     },
     "DIRQUOTA": {
       "text": "DIRQUOTA",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/nt/",
       "options": {
         "sub": "File Server Resource Manager Disk quotas"
       },
@@ -394,7 +394,7 @@
     },
     "DISKPART": {
       "text": "DISKPART",
-      "url": "https://ss64.com/diskpart.html",
+      "url": "https://ss64.com/nt/diskpart.html",
       "options": {
         "sub": "Disk Administration"
       },
@@ -402,7 +402,7 @@
     },
     "DISKSHADOW": {
       "text": "DISKSHADOW",
-      "url": "https://ss64.com/diskshadow.html",
+      "url": "https://ss64.com/nt/diskshadow.html",
       "options": {
         "sub": "Volume Shadow Copy Service"
       },
@@ -410,7 +410,7 @@
     },
     "DISM": {
       "text": "DISM",
-      "url": "https://ss64.com/dism.html",
+      "url": "https://ss64.com/nt/dism.html",
       "options": {
         "sub": "Deployment Image Servicing and Management"
       },
@@ -418,7 +418,7 @@
     },
     "DisplaySwitch": {
       "text": "DisplaySwitch",
-      "url": "https://ss64.com/displayswitch.html",
+      "url": "https://ss64.com/nt/displayswitch.html",
       "options": {
         "sub": "Specify which display to use and how to use it"
       },
@@ -426,7 +426,7 @@
     },
     "DNSCMD": {
       "text": "DNSCMD",
-      "url": "https://ss64.com/dnscmd.html",
+      "url": "https://ss64.com/nt/dnscmd.html",
       "options": {
         "sub": "Manage DNS servers"
       },
@@ -434,7 +434,7 @@
     },
     "DOSKEY": {
       "text": "DOSKEY",
-      "url": "https://ss64.com/doskey.html",
+      "url": "https://ss64.com/nt/doskey.html",
       "options": {
         "sub": "Edit command line, recall commands, and create macros"
       },
@@ -442,7 +442,7 @@
     },
     "DriverQuery": {
       "text": "DriverQuery",
-      "url": "https://ss64.com/driverquery.html",
+      "url": "https://ss64.com/nt/driverquery.html",
       "options": {
         "sub": "Display installed device drivers"
       },
@@ -450,7 +450,7 @@
     },
     "DSACLs": {
       "text": "DSACLs",
-      "url": "https://ss64.com/dsacls.html",
+      "url": "https://ss64.com/nt/dsacls.html",
       "options": {
         "sub": "Active Directory ACLs"
       },
@@ -458,7 +458,7 @@
     },
     "DSAdd": {
       "text": "DSAdd",
-      "url": "https://ss64.com/dsadd.html",
+      "url": "https://ss64.com/nt/dsadd.html",
       "options": {
         "sub": "Add items to Active Directory (user group computer)"
       },
@@ -466,7 +466,7 @@
     },
     "DSGet": {
       "text": "DSGet",
-      "url": "https://ss64.com/dsget.html",
+      "url": "https://ss64.com/nt/dsget.html",
       "options": {
         "sub": "View items in Active Directory (user group computer)"
       },
@@ -474,7 +474,7 @@
     },
     "DSQuery": {
       "text": "DSQuery",
-      "url": "https://ss64.com/dsquery.html",
+      "url": "https://ss64.com/nt/dsquery.html",
       "options": {
         "sub": "Search Active Directory (user group computer)"
       },
@@ -482,7 +482,7 @@
     },
     "DSMod": {
       "text": "DSMod",
-      "url": "https://ss64.com/dsmod.html",
+      "url": "https://ss64.com/nt/dsmod.html",
       "options": {
         "sub": "Modify items in Active Directory (user group computer)"
       },
@@ -490,7 +490,7 @@
     },
     "DSMove": {
       "text": "DSMove",
-      "url": "https://ss64.com/dsmove.html",
+      "url": "https://ss64.com/nt/dsmove.html",
       "options": {
         "sub": "Move an Active Directory Object"
       },
@@ -498,7 +498,7 @@
     },
     "DSRM": {
       "text": "DSRM",
-      "url": "https://ss64.com/dsrm.html",
+      "url": "https://ss64.com/nt/dsrm.html",
       "options": {
         "sub": "Remove items from Active Directory"
       },
@@ -506,7 +506,7 @@
     },
     "DSREGCMD": {
       "text": "DSREGCMD",
-      "url": "https://ss64.com/dsregcmd.html",
+      "url": "https://ss64.com/nt/dsregcmd.html",
       "options": {
         "sub": "Directory Service Registration"
       },
@@ -514,7 +514,7 @@
     },
     "DU": {
       "text": "DU",
-      "url": "https://ss64.com/du.html",
+      "url": "https://ss64.com/nt/du.html",
       "options": {
         "sub": "Display  directory sizes/usage"
       },
@@ -522,7 +522,7 @@
     },
     "ECHO": {
       "text": "ECHO",
-      "url": "https://ss64.com/echo.html",
+      "url": "https://ss64.com/nt/echo.html",
       "options": {
         "sub": "Display message on screen •"
       },
@@ -530,7 +530,7 @@
     },
     "ENDLOCAL": {
       "text": "ENDLOCAL",
-      "url": "https://ss64.com/endlocal.html",
+      "url": "https://ss64.com/nt/endlocal.html",
       "options": {
         "sub": "End localisation of the environment in a batch file •"
       },
@@ -538,7 +538,7 @@
     },
     "ERASE": {
       "text": "ERASE",
-      "url": "https://ss64.com/del.html",
+      "url": "https://ss64.com/nt/del.html",
       "options": {
         "sub": "Delete one or more files •"
       },
@@ -546,7 +546,7 @@
     },
     "ESENTUTL": {
       "text": "ESENTUTL",
-      "url": "https://ss64.com/esentutl.html",
+      "url": "https://ss64.com/nt/esentutl.html",
       "options": {
         "sub": "Extensible Storage Engine utilities"
       },
@@ -554,7 +554,7 @@
     },
     "EVENTCREATE": {
       "text": "EVENTCREATE",
-      "url": "https://ss64.com/eventcreate.html",
+      "url": "https://ss64.com/nt/eventcreate.html",
       "options": {
         "sub": "Add a message to the Windows event log"
       },
@@ -562,7 +562,7 @@
     },
     "EXIT": {
       "text": "EXIT",
-      "url": "https://ss64.com/exit.html",
+      "url": "https://ss64.com/nt/exit.html",
       "options": {
         "sub": "Quit the current script/routine and set an errorlevel •"
       },
@@ -570,7 +570,7 @@
     },
     "EXPAND": {
       "text": "EXPAND",
-      "url": "https://ss64.com/expand.html",
+      "url": "https://ss64.com/nt/expand.html",
       "options": {
         "sub": "Uncompress CAB files"
       },
@@ -578,7 +578,7 @@
     },
     "EXPLORER": {
       "text": "EXPLORER",
-      "url": "https://ss64.com/explorer.html",
+      "url": "https://ss64.com/nt/explorer.html",
       "options": {
         "sub": "Open Windows Explorer"
       },
@@ -586,7 +586,7 @@
     },
     "EXTRACT": {
       "text": "EXTRACT",
-      "url": "https://ss64.com/extract.html",
+      "url": "https://ss64.com/nt/extract.html",
       "options": {
         "sub": "Uncompress CAB files"
       },
@@ -594,7 +594,7 @@
     },
     "FC": {
       "text": "FC",
-      "url": "https://ss64.com/fc.html",
+      "url": "https://ss64.com/nt/fc.html",
       "options": {
         "sub": "Compare two files"
       },
@@ -602,7 +602,7 @@
     },
     "FIND": {
       "text": "FIND",
-      "url": "https://ss64.com/find.html",
+      "url": "https://ss64.com/nt/find.html",
       "options": {
         "sub": "Search for a text string in a file"
       },
@@ -610,7 +610,7 @@
     },
     "FINDSTR": {
       "text": "FINDSTR",
-      "url": "https://ss64.com/findstr.html",
+      "url": "https://ss64.com/nt/findstr.html",
       "options": {
         "sub": "Search for strings in files"
       },
@@ -618,7 +618,7 @@
     },
     "FLTMC": {
       "text": "FLTMC",
-      "url": "https://ss64.com/fltmc.html",
+      "url": "https://ss64.com/nt/fltmc.html",
       "options": {
         "sub": "Manage MiniFilter drivers"
       },
@@ -626,7 +626,7 @@
     },
     "FONDUE": {
       "text": "FONDUE",
-      "url": "https://ss64.com/fondue.html",
+      "url": "https://ss64.com/nt/fondue.html",
       "options": {
         "sub": "Features on Demand User Experience Tool"
       },
@@ -634,7 +634,7 @@
     },
     "FOR /F": {
       "text": "FOR /F",
-      "url": "https://ss64.com/for_cmd.html",
+      "url": "https://ss64.com/nt/for_cmd.html",
       "options": {
         "sub": "Loop command: against the results of another command •"
       },
@@ -642,7 +642,7 @@
     },
     "FOR": {
       "text": "FOR",
-      "url": "https://ss64.com/for.html",
+      "url": "https://ss64.com/nt/for.html",
       "options": {
         "sub": "Loop command: all options Files, Directory, List •"
       },
@@ -650,7 +650,7 @@
     },
     "FORFILES": {
       "text": "FORFILES",
-      "url": "https://ss64.com/forfiles.html",
+      "url": "https://ss64.com/nt/forfiles.html",
       "options": {
         "sub": "Batch process multiple files"
       },
@@ -658,7 +658,7 @@
     },
     "FORMAT": {
       "text": "FORMAT",
-      "url": "https://ss64.com/format.html",
+      "url": "https://ss64.com/nt/format.html",
       "options": {
         "sub": "Format a disk"
       },
@@ -666,7 +666,7 @@
     },
     "FREEDISK": {
       "text": "FREEDISK",
-      "url": "https://ss64.com/freedisk.html",
+      "url": "https://ss64.com/nt/freedisk.html",
       "options": {
         "sub": "Check free disk space"
       },
@@ -674,7 +674,7 @@
     },
     "FSUTIL": {
       "text": "FSUTIL",
-      "url": "https://ss64.com/fsutil.html",
+      "url": "https://ss64.com/nt/fsutil.html",
       "options": {
         "sub": "File and Volume utilities"
       },
@@ -682,7 +682,7 @@
     },
     "FTP": {
       "text": "FTP",
-      "url": "https://ss64.com/ftp.html",
+      "url": "https://ss64.com/nt/ftp.html",
       "options": {
         "sub": "File Transfer Protocol"
       },
@@ -690,7 +690,7 @@
     },
     "FTYPE": {
       "text": "FTYPE",
-      "url": "https://ss64.com/ftype.html",
+      "url": "https://ss64.com/nt/ftype.html",
       "options": {
         "sub": "File extension file type associations •"
       },
@@ -698,7 +698,7 @@
     },
     "GETMAC": {
       "text": "GETMAC",
-      "url": "https://ss64.com/getmac.html",
+      "url": "https://ss64.com/nt/getmac.html",
       "options": {
         "sub": "Display the Media Access Control (MAC) address"
       },
@@ -706,7 +706,7 @@
     },
     "GOTO": {
       "text": "GOTO",
-      "url": "https://ss64.com/goto.html",
+      "url": "https://ss64.com/nt/goto.html",
       "options": {
         "sub": "Direct a batch program to jump to a labelled line •"
       },
@@ -714,7 +714,7 @@
     },
     "GPRESULT": {
       "text": "GPRESULT",
-      "url": "https://ss64.com/gpresult.html",
+      "url": "https://ss64.com/nt/gpresult.html",
       "options": {
         "sub": "Display Resultant Set of Policy information"
       },
@@ -722,7 +722,7 @@
     },
     "GPUPDATE": {
       "text": "GPUPDATE",
-      "url": "https://ss64.com/gpupdate.html",
+      "url": "https://ss64.com/nt/gpupdate.html",
       "options": {
         "sub": "Update Group Policy settings"
       },
@@ -730,7 +730,7 @@
     },
     "HELP": {
       "text": "HELP",
-      "url": "https://ss64.com/help.html",
+      "url": "https://ss64.com/nt/help.html",
       "options": {
         "sub": "Online Help"
       },
@@ -738,7 +738,7 @@
     },
     "HOSTNAME": {
       "text": "HOSTNAME",
-      "url": "https://ss64.com/hostname.html",
+      "url": "https://ss64.com/nt/hostname.html",
       "options": {
         "sub": "Display the host name of the computer"
       },
@@ -746,7 +746,7 @@
     },
     "iCACLS": {
       "text": "iCACLS",
-      "url": "https://ss64.com/icacls.html",
+      "url": "https://ss64.com/nt/icacls.html",
       "options": {
         "sub": "Change file and folder permissions"
       },
@@ -754,7 +754,7 @@
     },
     "IEXPRESS": {
       "text": "IEXPRESS",
-      "url": "https://ss64.com/iexpress.html",
+      "url": "https://ss64.com/nt/iexpress.html",
       "options": {
         "sub": "Create a self extracting ZIP file archive"
       },
@@ -762,7 +762,7 @@
     },
     "IF": {
       "text": "IF",
-      "url": "https://ss64.com/if.html",
+      "url": "https://ss64.com/nt/if.html",
       "options": {
         "sub": "Conditionally perform a command •"
       },
@@ -770,7 +770,7 @@
     },
     "IFMEMBER": {
       "text": "IFMEMBER",
-      "url": "https://ss64.com/ifmember.html",
+      "url": "https://ss64.com/nt/ifmember.html",
       "options": {
         "sub": "Is the current user a member of a group"
       },
@@ -778,7 +778,7 @@
     },
     "IPCONFIG": {
       "text": "IPCONFIG",
-      "url": "https://ss64.com/ipconfig.html",
+      "url": "https://ss64.com/nt/ipconfig.html",
       "options": {
         "sub": "Configure IP"
       },
@@ -786,7 +786,7 @@
     },
     "INUSE": {
       "text": "INUSE",
-      "url": "https://ss64.com/inuse.html",
+      "url": "https://ss64.com/nt/inuse.html",
       "options": {
         "sub": "Replace files that are in use by the OS"
       },
@@ -794,7 +794,7 @@
     },
     "KLIST": {
       "text": "KLIST",
-      "url": "https://ss64.com/klist.html",
+      "url": "https://ss64.com/nt/klist.html",
       "options": {
         "sub": "List cached Kerberos tickets"
       },
@@ -802,7 +802,7 @@
     },
     "LABEL": {
       "text": "LABEL",
-      "url": "https://ss64.com/label.html",
+      "url": "https://ss64.com/nt/label.html",
       "options": {
         "sub": "Edit a disk label"
       },
@@ -810,7 +810,7 @@
     },
     "LGPO": {
       "text": "LGPO",
-      "url": "https://ss64.com/lgpo.html",
+      "url": "https://ss64.com/nt/lgpo.html",
       "options": {
         "sub": "Local Group Policy Object utility"
       },
@@ -818,7 +818,7 @@
     },
     "LODCTR": {
       "text": "LODCTR",
-      "url": "https://ss64.com/lodctr.html",
+      "url": "https://ss64.com/nt/lodctr.html",
       "options": {
         "sub": "Load PerfMon performance counters"
       },
@@ -826,7 +826,7 @@
     },
     "LOGMAN": {
       "text": "LOGMAN",
-      "url": "https://ss64.com/logman.html",
+      "url": "https://ss64.com/nt/logman.html",
       "options": {
         "sub": "Manage Performance Monitor logs"
       },
@@ -834,7 +834,7 @@
     },
     "LOGOFF": {
       "text": "LOGOFF",
-      "url": "https://ss64.com/logoff.html",
+      "url": "https://ss64.com/nt/logoff.html",
       "options": {
         "sub": "Log a user off"
       },
@@ -842,7 +842,7 @@
     },
     "MAKECAB": {
       "text": "MAKECAB",
-      "url": "https://ss64.com/makecab.html",
+      "url": "https://ss64.com/nt/makecab.html",
       "options": {
         "sub": "Create .CAB files"
       },
@@ -850,7 +850,7 @@
     },
     "Manage-BDE": {
       "text": "Manage-BDE",
-      "url": "https://ss64.com/manage-bde.html",
+      "url": "https://ss64.com/nt/manage-bde.html",
       "options": {
         "sub": "BitLocker Drive Encryption"
       },
@@ -858,7 +858,7 @@
     },
     "MBR2GPT": {
       "text": "MBR2GPT",
-      "url": "https://ss64.com/mbr2gpt.html",
+      "url": "https://ss64.com/nt/mbr2gpt.html",
       "options": {
         "sub": "Convert a disk partition from  Master Boot Record to a GPT"
       },
@@ -866,7 +866,7 @@
     },
     "MD": {
       "text": "MD",
-      "url": "https://ss64.com/md.html",
+      "url": "https://ss64.com/nt/md.html",
       "options": {
         "sub": "Create a new Directory •"
       },
@@ -874,7 +874,7 @@
     },
     "MKLINK": {
       "text": "MKLINK",
-      "url": "https://ss64.com/mklink.html",
+      "url": "https://ss64.com/nt/mklink.html",
       "options": {
         "sub": "Create a symbolic link (linkd) •"
       },
@@ -882,7 +882,7 @@
     },
     "MODE": {
       "text": "MODE",
-      "url": "https://ss64.com/mode.html",
+      "url": "https://ss64.com/nt/mode.html",
       "options": {
         "sub": "Configure a system device COM/LPT/CON"
       },
@@ -890,7 +890,7 @@
     },
     "MORE": {
       "text": "MORE",
-      "url": "https://ss64.com/more.html",
+      "url": "https://ss64.com/nt/more.html",
       "options": {
         "sub": "Display output, one screen at a time"
       },
@@ -898,7 +898,7 @@
     },
     "MOUNTVOL": {
       "text": "MOUNTVOL",
-      "url": "https://ss64.com/mountvol.html",
+      "url": "https://ss64.com/nt/mountvol.html",
       "options": {
         "sub": "Manage a volume mount point"
       },
@@ -906,7 +906,7 @@
     },
     "MOVE": {
       "text": "MOVE",
-      "url": "https://ss64.com/move.html",
+      "url": "https://ss64.com/nt/move.html",
       "options": {
         "sub": "Move files from one folder to another •"
       },
@@ -914,7 +914,7 @@
     },
     "MSG": {
       "text": "MSG",
-      "url": "https://ss64.com/msg.html",
+      "url": "https://ss64.com/nt/msg.html",
       "options": {
         "sub": "Send a message"
       },
@@ -922,7 +922,7 @@
     },
     "MSIEXEC": {
       "text": "MSIEXEC",
-      "url": "https://ss64.com/msiexec.html",
+      "url": "https://ss64.com/nt/msiexec.html",
       "options": {
         "sub": "Microsoft Windows Installer"
       },
@@ -930,7 +930,7 @@
     },
     "MSINFO32": {
       "text": "MSINFO32",
-      "url": "https://ss64.com/msinfo32.html",
+      "url": "https://ss64.com/nt/msinfo32.html",
       "options": {
         "sub": "System Information"
       },
@@ -938,7 +938,7 @@
     },
     "MSTSC": {
       "text": "MSTSC",
-      "url": "https://ss64.com/mstsc.html",
+      "url": "https://ss64.com/nt/mstsc.html",
       "options": {
         "sub": "Terminal Server Connection/Remote Desktop Protocol(RDP)"
       },
@@ -946,7 +946,7 @@
     },
     "NET": {
       "text": "NET",
-      "url": "https://ss64.com/net.html",
+      "url": "https://ss64.com/nt/net.html",
       "options": {
         "sub": "Manage network resources"
       },
@@ -954,7 +954,7 @@
     },
     "NETDOM": {
       "text": "NETDOM",
-      "url": "https://ss64.com/netdom.html",
+      "url": "https://ss64.com/nt/netdom.html",
       "options": {
         "sub": "Domain Manager"
       },
@@ -962,7 +962,7 @@
     },
     "NETSH": {
       "text": "NETSH",
-      "url": "https://ss64.com/netsh.html",
+      "url": "https://ss64.com/nt/netsh.html",
       "options": {
         "sub": "Configure Network Interfaces, Firewall & Remote access"
       },
@@ -970,7 +970,7 @@
     },
     "NBTSTAT": {
       "text": "NBTSTAT",
-      "url": "https://ss64.com/nbtstat.html",
+      "url": "https://ss64.com/nt/nbtstat.html",
       "options": {
         "sub": "Display networking statistics (NetBIOS over TCP/IP)"
       },
@@ -978,7 +978,7 @@
     },
     "NETSTAT": {
       "text": "NETSTAT",
-      "url": "https://ss64.com/netstat.html",
+      "url": "https://ss64.com/nt/netstat.html",
       "options": {
         "sub": "Display networking statistics (TCP/IP)"
       },
@@ -986,7 +986,7 @@
     },
     "NLSINFO": {
       "text": "NLSINFO",
-      "url": "https://ss64.com/",
+      "url": "https://ss64.com/nt/",
       "options": {
         "sub": "Display locale information (reskit)"
       },
@@ -994,7 +994,7 @@
     },
     "NLTEST": {
       "text": "NLTEST",
-      "url": "https://ss64.com/nltest.html",
+      "url": "https://ss64.com/nt/nltest.html",
       "options": {
         "sub": "Network Location Test (AD)"
       },
@@ -1002,7 +1002,7 @@
     },
     "NMBIND": {
       "text": "NMBIND",
-      "url": "https://ss64.com/nmbind.html",
+      "url": "https://ss64.com/nt/nmbind.html",
       "options": {
         "sub": "Manage Hyper-V network bindings"
       },
@@ -1010,7 +1010,7 @@
     },
     "NSLOOKUP": {
       "text": "NSLOOKUP",
-      "url": "https://ss64.com/nslookup.html",
+      "url": "https://ss64.com/nt/nslookup.html",
       "options": {
         "sub": "Name server lookup"
       },
@@ -1018,7 +1018,7 @@
     },
     "NTBACKUP": {
       "text": "NTBACKUP",
-      "url": "https://ss64.com/ntbackup.html",
+      "url": "https://ss64.com/nt/ntbackup.html",
       "options": {
         "sub": "Windows Backup folders to tape"
       },
@@ -1026,7 +1026,7 @@
     },
     "NTDSUtil": {
       "text": "NTDSUtil",
-      "url": "https://ss64.com/ntdsutil.html",
+      "url": "https://ss64.com/nt/ntdsutil.html",
       "options": {
         "sub": "Active Directory Domain Services management"
       },
@@ -1034,7 +1034,7 @@
     },
     "NTRIGHTS": {
       "text": "NTRIGHTS",
-      "url": "https://ss64.com/ntrights.html",
+      "url": "https://ss64.com/nt/ntrights.html",
       "options": {
         "sub": "Edit user account rights"
       },
@@ -1042,7 +1042,7 @@
     },
     "NVSPBIND": {
       "text": "NVSPBIND",
-      "url": "https://ss64.com/nvspbind.html",
+      "url": "https://ss64.com/nt/nvspbind.html",
       "options": {
         "sub": "Modify network bindings"
       },
@@ -1050,7 +1050,7 @@
     },
     "OPENFILES": {
       "text": "OPENFILES",
-      "url": "https://ss64.com/openfiles.html",
+      "url": "https://ss64.com/nt/openfiles.html",
       "options": {
         "sub": "Query or display open files"
       },
@@ -1058,7 +1058,7 @@
     },
     "PATH": {
       "text": "PATH",
-      "url": "https://ss64.com/path.html",
+      "url": "https://ss64.com/nt/path.html",
       "options": {
         "sub": "Display or set a search path for executable files •"
       },
@@ -1066,7 +1066,7 @@
     },
     "PATHPING": {
       "text": "PATHPING",
-      "url": "https://ss64.com/pathping.html",
+      "url": "https://ss64.com/nt/pathping.html",
       "options": {
         "sub": "Trace route plus network latency and packet loss"
       },
@@ -1074,7 +1074,7 @@
     },
     "PAUSE": {
       "text": "PAUSE",
-      "url": "https://ss64.com/pause.html",
+      "url": "https://ss64.com/nt/pause.html",
       "options": {
         "sub": "Suspend processing of a batch file •"
       },
@@ -1082,7 +1082,7 @@
     },
     "PING": {
       "text": "PING",
-      "url": "https://ss64.com/ping.html",
+      "url": "https://ss64.com/nt/ping.html",
       "options": {
         "sub": "Test a network connection"
       },
@@ -1090,7 +1090,7 @@
     },
     "PKTMON": {
       "text": "PKTMON",
-      "url": "https://ss64.com/pktmon.html",
+      "url": "https://ss64.com/nt/pktmon.html",
       "options": {
         "sub": "Monitor internal packet propagation and packet drop reports"
       },
@@ -1098,7 +1098,7 @@
     },
     "PNPUTIL": {
       "text": "PNPUTIL",
-      "url": "https://ss64.com/pnputil.html",
+      "url": "https://ss64.com/nt/pnputil.html",
       "options": {
         "sub": "Plug and Play Utility"
       },
@@ -1106,7 +1106,7 @@
     },
     "POPD": {
       "text": "POPD",
-      "url": "https://ss64.com/popd.html",
+      "url": "https://ss64.com/nt/popd.html",
       "options": {
         "sub": "Return to a previous directory saved by PUSHD •"
       },
@@ -1114,7 +1114,7 @@
     },
     "PORTQRY": {
       "text": "PORTQRY",
-      "url": "https://ss64.com/portqry.html",
+      "url": "https://ss64.com/nt/portqry.html",
       "options": {
         "sub": "Display the status of ports and services"
       },
@@ -1122,7 +1122,7 @@
     },
     "POWERCFG": {
       "text": "POWERCFG",
-      "url": "https://ss64.com/powercfg.html",
+      "url": "https://ss64.com/nt/powercfg.html",
       "options": {
         "sub": "Configure power settings"
       },
@@ -1130,7 +1130,7 @@
     },
     "PRINT": {
       "text": "PRINT",
-      "url": "https://ss64.com/print.html",
+      "url": "https://ss64.com/nt/print.html",
       "options": {
         "sub": "Print a text file"
       },
@@ -1138,7 +1138,7 @@
     },
     "PRINTBRM": {
       "text": "PRINTBRM",
-      "url": "https://ss64.com/printbrm.html",
+      "url": "https://ss64.com/nt/printbrm.html",
       "options": {
         "sub": "Print queue Backup/Recovery"
       },
@@ -1146,7 +1146,7 @@
     },
     "PRNCNFG": {
       "text": "PRNCNFG",
-      "url": "https://ss64.com/prncnfg.html",
+      "url": "https://ss64.com/nt/prncnfg.html",
       "options": {
         "sub": "Configure a printer"
       },
@@ -1154,7 +1154,7 @@
     },
     "PRNDRVR": {
       "text": "PRNDRVR",
-      "url": "https://ss64.com/prndrvr.html",
+      "url": "https://ss64.com/nt/prndrvr.html",
       "options": {
         "sub": "Add, delete or list print drivers."
       },
@@ -1162,7 +1162,7 @@
     },
     "PRNJOBS": {
       "text": "PRNJOBS",
-      "url": "https://ss64.com/prnjobs.html",
+      "url": "https://ss64.com/nt/prnjobs.html",
       "options": {
         "sub": "Pause, resume, cancel, or list print jobs."
       },
@@ -1170,7 +1170,7 @@
     },
     "PRNMNGR": {
       "text": "PRNMNGR",
-      "url": "https://ss64.com/prnmngr.html",
+      "url": "https://ss64.com/nt/prnmngr.html",
       "options": {
         "sub": "Add, delete, or list printer connections."
       },
@@ -1178,7 +1178,7 @@
     },
     "PRNPORT": {
       "text": "PRNPORT",
-      "url": "https://ss64.com/prnport.html",
+      "url": "https://ss64.com/nt/prnport.html",
       "options": {
         "sub": "Manage Printer Ports, change port configuration."
       },
@@ -1186,7 +1186,7 @@
     },
     "PRNQCTL": {
       "text": "PRNQCTL",
-      "url": "https://ss64.com/prnqctl.html",
+      "url": "https://ss64.com/nt/prnqctl.html",
       "options": {
         "sub": "Manage Print Queues, print a test page."
       },
@@ -1194,7 +1194,7 @@
     },
     "ProcDump": {
       "text": "ProcDump",
-      "url": "https://ss64.com/procdump.html",
+      "url": "https://ss64.com/nt/procdump.html",
       "options": {
         "sub": "Monitor an application for CPU spikes"
       },
@@ -1202,7 +1202,7 @@
     },
     "PROMPT": {
       "text": "PROMPT",
-      "url": "https://ss64.com/prompt.html",
+      "url": "https://ss64.com/nt/prompt.html",
       "options": {
         "sub": "Change the command prompt •"
       },
@@ -1210,7 +1210,7 @@
     },
     "PsExec": {
       "text": "PsExec",
-      "url": "https://ss64.com/psexec.html",
+      "url": "https://ss64.com/nt/psexec.html",
       "options": {
         "sub": "Execute process remotely"
       },
@@ -1218,7 +1218,7 @@
     },
     "PsFile": {
       "text": "PsFile",
-      "url": "https://ss64.com/psfile.html",
+      "url": "https://ss64.com/nt/psfile.html",
       "options": {
         "sub": "Show files opened remotely"
       },
@@ -1226,7 +1226,7 @@
     },
     "PsGetSid": {
       "text": "PsGetSid",
-      "url": "https://ss64.com/psgetsid.html",
+      "url": "https://ss64.com/nt/psgetsid.html",
       "options": {
         "sub": "Display the SID of a computer or a user"
       },
@@ -1234,7 +1234,7 @@
     },
     "PsInfo": {
       "text": "PsInfo",
-      "url": "https://ss64.com/psinfo.html",
+      "url": "https://ss64.com/nt/psinfo.html",
       "options": {
         "sub": "List information about a system"
       },
@@ -1242,7 +1242,7 @@
     },
     "PsKill": {
       "text": "PsKill",
-      "url": "https://ss64.com/pskill.html",
+      "url": "https://ss64.com/nt/pskill.html",
       "options": {
         "sub": "Kill processes by name or process ID"
       },
@@ -1250,7 +1250,7 @@
     },
     "PsList": {
       "text": "PsList",
-      "url": "https://ss64.com/pslist.html",
+      "url": "https://ss64.com/nt/pslist.html",
       "options": {
         "sub": "List detailed information about processes"
       },
@@ -1258,7 +1258,7 @@
     },
     "PsLoggedOn": {
       "text": "PsLoggedOn",
-      "url": "https://ss64.com/psloggedon.html",
+      "url": "https://ss64.com/nt/psloggedon.html",
       "options": {
         "sub": "Who’s logged on (locally or via resource sharing)"
       },
@@ -1266,7 +1266,7 @@
     },
     "PsLogList": {
       "text": "PsLogList",
-      "url": "https://ss64.com/psloglist.html",
+      "url": "https://ss64.com/nt/psloglist.html",
       "options": {
         "sub": "Event log records"
       },
@@ -1274,7 +1274,7 @@
     },
     "PsPasswd": {
       "text": "PsPasswd",
-      "url": "https://ss64.com/pspasswd.html",
+      "url": "https://ss64.com/nt/pspasswd.html",
       "options": {
         "sub": "Change account password"
       },
@@ -1282,7 +1282,7 @@
     },
     "PsPing": {
       "text": "PsPing",
-      "url": "https://ss64.com/psping.html",
+      "url": "https://ss64.com/nt/psping.html",
       "options": {
         "sub": "Measure network performance"
       },
@@ -1290,7 +1290,7 @@
     },
     "PsService": {
       "text": "PsService",
-      "url": "https://ss64.com/psservice.html",
+      "url": "https://ss64.com/nt/psservice.html",
       "options": {
         "sub": "View and control services"
       },
@@ -1298,7 +1298,7 @@
     },
     "PsShutdown": {
       "text": "PsShutdown",
-      "url": "https://ss64.com/psshutdown.html",
+      "url": "https://ss64.com/nt/psshutdown.html",
       "options": {
         "sub": "Shutdown or reboot a computer"
       },
@@ -1306,7 +1306,7 @@
     },
     "PsSuspend": {
       "text": "PsSuspend",
-      "url": "https://ss64.com/pssuspend.html",
+      "url": "https://ss64.com/nt/pssuspend.html",
       "options": {
         "sub": "Suspend processes"
       },
@@ -1314,7 +1314,7 @@
     },
     "PUSHD": {
       "text": "PUSHD",
-      "url": "https://ss64.com/pushd.html",
+      "url": "https://ss64.com/nt/pushd.html",
       "options": {
         "sub": "Save and then change the current directory •"
       },
@@ -1322,7 +1322,7 @@
     },
     "QPROCESS": {
       "text": "QPROCESS",
-      "url": "https://ss64.com/query-process.html",
+      "url": "https://ss64.com/nt/query-process.html",
       "options": {
         "sub": "Query Process Display processes"
       },
@@ -1330,7 +1330,7 @@
     },
     "QWinsta": {
       "text": "QWinsta",
-      "url": "https://ss64.com/query-session.html",
+      "url": "https://ss64.com/nt/query-session.html",
       "options": {
         "sub": "Query Session Display all sessions (TS/Remote Desktop)"
       },
@@ -1338,7 +1338,7 @@
     },
     "QAppSrv": {
       "text": "QAppSrv",
-      "url": "https://ss64.com/query-termserver.html",
+      "url": "https://ss64.com/nt/query-termserver.html",
       "options": {
         "sub": "Query TermServer List all servers (TS/Remote Desktop)"
       },
@@ -1346,7 +1346,7 @@
     },
     "QUSER": {
       "text": "QUSER",
-      "url": "https://ss64.com/query-user.html",
+      "url": "https://ss64.com/nt/query-user.html",
       "options": {
         "sub": "Query User Display user sessions (TS/Remote Desktop)"
       },
@@ -1354,7 +1354,7 @@
     },
     "RASDIAL": {
       "text": "RASDIAL",
-      "url": "https://ss64.com/rasdial.html",
+      "url": "https://ss64.com/nt/rasdial.html",
       "options": {
         "sub": "Manage RAS connections"
       },
@@ -1362,7 +1362,7 @@
     },
     "RASPHONE": {
       "text": "RASPHONE",
-      "url": "https://ss64.com/rasphone.html",
+      "url": "https://ss64.com/nt/rasphone.html",
       "options": {
         "sub": "Manage RAS connections"
       },
@@ -1370,7 +1370,7 @@
     },
     "RD": {
       "text": "RD",
-      "url": "https://ss64.com/rd.html",
+      "url": "https://ss64.com/nt/rd.html",
       "options": {
         "sub": "Delete a Directory •"
       },
@@ -1378,7 +1378,7 @@
     },
     "REAgentC": {
       "text": "REAgentC",
-      "url": "https://ss64.com/reagentc.html",
+      "url": "https://ss64.com/nt/reagentc.html",
       "options": {
         "sub": "Configure WindowsRE and System Reset"
       },
@@ -1386,7 +1386,7 @@
     },
     "RECOVER": {
       "text": "RECOVER",
-      "url": "https://ss64.com/recover.html",
+      "url": "https://ss64.com/nt/recover.html",
       "options": {
         "sub": "Recover a damaged file from a defective disk"
       },
@@ -1394,7 +1394,7 @@
     },
     "REG": {
       "text": "REG",
-      "url": "https://ss64.com/reg.html",
+      "url": "https://ss64.com/nt/reg.html",
       "options": {
         "sub": "Registry: Read, Set, Export, Delete keys and values"
       },
@@ -1402,7 +1402,7 @@
     },
     "REGEDIT": {
       "text": "REGEDIT",
-      "url": "https://ss64.com/regedit.html",
+      "url": "https://ss64.com/nt/regedit.html",
       "options": {
         "sub": "Import or export registry settings"
       },
@@ -1410,7 +1410,7 @@
     },
     "REGSVR32": {
       "text": "REGSVR32",
-      "url": "https://ss64.com/regsvr32.html",
+      "url": "https://ss64.com/nt/regsvr32.html",
       "options": {
         "sub": "Register or unregister a DLL"
       },
@@ -1418,7 +1418,7 @@
     },
     "REGINI": {
       "text": "REGINI",
-      "url": "https://ss64.com/regini.html",
+      "url": "https://ss64.com/nt/regini.html",
       "options": {
         "sub": "Change Registry Permissions"
       },
@@ -1426,7 +1426,7 @@
     },
     "REM": {
       "text": "REM",
-      "url": "https://ss64.com/rem.html",
+      "url": "https://ss64.com/nt/rem.html",
       "options": {
         "sub": "Record comments (remarks) in a batch file •"
       },
@@ -1434,7 +1434,7 @@
     },
     "REN": {
       "text": "REN",
-      "url": "https://ss64.com/ren.html",
+      "url": "https://ss64.com/nt/ren.html",
       "options": {
         "sub": "Rename a file or files •"
       },
@@ -1442,7 +1442,7 @@
     },
     "REPLACE": {
       "text": "REPLACE",
-      "url": "https://ss64.com/replace.html",
+      "url": "https://ss64.com/nt/replace.html",
       "options": {
         "sub": "Replace or update one file with another"
       },
@@ -1450,7 +1450,7 @@
     },
     "Reset Session": {
       "text": "Reset Session",
-      "url": "https://ss64.com/reset-session.html",
+      "url": "https://ss64.com/nt/reset-session.html",
       "options": {
         "sub": "Delete a Remote Desktop Session"
       },
@@ -1458,7 +1458,7 @@
     },
     "RMDIR": {
       "text": "RMDIR",
-      "url": "https://ss64.com/rd.html",
+      "url": "https://ss64.com/nt/rd.html",
       "options": {
         "sub": "Delete a Directory •"
       },
@@ -1466,7 +1466,7 @@
     },
     "RMTSHARE": {
       "text": "RMTSHARE",
-      "url": "https://ss64.com/rmtshare.html",
+      "url": "https://ss64.com/nt/rmtshare.html",
       "options": {
         "sub": "Share a folder or a printer"
       },
@@ -1474,7 +1474,7 @@
     },
     "ROBOCOPY": {
       "text": "ROBOCOPY",
-      "url": "https://ss64.com/robocopy.html",
+      "url": "https://ss64.com/nt/robocopy.html",
       "options": {
         "sub": "Robust File and Folder Copy"
       },
@@ -1482,7 +1482,7 @@
     },
     "ROUTE": {
       "text": "ROUTE",
-      "url": "https://ss64.com/route.html",
+      "url": "https://ss64.com/nt/route.html",
       "options": {
         "sub": "Manipulate network routing tables"
       },
@@ -1490,7 +1490,7 @@
     },
     "RUN": {
       "text": "RUN",
-      "url": "https://ss64.com/run.html",
+      "url": "https://ss64.com/nt/run.html",
       "options": {
         "sub": "Start | RUN commands"
       },
@@ -1498,7 +1498,7 @@
     },
     "RUNAS": {
       "text": "RUNAS",
-      "url": "https://ss64.com/runas.html",
+      "url": "https://ss64.com/nt/runas.html",
       "options": {
         "sub": "Execute a program under a different user account"
       },
@@ -1506,7 +1506,7 @@
     },
     "RUNDLL32": {
       "text": "RUNDLL32",
-      "url": "https://ss64.com/rundll32.html",
+      "url": "https://ss64.com/nt/rundll32.html",
       "options": {
         "sub": "Run a DLL command (add/remove print connections)"
       },
@@ -1514,7 +1514,7 @@
     },
     "SC": {
       "text": "SC",
-      "url": "https://ss64.com/sc.html",
+      "url": "https://ss64.com/nt/sc.html",
       "options": {
         "sub": "Service Control"
       },
@@ -1522,7 +1522,7 @@
     },
     "SCHTASKS": {
       "text": "SCHTASKS",
-      "url": "https://ss64.com/schtasks.html",
+      "url": "https://ss64.com/nt/schtasks.html",
       "options": {
         "sub": "Schedule a command to run at a specific time"
       },
@@ -1530,7 +1530,7 @@
     },
     "ScriptRunner": {
       "text": "ScriptRunner",
-      "url": "https://ss64.com/scriptrunner.html",
+      "url": "https://ss64.com/nt/scriptrunner.html",
       "options": {
         "sub": "Run one or more scripts in sequence"
       },
@@ -1538,7 +1538,7 @@
     },
     "SET": {
       "text": "SET",
-      "url": "https://ss64.com/set.html",
+      "url": "https://ss64.com/nt/set.html",
       "options": {
         "sub": "Display, set, or remove session environment variables •"
       },
@@ -1546,7 +1546,7 @@
     },
     "SETLOCAL": {
       "text": "SETLOCAL",
-      "url": "https://ss64.com/setlocal.html",
+      "url": "https://ss64.com/nt/setlocal.html",
       "options": {
         "sub": "Control the visibility of environment variables •"
       },
@@ -1554,7 +1554,7 @@
     },
     "SetObjectSecurity": {
       "text": "SetObjectSecurity",
-      "url": "https://ss64.com/setobjectsecurity.html",
+      "url": "https://ss64.com/nt/setobjectsecurity.html",
       "options": {
         "sub": "Set  security  for  an object (file, directory, reg key etc)."
       },
@@ -1562,7 +1562,7 @@
     },
     "SetSPN": {
       "text": "SetSPN",
-      "url": "https://ss64.com/setspn.html",
+      "url": "https://ss64.com/nt/setspn.html",
       "options": {
         "sub": "Edit Service Principal Names"
       },
@@ -1570,7 +1570,7 @@
     },
     "SETX": {
       "text": "SETX",
-      "url": "https://ss64.com/setx.html",
+      "url": "https://ss64.com/nt/setx.html",
       "options": {
         "sub": "Set environment variables"
       },
@@ -1578,7 +1578,7 @@
     },
     "SFC": {
       "text": "SFC",
-      "url": "https://ss64.com/sfc.html",
+      "url": "https://ss64.com/nt/sfc.html",
       "options": {
         "sub": "System File Checker"
       },
@@ -1586,7 +1586,7 @@
     },
     "SHARE": {
       "text": "SHARE",
-      "url": "https://ss64.com/share.html",
+      "url": "https://ss64.com/nt/share.html",
       "options": {
         "sub": "List or edit a file share or print share"
       },
@@ -1594,7 +1594,7 @@
     },
     "ShellRunAs": {
       "text": "ShellRunAs",
-      "url": "https://ss64.com/shellrunas.html",
+      "url": "https://ss64.com/nt/shellrunas.html",
       "options": {
         "sub": "Run a command under a different user account"
       },
@@ -1602,7 +1602,7 @@
     },
     "SHIFT": {
       "text": "SHIFT",
-      "url": "https://ss64.com/shift.html",
+      "url": "https://ss64.com/nt/shift.html",
       "options": {
         "sub": "Shift the position of batch file parameters •"
       },
@@ -1610,7 +1610,7 @@
     },
     "SHORTCUT": {
       "text": "SHORTCUT",
-      "url": "https://ss64.com/shortcut.html",
+      "url": "https://ss64.com/nt/shortcut.html",
       "options": {
         "sub": "Create a windows shortcut (.LNK file)"
       },
@@ -1618,7 +1618,7 @@
     },
     "SHUTDOWN": {
       "text": "SHUTDOWN",
-      "url": "https://ss64.com/shutdown.html",
+      "url": "https://ss64.com/nt/shutdown.html",
       "options": {
         "sub": "Shutdown the computer"
       },
@@ -1626,7 +1626,7 @@
     },
     "SIGCHECK": {
       "text": "SIGCHECK",
-      "url": "https://ss64.com/sigcheck.html",
+      "url": "https://ss64.com/nt/sigcheck.html",
       "options": {
         "sub": "Display file version no. VirusTotal status & timestamp"
       },
@@ -1634,7 +1634,7 @@
     },
     "SLMGR": {
       "text": "SLMGR",
-      "url": "https://ss64.com/slmgr.html",
+      "url": "https://ss64.com/nt/slmgr.html",
       "options": {
         "sub": "Software Licensing Management"
       },
@@ -1642,7 +1642,7 @@
     },
     "SORT": {
       "text": "SORT",
-      "url": "https://ss64.com/sort.html",
+      "url": "https://ss64.com/nt/sort.html",
       "options": {
         "sub": "Sort input"
       },
@@ -1650,7 +1650,7 @@
     },
     "SSH": {
       "text": "SSH",
-      "url": "https://ss64.com/ssh.html",
+      "url": "https://ss64.com/nt/ssh.html",
       "options": {
         "sub": "OpenSSH remote login client"
       },
@@ -1658,7 +1658,7 @@
     },
     "START": {
       "text": "START",
-      "url": "https://ss64.com/start.html",
+      "url": "https://ss64.com/nt/start.html",
       "options": {
         "sub": "Start a program, command or batch file •"
       },
@@ -1666,7 +1666,7 @@
     },
     "STREAMS": {
       "text": "STREAMS",
-      "url": "https://ss64.com/streams.html",
+      "url": "https://ss64.com/nt/streams.html",
       "options": {
         "sub": "List any Alternate Data  Streams (ADS) within a file or directory"
       },
@@ -1674,7 +1674,7 @@
     },
     "STRINGS": {
       "text": "STRINGS",
-      "url": "https://ss64.com/strings.html",
+      "url": "https://ss64.com/nt/strings.html",
       "options": {
         "sub": "Search for ANSI and UNICODE strings in binary files"
       },
@@ -1682,7 +1682,7 @@
     },
     "SUBINACL": {
       "text": "SUBINACL",
-      "url": "https://ss64.com/subinacl.html",
+      "url": "https://ss64.com/nt/subinacl.html",
       "options": {
         "sub": "Edit file and folder Permissions, Ownership and Domain"
       },
@@ -1690,7 +1690,7 @@
     },
     "SUBST": {
       "text": "SUBST",
-      "url": "https://ss64.com/subst.html",
+      "url": "https://ss64.com/nt/subst.html",
       "options": {
         "sub": "Associate a path with a drive letter"
       },
@@ -1698,7 +1698,7 @@
     },
     "SXSTRACE": {
       "text": "SXSTRACE",
-      "url": "https://ss64.com/sxstrace.html",
+      "url": "https://ss64.com/nt/sxstrace.html",
       "options": {
         "sub": "Diagnose side-by-side problems"
       },
@@ -1706,7 +1706,7 @@
     },
     "SYSMON": {
       "text": "SYSMON",
-      "url": "https://ss64.com/sysmon.html",
+      "url": "https://ss64.com/nt/sysmon.html",
       "options": {
         "sub": "Monitor and log system activity to the Windows event log"
       },
@@ -1714,7 +1714,7 @@
     },
     "SYSTEMINFO": {
       "text": "SYSTEMINFO",
-      "url": "https://ss64.com/systeminfo.html",
+      "url": "https://ss64.com/nt/systeminfo.html",
       "options": {
         "sub": "List system configuration"
       },
@@ -1722,7 +1722,7 @@
     },
     "TAKEOWN": {
       "text": "TAKEOWN",
-      "url": "https://ss64.com/takeown.html",
+      "url": "https://ss64.com/nt/takeown.html",
       "options": {
         "sub": "Take ownership of a file"
       },
@@ -1730,7 +1730,7 @@
     },
     "TAR": {
       "text": "TAR",
-      "url": "https://ss64.com/tar.html",
+      "url": "https://ss64.com/nt/tar.html",
       "options": {
         "sub": "Store, list or extract files in an archive"
       },
@@ -1738,7 +1738,7 @@
     },
     "TASKLIST": {
       "text": "TASKLIST",
-      "url": "https://ss64.com/tasklist.html",
+      "url": "https://ss64.com/nt/tasklist.html",
       "options": {
         "sub": "List running applications and services"
       },
@@ -1746,7 +1746,7 @@
     },
     "TASKKILL": {
       "text": "TASKKILL",
-      "url": "https://ss64.com/taskkill.html",
+      "url": "https://ss64.com/nt/taskkill.html",
       "options": {
         "sub": "End a running process"
       },
@@ -1754,7 +1754,7 @@
     },
     "TELNET": {
       "text": "TELNET",
-      "url": "https://ss64.com/telnet.html",
+      "url": "https://ss64.com/nt/telnet.html",
       "options": {
         "sub": "Communicate with another host using the TELNET protocol"
       },
@@ -1762,7 +1762,7 @@
     },
     "TIME": {
       "text": "TIME",
-      "url": "https://ss64.com/time.html",
+      "url": "https://ss64.com/nt/time.html",
       "options": {
         "sub": "Display or set the system time •"
       },
@@ -1770,7 +1770,7 @@
     },
     "TIMEOUT": {
       "text": "TIMEOUT",
-      "url": "https://ss64.com/timeout.html",
+      "url": "https://ss64.com/nt/timeout.html",
       "options": {
         "sub": "Delay processing of a batch file/command"
       },
@@ -1778,7 +1778,7 @@
     },
     "TITLE": {
       "text": "TITLE",
-      "url": "https://ss64.com/title.html",
+      "url": "https://ss64.com/nt/title.html",
       "options": {
         "sub": "Set the window title for a CMD.EXE session •"
       },
@@ -1786,7 +1786,7 @@
     },
     "TLIST": {
       "text": "TLIST",
-      "url": "https://ss64.com/tlist.html",
+      "url": "https://ss64.com/nt/tlist.html",
       "options": {
         "sub": "Task list with full path"
       },
@@ -1794,7 +1794,7 @@
     },
     "TOUCH": {
       "text": "TOUCH",
-      "url": "https://ss64.com/touch.html",
+      "url": "https://ss64.com/nt/touch.html",
       "options": {
         "sub": "Change file timestamps"
       },
@@ -1802,7 +1802,7 @@
     },
     "TRACERT": {
       "text": "TRACERT",
-      "url": "https://ss64.com/tracert.html",
+      "url": "https://ss64.com/nt/tracert.html",
       "options": {
         "sub": "Trace route to a remote host"
       },
@@ -1810,7 +1810,7 @@
     },
     "TREE": {
       "text": "TREE",
-      "url": "https://ss64.com/tree.html",
+      "url": "https://ss64.com/nt/tree.html",
       "options": {
         "sub": "Graphical display of folder structure"
       },
@@ -1818,7 +1818,7 @@
     },
     "TSDISCON": {
       "text": "TSDISCON",
-      "url": "https://ss64.com/tsdiscon.html",
+      "url": "https://ss64.com/nt/tsdiscon.html",
       "options": {
         "sub": "Disconnect a Remote Desktop Session"
       },
@@ -1826,7 +1826,7 @@
     },
     "TSKILL": {
       "text": "TSKILL",
-      "url": "https://ss64.com/tskill.html",
+      "url": "https://ss64.com/nt/tskill.html",
       "options": {
         "sub": "End a running process"
       },
@@ -1834,7 +1834,7 @@
     },
     "TYPE": {
       "text": "TYPE",
-      "url": "https://ss64.com/type.html",
+      "url": "https://ss64.com/nt/type.html",
       "options": {
         "sub": "Display the contents of a text file •"
       },
@@ -1842,7 +1842,7 @@
     },
     "TypePerf": {
       "text": "TypePerf",
-      "url": "https://ss64.com/typeperf.html",
+      "url": "https://ss64.com/nt/typeperf.html",
       "options": {
         "sub": "Write Performance Monitor data to a log file"
       },
@@ -1850,7 +1850,7 @@
     },
     "TZUTIL": {
       "text": "TZUTIL",
-      "url": "https://ss64.com/tzutil.html",
+      "url": "https://ss64.com/nt/tzutil.html",
       "options": {
         "sub": "Time Zone Utility"
       },
@@ -1858,7 +1858,7 @@
     },
     "VBC": {
       "text": "VBC",
-      "url": "https://ss64.com/vbc.html",
+      "url": "https://ss64.com/nt/vbc.html",
       "options": {
         "sub": "Visual Basic compiler"
       },
@@ -1866,7 +1866,7 @@
     },
     "VER": {
       "text": "VER",
-      "url": "https://ss64.com/ver.html",
+      "url": "https://ss64.com/nt/ver.html",
       "options": {
         "sub": "Display version information •"
       },
@@ -1874,7 +1874,7 @@
     },
     "VERIFY": {
       "text": "VERIFY",
-      "url": "https://ss64.com/verify.html",
+      "url": "https://ss64.com/nt/verify.html",
       "options": {
         "sub": "Verify that files have been saved •"
       },
@@ -1882,7 +1882,7 @@
     },
     "VMConnect": {
       "text": "VMConnect",
-      "url": "https://ss64.com/vmconnect.html",
+      "url": "https://ss64.com/nt/vmconnect.html",
       "options": {
         "sub": "Connect to a Hyper-V Virtual Machine"
       },
@@ -1890,7 +1890,7 @@
     },
     "VOL": {
       "text": "VOL",
-      "url": "https://ss64.com/vol.html",
+      "url": "https://ss64.com/nt/vol.html",
       "options": {
         "sub": "Display a disk label •"
       },
@@ -1898,7 +1898,7 @@
     },
     "VSSADMIN": {
       "text": "VSSADMIN",
-      "url": "https://ss64.com/vssadmin.html",
+      "url": "https://ss64.com/nt/vssadmin.html",
       "options": {
         "sub": "Display volume shadow copy backups + writers/providers"
       },
@@ -1906,7 +1906,7 @@
     },
     "W32TM": {
       "text": "W32TM",
-      "url": "https://ss64.com/w32tm.html",
+      "url": "https://ss64.com/nt/w32tm.html",
       "options": {
         "sub": "Time Service"
       },
@@ -1914,7 +1914,7 @@
     },
     "WAITFOR": {
       "text": "WAITFOR",
-      "url": "https://ss64.com/waitfor.html",
+      "url": "https://ss64.com/nt/waitfor.html",
       "options": {
         "sub": "Wait for or send a signal"
       },
@@ -1922,7 +1922,7 @@
     },
     "WBADMIN": {
       "text": "WBADMIN",
-      "url": "https://ss64.com/wbadmin.html",
+      "url": "https://ss64.com/nt/wbadmin.html",
       "options": {
         "sub": "Windows Backup Admin"
       },
@@ -1930,7 +1930,7 @@
     },
     "WECUTIL": {
       "text": "WECUTIL",
-      "url": "https://ss64.com/wecutil.html",
+      "url": "https://ss64.com/nt/wecutil.html",
       "options": {
         "sub": "Windows Event Collector Utility"
       },
@@ -1938,7 +1938,7 @@
     },
     "WEVTUTIL": {
       "text": "WEVTUTIL",
-      "url": "https://ss64.com/../nt/wevtutil.html",
+      "url": "https://ss64.com/nt/../nt/wevtutil.html",
       "options": {
         "sub": "Clear event logs, enable/disable/query logs"
       },
@@ -1946,7 +1946,7 @@
     },
     "WHERE": {
       "text": "WHERE",
-      "url": "https://ss64.com/where.html",
+      "url": "https://ss64.com/nt/where.html",
       "options": {
         "sub": "Locate and display files in a directory tree"
       },
@@ -1954,7 +1954,7 @@
     },
     "WHOAMI": {
       "text": "WHOAMI",
-      "url": "https://ss64.com/whoami.html",
+      "url": "https://ss64.com/nt/whoami.html",
       "options": {
         "sub": "Output the current UserName and domain"
       },
@@ -1962,7 +1962,7 @@
     },
     "WHOIS": {
       "text": "WHOIS",
-      "url": "https://ss64.com/whois.html",
+      "url": "https://ss64.com/nt/whois.html",
       "options": {
         "sub": "Lookup the registration record for a domain"
       },
@@ -1970,7 +1970,7 @@
     },
     "WINDIFF": {
       "text": "WINDIFF",
-      "url": "https://ss64.com/windiff.html",
+      "url": "https://ss64.com/nt/windiff.html",
       "options": {
         "sub": "Compare the contents of two files or sets of files"
       },
@@ -1978,7 +1978,7 @@
     },
     "WINGET": {
       "text": "WINGET",
-      "url": "https://ss64.com/winget.html",
+      "url": "https://ss64.com/nt/winget.html",
       "options": {
         "sub": "Windows Package Manager (coming May 2021)"
       },
@@ -1986,7 +1986,7 @@
     },
     "WINMGMT": {
       "text": "WINMGMT",
-      "url": "https://ss64.com/winmgmt.html",
+      "url": "https://ss64.com/nt/winmgmt.html",
       "options": {
         "sub": "Manage the  WMI service/WMI repository"
       },
@@ -1994,7 +1994,7 @@
     },
     "WINRM": {
       "text": "WINRM",
-      "url": "https://ss64.com/winrm.html",
+      "url": "https://ss64.com/nt/winrm.html",
       "options": {
         "sub": "Windows Remote Management"
       },
@@ -2002,7 +2002,7 @@
     },
     "WINRS": {
       "text": "WINRS",
-      "url": "https://ss64.com/winrs.html",
+      "url": "https://ss64.com/nt/winrs.html",
       "options": {
         "sub": "Windows Remote Shell"
       },
@@ -2010,7 +2010,7 @@
     },
     "WMIC": {
       "text": "WMIC",
-      "url": "https://ss64.com/wmic.html",
+      "url": "https://ss64.com/nt/wmic.html",
       "options": {
         "sub": "WMI Commands"
       },
@@ -2018,7 +2018,7 @@
     },
     "WPEUTIL": {
       "text": "WPEUTIL",
-      "url": "https://ss64.com/wpeutil.html",
+      "url": "https://ss64.com/nt/wpeutil.html",
       "options": {
         "sub": "Run Preinstallation Environment (WinPE) commands"
       },
@@ -2026,7 +2026,7 @@
     },
     "WPR": {
       "text": "WPR",
-      "url": "https://ss64.com/wpr.html",
+      "url": "https://ss64.com/nt/wpr.html",
       "options": {
         "sub": "Windows Performance Recorder"
       },
@@ -2034,7 +2034,7 @@
     },
     "WT": {
       "text": "WT",
-      "url": "https://ss64.com/wt.html",
+      "url": "https://ss64.com/nt/wt.html",
       "options": {
         "sub": "Windows Terminal"
       },
@@ -2042,7 +2042,7 @@
     },
     "WUSA": {
       "text": "WUSA",
-      "url": "https://ss64.com/wusa.html",
+      "url": "https://ss64.com/nt/wusa.html",
       "options": {
         "sub": "Windows Update Standalone Installer"
       },
@@ -2050,7 +2050,7 @@
     },
     "WUAUCLT": {
       "text": "WUAUCLT",
-      "url": "https://ss64.com/wuauclt.html",
+      "url": "https://ss64.com/nt/wuauclt.html",
       "options": {
         "sub": "Windows Update"
       },
@@ -2058,7 +2058,7 @@
     },
     "XCACLS": {
       "text": "XCACLS",
-      "url": "https://ss64.com/xcacls.html",
+      "url": "https://ss64.com/nt/xcacls.html",
       "options": {
         "sub": "Change file and folder permissions"
       },
@@ -2066,7 +2066,7 @@
     },
     "XCOPY": {
       "text": "XCOPY",
-      "url": "https://ss64.com/xcopy.html",
+      "url": "https://ss64.com/nt/xcopy.html",
       "options": {
         "sub": "Copy files and folders"
       },
@@ -2074,7 +2074,7 @@
     },
     "::": {
       "text": "::",
-      "url": "https://ss64.com/rem.html",
+      "url": "https://ss64.com/nt/rem.html",
       "options": {
         "sub": "Comment / Remark •"
       },
