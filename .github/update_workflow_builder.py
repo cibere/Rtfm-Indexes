@@ -21,7 +21,7 @@ def iter_parser_files():
         if not file.name.startswith("_"):
             yield file
 
-
+ 
 def build_tree():
     files = [p.name.removesuffix(".py") for p in iter_parser_files()]
     return {
