@@ -25,7 +25,7 @@ class SS64Parser(BaseSyncParser, file=__file__, base_url="https://ss64.com/{SUF}
         return self.suffix == "ps"
 
     def build_cache(self) -> dict[str, str | Entry]:
-        res = requests.get(self, timeout=10)
+        res = requests.get(self.base_url, timeout=10)
         self.soup = bs4.BeautifulSoup(res.content, "html.parser")
 
         container = self.soup.find_all("table")[-1]
