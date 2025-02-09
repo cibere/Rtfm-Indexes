@@ -3,12 +3,13 @@ name: Update Auto Update Workflow
   push:
     paths: ".github/update_workflow_builder.py"
 
-
 jobs:
   update_workflow:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.WORKFLOW_TOKEN }}
     - name: Install uv
       uses: astral-sh/setup-uv@v5
     - run: uv run .github/update_workflow_builder.py
