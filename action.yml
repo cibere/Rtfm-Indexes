@@ -15,11 +15,10 @@ runs:
     - name: Run Parser
       continue-on-error: true
       id: runner
-      uses: GuillaumeFalourd/command-output-file-action@v1.1
-      with:
-        command_line: uv run _parsers/${{ inputs.filename }}.py
-        output_file_name: output.txt
-        display_file_content: NO
+      run: |
+        uv run _parsers/${{ inputs.filename }}.py &> output.txt || true
+        echo "output_file_name=output.txt" >> $GITHUB_OUTPUT
+        cat output.txt
     
     - name: Handle Error
       if: ${{ steps.runner.outcome == 'failure' }}
