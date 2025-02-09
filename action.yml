@@ -28,7 +28,7 @@ runs:
       uses: DamianReeves/write-file-action@master
       with:
         path: output.txt
-        write-mode: override
+        write-mode: overwrite
         contents: |
           ${{ steps.runner.output }}
 
