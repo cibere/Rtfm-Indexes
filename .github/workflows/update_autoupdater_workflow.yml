@@ -1,0 +1,27 @@
+name: Update Auto Update Workflow
+'on':
+  push:
+    paths: ".github/update_workflow_builder.py"
+
+
+jobs:
+  update_workflow:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - name: Install uv
+      uses: astral-sh/setup-uv@v5
+    - run: uv run .github\update_autoupdater_workflow.yml
+    - continue-on-error: true
+      name: Push Changes
+      run: 'git fetch
+
+        git pull
+
+        git add indexes
+
+        git -c user.name="github-actions[bot]" -c user.email="41898282+github-actions[bot]@users.noreply.github.com"
+        commit --author="cibere <71997063+cibere@users.noreply.github.com>" -m "Auto
+        Update Indexes"
+
+        git push'
