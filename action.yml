@@ -14,23 +14,25 @@ runs:
 
     - name: Run Parser
       continue-on-error: true
-      id: runner
+      id: parser
       shell: bash
       run: |
-        uv run _parsers/${{ inputs.filename }}.py 2> $GITHUB_OUTPUT
+        uv run _parsers/${{ inputs.filename }}.py 1> output.txt 2>&1
     
     - name: Print Runner Outcome
       shell: bash
-      run: echo ${{ steps.runner.outcome }}
+      run: |
+        echo ${{ steps.parser.outcome }}
+        echo ${{ steps.parser }}
     
     - name: Write output to file
-      if: ${{ steps.runner.outcome == 'failure' }}
+      if: ${{ steps.parser.outcome == 'failure' }}
       uses: DamianReeves/write-file-action@master
       with:
         path: output.txt
         write-mode: overwrite
         contents: |
-          ${{ steps.runner.output }}
+          ${{ steps.parser.output }}
     
     - name: Print Output.txt
       shell: bash
@@ -38,7 +40,7 @@ runs:
         cat output.txt
 
     - name: Handle Error
-      if: ${{ steps.runner.outcome == 'failure' }}
+      if: ${{ steps.parser.outcome == 'failure' }}
       uses: tsickert/discord-webhook@v6.0.0
       with:
         webhook-url: ${{ inputs.error_hook }}
