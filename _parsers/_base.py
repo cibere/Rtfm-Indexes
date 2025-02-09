@@ -8,17 +8,18 @@
 from __future__ import annotations
 
 import asyncio
-import sys
 from collections.abc import Mapping
 from pathlib import Path
-from typing import TYPE_CHECKING, Any, ClassVar, Literal, Self, TypeVar, overload
+from typing import TYPE_CHECKING, Any, ClassVar, Self, TypeVar, overload
 
-from msgspec import Struct, json, msgpack
+from msgspec import Struct, msgpack
 
 if TYPE_CHECKING:
     from types import TracebackType
 
     from flogin import ResultConstructorKwargs
+
+FILE_EXT = "cidex"
 
 parsers_dir = Path(__file__).parent
 root = parsers_dir.parent
@@ -84,37 +85,17 @@ class _BaseParser[KwargsT]:
 
         return serialized
 
-    def _get_encoding(self) -> Literal["json", "msgpack"]:
-        try:
-            return "json" if sys.argv[-2] == "--json" else "msgpack"
-        except IndexError:
-            return "msgpack"
-
-    def _save(
-        self, cache: Cache, encoding: Literal["json", "msgpack"] | None = None
-    ) -> None:
-        encoding = encoding or self._get_encoding()
-
+    def _save(self, cache: Cache) -> None:
         metadata = ParsedIndex(self.serialize_cache(cache), self.name, self.favicon_url)
-        file = indexes_dir / f"{self.name}.{encoding}"
-        print(file, f"{self.name}.{encoding}")
+        file = indexes_dir / f"{self.name}.{FILE_EXT}"
+        print(file, f"{self.name}.{FILE_EXT}")
 
         def enc_hook(obj: Any) -> Any:
             if isinstance(obj, UrlStr):
                 return str(obj)
             return repr(obj)
 
-        if encoding == "json":
-            file.write_bytes(
-                json.format(
-                    json.encode(
-                        metadata,
-                        enc_hook=enc_hook,
-                    )
-                )
-            )
-        else:
-            file.write_bytes(msgpack.encode(metadata, enc_hook=enc_hook))
+        file.write_bytes(msgpack.encode(metadata, enc_hook=enc_hook))
         print(f"Wrote to {file}")
 
     def __truediv__(self, piece: Any) -> UrlStr:
