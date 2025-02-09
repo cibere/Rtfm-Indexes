@@ -20,6 +20,7 @@ runs:
         uv run _parsers/${{ inputs.filename }}.py
     
     - name: Print Runner Outcome
+      shell: bash
       run: echo ${{ steps.runner.outcome }}
     
     - name: Write output to file
