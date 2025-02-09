@@ -34,10 +34,7 @@ def build_tree():
                         "required": False,
                         "default": "all",
                         "type": "choice",
-                        "options": [
-                            "all",
-                        ]
-                        + files,
+                        "options": ["all", *files],
                     }
                 }
             },
@@ -48,25 +45,23 @@ def build_tree():
                 "runs-on": "ubuntu-latest",
                 "steps": [
                     {"uses": "actions/checkout@v4"},
-                ]
-                + [
-                    {
-                        "name": f"index {file}",
-                        "if": f"${{{{ inputs.parser == 'all' || inputs.parser == '{file}' }}}}",
-                        "uses": "cibere/Rtfm-Indexes@run-parser-action",
-                        "with": {
-                            "filename": file,
-                            "error_hook": "${{ secrets.INDEX_ERROR_HOOK_URL }}",
-                        },
-                    }
-                    for file in files
-                ]
-                + [
+                    *[
+                        {
+                            "name": f"index {file}",
+                            "if": f"${{{{ inputs.parser == 'all' || inputs.parser == '{file}' }}}}",
+                            "uses": "cibere/Rtfm-Indexes@run-parser-action",
+                            "with": {
+                                "filename": file,
+                                "error_hook": "${{ secrets.INDEX_ERROR_HOOK_URL }}",
+                            },
+                        }
+                        for file in files
+                    ],
                     {
                         "name": "Push Changes",
                         "continue-on-error": True,
                         "run": 'git fetch\ngit pull\ngit add indexes\ngit -c user.name="github-actions[bot]" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" commit --author="cibere <71997063+cibere@users.noreply.github.com>" -m "Auto Update Indexes"\ngit push',
-                    }
+                    },
                 ],
             }
         },
