@@ -28,9 +28,10 @@ runs:
       uses: DamianReeves/write-file-action@master
       with:
         path: output.txt
-        contents: ${{ steps.runner.output }}
         write-mode: override
-          
+        contents: |
+          ${{ steps.runner.output }}
+
     - name: Handle Error
       if: ${{ steps.runner.outcome == 'failure' }}
       uses: tsickert/discord-webhook@v6.0.0
