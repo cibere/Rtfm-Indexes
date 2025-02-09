@@ -1,0 +1,30 @@
+name: 'Run Parser'
+description: ''
+inputs:
+  filename:
+    required: true
+  error_hook:
+    required: true
+
+runs:
+  using: "composite"
+  steps:
+    - name: Install uv
+      uses: astral-sh/setup-uv@v5
+
+    - name: Run Parser
+      continue-on-error: true
+      id: runner
+      uses: GuillaumeFalourd/command-output-file-action@v1.1
+      with:
+        command_line: uv run _parsers/${{ inputs.filename }}.py
+        output_file_name: output.txt
+        display_file_content: NO
+    
+    - name: Handle Error
+      if: ${{ steps.runner.outcome == "failure" }}
+      uses: tsickert/discord-webhook@v6.0.0
+      with:
+        webhook-url: ${{ inputs.error_hook }}
+        content: Parser for ${{ inputs.filename }} failed!
+        filename: output.txt
