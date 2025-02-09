@@ -23,8 +23,13 @@ runs:
       shell: bash
       run: |
         echo ${{ steps.parser.outcome }}
-        echo ${{ steps.parser }}
-    
+        echo ${{ fromJson(steps.parser) }}
+
+    - name: Print Output.txt
+      shell: bash
+      run: |
+        cat output.txt
+  
     - name: Write output to file
       if: ${{ steps.parser.outcome == 'failure' }}
       uses: DamianReeves/write-file-action@master
