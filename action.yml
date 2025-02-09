@@ -15,6 +15,7 @@ runs:
     - name: Run Parser
       continue-on-error: true
       id: runner
+      shell: bash
       run: |
         uv run _parsers/${{ inputs.filename }}.py &> output.txt || true
         echo "output_file_name=output.txt" >> $GITHUB_OUTPUT
