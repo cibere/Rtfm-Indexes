@@ -86,7 +86,16 @@ class _BaseParser[KwargsT]:
 
     def _save(self, cache: Cache) -> None:
         file = indexes_dir / f"{self.name}.json"
-        file.write_bytes(json.format(json.encode(self.serialize_cache(cache))))
+        file.write_bytes(
+            json.format(
+                json.encode(
+                    self.serialize_cache(cache),
+                    enc_hook=lambda obj: str(obj)
+                    if isinstance(obj, UrlStr)
+                    else repr(obj),
+                )
+            )
+        )
         print(f"Wrote to {file}")
 
     def __truediv__(self, piece: Any) -> UrlStr:
