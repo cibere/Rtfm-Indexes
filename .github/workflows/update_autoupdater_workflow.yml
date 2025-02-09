@@ -2,6 +2,7 @@ name: Update Auto Update Workflow
 'on':
   push:
     paths: ".github/update_workflow_builder.py"
+  workflow_dispatch:
 
 jobs:
   update_workflow:
