@@ -33,19 +33,26 @@ class UrlStr(str):
         return UrlStr(self.rstrip("/") + "/" + other.lstrip("/"))
 
 
+class ParsedIndex(Struct):
+    cache: Cache
+    name: str
+    favicon_url: str | None
+
+
 class _BaseParser[KwargsT]:
-    suffix: ClassVar[str | None]
+    suffix: ClassVar[str | None] = None
     file: ClassVar[str]
     _raw_base_url: ClassVar[str]
+    favicon_url: ClassVar[str | None] = None
 
     @property
     def base_url(self) -> UrlStr | None:
-        return UrlStr(self._raw_base_url.replace("{SUF}", getattr(self, "suffix", "")))
+        return UrlStr(self._raw_base_url.replace("{SUF}", self.suffix or ""))
 
     @property
     def name(self) -> str:
         return Path(self.file).name.removesuffix(".py") + (
-            f"-{self.suffix}" if getattr(self, "suffix", None) else ""
+            f"-{self.suffix}" if self.suffix else ""
         )
 
     @overload
@@ -76,12 +83,13 @@ class _BaseParser[KwargsT]:
         return serialized
 
     def _save(self, cache: Cache) -> None:
+        metadata = ParsedIndex(self.serialize_cache(cache), self.name, self.favicon_url)
         file = indexes_dir / f"{self.name}.json"
         print(file, f"{self.name}.json")
         file.write_bytes(
             json.format(
                 json.encode(
-                    self.serialize_cache(cache),
+                    metadata,
                     enc_hook=lambda obj: str(obj)
                     if isinstance(obj, UrlStr)
                     else repr(obj),
