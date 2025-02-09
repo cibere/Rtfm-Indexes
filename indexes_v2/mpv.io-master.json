@@ -2123,5 +2123,5 @@
     "~/.config/mpv/script-opts/osc.conf": "https://mpv.io/manual/master/#files-~/-config/mpv/script-opts/osc-conf"
   },
   "name": "mpv.io-master",
-  "favicon_url": null
+  "favicon_url": "https://mpv.io/images/favicon-5d3b2a52.png"
 }

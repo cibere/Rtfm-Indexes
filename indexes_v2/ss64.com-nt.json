@@ -96,14 +96,6 @@
       },
       "ctx_menu_items": null
     },
-    "BROWSTAT": {
-      "text": "BROWSTAT",
-      "url": "https://ss64.com/nt/browstat.html",
-      "options": {
-        "sub": "Get domain, browser and PDC info"
-      },
-      "ctx_menu_items": null
-    },
     "CACLS": {
       "text": "CACLS",
       "url": "https://ss64.com/nt/cacls.html",
