@@ -23,14 +23,14 @@ jobs:
         if: ${{ inputs.parser == 'all' || inputs.parser == 'voidtools' }}
         uses: cibere/Rtfm-Indexes@run-parser-action
         with:
-          filename: voidtools.com.py
+          filename: voidtools.com
           error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
 
       - name: index mdn
         if: ${{ inputs.parser == 'all' || inputs.parser == 'mdn' }}
         uses: cibere/Rtfm-Indexes@run-parser-action
         with:
-          filename: developer.mozilla.org.py
+          filename: developer.mozilla.org
           error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
 
       - name: Push Changes
