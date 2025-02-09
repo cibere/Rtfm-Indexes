@@ -1,12 +1,22 @@
+# /// script
+# requires-python = ">=3.13"
+# dependencies = [
+#   "aiohttp==3.11.12",
+#   "beautifulsoup4==4.13.1",
+#   "msgspec==0.19.0",
+# ]
+# ///
+
 from __future__ import annotations
 
-from typing import Iterator, Any, TypeVar, Awaitable
+import asyncio
+from collections.abc import Awaitable, Iterator
+from types import TracebackType
+from typing import Any, Self, TypeVar
 
 import bs4
-import asyncio
-
+from _base import BaseAsyncParser
 from aiohttp import ClientSession
-from yarl import URL
 
 MISSING: Any = object()
 
@@ -19,11 +29,14 @@ def _remove_all_instances(iter: list[T], value: T) -> list[T]:
     return iter
 
 
-class VoidToolsParser:
-    def __init__(self, session: ClientSession) -> None:
-        self.session = session
-        self.base_url = URL("https://www.voidtools.com")
-        self.cache: dict[str, str] = {}
+class VoidToolsParser(
+    BaseAsyncParser, file=__file__, base_url="https://www.voidtools.com"
+):
+    session: ClientSession
+    cache: dict[str, str]
+
+    def __init__(self) -> None:
+        self.cache = {}
 
     def iter_toc(self, data: bytes) -> Iterator[tuple[int, str, str]]:
         """level, label, href"""
@@ -70,29 +83,38 @@ class VoidToolsParser:
                     l3 = label
 
             self.cache[" - ".join(_remove_all_instances([l3, l2, l1], MISSING))] = str(
-                self.base_url / href.lstrip("/")
+                self / href
             )
 
-    async def start(self) -> None:
+    async def build_cache(self) -> dict[str, str]:
         checked_urls: list[str] = []
         tasks: list[Awaitable[None]] = []
 
         await self.parse_url("https://www.voidtools.com/support/everything")
 
-        for key, url in self.cache.copy().items():
+        for url in self.cache.values():
             if url not in checked_urls:
                 tasks.append(self.parse_url(url))
                 checked_urls.append(url)
 
         await asyncio.gather(*tasks)
-
-    @classmethod
-    async def async_start(cls) -> dict[str, str]:
-        async with ClientSession() as cs:
-            self = cls(cs)
-            await self.start()
         return self.cache
 
+    async def __aenter__(self) -> Self:
+        self.session = ClientSession()
+        await self.session.__aenter__()
+        return self
 
-def index():
-    return {"": asyncio.run(VoidToolsParser.async_start())}
+    async def __aexit__(
+        self,
+        exc_type: type[BaseException],
+        exc_value: BaseException,
+        traceback: TracebackType,
+    ) -> bool:
+        await self.session.__aexit__(exc_type, exc_value, traceback)
+        del self.session
+        return False
+
+
+if __name__ == "__main__":
+    VoidToolsParser.build()

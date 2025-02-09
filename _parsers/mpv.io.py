@@ -1,16 +1,32 @@
-from selenium import webdriver
-from selenium.webdriver.common.by import By
+# /// script
+# requires-python = ">=3.13"
+# dependencies = [
+#   "selenium==4.28.1",
+#   "beautifulsoup4==4.13.1",
+#   "msgspec==0.19.0",
+# ]
+# ///
+
+
+from types import TracebackType
 from typing import Self
+
+from _base import BaseSyncParser
+from selenium import webdriver
 from selenium.common.exceptions import NoSuchElementException
+from selenium.webdriver.common.by import By
 from selenium.webdriver.firefox.options import Options
 
 
-class MpvIoParser:
+class MpvIoParser(BaseSyncParser, file=__file__):
     browser: webdriver.Firefox
 
-    def __init__(self, url: str) -> None:
-        self.url = url
+    def __init__(self) -> None:
         self.cache = {}
+
+    @property
+    def url(self) -> str:
+        return f"https://mpv.io/manual/{self.suffix}"
 
     def __enter__(self) -> Self:
         options = Options()
@@ -19,9 +35,15 @@ class MpvIoParser:
         self.browser.get(self.url)
         return self
 
-    def __exit__(self, *args):
+    def __exit__(
+        self,
+        exc_type: type[BaseException],
+        exc_value: BaseException,
+        traceback: TracebackType,
+    ) -> bool:
         self.browser.quit()
         del self.browser
+        return False
 
     def parse_toc(
         self,
@@ -51,22 +73,18 @@ class MpvIoParser:
 
             self.cache[text] = href
 
-
-def index_url(url: str):
-    parser = MpvIoParser(url)
-
-    with parser:
-        parser.parse_toc()
-        parser.parse_anchor_links()
-
-    import json
-
-    print(json.dumps(parser.cache, indent=4))
-    return parser.cache
+    def build_cache(self) -> dict[str, str]:
+        self.parse_toc()
+        self.parse_anchor_links()
+        return self.cache
 
 
-def index():
-    return {
-        "master": index_url("https://mpv.io/manual/master"),
-        "stable": index_url("https://mpv.io/manual/stable"),
-    }
+class MasterMpvIoParser(MpvIoParser, suffix="master"): ...
+
+
+class StableMpvIoParser(MpvIoParser, suffix="stable"): ...
+
+
+if __name__ == "__main__":
+    MasterMpvIoParser.build()
+    StableMpvIoParser.build()

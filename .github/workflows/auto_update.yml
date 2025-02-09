@@ -1,0 +1,43 @@
+name: Auto Update
+
+on:
+  workflow_dispatch:
+    inputs:
+      parser:
+        description: 'the parser to run'
+        required: false
+        type: string
+        default: "all"
+  schedule:
+    - cron: "23 23 * * *"
+
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: index voidtools
+        if: ${{ inputs.parser == 'all' || inputs.parser == 'voidtools' }}
+        uses: cibere/Rtfm-Indexes@run-parser-action
+        with:
+          filename: voidtools.com.py
+          error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
+
+      - name: index mdn
+        if: ${{ inputs.parser == 'all' || inputs.parser == 'mdn' }}
+        uses: cibere/Rtfm-Indexes@run-parser-action
+        with:
+          filename: developer.mozilla.org.py
+          error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
+
+      - name: Push Changes
+        continue-on-error: true
+        run: |
+          git fetch
+          git pull
+          git add .
+          git -c user.name="github-actions[bot]" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" commit --author="cibere <71997063+cibere@users.noreply.github.com>" -m "Auto Update Indexes"
+          git push
