@@ -1,0 +1,2082 @@
+{
+  "AccessChk": {
+    "text": "AccessChk",
+    "url": "https://ss64.com/accesschk.html",
+    "options": {
+      "sub": "Get the security descriptor (SDDL) for an object (file, directory, reg key)."
+    },
+    "ctx_menu_items": null
+  },
+  "ADDUSERS": {
+    "text": "ADDUSERS",
+    "url": "https://ss64.com/addusers.html",
+    "options": {
+      "sub": "Add or list users to/from a CSV file"
+    },
+    "ctx_menu_items": null
+  },
+  "ADmodcmd": {
+    "text": "ADmodcmd",
+    "url": "https://ss64.com/admodcmd.html",
+    "options": {
+      "sub": "Active Directory Bulk Modify"
+    },
+    "ctx_menu_items": null
+  },
+  "ARP": {
+    "text": "ARP",
+    "url": "https://ss64.com/arp.html",
+    "options": {
+      "sub": "Address Resolution Protocol"
+    },
+    "ctx_menu_items": null
+  },
+  "ASSOC": {
+    "text": "ASSOC",
+    "url": "https://ss64.com/assoc.html",
+    "options": {
+      "sub": "Change file extension associations •"
+    },
+    "ctx_menu_items": null
+  },
+  "ATTRIB": {
+    "text": "ATTRIB",
+    "url": "https://ss64.com/attrib.html",
+    "options": {
+      "sub": "Change file attributes"
+    },
+    "ctx_menu_items": null
+  },
+  "AUDITPOL": {
+    "text": "AUDITPOL",
+    "url": "https://ss64.com/auditpol.html",
+    "options": {
+      "sub": "Manage audit policies"
+    },
+    "ctx_menu_items": null
+  },
+  "BCDBOOT": {
+    "text": "BCDBOOT",
+    "url": "https://ss64.com/bcdboot.html",
+    "options": {
+      "sub": "Create or repair a system partition"
+    },
+    "ctx_menu_items": null
+  },
+  "BCDEDIT": {
+    "text": "BCDEDIT",
+    "url": "https://ss64.com/bcdedit.html",
+    "options": {
+      "sub": "Manage Boot Configuration Data"
+    },
+    "ctx_menu_items": null
+  },
+  "BITSADMIN": {
+    "text": "BITSADMIN",
+    "url": "https://ss64.com/bitsadmin.html",
+    "options": {
+      "sub": "Background Intelligent Transfer Service"
+    },
+    "ctx_menu_items": null
+  },
+  "BOOTREC": {
+    "text": "BOOTREC",
+    "url": "https://ss64.com/bootrec.html",
+    "options": {
+      "sub": "Repair or replace a  partition boot sector"
+    },
+    "ctx_menu_items": null
+  },
+  "BREAK": {
+    "text": "BREAK",
+    "url": "https://ss64.com/break.html",
+    "options": {
+      "sub": "Do nothing, successfully •"
+    },
+    "ctx_menu_items": null
+  },
+  "BROWSTAT": {
+    "text": "BROWSTAT",
+    "url": "https://ss64.com/browstat.html",
+    "options": {
+      "sub": "Get domain, browser and PDC info"
+    },
+    "ctx_menu_items": null
+  },
+  "CACLS": {
+    "text": "CACLS",
+    "url": "https://ss64.com/cacls.html",
+    "options": {
+      "sub": "Change file permissions"
+    },
+    "ctx_menu_items": null
+  },
+  "CALL": {
+    "text": "CALL",
+    "url": "https://ss64.com/call.html",
+    "options": {
+      "sub": "Call one batch program from another •"
+    },
+    "ctx_menu_items": null
+  },
+  "CERTREQ": {
+    "text": "CERTREQ",
+    "url": "https://ss64.com/certreq.html",
+    "options": {
+      "sub": "Request certificate from a certification authority"
+    },
+    "ctx_menu_items": null
+  },
+  "CERTUTIL": {
+    "text": "CERTUTIL",
+    "url": "https://ss64.com/certutil.html",
+    "options": {
+      "sub": "Manage certification authority (CA) files and services"
+    },
+    "ctx_menu_items": null
+  },
+  "CD": {
+    "text": "CD",
+    "url": "https://ss64.com/cd.html",
+    "options": {
+      "sub": "Change Directory - move to a specific Folder •"
+    },
+    "ctx_menu_items": null
+  },
+  "CHANGE": {
+    "text": "CHANGE",
+    "url": "https://ss64.com/change.html",
+    "options": {
+      "sub": "Change Terminal Server Session properties"
+    },
+    "ctx_menu_items": null
+  },
+  "CHANGEPK": {
+    "text": "CHANGEPK",
+    "url": "https://ss64.com/changepk.html",
+    "options": {
+      "sub": "Upgrade device Edition/Product Key"
+    },
+    "ctx_menu_items": null
+  },
+  "CHCP": {
+    "text": "CHCP",
+    "url": "https://ss64.com/chcp.html",
+    "options": {
+      "sub": "Change the active console Code Page"
+    },
+    "ctx_menu_items": null
+  },
+  "CHDIR": {
+    "text": "CHDIR",
+    "url": "https://ss64.com/cd.html",
+    "options": {
+      "sub": "Change Directory - move to a specific Folder •"
+    },
+    "ctx_menu_items": null
+  },
+  "CHKDSK": {
+    "text": "CHKDSK",
+    "url": "https://ss64.com/chkdsk.html",
+    "options": {
+      "sub": "Check Disk - check and repair disk problems"
+    },
+    "ctx_menu_items": null
+  },
+  "CHKNTFS": {
+    "text": "CHKNTFS",
+    "url": "https://ss64.com/chkntfs.html",
+    "options": {
+      "sub": "Check the NTFS file system"
+    },
+    "ctx_menu_items": null
+  },
+  "CHOICE": {
+    "text": "CHOICE",
+    "url": "https://ss64.com/choice.html",
+    "options": {
+      "sub": "Accept keyboard input to a batch file"
+    },
+    "ctx_menu_items": null
+  },
+  "CIPHER": {
+    "text": "CIPHER",
+    "url": "https://ss64.com/cipher.html",
+    "options": {
+      "sub": "Encrypt or Decrypt files/folders, overwrite data."
+    },
+    "ctx_menu_items": null
+  },
+  "CleanMgr": {
+    "text": "CleanMgr",
+    "url": "https://ss64.com/cleanmgr.html",
+    "options": {
+      "sub": "Automated cleanup of Temp files, recycle bin"
+    },
+    "ctx_menu_items": null
+  },
+  "CLIP": {
+    "text": "CLIP",
+    "url": "https://ss64.com/clip.html",
+    "options": {
+      "sub": "Copy STDIN to the Windows clipboard"
+    },
+    "ctx_menu_items": null
+  },
+  "CLS": {
+    "text": "CLS",
+    "url": "https://ss64.com/cls.html",
+    "options": {
+      "sub": "Clear the screen •"
+    },
+    "ctx_menu_items": null
+  },
+  "CMD": {
+    "text": "CMD",
+    "url": "https://ss64.com/cmd.html",
+    "options": {
+      "sub": "Start a new CMD shell"
+    },
+    "ctx_menu_items": null
+  },
+  "CMDKEY": {
+    "text": "CMDKEY",
+    "url": "https://ss64.com/cmdkey.html",
+    "options": {
+      "sub": "Manage stored usernames/passwords"
+    },
+    "ctx_menu_items": null
+  },
+  "COLOR": {
+    "text": "COLOR",
+    "url": "https://ss64.com/color.html",
+    "options": {
+      "sub": "Change colors of the CMD window •"
+    },
+    "ctx_menu_items": null
+  },
+  "COMP": {
+    "text": "COMP",
+    "url": "https://ss64.com/comp.html",
+    "options": {
+      "sub": "Compare the contents of two files or sets of files"
+    },
+    "ctx_menu_items": null
+  },
+  "COMPACT": {
+    "text": "COMPACT",
+    "url": "https://ss64.com/compact.html",
+    "options": {
+      "sub": "Compress files or folders on an NTFS partition"
+    },
+    "ctx_menu_items": null
+  },
+  "CON": {
+    "text": "CON",
+    "url": "https://ss64.com/con.html",
+    "options": {
+      "sub": "Console input"
+    },
+    "ctx_menu_items": null
+  },
+  "CONVERT": {
+    "text": "CONVERT",
+    "url": "https://ss64.com/convert.html",
+    "options": {
+      "sub": "Convert a FAT drive to NTFS"
+    },
+    "ctx_menu_items": null
+  },
+  "COPY": {
+    "text": "COPY",
+    "url": "https://ss64.com/copy.html",
+    "options": {
+      "sub": "Copy one or more files to another location •"
+    },
+    "ctx_menu_items": null
+  },
+  "Coreinfo": {
+    "text": "Coreinfo",
+    "url": "https://ss64.com/coreinfo.html",
+    "options": {
+      "sub": "Show the mapping between logical & physical processors"
+    },
+    "ctx_menu_items": null
+  },
+  "CSCcmd": {
+    "text": "CSCcmd",
+    "url": "https://ss64.com/csccmd.html",
+    "options": {
+      "sub": "Client-side caching (Offline Files)"
+    },
+    "ctx_menu_items": null
+  },
+  "CSVDE": {
+    "text": "CSVDE",
+    "url": "https://ss64.com/csvde.html",
+    "options": {
+      "sub": "Import or Export Active Directory data"
+    },
+    "ctx_menu_items": null
+  },
+  "CURL": {
+    "text": "CURL",
+    "url": "https://ss64.com/curl.html",
+    "options": {
+      "sub": "Transfer data from or to a server"
+    },
+    "ctx_menu_items": null
+  },
+  "DATE": {
+    "text": "DATE",
+    "url": "https://ss64.com/date.html",
+    "options": {
+      "sub": "Display or set the date •"
+    },
+    "ctx_menu_items": null
+  },
+  "DEFRAG": {
+    "text": "DEFRAG",
+    "url": "https://ss64.com/defrag.html",
+    "options": {
+      "sub": "Defragment hard drive"
+    },
+    "ctx_menu_items": null
+  },
+  "DEL": {
+    "text": "DEL",
+    "url": "https://ss64.com/del.html",
+    "options": {
+      "sub": "Delete one or more files •"
+    },
+    "ctx_menu_items": null
+  },
+  "DELPROF": {
+    "text": "DELPROF",
+    "url": "https://ss64.com/delprof.html",
+    "options": {
+      "sub": "Delete user profiles"
+    },
+    "ctx_menu_items": null
+  },
+  "DELTREE": {
+    "text": "DELTREE",
+    "url": "https://ss64.com/deltree.html",
+    "options": {
+      "sub": "Delete a folder and all subfolders"
+    },
+    "ctx_menu_items": null
+  },
+  "DevCon": {
+    "text": "DevCon",
+    "url": "https://ss64.com/devcon.html",
+    "options": {
+      "sub": "Device Manager Command Line Utility"
+    },
+    "ctx_menu_items": null
+  },
+  "DIR": {
+    "text": "DIR",
+    "url": "https://ss64.com/dir.html",
+    "options": {
+      "sub": "Display a list of files and folders •"
+    },
+    "ctx_menu_items": null
+  },
+  "DIRQUOTA": {
+    "text": "DIRQUOTA",
+    "url": "https://ss64.com/",
+    "options": {
+      "sub": "File Server Resource Manager Disk quotas"
+    },
+    "ctx_menu_items": null
+  },
+  "DISKPART": {
+    "text": "DISKPART",
+    "url": "https://ss64.com/diskpart.html",
+    "options": {
+      "sub": "Disk Administration"
+    },
+    "ctx_menu_items": null
+  },
+  "DISKSHADOW": {
+    "text": "DISKSHADOW",
+    "url": "https://ss64.com/diskshadow.html",
+    "options": {
+      "sub": "Volume Shadow Copy Service"
+    },
+    "ctx_menu_items": null
+  },
+  "DISM": {
+    "text": "DISM",
+    "url": "https://ss64.com/dism.html",
+    "options": {
+      "sub": "Deployment Image Servicing and Management"
+    },
+    "ctx_menu_items": null
+  },
+  "DisplaySwitch": {
+    "text": "DisplaySwitch",
+    "url": "https://ss64.com/displayswitch.html",
+    "options": {
+      "sub": "Specify which display to use and how to use it"
+    },
+    "ctx_menu_items": null
+  },
+  "DNSCMD": {
+    "text": "DNSCMD",
+    "url": "https://ss64.com/dnscmd.html",
+    "options": {
+      "sub": "Manage DNS servers"
+    },
+    "ctx_menu_items": null
+  },
+  "DOSKEY": {
+    "text": "DOSKEY",
+    "url": "https://ss64.com/doskey.html",
+    "options": {
+      "sub": "Edit command line, recall commands, and create macros"
+    },
+    "ctx_menu_items": null
+  },
+  "DriverQuery": {
+    "text": "DriverQuery",
+    "url": "https://ss64.com/driverquery.html",
+    "options": {
+      "sub": "Display installed device drivers"
+    },
+    "ctx_menu_items": null
+  },
+  "DSACLs": {
+    "text": "DSACLs",
+    "url": "https://ss64.com/dsacls.html",
+    "options": {
+      "sub": "Active Directory ACLs"
+    },
+    "ctx_menu_items": null
+  },
+  "DSAdd": {
+    "text": "DSAdd",
+    "url": "https://ss64.com/dsadd.html",
+    "options": {
+      "sub": "Add items to Active Directory (user group computer)"
+    },
+    "ctx_menu_items": null
+  },
+  "DSGet": {
+    "text": "DSGet",
+    "url": "https://ss64.com/dsget.html",
+    "options": {
+      "sub": "View items in Active Directory (user group computer)"
+    },
+    "ctx_menu_items": null
+  },
+  "DSQuery": {
+    "text": "DSQuery",
+    "url": "https://ss64.com/dsquery.html",
+    "options": {
+      "sub": "Search Active Directory (user group computer)"
+    },
+    "ctx_menu_items": null
+  },
+  "DSMod": {
+    "text": "DSMod",
+    "url": "https://ss64.com/dsmod.html",
+    "options": {
+      "sub": "Modify items in Active Directory (user group computer)"
+    },
+    "ctx_menu_items": null
+  },
+  "DSMove": {
+    "text": "DSMove",
+    "url": "https://ss64.com/dsmove.html",
+    "options": {
+      "sub": "Move an Active Directory Object"
+    },
+    "ctx_menu_items": null
+  },
+  "DSRM": {
+    "text": "DSRM",
+    "url": "https://ss64.com/dsrm.html",
+    "options": {
+      "sub": "Remove items from Active Directory"
+    },
+    "ctx_menu_items": null
+  },
+  "DSREGCMD": {
+    "text": "DSREGCMD",
+    "url": "https://ss64.com/dsregcmd.html",
+    "options": {
+      "sub": "Directory Service Registration"
+    },
+    "ctx_menu_items": null
+  },
+  "DU": {
+    "text": "DU",
+    "url": "https://ss64.com/du.html",
+    "options": {
+      "sub": "Display  directory sizes/usage"
+    },
+    "ctx_menu_items": null
+  },
+  "ECHO": {
+    "text": "ECHO",
+    "url": "https://ss64.com/echo.html",
+    "options": {
+      "sub": "Display message on screen •"
+    },
+    "ctx_menu_items": null
+  },
+  "ENDLOCAL": {
+    "text": "ENDLOCAL",
+    "url": "https://ss64.com/endlocal.html",
+    "options": {
+      "sub": "End localisation of the environment in a batch file •"
+    },
+    "ctx_menu_items": null
+  },
+  "ERASE": {
+    "text": "ERASE",
+    "url": "https://ss64.com/del.html",
+    "options": {
+      "sub": "Delete one or more files •"
+    },
+    "ctx_menu_items": null
+  },
+  "ESENTUTL": {
+    "text": "ESENTUTL",
+    "url": "https://ss64.com/esentutl.html",
+    "options": {
+      "sub": "Extensible Storage Engine utilities"
+    },
+    "ctx_menu_items": null
+  },
+  "EVENTCREATE": {
+    "text": "EVENTCREATE",
+    "url": "https://ss64.com/eventcreate.html",
+    "options": {
+      "sub": "Add a message to the Windows event log"
+    },
+    "ctx_menu_items": null
+  },
+  "EXIT": {
+    "text": "EXIT",
+    "url": "https://ss64.com/exit.html",
+    "options": {
+      "sub": "Quit the current script/routine and set an errorlevel •"
+    },
+    "ctx_menu_items": null
+  },
+  "EXPAND": {
+    "text": "EXPAND",
+    "url": "https://ss64.com/expand.html",
+    "options": {
+      "sub": "Uncompress CAB files"
+    },
+    "ctx_menu_items": null
+  },
+  "EXPLORER": {
+    "text": "EXPLORER",
+    "url": "https://ss64.com/explorer.html",
+    "options": {
+      "sub": "Open Windows Explorer"
+    },
+    "ctx_menu_items": null
+  },
+  "EXTRACT": {
+    "text": "EXTRACT",
+    "url": "https://ss64.com/extract.html",
+    "options": {
+      "sub": "Uncompress CAB files"
+    },
+    "ctx_menu_items": null
+  },
+  "FC": {
+    "text": "FC",
+    "url": "https://ss64.com/fc.html",
+    "options": {
+      "sub": "Compare two files"
+    },
+    "ctx_menu_items": null
+  },
+  "FIND": {
+    "text": "FIND",
+    "url": "https://ss64.com/find.html",
+    "options": {
+      "sub": "Search for a text string in a file"
+    },
+    "ctx_menu_items": null
+  },
+  "FINDSTR": {
+    "text": "FINDSTR",
+    "url": "https://ss64.com/findstr.html",
+    "options": {
+      "sub": "Search for strings in files"
+    },
+    "ctx_menu_items": null
+  },
+  "FLTMC": {
+    "text": "FLTMC",
+    "url": "https://ss64.com/fltmc.html",
+    "options": {
+      "sub": "Manage MiniFilter drivers"
+    },
+    "ctx_menu_items": null
+  },
+  "FONDUE": {
+    "text": "FONDUE",
+    "url": "https://ss64.com/fondue.html",
+    "options": {
+      "sub": "Features on Demand User Experience Tool"
+    },
+    "ctx_menu_items": null
+  },
+  "FOR /F": {
+    "text": "FOR /F",
+    "url": "https://ss64.com/for_cmd.html",
+    "options": {
+      "sub": "Loop command: against the results of another command •"
+    },
+    "ctx_menu_items": null
+  },
+  "FOR": {
+    "text": "FOR",
+    "url": "https://ss64.com/for.html",
+    "options": {
+      "sub": "Loop command: all options Files, Directory, List •"
+    },
+    "ctx_menu_items": null
+  },
+  "FORFILES": {
+    "text": "FORFILES",
+    "url": "https://ss64.com/forfiles.html",
+    "options": {
+      "sub": "Batch process multiple files"
+    },
+    "ctx_menu_items": null
+  },
+  "FORMAT": {
+    "text": "FORMAT",
+    "url": "https://ss64.com/format.html",
+    "options": {
+      "sub": "Format a disk"
+    },
+    "ctx_menu_items": null
+  },
+  "FREEDISK": {
+    "text": "FREEDISK",
+    "url": "https://ss64.com/freedisk.html",
+    "options": {
+      "sub": "Check free disk space"
+    },
+    "ctx_menu_items": null
+  },
+  "FSUTIL": {
+    "text": "FSUTIL",
+    "url": "https://ss64.com/fsutil.html",
+    "options": {
+      "sub": "File and Volume utilities"
+    },
+    "ctx_menu_items": null
+  },
+  "FTP": {
+    "text": "FTP",
+    "url": "https://ss64.com/ftp.html",
+    "options": {
+      "sub": "File Transfer Protocol"
+    },
+    "ctx_menu_items": null
+  },
+  "FTYPE": {
+    "text": "FTYPE",
+    "url": "https://ss64.com/ftype.html",
+    "options": {
+      "sub": "File extension file type associations •"
+    },
+    "ctx_menu_items": null
+  },
+  "GETMAC": {
+    "text": "GETMAC",
+    "url": "https://ss64.com/getmac.html",
+    "options": {
+      "sub": "Display the Media Access Control (MAC) address"
+    },
+    "ctx_menu_items": null
+  },
+  "GOTO": {
+    "text": "GOTO",
+    "url": "https://ss64.com/goto.html",
+    "options": {
+      "sub": "Direct a batch program to jump to a labelled line •"
+    },
+    "ctx_menu_items": null
+  },
+  "GPRESULT": {
+    "text": "GPRESULT",
+    "url": "https://ss64.com/gpresult.html",
+    "options": {
+      "sub": "Display Resultant Set of Policy information"
+    },
+    "ctx_menu_items": null
+  },
+  "GPUPDATE": {
+    "text": "GPUPDATE",
+    "url": "https://ss64.com/gpupdate.html",
+    "options": {
+      "sub": "Update Group Policy settings"
+    },
+    "ctx_menu_items": null
+  },
+  "HELP": {
+    "text": "HELP",
+    "url": "https://ss64.com/help.html",
+    "options": {
+      "sub": "Online Help"
+    },
+    "ctx_menu_items": null
+  },
+  "HOSTNAME": {
+    "text": "HOSTNAME",
+    "url": "https://ss64.com/hostname.html",
+    "options": {
+      "sub": "Display the host name of the computer"
+    },
+    "ctx_menu_items": null
+  },
+  "iCACLS": {
+    "text": "iCACLS",
+    "url": "https://ss64.com/icacls.html",
+    "options": {
+      "sub": "Change file and folder permissions"
+    },
+    "ctx_menu_items": null
+  },
+  "IEXPRESS": {
+    "text": "IEXPRESS",
+    "url": "https://ss64.com/iexpress.html",
+    "options": {
+      "sub": "Create a self extracting ZIP file archive"
+    },
+    "ctx_menu_items": null
+  },
+  "IF": {
+    "text": "IF",
+    "url": "https://ss64.com/if.html",
+    "options": {
+      "sub": "Conditionally perform a command •"
+    },
+    "ctx_menu_items": null
+  },
+  "IFMEMBER": {
+    "text": "IFMEMBER",
+    "url": "https://ss64.com/ifmember.html",
+    "options": {
+      "sub": "Is the current user a member of a group"
+    },
+    "ctx_menu_items": null
+  },
+  "IPCONFIG": {
+    "text": "IPCONFIG",
+    "url": "https://ss64.com/ipconfig.html",
+    "options": {
+      "sub": "Configure IP"
+    },
+    "ctx_menu_items": null
+  },
+  "INUSE": {
+    "text": "INUSE",
+    "url": "https://ss64.com/inuse.html",
+    "options": {
+      "sub": "Replace files that are in use by the OS"
+    },
+    "ctx_menu_items": null
+  },
+  "KLIST": {
+    "text": "KLIST",
+    "url": "https://ss64.com/klist.html",
+    "options": {
+      "sub": "List cached Kerberos tickets"
+    },
+    "ctx_menu_items": null
+  },
+  "LABEL": {
+    "text": "LABEL",
+    "url": "https://ss64.com/label.html",
+    "options": {
+      "sub": "Edit a disk label"
+    },
+    "ctx_menu_items": null
+  },
+  "LGPO": {
+    "text": "LGPO",
+    "url": "https://ss64.com/lgpo.html",
+    "options": {
+      "sub": "Local Group Policy Object utility"
+    },
+    "ctx_menu_items": null
+  },
+  "LODCTR": {
+    "text": "LODCTR",
+    "url": "https://ss64.com/lodctr.html",
+    "options": {
+      "sub": "Load PerfMon performance counters"
+    },
+    "ctx_menu_items": null
+  },
+  "LOGMAN": {
+    "text": "LOGMAN",
+    "url": "https://ss64.com/logman.html",
+    "options": {
+      "sub": "Manage Performance Monitor logs"
+    },
+    "ctx_menu_items": null
+  },
+  "LOGOFF": {
+    "text": "LOGOFF",
+    "url": "https://ss64.com/logoff.html",
+    "options": {
+      "sub": "Log a user off"
+    },
+    "ctx_menu_items": null
+  },
+  "MAKECAB": {
+    "text": "MAKECAB",
+    "url": "https://ss64.com/makecab.html",
+    "options": {
+      "sub": "Create .CAB files"
+    },
+    "ctx_menu_items": null
+  },
+  "Manage-BDE": {
+    "text": "Manage-BDE",
+    "url": "https://ss64.com/manage-bde.html",
+    "options": {
+      "sub": "BitLocker Drive Encryption"
+    },
+    "ctx_menu_items": null
+  },
+  "MBR2GPT": {
+    "text": "MBR2GPT",
+    "url": "https://ss64.com/mbr2gpt.html",
+    "options": {
+      "sub": "Convert a disk partition from  Master Boot Record to a GPT"
+    },
+    "ctx_menu_items": null
+  },
+  "MD": {
+    "text": "MD",
+    "url": "https://ss64.com/md.html",
+    "options": {
+      "sub": "Create a new Directory •"
+    },
+    "ctx_menu_items": null
+  },
+  "MKLINK": {
+    "text": "MKLINK",
+    "url": "https://ss64.com/mklink.html",
+    "options": {
+      "sub": "Create a symbolic link (linkd) •"
+    },
+    "ctx_menu_items": null
+  },
+  "MODE": {
+    "text": "MODE",
+    "url": "https://ss64.com/mode.html",
+    "options": {
+      "sub": "Configure a system device COM/LPT/CON"
+    },
+    "ctx_menu_items": null
+  },
+  "MORE": {
+    "text": "MORE",
+    "url": "https://ss64.com/more.html",
+    "options": {
+      "sub": "Display output, one screen at a time"
+    },
+    "ctx_menu_items": null
+  },
+  "MOUNTVOL": {
+    "text": "MOUNTVOL",
+    "url": "https://ss64.com/mountvol.html",
+    "options": {
+      "sub": "Manage a volume mount point"
+    },
+    "ctx_menu_items": null
+  },
+  "MOVE": {
+    "text": "MOVE",
+    "url": "https://ss64.com/move.html",
+    "options": {
+      "sub": "Move files from one folder to another •"
+    },
+    "ctx_menu_items": null
+  },
+  "MSG": {
+    "text": "MSG",
+    "url": "https://ss64.com/msg.html",
+    "options": {
+      "sub": "Send a message"
+    },
+    "ctx_menu_items": null
+  },
+  "MSIEXEC": {
+    "text": "MSIEXEC",
+    "url": "https://ss64.com/msiexec.html",
+    "options": {
+      "sub": "Microsoft Windows Installer"
+    },
+    "ctx_menu_items": null
+  },
+  "MSINFO32": {
+    "text": "MSINFO32",
+    "url": "https://ss64.com/msinfo32.html",
+    "options": {
+      "sub": "System Information"
+    },
+    "ctx_menu_items": null
+  },
+  "MSTSC": {
+    "text": "MSTSC",
+    "url": "https://ss64.com/mstsc.html",
+    "options": {
+      "sub": "Terminal Server Connection/Remote Desktop Protocol(RDP)"
+    },
+    "ctx_menu_items": null
+  },
+  "NET": {
+    "text": "NET",
+    "url": "https://ss64.com/net.html",
+    "options": {
+      "sub": "Manage network resources"
+    },
+    "ctx_menu_items": null
+  },
+  "NETDOM": {
+    "text": "NETDOM",
+    "url": "https://ss64.com/netdom.html",
+    "options": {
+      "sub": "Domain Manager"
+    },
+    "ctx_menu_items": null
+  },
+  "NETSH": {
+    "text": "NETSH",
+    "url": "https://ss64.com/netsh.html",
+    "options": {
+      "sub": "Configure Network Interfaces, Firewall & Remote access"
+    },
+    "ctx_menu_items": null
+  },
+  "NBTSTAT": {
+    "text": "NBTSTAT",
+    "url": "https://ss64.com/nbtstat.html",
+    "options": {
+      "sub": "Display networking statistics (NetBIOS over TCP/IP)"
+    },
+    "ctx_menu_items": null
+  },
+  "NETSTAT": {
+    "text": "NETSTAT",
+    "url": "https://ss64.com/netstat.html",
+    "options": {
+      "sub": "Display networking statistics (TCP/IP)"
+    },
+    "ctx_menu_items": null
+  },
+  "NLSINFO": {
+    "text": "NLSINFO",
+    "url": "https://ss64.com/",
+    "options": {
+      "sub": "Display locale information (reskit)"
+    },
+    "ctx_menu_items": null
+  },
+  "NLTEST": {
+    "text": "NLTEST",
+    "url": "https://ss64.com/nltest.html",
+    "options": {
+      "sub": "Network Location Test (AD)"
+    },
+    "ctx_menu_items": null
+  },
+  "NMBIND": {
+    "text": "NMBIND",
+    "url": "https://ss64.com/nmbind.html",
+    "options": {
+      "sub": "Manage Hyper-V network bindings"
+    },
+    "ctx_menu_items": null
+  },
+  "NSLOOKUP": {
+    "text": "NSLOOKUP",
+    "url": "https://ss64.com/nslookup.html",
+    "options": {
+      "sub": "Name server lookup"
+    },
+    "ctx_menu_items": null
+  },
+  "NTBACKUP": {
+    "text": "NTBACKUP",
+    "url": "https://ss64.com/ntbackup.html",
+    "options": {
+      "sub": "Windows Backup folders to tape"
+    },
+    "ctx_menu_items": null
+  },
+  "NTDSUtil": {
+    "text": "NTDSUtil",
+    "url": "https://ss64.com/ntdsutil.html",
+    "options": {
+      "sub": "Active Directory Domain Services management"
+    },
+    "ctx_menu_items": null
+  },
+  "NTRIGHTS": {
+    "text": "NTRIGHTS",
+    "url": "https://ss64.com/ntrights.html",
+    "options": {
+      "sub": "Edit user account rights"
+    },
+    "ctx_menu_items": null
+  },
+  "NVSPBIND": {
+    "text": "NVSPBIND",
+    "url": "https://ss64.com/nvspbind.html",
+    "options": {
+      "sub": "Modify network bindings"
+    },
+    "ctx_menu_items": null
+  },
+  "OPENFILES": {
+    "text": "OPENFILES",
+    "url": "https://ss64.com/openfiles.html",
+    "options": {
+      "sub": "Query or display open files"
+    },
+    "ctx_menu_items": null
+  },
+  "PATH": {
+    "text": "PATH",
+    "url": "https://ss64.com/path.html",
+    "options": {
+      "sub": "Display or set a search path for executable files •"
+    },
+    "ctx_menu_items": null
+  },
+  "PATHPING": {
+    "text": "PATHPING",
+    "url": "https://ss64.com/pathping.html",
+    "options": {
+      "sub": "Trace route plus network latency and packet loss"
+    },
+    "ctx_menu_items": null
+  },
+  "PAUSE": {
+    "text": "PAUSE",
+    "url": "https://ss64.com/pause.html",
+    "options": {
+      "sub": "Suspend processing of a batch file •"
+    },
+    "ctx_menu_items": null
+  },
+  "PING": {
+    "text": "PING",
+    "url": "https://ss64.com/ping.html",
+    "options": {
+      "sub": "Test a network connection"
+    },
+    "ctx_menu_items": null
+  },
+  "PKTMON": {
+    "text": "PKTMON",
+    "url": "https://ss64.com/pktmon.html",
+    "options": {
+      "sub": "Monitor internal packet propagation and packet drop reports"
+    },
+    "ctx_menu_items": null
+  },
+  "PNPUTIL": {
+    "text": "PNPUTIL",
+    "url": "https://ss64.com/pnputil.html",
+    "options": {
+      "sub": "Plug and Play Utility"
+    },
+    "ctx_menu_items": null
+  },
+  "POPD": {
+    "text": "POPD",
+    "url": "https://ss64.com/popd.html",
+    "options": {
+      "sub": "Return to a previous directory saved by PUSHD •"
+    },
+    "ctx_menu_items": null
+  },
+  "PORTQRY": {
+    "text": "PORTQRY",
+    "url": "https://ss64.com/portqry.html",
+    "options": {
+      "sub": "Display the status of ports and services"
+    },
+    "ctx_menu_items": null
+  },
+  "POWERCFG": {
+    "text": "POWERCFG",
+    "url": "https://ss64.com/powercfg.html",
+    "options": {
+      "sub": "Configure power settings"
+    },
+    "ctx_menu_items": null
+  },
+  "PRINT": {
+    "text": "PRINT",
+    "url": "https://ss64.com/print.html",
+    "options": {
+      "sub": "Print a text file"
+    },
+    "ctx_menu_items": null
+  },
+  "PRINTBRM": {
+    "text": "PRINTBRM",
+    "url": "https://ss64.com/printbrm.html",
+    "options": {
+      "sub": "Print queue Backup/Recovery"
+    },
+    "ctx_menu_items": null
+  },
+  "PRNCNFG": {
+    "text": "PRNCNFG",
+    "url": "https://ss64.com/prncnfg.html",
+    "options": {
+      "sub": "Configure a printer"
+    },
+    "ctx_menu_items": null
+  },
+  "PRNDRVR": {
+    "text": "PRNDRVR",
+    "url": "https://ss64.com/prndrvr.html",
+    "options": {
+      "sub": "Add, delete or list print drivers."
+    },
+    "ctx_menu_items": null
+  },
+  "PRNJOBS": {
+    "text": "PRNJOBS",
+    "url": "https://ss64.com/prnjobs.html",
+    "options": {
+      "sub": "Pause, resume, cancel, or list print jobs."
+    },
+    "ctx_menu_items": null
+  },
+  "PRNMNGR": {
+    "text": "PRNMNGR",
+    "url": "https://ss64.com/prnmngr.html",
+    "options": {
+      "sub": "Add, delete, or list printer connections."
+    },
+    "ctx_menu_items": null
+  },
+  "PRNPORT": {
+    "text": "PRNPORT",
+    "url": "https://ss64.com/prnport.html",
+    "options": {
+      "sub": "Manage Printer Ports, change port configuration."
+    },
+    "ctx_menu_items": null
+  },
+  "PRNQCTL": {
+    "text": "PRNQCTL",
+    "url": "https://ss64.com/prnqctl.html",
+    "options": {
+      "sub": "Manage Print Queues, print a test page."
+    },
+    "ctx_menu_items": null
+  },
+  "ProcDump": {
+    "text": "ProcDump",
+    "url": "https://ss64.com/procdump.html",
+    "options": {
+      "sub": "Monitor an application for CPU spikes"
+    },
+    "ctx_menu_items": null
+  },
+  "PROMPT": {
+    "text": "PROMPT",
+    "url": "https://ss64.com/prompt.html",
+    "options": {
+      "sub": "Change the command prompt •"
+    },
+    "ctx_menu_items": null
+  },
+  "PsExec": {
+    "text": "PsExec",
+    "url": "https://ss64.com/psexec.html",
+    "options": {
+      "sub": "Execute process remotely"
+    },
+    "ctx_menu_items": null
+  },
+  "PsFile": {
+    "text": "PsFile",
+    "url": "https://ss64.com/psfile.html",
+    "options": {
+      "sub": "Show files opened remotely"
+    },
+    "ctx_menu_items": null
+  },
+  "PsGetSid": {
+    "text": "PsGetSid",
+    "url": "https://ss64.com/psgetsid.html",
+    "options": {
+      "sub": "Display the SID of a computer or a user"
+    },
+    "ctx_menu_items": null
+  },
+  "PsInfo": {
+    "text": "PsInfo",
+    "url": "https://ss64.com/psinfo.html",
+    "options": {
+      "sub": "List information about a system"
+    },
+    "ctx_menu_items": null
+  },
+  "PsKill": {
+    "text": "PsKill",
+    "url": "https://ss64.com/pskill.html",
+    "options": {
+      "sub": "Kill processes by name or process ID"
+    },
+    "ctx_menu_items": null
+  },
+  "PsList": {
+    "text": "PsList",
+    "url": "https://ss64.com/pslist.html",
+    "options": {
+      "sub": "List detailed information about processes"
+    },
+    "ctx_menu_items": null
+  },
+  "PsLoggedOn": {
+    "text": "PsLoggedOn",
+    "url": "https://ss64.com/psloggedon.html",
+    "options": {
+      "sub": "Who’s logged on (locally or via resource sharing)"
+    },
+    "ctx_menu_items": null
+  },
+  "PsLogList": {
+    "text": "PsLogList",
+    "url": "https://ss64.com/psloglist.html",
+    "options": {
+      "sub": "Event log records"
+    },
+    "ctx_menu_items": null
+  },
+  "PsPasswd": {
+    "text": "PsPasswd",
+    "url": "https://ss64.com/pspasswd.html",
+    "options": {
+      "sub": "Change account password"
+    },
+    "ctx_menu_items": null
+  },
+  "PsPing": {
+    "text": "PsPing",
+    "url": "https://ss64.com/psping.html",
+    "options": {
+      "sub": "Measure network performance"
+    },
+    "ctx_menu_items": null
+  },
+  "PsService": {
+    "text": "PsService",
+    "url": "https://ss64.com/psservice.html",
+    "options": {
+      "sub": "View and control services"
+    },
+    "ctx_menu_items": null
+  },
+  "PsShutdown": {
+    "text": "PsShutdown",
+    "url": "https://ss64.com/psshutdown.html",
+    "options": {
+      "sub": "Shutdown or reboot a computer"
+    },
+    "ctx_menu_items": null
+  },
+  "PsSuspend": {
+    "text": "PsSuspend",
+    "url": "https://ss64.com/pssuspend.html",
+    "options": {
+      "sub": "Suspend processes"
+    },
+    "ctx_menu_items": null
+  },
+  "PUSHD": {
+    "text": "PUSHD",
+    "url": "https://ss64.com/pushd.html",
+    "options": {
+      "sub": "Save and then change the current directory •"
+    },
+    "ctx_menu_items": null
+  },
+  "QPROCESS": {
+    "text": "QPROCESS",
+    "url": "https://ss64.com/query-process.html",
+    "options": {
+      "sub": "Query Process Display processes"
+    },
+    "ctx_menu_items": null
+  },
+  "QWinsta": {
+    "text": "QWinsta",
+    "url": "https://ss64.com/query-session.html",
+    "options": {
+      "sub": "Query Session Display all sessions (TS/Remote Desktop)"
+    },
+    "ctx_menu_items": null
+  },
+  "QAppSrv": {
+    "text": "QAppSrv",
+    "url": "https://ss64.com/query-termserver.html",
+    "options": {
+      "sub": "Query TermServer List all servers (TS/Remote Desktop)"
+    },
+    "ctx_menu_items": null
+  },
+  "QUSER": {
+    "text": "QUSER",
+    "url": "https://ss64.com/query-user.html",
+    "options": {
+      "sub": "Query User Display user sessions (TS/Remote Desktop)"
+    },
+    "ctx_menu_items": null
+  },
+  "RASDIAL": {
+    "text": "RASDIAL",
+    "url": "https://ss64.com/rasdial.html",
+    "options": {
+      "sub": "Manage RAS connections"
+    },
+    "ctx_menu_items": null
+  },
+  "RASPHONE": {
+    "text": "RASPHONE",
+    "url": "https://ss64.com/rasphone.html",
+    "options": {
+      "sub": "Manage RAS connections"
+    },
+    "ctx_menu_items": null
+  },
+  "RD": {
+    "text": "RD",
+    "url": "https://ss64.com/rd.html",
+    "options": {
+      "sub": "Delete a Directory •"
+    },
+    "ctx_menu_items": null
+  },
+  "REAgentC": {
+    "text": "REAgentC",
+    "url": "https://ss64.com/reagentc.html",
+    "options": {
+      "sub": "Configure WindowsRE and System Reset"
+    },
+    "ctx_menu_items": null
+  },
+  "RECOVER": {
+    "text": "RECOVER",
+    "url": "https://ss64.com/recover.html",
+    "options": {
+      "sub": "Recover a damaged file from a defective disk"
+    },
+    "ctx_menu_items": null
+  },
+  "REG": {
+    "text": "REG",
+    "url": "https://ss64.com/reg.html",
+    "options": {
+      "sub": "Registry: Read, Set, Export, Delete keys and values"
+    },
+    "ctx_menu_items": null
+  },
+  "REGEDIT": {
+    "text": "REGEDIT",
+    "url": "https://ss64.com/regedit.html",
+    "options": {
+      "sub": "Import or export registry settings"
+    },
+    "ctx_menu_items": null
+  },
+  "REGSVR32": {
+    "text": "REGSVR32",
+    "url": "https://ss64.com/regsvr32.html",
+    "options": {
+      "sub": "Register or unregister a DLL"
+    },
+    "ctx_menu_items": null
+  },
+  "REGINI": {
+    "text": "REGINI",
+    "url": "https://ss64.com/regini.html",
+    "options": {
+      "sub": "Change Registry Permissions"
+    },
+    "ctx_menu_items": null
+  },
+  "REM": {
+    "text": "REM",
+    "url": "https://ss64.com/rem.html",
+    "options": {
+      "sub": "Record comments (remarks) in a batch file •"
+    },
+    "ctx_menu_items": null
+  },
+  "REN": {
+    "text": "REN",
+    "url": "https://ss64.com/ren.html",
+    "options": {
+      "sub": "Rename a file or files •"
+    },
+    "ctx_menu_items": null
+  },
+  "REPLACE": {
+    "text": "REPLACE",
+    "url": "https://ss64.com/replace.html",
+    "options": {
+      "sub": "Replace or update one file with another"
+    },
+    "ctx_menu_items": null
+  },
+  "Reset Session": {
+    "text": "Reset Session",
+    "url": "https://ss64.com/reset-session.html",
+    "options": {
+      "sub": "Delete a Remote Desktop Session"
+    },
+    "ctx_menu_items": null
+  },
+  "RMDIR": {
+    "text": "RMDIR",
+    "url": "https://ss64.com/rd.html",
+    "options": {
+      "sub": "Delete a Directory •"
+    },
+    "ctx_menu_items": null
+  },
+  "RMTSHARE": {
+    "text": "RMTSHARE",
+    "url": "https://ss64.com/rmtshare.html",
+    "options": {
+      "sub": "Share a folder or a printer"
+    },
+    "ctx_menu_items": null
+  },
+  "ROBOCOPY": {
+    "text": "ROBOCOPY",
+    "url": "https://ss64.com/robocopy.html",
+    "options": {
+      "sub": "Robust File and Folder Copy"
+    },
+    "ctx_menu_items": null
+  },
+  "ROUTE": {
+    "text": "ROUTE",
+    "url": "https://ss64.com/route.html",
+    "options": {
+      "sub": "Manipulate network routing tables"
+    },
+    "ctx_menu_items": null
+  },
+  "RUN": {
+    "text": "RUN",
+    "url": "https://ss64.com/run.html",
+    "options": {
+      "sub": "Start | RUN commands"
+    },
+    "ctx_menu_items": null
+  },
+  "RUNAS": {
+    "text": "RUNAS",
+    "url": "https://ss64.com/runas.html",
+    "options": {
+      "sub": "Execute a program under a different user account"
+    },
+    "ctx_menu_items": null
+  },
+  "RUNDLL32": {
+    "text": "RUNDLL32",
+    "url": "https://ss64.com/rundll32.html",
+    "options": {
+      "sub": "Run a DLL command (add/remove print connections)"
+    },
+    "ctx_menu_items": null
+  },
+  "SC": {
+    "text": "SC",
+    "url": "https://ss64.com/sc.html",
+    "options": {
+      "sub": "Service Control"
+    },
+    "ctx_menu_items": null
+  },
+  "SCHTASKS": {
+    "text": "SCHTASKS",
+    "url": "https://ss64.com/schtasks.html",
+    "options": {
+      "sub": "Schedule a command to run at a specific time"
+    },
+    "ctx_menu_items": null
+  },
+  "ScriptRunner": {
+    "text": "ScriptRunner",
+    "url": "https://ss64.com/scriptrunner.html",
+    "options": {
+      "sub": "Run one or more scripts in sequence"
+    },
+    "ctx_menu_items": null
+  },
+  "SET": {
+    "text": "SET",
+    "url": "https://ss64.com/set.html",
+    "options": {
+      "sub": "Display, set, or remove session environment variables •"
+    },
+    "ctx_menu_items": null
+  },
+  "SETLOCAL": {
+    "text": "SETLOCAL",
+    "url": "https://ss64.com/setlocal.html",
+    "options": {
+      "sub": "Control the visibility of environment variables •"
+    },
+    "ctx_menu_items": null
+  },
+  "SetObjectSecurity": {
+    "text": "SetObjectSecurity",
+    "url": "https://ss64.com/setobjectsecurity.html",
+    "options": {
+      "sub": "Set  security  for  an object (file, directory, reg key etc)."
+    },
+    "ctx_menu_items": null
+  },
+  "SetSPN": {
+    "text": "SetSPN",
+    "url": "https://ss64.com/setspn.html",
+    "options": {
+      "sub": "Edit Service Principal Names"
+    },
+    "ctx_menu_items": null
+  },
+  "SETX": {
+    "text": "SETX",
+    "url": "https://ss64.com/setx.html",
+    "options": {
+      "sub": "Set environment variables"
+    },
+    "ctx_menu_items": null
+  },
+  "SFC": {
+    "text": "SFC",
+    "url": "https://ss64.com/sfc.html",
+    "options": {
+      "sub": "System File Checker"
+    },
+    "ctx_menu_items": null
+  },
+  "SHARE": {
+    "text": "SHARE",
+    "url": "https://ss64.com/share.html",
+    "options": {
+      "sub": "List or edit a file share or print share"
+    },
+    "ctx_menu_items": null
+  },
+  "ShellRunAs": {
+    "text": "ShellRunAs",
+    "url": "https://ss64.com/shellrunas.html",
+    "options": {
+      "sub": "Run a command under a different user account"
+    },
+    "ctx_menu_items": null
+  },
+  "SHIFT": {
+    "text": "SHIFT",
+    "url": "https://ss64.com/shift.html",
+    "options": {
+      "sub": "Shift the position of batch file parameters •"
+    },
+    "ctx_menu_items": null
+  },
+  "SHORTCUT": {
+    "text": "SHORTCUT",
+    "url": "https://ss64.com/shortcut.html",
+    "options": {
+      "sub": "Create a windows shortcut (.LNK file)"
+    },
+    "ctx_menu_items": null
+  },
+  "SHUTDOWN": {
+    "text": "SHUTDOWN",
+    "url": "https://ss64.com/shutdown.html",
+    "options": {
+      "sub": "Shutdown the computer"
+    },
+    "ctx_menu_items": null
+  },
+  "SIGCHECK": {
+    "text": "SIGCHECK",
+    "url": "https://ss64.com/sigcheck.html",
+    "options": {
+      "sub": "Display file version no. VirusTotal status & timestamp"
+    },
+    "ctx_menu_items": null
+  },
+  "SLMGR": {
+    "text": "SLMGR",
+    "url": "https://ss64.com/slmgr.html",
+    "options": {
+      "sub": "Software Licensing Management"
+    },
+    "ctx_menu_items": null
+  },
+  "SORT": {
+    "text": "SORT",
+    "url": "https://ss64.com/sort.html",
+    "options": {
+      "sub": "Sort input"
+    },
+    "ctx_menu_items": null
+  },
+  "SSH": {
+    "text": "SSH",
+    "url": "https://ss64.com/ssh.html",
+    "options": {
+      "sub": "OpenSSH remote login client"
+    },
+    "ctx_menu_items": null
+  },
+  "START": {
+    "text": "START",
+    "url": "https://ss64.com/start.html",
+    "options": {
+      "sub": "Start a program, command or batch file •"
+    },
+    "ctx_menu_items": null
+  },
+  "STREAMS": {
+    "text": "STREAMS",
+    "url": "https://ss64.com/streams.html",
+    "options": {
+      "sub": "List any Alternate Data  Streams (ADS) within a file or directory"
+    },
+    "ctx_menu_items": null
+  },
+  "STRINGS": {
+    "text": "STRINGS",
+    "url": "https://ss64.com/strings.html",
+    "options": {
+      "sub": "Search for ANSI and UNICODE strings in binary files"
+    },
+    "ctx_menu_items": null
+  },
+  "SUBINACL": {
+    "text": "SUBINACL",
+    "url": "https://ss64.com/subinacl.html",
+    "options": {
+      "sub": "Edit file and folder Permissions, Ownership and Domain"
+    },
+    "ctx_menu_items": null
+  },
+  "SUBST": {
+    "text": "SUBST",
+    "url": "https://ss64.com/subst.html",
+    "options": {
+      "sub": "Associate a path with a drive letter"
+    },
+    "ctx_menu_items": null
+  },
+  "SXSTRACE": {
+    "text": "SXSTRACE",
+    "url": "https://ss64.com/sxstrace.html",
+    "options": {
+      "sub": "Diagnose side-by-side problems"
+    },
+    "ctx_menu_items": null
+  },
+  "SYSMON": {
+    "text": "SYSMON",
+    "url": "https://ss64.com/sysmon.html",
+    "options": {
+      "sub": "Monitor and log system activity to the Windows event log"
+    },
+    "ctx_menu_items": null
+  },
+  "SYSTEMINFO": {
+    "text": "SYSTEMINFO",
+    "url": "https://ss64.com/systeminfo.html",
+    "options": {
+      "sub": "List system configuration"
+    },
+    "ctx_menu_items": null
+  },
+  "TAKEOWN": {
+    "text": "TAKEOWN",
+    "url": "https://ss64.com/takeown.html",
+    "options": {
+      "sub": "Take ownership of a file"
+    },
+    "ctx_menu_items": null
+  },
+  "TAR": {
+    "text": "TAR",
+    "url": "https://ss64.com/tar.html",
+    "options": {
+      "sub": "Store, list or extract files in an archive"
+    },
+    "ctx_menu_items": null
+  },
+  "TASKLIST": {
+    "text": "TASKLIST",
+    "url": "https://ss64.com/tasklist.html",
+    "options": {
+      "sub": "List running applications and services"
+    },
+    "ctx_menu_items": null
+  },
+  "TASKKILL": {
+    "text": "TASKKILL",
+    "url": "https://ss64.com/taskkill.html",
+    "options": {
+      "sub": "End a running process"
+    },
+    "ctx_menu_items": null
+  },
+  "TELNET": {
+    "text": "TELNET",
+    "url": "https://ss64.com/telnet.html",
+    "options": {
+      "sub": "Communicate with another host using the TELNET protocol"
+    },
+    "ctx_menu_items": null
+  },
+  "TIME": {
+    "text": "TIME",
+    "url": "https://ss64.com/time.html",
+    "options": {
+      "sub": "Display or set the system time •"
+    },
+    "ctx_menu_items": null
+  },
+  "TIMEOUT": {
+    "text": "TIMEOUT",
+    "url": "https://ss64.com/timeout.html",
+    "options": {
+      "sub": "Delay processing of a batch file/command"
+    },
+    "ctx_menu_items": null
+  },
+  "TITLE": {
+    "text": "TITLE",
+    "url": "https://ss64.com/title.html",
+    "options": {
+      "sub": "Set the window title for a CMD.EXE session •"
+    },
+    "ctx_menu_items": null
+  },
+  "TLIST": {
+    "text": "TLIST",
+    "url": "https://ss64.com/tlist.html",
+    "options": {
+      "sub": "Task list with full path"
+    },
+    "ctx_menu_items": null
+  },
+  "TOUCH": {
+    "text": "TOUCH",
+    "url": "https://ss64.com/touch.html",
+    "options": {
+      "sub": "Change file timestamps"
+    },
+    "ctx_menu_items": null
+  },
+  "TRACERT": {
+    "text": "TRACERT",
+    "url": "https://ss64.com/tracert.html",
+    "options": {
+      "sub": "Trace route to a remote host"
+    },
+    "ctx_menu_items": null
+  },
+  "TREE": {
+    "text": "TREE",
+    "url": "https://ss64.com/tree.html",
+    "options": {
+      "sub": "Graphical display of folder structure"
+    },
+    "ctx_menu_items": null
+  },
+  "TSDISCON": {
+    "text": "TSDISCON",
+    "url": "https://ss64.com/tsdiscon.html",
+    "options": {
+      "sub": "Disconnect a Remote Desktop Session"
+    },
+    "ctx_menu_items": null
+  },
+  "TSKILL": {
+    "text": "TSKILL",
+    "url": "https://ss64.com/tskill.html",
+    "options": {
+      "sub": "End a running process"
+    },
+    "ctx_menu_items": null
+  },
+  "TYPE": {
+    "text": "TYPE",
+    "url": "https://ss64.com/type.html",
+    "options": {
+      "sub": "Display the contents of a text file •"
+    },
+    "ctx_menu_items": null
+  },
+  "TypePerf": {
+    "text": "TypePerf",
+    "url": "https://ss64.com/typeperf.html",
+    "options": {
+      "sub": "Write Performance Monitor data to a log file"
+    },
+    "ctx_menu_items": null
+  },
+  "TZUTIL": {
+    "text": "TZUTIL",
+    "url": "https://ss64.com/tzutil.html",
+    "options": {
+      "sub": "Time Zone Utility"
+    },
+    "ctx_menu_items": null
+  },
+  "VBC": {
+    "text": "VBC",
+    "url": "https://ss64.com/vbc.html",
+    "options": {
+      "sub": "Visual Basic compiler"
+    },
+    "ctx_menu_items": null
+  },
+  "VER": {
+    "text": "VER",
+    "url": "https://ss64.com/ver.html",
+    "options": {
+      "sub": "Display version information •"
+    },
+    "ctx_menu_items": null
+  },
+  "VERIFY": {
+    "text": "VERIFY",
+    "url": "https://ss64.com/verify.html",
+    "options": {
+      "sub": "Verify that files have been saved •"
+    },
+    "ctx_menu_items": null
+  },
+  "VMConnect": {
+    "text": "VMConnect",
+    "url": "https://ss64.com/vmconnect.html",
+    "options": {
+      "sub": "Connect to a Hyper-V Virtual Machine"
+    },
+    "ctx_menu_items": null
+  },
+  "VOL": {
+    "text": "VOL",
+    "url": "https://ss64.com/vol.html",
+    "options": {
+      "sub": "Display a disk label •"
+    },
+    "ctx_menu_items": null
+  },
+  "VSSADMIN": {
+    "text": "VSSADMIN",
+    "url": "https://ss64.com/vssadmin.html",
+    "options": {
+      "sub": "Display volume shadow copy backups + writers/providers"
+    },
+    "ctx_menu_items": null
+  },
+  "W32TM": {
+    "text": "W32TM",
+    "url": "https://ss64.com/w32tm.html",
+    "options": {
+      "sub": "Time Service"
+    },
+    "ctx_menu_items": null
+  },
+  "WAITFOR": {
+    "text": "WAITFOR",
+    "url": "https://ss64.com/waitfor.html",
+    "options": {
+      "sub": "Wait for or send a signal"
+    },
+    "ctx_menu_items": null
+  },
+  "WBADMIN": {
+    "text": "WBADMIN",
+    "url": "https://ss64.com/wbadmin.html",
+    "options": {
+      "sub": "Windows Backup Admin"
+    },
+    "ctx_menu_items": null
+  },
+  "WECUTIL": {
+    "text": "WECUTIL",
+    "url": "https://ss64.com/wecutil.html",
+    "options": {
+      "sub": "Windows Event Collector Utility"
+    },
+    "ctx_menu_items": null
+  },
+  "WEVTUTIL": {
+    "text": "WEVTUTIL",
+    "url": "https://ss64.com/../nt/wevtutil.html",
+    "options": {
+      "sub": "Clear event logs, enable/disable/query logs"
+    },
+    "ctx_menu_items": null
+  },
+  "WHERE": {
+    "text": "WHERE",
+    "url": "https://ss64.com/where.html",
+    "options": {
+      "sub": "Locate and display files in a directory tree"
+    },
+    "ctx_menu_items": null
+  },
+  "WHOAMI": {
+    "text": "WHOAMI",
+    "url": "https://ss64.com/whoami.html",
+    "options": {
+      "sub": "Output the current UserName and domain"
+    },
+    "ctx_menu_items": null
+  },
+  "WHOIS": {
+    "text": "WHOIS",
+    "url": "https://ss64.com/whois.html",
+    "options": {
+      "sub": "Lookup the registration record for a domain"
+    },
+    "ctx_menu_items": null
+  },
+  "WINDIFF": {
+    "text": "WINDIFF",
+    "url": "https://ss64.com/windiff.html",
+    "options": {
+      "sub": "Compare the contents of two files or sets of files"
+    },
+    "ctx_menu_items": null
+  },
+  "WINGET": {
+    "text": "WINGET",
+    "url": "https://ss64.com/winget.html",
+    "options": {
+      "sub": "Windows Package Manager (coming May 2021)"
+    },
+    "ctx_menu_items": null
+  },
+  "WINMGMT": {
+    "text": "WINMGMT",
+    "url": "https://ss64.com/winmgmt.html",
+    "options": {
+      "sub": "Manage the  WMI service/WMI repository"
+    },
+    "ctx_menu_items": null
+  },
+  "WINRM": {
+    "text": "WINRM",
+    "url": "https://ss64.com/winrm.html",
+    "options": {
+      "sub": "Windows Remote Management"
+    },
+    "ctx_menu_items": null
+  },
+  "WINRS": {
+    "text": "WINRS",
+    "url": "https://ss64.com/winrs.html",
+    "options": {
+      "sub": "Windows Remote Shell"
+    },
+    "ctx_menu_items": null
+  },
+  "WMIC": {
+    "text": "WMIC",
+    "url": "https://ss64.com/wmic.html",
+    "options": {
+      "sub": "WMI Commands"
+    },
+    "ctx_menu_items": null
+  },
+  "WPEUTIL": {
+    "text": "WPEUTIL",
+    "url": "https://ss64.com/wpeutil.html",
+    "options": {
+      "sub": "Run Preinstallation Environment (WinPE) commands"
+    },
+    "ctx_menu_items": null
+  },
+  "WPR": {
+    "text": "WPR",
+    "url": "https://ss64.com/wpr.html",
+    "options": {
+      "sub": "Windows Performance Recorder"
+    },
+    "ctx_menu_items": null
+  },
+  "WT": {
+    "text": "WT",
+    "url": "https://ss64.com/wt.html",
+    "options": {
+      "sub": "Windows Terminal"
+    },
+    "ctx_menu_items": null
+  },
+  "WUSA": {
+    "text": "WUSA",
+    "url": "https://ss64.com/wusa.html",
+    "options": {
+      "sub": "Windows Update Standalone Installer"
+    },
+    "ctx_menu_items": null
+  },
+  "WUAUCLT": {
+    "text": "WUAUCLT",
+    "url": "https://ss64.com/wuauclt.html",
+    "options": {
+      "sub": "Windows Update"
+    },
+    "ctx_menu_items": null
+  },
+  "XCACLS": {
+    "text": "XCACLS",
+    "url": "https://ss64.com/xcacls.html",
+    "options": {
+      "sub": "Change file and folder permissions"
+    },
+    "ctx_menu_items": null
+  },
+  "XCOPY": {
+    "text": "XCOPY",
+    "url": "https://ss64.com/xcopy.html",
+    "options": {
+      "sub": "Copy files and folders"
+    },
+    "ctx_menu_items": null
+  },
+  "::": {
+    "text": "::",
+    "url": "https://ss64.com/rem.html",
+    "options": {
+      "sub": "Comment / Remark •"
+    },
+    "ctx_menu_items": null
+  }
+}
