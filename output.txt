@@ -1,1 +1,0 @@
-error: No `project` table found in: `/home/runner/work/Rtfm-Indexes/Rtfm-Indexes/pyproject.toml`
