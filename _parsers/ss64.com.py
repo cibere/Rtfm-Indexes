@@ -14,7 +14,12 @@ import requests
 from _base import BaseSyncParser, Entry
 
 
-class SS64Parser(BaseSyncParser, file=__file__, base_url="https://ss64.com/{SUF}", favicon="https://ss64.com/favicon.svg"):
+class SS64Parser(
+    BaseSyncParser,
+    file=__file__,
+    base_url="https://ss64.com/{SUF}",
+    favicon="https://ss64.com/favicon.svg",
+):
     soup: bs4.BeautifulSoup
 
     def __init__(self) -> None:

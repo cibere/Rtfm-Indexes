@@ -13,7 +13,7 @@ import re
 
 import bs4
 import requests
-from _base import BaseSyncParser, UrlStr
+from _base import BaseSyncParser
 from msgspec import Struct, json
 
 
@@ -33,7 +33,12 @@ THEME_FILE_PARSER_PATTERN = re.compile(r"([^\"]+VPLocalSearchBox[^\"]+)")
 SEARCHBOX_FILE_PARSER_PATTERN = re.compile(r"([^\"]+localSearchIndexroot[^\"]+)")
 
 
-class QmkDocs(BaseSyncParser, file=__file__, favicon="https://docs.qmk.fm/favicon.ico", base_url="https://docs.qmk.fm"):
+class QmkDocs(
+    BaseSyncParser,
+    file=__file__,
+    favicon="https://docs.qmk.fm/favicon.ico",
+    base_url="https://docs.qmk.fm",
+):
     def qmk_get_theme(self, text: bytes) -> list[str]:
         soup = bs4.BeautifulSoup(text.decode(), "html.parser")
         return [

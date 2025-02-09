@@ -20,7 +20,11 @@ if TYPE_CHECKING:
 
 
 class LuaParser(
-    BaseSyncParser, file=__file__, suffix="5.4", base_url="https://www.lua.org/manual/5.4/", favicon_url="https://www.lua.org/favicon.ico"
+    BaseSyncParser,
+    file=__file__,
+    suffix="5.4",
+    base_url="https://www.lua.org/manual/5.4/",
+    favicon_url="https://www.lua.org/favicon.ico",
 ):
     soup: bs4.BeautifulSoup
 

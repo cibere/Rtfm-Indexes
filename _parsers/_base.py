@@ -8,11 +8,12 @@
 from __future__ import annotations
 
 import asyncio
+import sys
 from collections.abc import Mapping
 from pathlib import Path
-from typing import TYPE_CHECKING, Any, ClassVar, Self, TypeVar, overload
+from typing import TYPE_CHECKING, Any, ClassVar, Literal, Self, TypeVar, overload
 
-from msgspec import Struct, json
+from msgspec import Struct, json, msgpack
 
 if TYPE_CHECKING:
     from types import TracebackType
@@ -37,6 +38,7 @@ class ParsedIndex(Struct):
     cache: Cache
     name: str
     favicon_url: str | None
+    version: str = "2.0"
 
 
 class _BaseParser[KwargsT]:
@@ -82,20 +84,37 @@ class _BaseParser[KwargsT]:
 
         return serialized
 
-    def _save(self, cache: Cache) -> None:
+    def _get_encoding(self) -> Literal["json", "msgpack"]:
+        try:
+            return "json" if sys.argv[-2] == "--json" else "msgpack"
+        except IndexError:
+            return "msgpack"
+
+    def _save(
+        self, cache: Cache, encoding: Literal["json", "msgpack"] | None = None
+    ) -> None:
+        encoding = encoding or self._get_encoding()
+
         metadata = ParsedIndex(self.serialize_cache(cache), self.name, self.favicon_url)
-        file = indexes_dir / f"{self.name}.json"
-        print(file, f"{self.name}.json")
-        file.write_bytes(
-            json.format(
-                json.encode(
-                    metadata,
-                    enc_hook=lambda obj: str(obj)
-                    if isinstance(obj, UrlStr)
-                    else repr(obj),
+        file = indexes_dir / f"{self.name}.{encoding}"
+        print(file, f"{self.name}.{encoding}")
+
+        def enc_hook(obj: Any) -> Any:
+            if isinstance(obj, UrlStr):
+                return str(obj)
+            return repr(obj)
+
+        if encoding == "json":
+            file.write_bytes(
+                json.format(
+                    json.encode(
+                        metadata,
+                        enc_hook=enc_hook,
+                    )
                 )
             )
-        )
+        else:
+            file.write_bytes(msgpack.encode(metadata, enc_hook=enc_hook))
         print(f"Wrote to {file}")
 
     def __truediv__(self, piece: Any) -> UrlStr:

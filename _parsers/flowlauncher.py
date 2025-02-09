@@ -14,7 +14,10 @@ from _base import BaseSyncParser
 
 
 class FlowLauncherParser(
-    BaseSyncParser, file=__file__, base_url="https://www.flowlauncher.com/docs", favicon_url="https://www.flowlauncher.com/public/favicon.ico"
+    BaseSyncParser,
+    file=__file__,
+    base_url="https://www.flowlauncher.com/docs",
+    favicon_url="https://www.flowlauncher.com/public/favicon.ico",
 ):
     def build_cache(self) -> dict[str, str]:
         raw_content = requests.get(self / "_sidebar.md", timeout=10).content
