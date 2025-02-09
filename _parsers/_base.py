@@ -34,9 +34,19 @@ class UrlStr(str):
 
 
 class _BaseParser[KwargsT]:
-    name: ClassVar[str]
-    suffix: str | None
-    base_url: UrlStr | None
+    suffix: ClassVar[str | None]
+    file: ClassVar[str]
+    _raw_base_url: ClassVar[str]
+
+    @property
+    def base_url(self) -> UrlStr | None:
+        return UrlStr(self._raw_base_url.replace("{SUF}", getattr(self, "suffix", "")))
+
+    @property
+    def name(self) -> str:
+        return Path(self.file).name.removesuffix(".py") + (
+            f"-{self.suffix}" if getattr(self, "suffix", None) else ""
+        )
 
     @overload
     def __init_subclass__(
@@ -48,27 +58,8 @@ class _BaseParser[KwargsT]:
     def __init_subclass__(cls, **kwargs: KwargsT) -> None: ...
 
     def __init_subclass__(cls, **kwargs) -> None:
-        file = kwargs.pop("file", None)
-        suffix = kwargs.get("suffix")
-        name = None
-
-        if file:
-            path = Path(file)
-            name = path.name.removesuffix(".py")
-        else:
-            name = getattr(cls, "name", None)
-
-        if suffix:
-            if name:
-                name += f"-{suffix}"
-            if cls.base_url:
-                cls.base_url = UrlStr(cls.base_url.replace("{SUF}", suffix))
-
-        if name:
-            cls.name = name
-
         if "base_url" in kwargs:
-            kwargs["base_url"] = UrlStr(kwargs["base_url"])
+            kwargs["_raw_base_url"] = kwargs.pop("base_url")
 
         for key, value in kwargs.items():
             setattr(cls, key, value)
@@ -86,6 +77,7 @@ class _BaseParser[KwargsT]:
 
     def _save(self, cache: Cache) -> None:
         file = indexes_dir / f"{self.name}.json"
+        print(file, f"{self.name}.json")
         file.write_bytes(
             json.format(
                 json.encode(
