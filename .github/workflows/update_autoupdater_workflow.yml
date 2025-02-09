@@ -18,7 +18,7 @@ jobs:
 
         git pull
 
-        git add indexes
+        git add .
 
         git -c user.name="github-actions[bot]" -c user.email="41898282+github-actions[bot]@users.noreply.github.com"
         commit --author="cibere <71997063+cibere@users.noreply.github.com>" -m "Auto Update AutoUpdater Workflow"
