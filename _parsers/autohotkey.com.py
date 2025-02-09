@@ -27,11 +27,11 @@ decoder = json.Decoder()
 class AutoHotkeyParser(
     BaseSyncParser,
     file=__file__,
-    base_url="https://autohotkey.com/docs/v{SUF}",
+    base_url="https://autohotkey.com/docs/v{VAR}",
     favicon_url="https://www.autohotkey.com/favicon.ico",
 ):
     def fetch_index(self) -> dict[str, str]:
-        url = DATA_INDEX_URL.format(self.suffix)
+        url = DATA_INDEX_URL.format(self.variant)
         raw_content = requests.get(url, timeout=10).content
 
         content = (
@@ -51,7 +51,7 @@ class AutoHotkeyParser(
                     yield f"{key} - {entry[0]}", value
 
     def fetch_toc(self) -> dict[str, str]:
-        url = DATA_TOC_URL.format(self.suffix)
+        url = DATA_TOC_URL.format(self.variant)
         raw_content = requests.get(url, timeout=10).content
 
         content = (
@@ -66,12 +66,5 @@ class AutoHotkeyParser(
         return self.fetch_index() | self.fetch_toc()
 
 
-class AutoHotkeyV2(AutoHotkeyParser, suffix="2"): ...
-
-
-class AutoHotkeyV1(AutoHotkeyParser, suffix="1"): ...
-
-
 if __name__ == "__main__":
-    AutoHotkeyV1.build()
-    AutoHotkeyV2.build()
+    AutoHotkeyParser.build("1", "2")

@@ -8,7 +8,7 @@
 from __future__ import annotations
 
 import asyncio
-from collections.abc import Mapping
+from collections.abc import Iterable, Mapping
 from pathlib import Path
 from typing import TYPE_CHECKING, Any, ClassVar, Self, TypeVar, overload
 
@@ -35,33 +35,36 @@ class UrlStr(str):
         return UrlStr(self.rstrip("/") + "/" + other.lstrip("/"))
 
 
-class ParsedIndex(Struct):
+class ParsedIndex(Struct, tag="index"):
     cache: Cache
     name: str
     favicon_url: str | None
     version: str = "2.0"
 
 
+class VariantManifest(Struct, tag="variant-manifest"):
+    variants: Iterable[str]
+    version: str = "2.0"
+
+
 class _BaseParser[KwargsT]:
-    suffix: ClassVar[str | None] = None
+    variant: ClassVar[str | None] = None
     file: ClassVar[str]
     _raw_base_url: ClassVar[str]
     favicon_url: ClassVar[str | None] = None
 
     @property
     def base_url(self) -> UrlStr:
-        return UrlStr(self._raw_base_url.replace("{SUF}", self.suffix or ""))
+        return UrlStr(self._raw_base_url.replace("{VAR}", self.variant or ""))
+
+    @property
+    def _filename(self) -> str:
+        return Path(self.file).name.removesuffix(".py")
 
     @property
     def name(self) -> str:
-        return Path(self.file).name.removesuffix(".py") + (
-            f"-{self.suffix}" if self.suffix else ""
-        )
+        return self._filename + (f"-{self.variant}" if self.variant else "")
 
-    @overload
-    def __init_subclass__(
-        cls, *, file: str, suffix: str, **kwargs: KwargsT
-    ) -> None: ...
     @overload
     def __init_subclass__(cls, *, file: str, **kwargs: KwargsT) -> None: ...
     @overload
@@ -85,21 +88,42 @@ class _BaseParser[KwargsT]:
 
         return serialized
 
-    def _save(self, cache: Cache) -> None:
+    def save(self, cache: Cache) -> None:
         metadata = ParsedIndex(self.serialize_cache(cache), self.name, self.favicon_url)
-        file = indexes_dir / f"{self.name}.{FILE_EXT}"
-        print(file, f"{self.name}.{FILE_EXT}")
+        return self._save(metadata, self.name)
+
+    @classmethod
+    def _save(cls, data: Struct, filename: str) -> None:
+        file = indexes_dir / f"{filename}.{FILE_EXT}"
 
         def enc_hook(obj: Any) -> Any:
             if isinstance(obj, UrlStr):
                 return str(obj)
             return repr(obj)
 
-        file.write_bytes(msgpack.encode(metadata, enc_hook=enc_hook))
+        file.write_bytes(msgpack.encode(data, enc_hook=enc_hook))
         print(f"Wrote to {file}")
 
     def __truediv__(self, piece: Any) -> UrlStr:
         return self.base_url / str(piece) if self.base_url else UrlStr(piece)
+
+    def _runner(self) -> None:
+        raise NotImplementedError
+
+    @classmethod
+    def build(cls, *variations: str) -> None:
+        if not variations:
+            return cls()._runner()
+
+        self = None
+        for variant in variations:
+            cls.variant = variant
+            self = cls()
+            self._runner()
+
+        if self:
+            data = VariantManifest(variations)
+            self._save(data, self._filename)
 
 
 class BaseAsyncParser[KwargsT](_BaseParser[KwargsT]):
@@ -108,11 +132,10 @@ class BaseAsyncParser[KwargsT](_BaseParser[KwargsT]):
 
     async def start(self) -> None:
         async with self:
-            self._save(await self.build_cache())
+            self.save(await self.build_cache())
 
-    @classmethod
-    def build(cls) -> None:
-        asyncio.run(cls().start())
+    def _runner(self) -> None:
+        asyncio.run(self.start())
 
     async def __aenter__(self) -> Self:
         return self
@@ -132,11 +155,10 @@ class BaseSyncParser[KwargsT](_BaseParser[KwargsT]):
 
     def start(self) -> None:
         with self:
-            self._save(self.build_cache())
+            self.save(self.build_cache())
 
-    @classmethod
-    def build(cls) -> None:
-        cls().start()
+    def _runner(self) -> None:
+        self.start()
 
     def __enter__(self) -> Self:
         return self

@@ -22,21 +22,18 @@ class MpvIoParser(
     BaseSyncParser,
     file=__file__,
     favicon_url="https://mpv.io/images/favicon-5d3b2a52.png",
+    base_url="https://mpv.io/manual/{VAR}",
 ):
     browser: webdriver.Firefox
 
     def __init__(self) -> None:
         self.cache = {}
 
-    @property
-    def url(self) -> str:
-        return f"https://mpv.io/manual/{self.suffix}"
-
     def __enter__(self) -> Self:
         options = Options()
         options.add_argument("--headless")
         self.browser = webdriver.Firefox(options=options)
-        self.browser.get(self.url)
+        self.browser.get(self.base_url)
         return self
 
     def __exit__(
@@ -83,12 +80,5 @@ class MpvIoParser(
         return self.cache
 
 
-class MasterMpvIoParser(MpvIoParser, suffix="master"): ...
-
-
-class StableMpvIoParser(MpvIoParser, suffix="stable"): ...
-
-
 if __name__ == "__main__":
-    MasterMpvIoParser.build()
-    StableMpvIoParser.build()
+    MpvIoParser.build("master", "stable")

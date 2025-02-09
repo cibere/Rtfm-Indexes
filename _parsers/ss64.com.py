@@ -17,7 +17,7 @@ from _base import BaseSyncParser, Entry
 class SS64Parser(
     BaseSyncParser,
     file=__file__,
-    base_url="https://ss64.com/{SUF}",
+    base_url="https://ss64.com/{VAR}",
     favicon="https://ss64.com/favicon.svg",
 ):
     soup: bs4.BeautifulSoup
@@ -27,7 +27,7 @@ class SS64Parser(
 
     @property
     def is_powershell(self) -> bool:
-        return self.suffix == "ps"
+        return self.variant == "ps"
 
     def build_cache(self) -> dict[str, str | Entry]:
         res = requests.get(self.base_url, timeout=10)
@@ -85,20 +85,5 @@ class SS64Parser(
         return self.cache
 
 
-class SS64MacParser(SS64Parser, suffix="mac"): ...
-
-
-class SS64BashParser(SS64Parser, suffix="bash"): ...
-
-
-class SS64NTParser(SS64Parser, suffix="nt"): ...
-
-
-class SS64PSParser(SS64Parser, suffix="ps"): ...
-
-
 if __name__ == "__main__":
-    SS64MacParser.build()
-    SS64BashParser.build()
-    SS64NTParser.build()
-    SS64PSParser.build()
+    SS64Parser.build("mac", "bash", "nt", "ps")
