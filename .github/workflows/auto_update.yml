@@ -60,12 +60,6 @@ jobs:
       with:
         error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
         filename: docs.qmk.fm
-    - if: ${{ inputs.parser == 'all' || inputs.parser == 'failure' }}
-      name: index failure
-      uses: cibere/Rtfm-Indexes@run-parser-action
-      with:
-        error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
-        filename: failure
     - continue-on-error: true
       name: Push Changes
       run: 'git fetch
@@ -99,6 +93,5 @@ name: Auto Update
         - lua
         - ss64.com
         - docs.qmk.fm
-        - failure
         required: false
         type: choice
