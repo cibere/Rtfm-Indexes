@@ -16,7 +16,7 @@ def dump_indexes(indexes: Callable[[], Indexes]) -> None:
     filename = indexes.__module__.split(".")[0]
 
     for name, index in indexes().items():
-        file = indexes_dir / f"{filename}{f'-{name}' if name else ''}.json"
+        file = indexes_dir / f"{filename.replace("_", ".")}{f'-{name}' if name else ''}.json"
         file.write_text(json.dumps(index, indent=4))
 
 
