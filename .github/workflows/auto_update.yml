@@ -1,43 +1,94 @@
-name: Auto Update
-
-on:
-  workflow_dispatch:
-    inputs:
-      parser:
-        description: 'the parser to run'
-        required: false
-        type: string
-        default: "all"
-  schedule:
-    - cron: "23 23 * * *"
-
-
 jobs:
   update:
     runs-on: ubuntu-latest
-
     steps:
-      - uses: actions/checkout@v4
+    - uses: actions/checkout@v4
+    - if: ${{ inputs.parser == 'all' || inputs.parser == 'autohotkey.com' }}
+      name: index autohotkey.com
+      uses: cibere/Rtfm-Indexes@run-parser-action
+      with:
+        error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
+        filename: autohotkey.com
+    - if: ${{ inputs.parser == 'all' || inputs.parser == 'developer.mozilla.org' }}
+      name: index developer.mozilla.org
+      uses: cibere/Rtfm-Indexes@run-parser-action
+      with:
+        error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
+        filename: developer.mozilla.org
+    - if: ${{ inputs.parser == 'all' || inputs.parser == 'docs.datasecurity.org' }}
+      name: index docs.datasecurity.org
+      uses: cibere/Rtfm-Indexes@run-parser-action
+      with:
+        error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
+        filename: docs.datasecurity.org
+    - if: ${{ inputs.parser == 'all' || inputs.parser == 'docs.qmk.fm' }}
+      name: index docs.qmk.fm
+      uses: cibere/Rtfm-Indexes@run-parser-action
+      with:
+        error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
+        filename: docs.qmk.fm
+    - if: ${{ inputs.parser == 'all' || inputs.parser == 'flowlauncher' }}
+      name: index flowlauncher
+      uses: cibere/Rtfm-Indexes@run-parser-action
+      with:
+        error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
+        filename: flowlauncher
+    - if: ${{ inputs.parser == 'all' || inputs.parser == 'lua' }}
+      name: index lua
+      uses: cibere/Rtfm-Indexes@run-parser-action
+      with:
+        error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
+        filename: lua
+    - if: ${{ inputs.parser == 'all' || inputs.parser == 'mpv.io' }}
+      name: index mpv.io
+      uses: cibere/Rtfm-Indexes@run-parser-action
+      with:
+        error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
+        filename: mpv.io
+    - if: ${{ inputs.parser == 'all' || inputs.parser == 'ss64.com' }}
+      name: index ss64.com
+      uses: cibere/Rtfm-Indexes@run-parser-action
+      with:
+        error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
+        filename: ss64.com
+    - if: ${{ inputs.parser == 'all' || inputs.parser == 'voidtools.com' }}
+      name: index voidtools.com
+      uses: cibere/Rtfm-Indexes@run-parser-action
+      with:
+        error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
+        filename: voidtools.com
+    - continue-on-error: true
+      name: Push Changes
+      run: 'git fetch
 
-      - name: index voidtools
-        if: ${{ inputs.parser == 'all' || inputs.parser == 'voidtools' }}
-        uses: cibere/Rtfm-Indexes@run-parser-action
-        with:
-          filename: voidtools.com
-          error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
+        git pull
 
-      - name: index mdn
-        if: ${{ inputs.parser == 'all' || inputs.parser == 'mdn' }}
-        uses: cibere/Rtfm-Indexes@run-parser-action
-        with:
-          filename: developer.mozilla.org
-          error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
+        git add indexes
 
-      - name: Push Changes
-        continue-on-error: true
-        run: |
-          git fetch
-          git pull
-          git add indexes
-          git -c user.name="github-actions[bot]" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" commit --author="cibere <71997063+cibere@users.noreply.github.com>" -m "Auto Update Indexes"
-          git push
+        git -c user.name="github-actions[bot]" -c user.email="41898282+github-actions[bot]@users.noreply.github.com"
+        commit --author="cibere <71997063+cibere@users.noreply.github.com>" -m "Auto
+        Update Indexes"
+
+        git push'
+name: Auto Update
+'on':
+  schedule:
+  - cron: 23 23 * * *
+  workflow_dispatch:
+    inputs:
+      parser:
+        default: all
+        description: the parser to run
+        options:
+        - all
+        - autohotkey.com
+        - developer.mozilla.org
+        - docs.datasecurity.org
+        - docs.qmk.fm
+        - flowlauncher
+        - lua
+        - mpv.io
+        - ss64.com
+        - voidtools.com
+        required: false
+        type: choice
