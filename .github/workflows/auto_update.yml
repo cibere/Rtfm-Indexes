@@ -27,6 +27,12 @@ jobs:
       with:
         error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
         filename: docs.qmk.fm
+    - if: ${{ inputs.parser == 'all' || inputs.parser == 'failure' }}
+      name: index failure
+      uses: cibere/Rtfm-Indexes@run-parser-action
+      with:
+        error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
+        filename: failure
     - if: ${{ inputs.parser == 'all' || inputs.parser == 'flowlauncher' }}
       name: index flowlauncher
       uses: cibere/Rtfm-Indexes@run-parser-action
@@ -85,6 +91,7 @@ name: Auto Update
         - developer.mozilla.org
         - docs.datasecurity.org
         - docs.qmk.fm
+        - failure
         - flowlauncher
         - lua
         - mpv.io
