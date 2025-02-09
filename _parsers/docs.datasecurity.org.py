@@ -33,7 +33,7 @@ decoder = json.Decoder(type=Response)
 
 
 class DataSecurityDocs(
-    BaseSyncParser, file=__file__, base_url="https://docs.datasecurity.org"
+    BaseSyncParser, file=__file__, base_url="https://docs.datasecurity.org", favicon_url="https://docs.datasecurity.org/images/favicon.png"
 ):
     def build_entries(
         self, headers: list[HeaderEntry], parents: list[str] | None = None

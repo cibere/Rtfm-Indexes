@@ -46,7 +46,7 @@ class _BaseParser[KwargsT]:
     favicon_url: ClassVar[str | None] = None
 
     @property
-    def base_url(self) -> UrlStr | None:
+    def base_url(self) -> UrlStr:
         return UrlStr(self._raw_base_url.replace("{SUF}", self.suffix or ""))
 
     @property

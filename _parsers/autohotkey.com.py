@@ -25,7 +25,7 @@ decoder = json.Decoder()
 
 
 class AutoHotkeyParser(
-    BaseSyncParser, file=__file__, base_url="https://autohotkey.com/docs/v{SUF}"
+    BaseSyncParser, file=__file__, base_url="https://autohotkey.com/docs/v{SUF}", favicon_url="https://www.autohotkey.com/favicon.ico"
 ):
     def fetch_index(self) -> dict[str, str]:
         url = DATA_INDEX_URL.format(self.suffix)

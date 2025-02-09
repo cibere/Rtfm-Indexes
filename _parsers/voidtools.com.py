@@ -30,7 +30,7 @@ def _remove_all_instances(iter: list[T], value: T) -> list[T]:
 
 
 class VoidToolsParser(
-    BaseAsyncParser, file=__file__, base_url="https://www.voidtools.com"
+    BaseAsyncParser, file=__file__, base_url="https://www.voidtools.com", favicon_url="https://www.voidtools.com/favicon.ico"
 ):
     session: ClientSession
     cache: dict[str, str]

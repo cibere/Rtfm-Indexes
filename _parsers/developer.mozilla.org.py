@@ -22,7 +22,7 @@ doc_entry_decoder = json.Decoder(type=list[DocEntry])
 
 
 class MdnParser(
-    BaseSyncParser, file=__file__, base_url="https://developer.mozilla.org"
+    BaseSyncParser, file=__file__, base_url="https://developer.mozilla.org", favicon_url="https://developer.mozilla.org/favicon.ico"
 ):
     def build_cache(self) -> Cache:
         raw_content = requests.get(

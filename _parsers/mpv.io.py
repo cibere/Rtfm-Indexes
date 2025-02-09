@@ -18,7 +18,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.firefox.options import Options
 
 
-class MpvIoParser(BaseSyncParser, file=__file__):
+class MpvIoParser(BaseSyncParser, file=__file__, favicon_url="https://mpv.io/images/favicon-5d3b2a52.png"):
     browser: webdriver.Firefox
 
     def __init__(self) -> None:
