@@ -17,10 +17,19 @@ runs:
       id: runner
       shell: bash
       run: |
-        uv run _parsers/${{ inputs.filename }}.py &> output.txt || true
-        echo "output_file_name=output.txt" >> $GITHUB_OUTPUT
-        cat output.txt
+        uv run _parsers/${{ inputs.filename }}.py
     
+    - name: Print Runner Outcome
+      run: echo ${{ steps.runner.outcome }}
+    
+    - name: Write output to file
+      if: ${{ steps.runner.outcome == 'failure' }}
+      uses: DamianReeves/write-file-action@master
+      with:
+        path: output.txt
+        contents: ${{ steps.runner.output }}
+        write-mode: override
+          
     - name: Handle Error
       if: ${{ steps.runner.outcome == 'failure' }}
       uses: tsickert/discord-webhook@v6.0.0
