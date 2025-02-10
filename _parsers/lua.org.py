@@ -22,8 +22,7 @@ if TYPE_CHECKING:
 class LuaParser(
     BaseSyncParser,
     file=__file__,
-    variant="5.4",
-    base_url="https://www.lua.org/manual/5.4/",
+    base_url="https://www.lua.org/manual/{VAR}",
     favicon_url="https://www.lua.org/favicon.ico",
 ):
     soup: bs4.BeautifulSoup
@@ -61,4 +60,4 @@ class LuaParser(
 
 
 if __name__ == "__main__":
-    LuaParser().build()
+    LuaParser.build("5.4")
