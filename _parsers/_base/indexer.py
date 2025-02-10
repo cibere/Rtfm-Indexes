@@ -1,7 +1,7 @@
 from __future__ import annotations
 
 from pathlib import Path
-from typing import Any, ClassVar, overload
+from typing import Any, ClassVar
 
 from msgspec import Struct, msgpack
 
