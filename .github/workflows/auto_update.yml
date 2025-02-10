@@ -48,6 +48,12 @@ jobs:
       with:
         error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
         filename: mpv.io
+    - if: ${{ inputs.parser == 'all' || inputs.parser == 'discord.sex' }}
+      name: index discord.sex
+      uses: cibere/Rtfm-Indexes@run-parser-action
+      with:
+        error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
+        filename: discord.sex
     - if: ${{ inputs.parser == 'all' || inputs.parser == 'discord.dev' }}
       name: index discord.dev
       uses: cibere/Rtfm-Indexes@run-parser-action
@@ -109,6 +115,7 @@ name: Auto Update
         - docs.datasecurity.org
         - developer.mozilla.org
         - mpv.io
+        - discord.sex
         - discord.dev
         - ss64.com
         - tom-select.js.org
