@@ -14,12 +14,7 @@ class BaseIndexer[KwargsT]:
     file: ClassVar[str]
     favicon_url: ClassVar[str | None] = None
 
-    @overload
-    def __init_subclass__(cls, *, file: str, **kwargs: KwargsT) -> None: ...
-    @overload
-    def __init_subclass__(cls, **kwargs: KwargsT) -> None: ...
-
-    def __init_subclass__(cls, **kwargs) -> None:
+    def __init_subclass__(cls, **kwargs: KwargsT) -> None:
         if "base_url" in kwargs:
             kwargs["_raw_base_url"] = kwargs.pop("base_url")
 
