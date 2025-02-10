@@ -41,5 +41,4 @@ class FlowLauncherParser(
         return cache
 
 
-if __name__ == "__main__":
-    FlowLauncherParser.build()
+FlowLauncherParser.build(__name__)

@@ -119,5 +119,4 @@ class VoidToolsParser(
         return False
 
 
-if __name__ == "__main__":
-    VoidToolsParser.build()
+VoidToolsParser.build(__name__)

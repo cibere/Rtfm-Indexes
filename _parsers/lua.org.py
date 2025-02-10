@@ -59,5 +59,4 @@ class LuaParser(
         return self.cache
 
 
-if __name__ == "__main__":
-    LuaParser.build("5.4")
+LuaParser.build(__name__, "5.4")

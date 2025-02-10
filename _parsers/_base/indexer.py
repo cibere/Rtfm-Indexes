@@ -50,7 +50,14 @@ class BaseIndexer[KwargsT]:
         raise NotImplementedError
 
     @classmethod
-    def build(cls, *variations: str) -> None:
+    def build(cls, name: str, *variations: str) -> None:
+        if name != "__main__":
+            if not name.startswith("__CIDEX_FILENAME_OVERRIDE:"):
+                return
+            cls.file = name.removeprefix("__CIDEX_FILENAME_OVERRIDE:").removesuffix(
+                "__"
+            )
+
         if not variations:
             return cls()._runner()
 

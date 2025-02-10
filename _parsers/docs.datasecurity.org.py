@@ -71,5 +71,4 @@ class DataSecurityDocs(
         return self.build_entries(data.headers)
 
 
-if __name__ == "__main__":
-    DataSecurityDocs.build()
+DataSecurityDocs.build(__name__)

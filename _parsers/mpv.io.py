@@ -80,5 +80,4 @@ class MpvIoParser(
         return self.cache
 
 
-if __name__ == "__main__":
-    MpvIoParser.build("master", "stable")
+MpvIoParser.build(__name__, "master", "stable")

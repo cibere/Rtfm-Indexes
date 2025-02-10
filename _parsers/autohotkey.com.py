@@ -66,5 +66,4 @@ class AutoHotkeyParser(
         return self.fetch_index() | self.fetch_toc()
 
 
-if __name__ == "__main__":
-    AutoHotkeyParser.build("1", "2")
+AutoHotkeyParser.build(__name__, "1", "2")

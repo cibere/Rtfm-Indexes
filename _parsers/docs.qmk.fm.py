@@ -94,5 +94,4 @@ class QmkDocs(
         raise RuntimeError("Unable to find qmk index")
 
 
-if __name__ == "__main__":
-    QmkDocs.build()
+QmkDocs.build(__name__)

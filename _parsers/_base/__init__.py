@@ -4,3 +4,4 @@ from .api import BaseAPI as BaseAPI
 from .parser import BaseAsyncParser as BaseAsyncParser
 from .parser import BaseSyncParser as BaseSyncParser
 from .structs import Entry as Entry
+from .utils import alias as alias

@@ -85,5 +85,4 @@ class SS64Parser(
         return self.cache
 
 
-if __name__ == "__main__":
-    SS64Parser.build("mac", "bash", "nt", "ps")
+SS64Parser.build(__name__, "mac", "bash", "nt", "ps")

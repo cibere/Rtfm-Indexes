@@ -20,5 +20,4 @@ class TomSelectJs(
         return {"params": "query=te&hitsPerPage=20", "indexName": "tom-select"}
 
 
-if __name__ == "__main__":
-    TomSelectJs.build()
+TomSelectJs.build(__name__)
