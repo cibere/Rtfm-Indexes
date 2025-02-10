@@ -21,7 +21,7 @@ class BaseAPI(BaseIndexer):
             name=self.name,
             favicon_url=self.favicon_url,
             url=self.url,
-            api_type="Algolia",
+            api_type=self.api_type,
             headers=self.get_headers(),
             options=self.get_options(),
         )
