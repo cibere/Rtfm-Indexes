@@ -6,18 +6,24 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
+    - if: ${{ inputs.parser == 'all' || inputs.parser == 'lua.org' }}
+      name: index lua.org
+      uses: cibere/Rtfm-Indexes@run-parser-action
+      with:
+        error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
+        filename: lua.org
+    - if: ${{ inputs.parser == 'all' || inputs.parser == 'flowlauncher.com' }}
+      name: index flowlauncher.com
+      uses: cibere/Rtfm-Indexes@run-parser-action
+      with:
+        error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
+        filename: flowlauncher.com
     - if: ${{ inputs.parser == 'all' || inputs.parser == 'voidtools.com' }}
       name: index voidtools.com
       uses: cibere/Rtfm-Indexes@run-parser-action
       with:
         error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
         filename: voidtools.com
-    - if: ${{ inputs.parser == 'all' || inputs.parser == 'flowlauncher' }}
-      name: index flowlauncher
-      uses: cibere/Rtfm-Indexes@run-parser-action
-      with:
-        error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
-        filename: flowlauncher
     - if: ${{ inputs.parser == 'all' || inputs.parser == 'autohotkey.com' }}
       name: index autohotkey.com
       uses: cibere/Rtfm-Indexes@run-parser-action
@@ -42,12 +48,6 @@ jobs:
       with:
         error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
         filename: mpv.io
-    - if: ${{ inputs.parser == 'all' || inputs.parser == 'lua' }}
-      name: index lua
-      uses: cibere/Rtfm-Indexes@run-parser-action
-      with:
-        error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
-        filename: lua
     - if: ${{ inputs.parser == 'all' || inputs.parser == 'ss64.com' }}
       name: index ss64.com
       uses: cibere/Rtfm-Indexes@run-parser-action
@@ -84,13 +84,13 @@ name: Auto Update
         description: the parser to run
         options:
         - all
+        - lua.org
+        - flowlauncher.com
         - voidtools.com
-        - flowlauncher
         - autohotkey.com
         - docs.datasecurity.org
         - developer.mozilla.org
         - mpv.io
-        - lua
         - ss64.com
         - docs.qmk.fm
         required: false
