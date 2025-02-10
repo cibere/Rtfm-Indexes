@@ -6,15 +6,14 @@
 # ///
 from __future__ import annotations
 
-from _base import AlgoliaAPI
+from _base import BaseAPI
 
 
 class DiscordSearchAPI(
-    AlgoliaAPI,
+    BaseAPI,
     file=__file__,
     url="https://7tyoyf10z2-dsn.algolia.net/1/indexes/*/queries?x-algolia-agent=Algolia for JavaScript (4.23.3); Browser (lite); docsearch (3.3.1); docsearch-react (3.3.1)&x-algolia-api-key=786517d17e19e9d306758dd276bc6574&x-algolia-application-id=7TYOYF10Z2",
-    method="POST",
-    response_type="algolia",
+    api_type="Algolia",
     favicon_url="https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/636e0a6a49cf127bf92de1e2_icon_clyde_blurple_RGB.png",
 ):
     def get_options(self) -> dict[str, str]:

@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from typing import ClassVar
+from typing import Any, ClassVar
 
 from .indexer import BaseIndexer
 from .structs import ApiIndex
@@ -8,17 +8,13 @@ from .structs import ApiIndex
 
 class BaseAPI(BaseIndexer):
     url: ClassVar[str]
+    api_type: ClassVar[str]
 
     def get_headers(self) -> dict[str, str]:
         return {}
 
-    def _runner(self) -> None:
-        raise NotImplementedError
-
-
-class AlgoliaAPI(BaseAPI):
-    def get_options(self) -> dict[str, str]:
-        raise NotImplementedError
+    def get_options(self) -> dict[str, Any]:
+        return {}
 
     def _runner(self) -> None:
         data = ApiIndex(
