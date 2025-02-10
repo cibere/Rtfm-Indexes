@@ -24,6 +24,12 @@ jobs:
       with:
         error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
         filename: voidtools.com
+    - if: ${{ inputs.parser == 'all' || inputs.parser == 'docs.discord.sex' }}
+      name: index docs.discord.sex
+      uses: cibere/Rtfm-Indexes@run-parser-action
+      with:
+        error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
+        filename: docs.discord.sex
     - if: ${{ inputs.parser == 'all' || inputs.parser == 'autohotkey.com' }}
       name: index autohotkey.com
       uses: cibere/Rtfm-Indexes@run-parser-action
@@ -111,6 +117,7 @@ name: Auto Update
         - lua.org
         - flowlauncher.com
         - voidtools.com
+        - docs.discord.sex
         - autohotkey.com
         - docs.datasecurity.org
         - developer.mozilla.org
