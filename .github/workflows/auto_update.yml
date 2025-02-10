@@ -54,6 +54,12 @@ jobs:
       with:
         error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
         filename: ss64.com
+    - if: ${{ inputs.parser == 'all' || inputs.parser == 'tom-select.js.org' }}
+      name: index tom-select.js.org
+      uses: cibere/Rtfm-Indexes@run-parser-action
+      with:
+        error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
+        filename: tom-select.js.org
     - if: ${{ inputs.parser == 'all' || inputs.parser == 'docs.qmk.fm' }}
       name: index docs.qmk.fm
       uses: cibere/Rtfm-Indexes@run-parser-action
@@ -92,6 +98,7 @@ name: Auto Update
         - developer.mozilla.org
         - mpv.io
         - ss64.com
+        - tom-select.js.org
         - docs.qmk.fm
         required: false
         type: choice
