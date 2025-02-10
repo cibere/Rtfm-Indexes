@@ -37,5 +37,4 @@ class MdnParser(
         return {entry.title: self / entry.url for entry in data}
 
 
-if __name__ == "__main__":
-    MdnParser.build()
+MdnParser.build(__name__)
