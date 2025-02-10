@@ -7,9 +7,7 @@ from .structs import ApiIndex
 
 
 class BaseAPI(BaseIndexer):
-    response_type: ClassVar[str]
     url: ClassVar[str]
-    method: ClassVar[str]
 
     def get_headers(self) -> dict[str, str]:
         return {}
