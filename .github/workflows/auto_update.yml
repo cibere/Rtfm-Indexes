@@ -42,6 +42,18 @@ jobs:
       with:
         error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
         filename: docs.datasecurity.org
+    - if: ${{ inputs.parser == 'all' || inputs.parser == 'github.com' }}
+      name: index github.com
+      uses: cibere/Rtfm-Indexes@run-parser-action
+      with:
+        error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
+        filename: github.com
+    - if: ${{ inputs.parser == 'all' || inputs.parser == 'docs.github.com' }}
+      name: index docs.github.com
+      uses: cibere/Rtfm-Indexes@run-parser-action
+      with:
+        error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
+        filename: docs.github.com
     - if: ${{ inputs.parser == 'all' || inputs.parser == 'developer.mozilla.org' }}
       name: index developer.mozilla.org
       uses: cibere/Rtfm-Indexes@run-parser-action
@@ -120,6 +132,8 @@ name: Auto Update
         - docs.discord.sex
         - autohotkey.com
         - docs.datasecurity.org
+        - github.com
+        - docs.github.com
         - developer.mozilla.org
         - mpv.io
         - discord.sex
