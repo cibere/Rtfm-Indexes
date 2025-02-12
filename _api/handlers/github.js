@@ -1,21 +1,16 @@
 const base_url = "https://docs.github.com";
-const favicon_url = "https://github.com/favicon.ico"
-const name = "github.com"
+const favicon_url = "https://github.com/favicon.ico";
+const name = "github.com";
 
-async function process(query){
+export async function githubHandler(query){
     if (query == ""){
         return {"Github Docs": base_url};
     }
 
-    var res = await fetch(`${base_url}/api/search/v1?query=${query}`, {
+    const data = await fetch(`${base_url}/api/search/v1?query=${query}`, {
         "method": "GET",
-    });
-    console.log("gh resp", res);
-    var data = await res.json();
-
-    console.log("got github response", data);
-
-    var cache = {};
+    }).then(v => v.json());
+    const cache = {};
 
     for (let hit of data.hits){
         console.log("serializing hit", hit);
@@ -24,17 +19,15 @@ async function process(query){
             "text": `${hit.title} / ${hit.breadcrumbs}`,
             url: `${base_url}${hit.url}`,
             options: {
-                sub: hit.highlights.content[0]
+                sub: hit.highlights.content[0],
             }
-        }
-    }
+        };
+    };
 
     return {
         version: "2.0",
         cache,
         name,
         favicon_url,
-    }
-}
-
-export const githubHandler = process
+    };
+};

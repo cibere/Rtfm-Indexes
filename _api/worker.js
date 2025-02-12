@@ -7,21 +7,21 @@ const handlers = {
 }
 
 export default {
-    async fetch(request, env, ctx) {
-      const url = new URL(request.url);
-      console.log("URL", url);
-      
-      var handler = handlers[url.pathname];
+  async fetch(request, env, ctx) {
+    const url = new URL(request.url);
+    console.log("URL", url);
+    
+    const handler = handlers[url.pathname];
 
-      if (handler == undefined){
-        return new Response("API handler not found", {"status": 404});
-      }
-      console.log("got handler", handler)
+    if (handler === undefined){
+      return new Response("API handler not found", {"status": 404});
+    }
+    console.log("got handler", handler)
 
-      let query = url.searchParams.get("q")
-      var data = await handler(query ? query : "");
+    const query = url.searchParams.get("q")
+    const data = await handler(query ? query : "");
 
-      console.log("got data", data);
-      return new Response(JSON.stringify(data));
-    },
-  };
+    console.log("returning data", data);
+    return new Response(JSON.stringify(data));
+  },
+};
