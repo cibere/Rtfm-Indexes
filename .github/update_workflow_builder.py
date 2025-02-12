@@ -13,11 +13,11 @@ gh_dir = pathlib.Path(__file__).parent
 workflow_dir = gh_dir / "workflows"
 workflow_file = workflow_dir / "auto_update.yml"
 
-parsers_dir = gh_dir.parent / "_parsers"
+indexers_dir = gh_dir.parent / "indexers"
 
 
 def iter_parser_files():
-    for file in parsers_dir.glob("*.py"):
+    for file in indexers_dir.glob("*.py"):
         if not file.name.startswith("_"):
             yield file
 
@@ -64,10 +64,8 @@ def build_tree():
                             [
                                 "git add indexes_v2",
                                 "git stash",
-
                                 "git fetch",
                                 "git switch indexes-v2",
-
                                 "git stash pop 0",
                                 "git add indexes_v2",
                                 'git -c user.name="github-actions[bot]" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" commit --author="cibere <71997063+cibere@users.noreply.github.com>" -m "Auto Update Indexes"',
