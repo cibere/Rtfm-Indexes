@@ -1,0 +1,13 @@
+name = "rtfm-index-api"
+main = "worker.js"
+compatibility_date = "2025-01-24"
+workers_dev = true
+preview_urls = false
+
+[[routes]]
+pattern = "rtfm-index-api.cibere.dev"
+zone_name = "cibere.dev"
+custom_domain = true
+
+[observability]
+enabled = true
