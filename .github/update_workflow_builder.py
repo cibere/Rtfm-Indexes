@@ -62,14 +62,14 @@ def build_tree():
                         "continue-on-error": True,
                         "run": "\n".join(
                             [
-                                "git add indexes_2",
+                                "git add indexes_v2",
                                 "git stash",
 
                                 "git fetch",
                                 "git switch indexes-v2",
 
                                 "git stash pop 0",
-                                "git add indexes_2",
+                                "git add indexes_v2",
                                 'git -c user.name="github-actions[bot]" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" commit --author="cibere <71997063+cibere@users.noreply.github.com>" -m "Auto Update Indexes"',
                                 "git push",
                             ]
