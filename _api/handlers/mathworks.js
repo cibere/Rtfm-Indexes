@@ -2,7 +2,9 @@ const base_url = "https://www.mathworks.com/help";
 const favicon_url = "https://www.mathworks.com/favicon.ico";
 const name = "mathworks.com";
 
-export async function mathworksHandler(query){
+export async function mathworksHandler(request){
+    const query = request.query;
+    
     if (query == ""){
         return {"Mathwork Docs": base_url};
     }
