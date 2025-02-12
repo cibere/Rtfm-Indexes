@@ -110,7 +110,7 @@ jobs:
         filename: docs.datasecurity.org
     - continue-on-error: true
       name: Push Changes
-      run: 'git add indexes_2
+      run: 'git add indexes_v2
 
         git stash
 
@@ -120,7 +120,7 @@ jobs:
 
         git stash pop 0
 
-        git add indexes_2
+        git add indexes_v2
 
         git -c user.name="github-actions[bot]" -c user.email="41898282+github-actions[bot]@users.noreply.github.com"
         commit --author="cibere <71997063+cibere@users.noreply.github.com>" -m "Auto
