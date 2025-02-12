@@ -7,7 +7,7 @@ from .structs import ApiIndex
 
 
 class BaseAPI(BaseIndexer):
-    options: ClassVar[dict[str, Any]]
+    options: ClassVar[dict[str, Any]] = {}
     api_type: ClassVar[str]
 
     def _runner(self) -> None:
