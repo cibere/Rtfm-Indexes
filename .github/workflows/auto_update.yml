@@ -112,7 +112,7 @@ jobs:
       name: Push Changes
       run: 'git fetch
 
-        git switch indexes_v2
+        git switch indexes-v2
 
         git add indexes_2
 
