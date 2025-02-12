@@ -19,9 +19,7 @@ class BaseIndex(Struct):
 
 class ApiIndex(BaseIndex, tag="api-index"):
     url: str
-    api_type: str
-    headers: dict[str, str] = struct_field(default_factory=dict)
-    options: dict[str, Any] = struct_field(default_factory=dict)
+    options: dict[str, Any]
     version: str = "2.0"
 
 

@@ -7,22 +7,16 @@ from .structs import ApiIndex
 
 
 class BaseAPI(BaseIndexer):
-    url: ClassVar[str]
+    options: ClassVar[dict[str, Any]]
     api_type: ClassVar[str]
 
-    def get_headers(self) -> dict[str, str]:
-        return {}
-
-    def get_options(self) -> dict[str, Any]:
-        return {}
-
     def _runner(self) -> None:
-        data = ApiIndex(
-            name=self.name,
-            favicon_url=self.favicon_url,
-            url=self.url,
-            api_type=self.api_type,
-            headers=self.get_headers(),
-            options=self.get_options(),
+        self._save(
+            ApiIndex(
+                self.name,
+                self.favicon_url,
+                f"https://rtfm-index-api.cibere.dev/{self.api_type}",
+                self.options,
+            ),
+            self.name,
         )
-        self._save(data, self.name)

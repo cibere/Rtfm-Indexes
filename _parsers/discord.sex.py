@@ -6,20 +6,17 @@
 # ///
 from __future__ import annotations
 
-from typing import Any
-
 from _base import BaseAPI
 
 
 class DiscordSexSearchAPI(
     BaseAPI,
     file=__file__,
-    url="https://jajudfjbi4-dsn.algolia.net/1/indexes/*/queries?x-algolia-agent=Algolia for JavaScript (5.12.0); Lite (5.12.0); Browser; docsearch (3.6.3); docsearch-react (3.6.3)&x-algolia-api-key=13092021a31a84e0e8676c10affb9a16&x-algolia-application-id=JAJUDFJBI4",
     favicon_url="https://docs.discord.sex/favicon.ico",
-    api_type="Algolia",
-):
-    def get_options(self) -> dict[str, Any]:
-        return {
+    api_type="algolia",
+    options={
+        "url": "https://jajudfjbi4-dsn.algolia.net/1/indexes/*/queries?x-algolia-agent=Algolia for JavaScript (5.12.0); Lite (5.12.0); Browser; docsearch (3.6.3); docsearch-react (3.6.3)&x-algolia-api-key=13092021a31a84e0e8676c10affb9a16&x-algolia-application-id=JAJUDFJBI4",
+        "payload": {
             "indexName": "discord-usercers",
             "attributesToRetrieve": [
                 "hierarchy.lvl0",
@@ -47,7 +44,9 @@ class DiscordSexSearchAPI(
             "highlightPostTag": "</mark>",
             "hitsPerPage": 20,
             "clickAnalytics": True,
-        }
+        },
+    },
+): ...
 
 
 DiscordSexSearchAPI.build(__name__)
