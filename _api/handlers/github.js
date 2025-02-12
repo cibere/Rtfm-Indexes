@@ -1,10 +1,8 @@
 const base_url = "https://docs.github.com";
-const favicon_url = "https://github.com/favicon.ico";
-const name = "github.com";
 
 export async function githubHandler(request){
     const query = request.query;
-    
+
     if (query == ""){
         return {"Github Docs": base_url};
     }
@@ -26,10 +24,5 @@ export async function githubHandler(request){
         };
     };
 
-    return {
-        version: "2.0",
-        cache,
-        name,
-        favicon_url,
-    };
+    return cache;
 };

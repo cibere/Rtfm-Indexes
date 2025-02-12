@@ -21,10 +21,5 @@ export async function algoliaHandler(requestInfo){
         };
     };
 
-    return {
-        version: "2.0",
-        cache,
-        name: requestInfo.options.name,
-        favicon_url: requestInfo.options.favicon_url
-    };
+    return cache;
 }
