@@ -19,7 +19,10 @@ export async function githubHandler(request){
             "text": `${hit.title} / ${hit.breadcrumbs}`,
             url: `${base_url}${hit.url}`,
             options: {
-                sub: hit.highlights.content[0],
+                sub: decodeURIComponent(hit.highlights.content[0]
+                    .replaceAll("\n", "")
+                    .replaceAll("<mark>", "")
+                    .replaceAll("</mark>", "")),
             }
         };
     };
