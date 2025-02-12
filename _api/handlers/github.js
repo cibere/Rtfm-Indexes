@@ -1,4 +1,5 @@
 const base_url = "https://docs.github.com";
+const he = require('he');
 
 export async function githubHandler(request){
     const query = request.query;
@@ -19,8 +20,8 @@ export async function githubHandler(request){
             "text": `${hit.title} / ${hit.breadcrumbs}`,
             url: `${base_url}${hit.url}`,
             options: {
-                sub: decodeURIComponent(hit.highlights.content[0]
-                    .replaceAll("\n", "")
+                sub: he.decode(hit.highlights.content[0]
+                    .replaceAll("\n", " ")
                     .replaceAll("<mark>", "")
                     .replaceAll("</mark>", "")),
             }
