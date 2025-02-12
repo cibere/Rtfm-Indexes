@@ -31,6 +31,8 @@ class BaseIndexer[KwargsT]:
 
     @classmethod
     def _save(cls, data: Struct, filename: str) -> None:
+        indexes_dir.mkdir(exist_ok=True)
+
         file = indexes_dir / f"{filename}.{FILE_EXT}"
 
         def enc_hook(obj: Any) -> Any:
