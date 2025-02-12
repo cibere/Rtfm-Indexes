@@ -60,13 +60,15 @@ def build_tree():
                     {
                         "name": "Push Changes",
                         "continue-on-error": True,
-                        "run": "\n".join([
-                            "git fetch",
-                            "git switch indexes-v2",
-                            "git add indexes_2",
-                            'git -c user.name="github-actions[bot]" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" commit --author="cibere <71997063+cibere@users.noreply.github.com>" -m "Auto Update Indexes"',
-                            "git push"
-                        ])
+                        "run": "\n".join(
+                            [
+                                "git fetch",
+                                "git switch indexes-v2",
+                                "git add indexes_2",
+                                'git -c user.name="github-actions[bot]" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" commit --author="cibere <71997063+cibere@users.noreply.github.com>" -m "Auto Update Indexes"',
+                                "git push",
+                            ]
+                        ),
                     },
                 ],
             }
