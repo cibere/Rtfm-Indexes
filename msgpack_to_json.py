@@ -3,7 +3,7 @@
 # dependencies = [
 #     "msgspec",
 #     "requests",
-#     "yarl==1.18.3",
+#     "yarl==1.18.2",
 # ]
 # ///
 import sys
