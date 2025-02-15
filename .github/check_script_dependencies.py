@@ -9,30 +9,40 @@
 # ]
 # ///
 
+import subprocess
+from collections.abc import Iterator
 from pathlib import Path
-import subprocess, requests
-from typing import Iterator
+
+import requests
 
 github_dir = Path(__file__).parent
 root = github_dir.parent
 indexers = root / "indexers"
 
-def run(*args: str) -> tuple[str, str]:
-    proc = subprocess.run(args, capture_output=True)
-    data = proc.stdout.decode(), proc.stderr.decode()
-    #print(f"Ran command {args!r}.\nstdout: {data[0]!r}\nstderr: {data[1]!r}")
 
-    return data
+def run(*args: str) -> tuple[str, str]:
+    proc = subprocess.run(args, capture_output=True)  # noqa: S603
+    return proc.stdout.decode(), proc.stderr.decode()
+
 
 def git(*args: str) -> tuple[str, str]:
-    return run("git", "-c", 'user.name="github-actions[bot]"', '-c', 'user.email="41898282+github-actions[bot]@users.noreply.github.com"', *args)
+    return run(
+        "git",
+        "-c",
+        'user.name="github-actions[bot]"',
+        "-c",
+        'user.email="41898282+github-actions[bot]@users.noreply.github.com"',
+        *args,
+    )
+
 
 def uv(*args: str) -> tuple[str, str]:
     return run("uv", *args)
 
+
 def get_script_requirements(script: Path) -> Iterator[str]:
     stdout, stderr = uv("export", "--script", script.as_posix())
-    
+
     for line in stdout.splitlines():
         line = line.strip()
 
@@ -40,9 +50,11 @@ def get_script_requirements(script: Path) -> Iterator[str]:
             continue
         yield line.removesuffix(" \\")
 
+
 def get_latest_version(package: str) -> str:
-    response = requests.get(f'https://pypi.org/pypi/{package}/json')
-    return response.json()['info']['version']
+    response = requests.get(f"https://pypi.org/pypi/{package}/json", timeout=10)
+    return response.json()["info"]["version"]
+
 
 def main():
     for script in indexers.rglob("*.py"):
@@ -55,5 +67,6 @@ def main():
             if latest != current:
                 print(f"{script} - {name} updated from {current} to {latest}")
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     main()
