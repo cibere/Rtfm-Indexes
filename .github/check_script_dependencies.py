@@ -62,9 +62,8 @@ def main():
             name, current = req.split(";")[0].split("==")
             latest = get_latest_version(name)
 
-            uv("add", "--script", script.as_posix(), f"{name}=={latest}")
-
             if latest != current:
+                uv("add", "--script", script.as_posix(), f"{name}=={latest}")
                 print(f"{script} - {name} updated from {current} to {latest}")
 
 
