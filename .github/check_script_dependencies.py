@@ -1,11 +1,7 @@
 # /// script
 # requires-python = ">=3.13"
 # dependencies = [
-#     "certifi==2025.1.31",
-#     "charset-normalizer==3.4.1",
-#     "idna==3.10",
 #     "requests==2.32.3",
-#     "urllib3==2.3.0",
 # ]
 # ///
 
@@ -58,15 +54,22 @@ def get_latest_version(package: str) -> str:
     return response.json()["info"]["version"]
 
 
+def check_script(script: Path):
+    for req in get_script_requirements(script):
+        name, current = req.split(";")[0].split("(")[0].split(" v")
+        latest = get_latest_version(name)
+
+        uv("add", "--script", script.as_posix(), f"{name}=={latest}")
+
+        if latest != current:
+            print(f"{script} - {name} updated from {current} to {latest}")
+
+
 def main():
     for script in indexers.rglob("*.py"):
-        for req in get_script_requirements(script):
-            name, current = req.split(";")[0].split("(")[0].split(" v")
-            latest = get_latest_version(name)
-
-            if latest != current:
-                uv("add", "--script", script.as_posix(), f"{name}=={latest}")
-                print(f"{script} - {name} updated from {current} to {latest}")
+        check_script(script)
+    for script in github_dir.rglob("*.py"):
+        check_script(script)
 
 
 if __name__ == "__main__":
