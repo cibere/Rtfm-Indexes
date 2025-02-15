@@ -1,9 +1,15 @@
 # /// script
 # requires-python = ">=3.13"
 # dependencies = [
-#     "beautifulsoup4==4.13.1",
+#     "beautifulsoup4==4.13.3",
+#     "certifi==2025.1.31",
+#     "charset-normalizer==3.4.1",
+#     "idna==3.10",
 #     "msgspec==0.19.0",
 #     "requests==2.32.3",
+#     "soupsieve==2.6",
+#     "typing-extensions==4.12.2",
+#     "urllib3==2.3.0",
 # ]
 # ///
 

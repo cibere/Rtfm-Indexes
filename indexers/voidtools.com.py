@@ -1,9 +1,19 @@
 # /// script
 # requires-python = ">=3.13"
 # dependencies = [
+#   "aiohappyeyeballs==2.4.6",
 #   "aiohttp==3.11.12",
-#   "beautifulsoup4==4.13.1",
+#   "aiosignal==1.3.2",
+#   "attrs==25.1.0",
+#   "beautifulsoup4==4.13.3",
+#   "frozenlist==1.5.0",
+#   "idna==3.10",
 #   "msgspec==0.19.0",
+#   "multidict==6.1.0",
+#   "propcache==0.2.1",
+#   "soupsieve==2.6",
+#   "typing-extensions==4.12.2",
+#   "yarl==1.18.3",
 # ]
 # ///
 
