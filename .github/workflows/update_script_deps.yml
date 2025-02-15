@@ -13,11 +13,11 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - uses: astral-sh/setup-uv@v5
-    - run: uv run .github/check_script_dependencies.py > output.txt
-    - run: cat output.txt
+    - run: uv run .github/check_script_dependencies.py > output.ignore
+    - run: cat output.ignore
     - uses: peter-evans/create-pull-request@v7
       with:
-        body-path: output.txt
+        body-path: output.ignore
         title: Upgrade Script Dependencies
         commit-message: Update script dependencies
         draft: true
