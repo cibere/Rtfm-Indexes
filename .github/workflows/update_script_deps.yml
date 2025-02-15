@@ -22,3 +22,4 @@ jobs:
         commit-message: Update script dependencies
         draft: true
         branch: update-script-dependencies-${{ github.run_id }}.${{ github.run_attempt }}
+        labels: dependencies
