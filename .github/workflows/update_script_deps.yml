@@ -12,10 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
-      with:
-        token: ${{ secrets.WORKFLOW_TOKEN }}
-    - name: Install uv
-      uses: astral-sh/setup-uv@v5
+    - uses: astral-sh/setup-uv@v5
     - run: uv run .github/check_script_dependencies.py > output.txt
     - run: cat output.txt
     - uses: peter-evans/create-pull-request@v7
