@@ -60,7 +60,6 @@ def get_latest_version(package: str) -> str:
 
 def main():
     for script in indexers.rglob("*.py"):
-        script = Path("indexers/mpv.io.py")
         for req in get_script_requirements(script):
             name, current = req.split(";")[0].split("(")[0].split(" v")
             latest = get_latest_version(name)
@@ -68,8 +67,6 @@ def main():
             if latest != current:
                 uv("add", "--script", script.as_posix(), f"{name}=={latest}")
                 print(f"{script} - {name} updated from {current} to {latest}")
-        return
-
 
 if __name__ == "__main__":
     main()
