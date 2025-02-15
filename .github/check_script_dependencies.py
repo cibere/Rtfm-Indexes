@@ -68,5 +68,6 @@ def main():
                 uv("add", "--script", script.as_posix(), f"{name}=={latest}")
                 print(f"{script} - {name} updated from {current} to {latest}")
 
+
 if __name__ == "__main__":
     main()
