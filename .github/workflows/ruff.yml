@@ -10,10 +10,10 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - uses: astral-sh/setup-uv@v5
-    - run: ruff format --check
+    - run: uvx ruff format --check
   ruff-linter:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
     - uses: astral-sh/setup-uv@v5
-    - run: ruff check
+    - run: uvx ruff check
