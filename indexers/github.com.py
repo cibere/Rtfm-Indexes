@@ -1,7 +1,7 @@
 # /// script
 # requires-python = ">=3.13"
 # dependencies = [
-#     "msgspec",
+#     "msgspec==0.19.0",
 # ]
 # ///
 
