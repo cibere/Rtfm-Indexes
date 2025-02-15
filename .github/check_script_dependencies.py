@@ -36,7 +36,7 @@ def get_script_requirements(script: Path) -> Iterator[str]:
     for line in stdout.splitlines():
         line = line.strip()
 
-        if line.startswith(("#", "-")):
+        if line.startswith(("#", "-", "├", "└")):
             continue
         yield line.removesuffix(" \\")
 
