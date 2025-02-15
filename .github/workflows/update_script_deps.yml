@@ -2,7 +2,7 @@ name: Update Script Dependencies
 'on':
     workflow_dispatch:
     schedule:
-      - cron: 23 23 * * *
+      - cron: 23 23 * * 0
 permissions:
   contents: write
   pull-requests: write
