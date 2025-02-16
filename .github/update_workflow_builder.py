@@ -35,6 +35,7 @@ def build_tree():
                         "default": "all",
                         "type": "choice",
                         "options": ["all", *files],
+                        "default":"all",
                     }
                 }
             },
