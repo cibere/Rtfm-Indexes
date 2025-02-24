@@ -6,105 +6,109 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
-    - if: ${{ inputs.parser == 'all' || inputs.parser == 'tom-select.js.org' }}
+    - name: Print Option
+      run: echo ${{ inputs.indexer }}
+    - if: ${{ inputs.indexer == 'all' || inputs.indexer == 'tom-select.js.org' }}
       name: index tom-select.js.org
-      uses: cibere/Rtfm-Indexes@run-parser-action
+      uses: cibere/Rtfm-Indexes@run-indexer-action
       with:
         error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
         filename: tom-select.js.org
-    - if: ${{ inputs.parser == 'all' || inputs.parser == 'github.com' }}
+    - if: ${{ inputs.indexer == 'all' || inputs.indexer == 'github.com' }}
       name: index github.com
-      uses: cibere/Rtfm-Indexes@run-parser-action
+      uses: cibere/Rtfm-Indexes@run-indexer-action
       with:
         error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
         filename: github.com
-    - if: ${{ inputs.parser == 'all' || inputs.parser == 'discord.sex' }}
+    - if: ${{ inputs.indexer == 'all' || inputs.indexer == 'discord.sex' }}
       name: index discord.sex
-      uses: cibere/Rtfm-Indexes@run-parser-action
+      uses: cibere/Rtfm-Indexes@run-indexer-action
       with:
         error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
         filename: discord.sex
-    - if: ${{ inputs.parser == 'all' || inputs.parser == 'flowlauncher.com' }}
+    - if: ${{ inputs.indexer == 'all' || inputs.indexer == 'flowlauncher.com' }}
       name: index flowlauncher.com
-      uses: cibere/Rtfm-Indexes@run-parser-action
+      uses: cibere/Rtfm-Indexes@run-indexer-action
       with:
         error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
         filename: flowlauncher.com
-    - if: ${{ inputs.parser == 'all' || inputs.parser == 'lua.org' }}
+    - if: ${{ inputs.indexer == 'all' || inputs.indexer == 'lua.org' }}
       name: index lua.org
-      uses: cibere/Rtfm-Indexes@run-parser-action
+      uses: cibere/Rtfm-Indexes@run-indexer-action
       with:
         error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
         filename: lua.org
-    - if: ${{ inputs.parser == 'all' || inputs.parser == 'docs.qmk.fm' }}
+    - if: ${{ inputs.indexer == 'all' || inputs.indexer == 'docs.qmk.fm' }}
       name: index docs.qmk.fm
-      uses: cibere/Rtfm-Indexes@run-parser-action
+      uses: cibere/Rtfm-Indexes@run-indexer-action
       with:
         error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
         filename: docs.qmk.fm
-    - if: ${{ inputs.parser == 'all' || inputs.parser == 'voidtools.com' }}
+    - if: ${{ inputs.indexer == 'all' || inputs.indexer == 'voidtools.com' }}
       name: index voidtools.com
-      uses: cibere/Rtfm-Indexes@run-parser-action
+      uses: cibere/Rtfm-Indexes@run-indexer-action
       with:
         error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
         filename: voidtools.com
-    - if: ${{ inputs.parser == 'all' || inputs.parser == 'autohotkey.com' }}
+    - if: ${{ inputs.indexer == 'all' || inputs.indexer == 'autohotkey.com' }}
       name: index autohotkey.com
-      uses: cibere/Rtfm-Indexes@run-parser-action
+      uses: cibere/Rtfm-Indexes@run-indexer-action
       with:
         error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
         filename: autohotkey.com
-    - if: ${{ inputs.parser == 'all' || inputs.parser == 'developer.mozilla.org' }}
+    - if: ${{ inputs.indexer == 'all' || inputs.indexer == 'developer.mozilla.org'
+        }}
       name: index developer.mozilla.org
-      uses: cibere/Rtfm-Indexes@run-parser-action
+      uses: cibere/Rtfm-Indexes@run-indexer-action
       with:
         error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
         filename: developer.mozilla.org
-    - if: ${{ inputs.parser == 'all' || inputs.parser == 'discord.dev' }}
+    - if: ${{ inputs.indexer == 'all' || inputs.indexer == 'discord.dev' }}
       name: index discord.dev
-      uses: cibere/Rtfm-Indexes@run-parser-action
+      uses: cibere/Rtfm-Indexes@run-indexer-action
       with:
         error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
         filename: discord.dev
-    - if: ${{ inputs.parser == 'all' || inputs.parser == 'docs.github.com' }}
+    - if: ${{ inputs.indexer == 'all' || inputs.indexer == 'docs.github.com' }}
       name: index docs.github.com
-      uses: cibere/Rtfm-Indexes@run-parser-action
+      uses: cibere/Rtfm-Indexes@run-indexer-action
       with:
         error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
         filename: docs.github.com
-    - if: ${{ inputs.parser == 'all' || inputs.parser == 'discord.com' }}
+    - if: ${{ inputs.indexer == 'all' || inputs.indexer == 'discord.com' }}
       name: index discord.com
-      uses: cibere/Rtfm-Indexes@run-parser-action
+      uses: cibere/Rtfm-Indexes@run-indexer-action
       with:
         error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
         filename: discord.com
-    - if: ${{ inputs.parser == 'all' || inputs.parser == 'docs.discord.sex' }}
+    - if: ${{ inputs.indexer == 'all' || inputs.indexer == 'docs.discord.sex' }}
       name: index docs.discord.sex
-      uses: cibere/Rtfm-Indexes@run-parser-action
+      uses: cibere/Rtfm-Indexes@run-indexer-action
       with:
         error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
         filename: docs.discord.sex
-    - if: ${{ inputs.parser == 'all' || inputs.parser == 'mpv.io' }}
+    - if: ${{ inputs.indexer == 'all' || inputs.indexer == 'mpv.io' }}
       name: index mpv.io
-      uses: cibere/Rtfm-Indexes@run-parser-action
+      uses: cibere/Rtfm-Indexes@run-indexer-action
       with:
         error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
         filename: mpv.io
-    - if: ${{ inputs.parser == 'all' || inputs.parser == 'ss64.com' }}
+    - if: ${{ inputs.indexer == 'all' || inputs.indexer == 'ss64.com' }}
       name: index ss64.com
-      uses: cibere/Rtfm-Indexes@run-parser-action
+      uses: cibere/Rtfm-Indexes@run-indexer-action
       with:
         error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
         filename: ss64.com
-    - if: ${{ inputs.parser == 'all' || inputs.parser == 'mathworks.com' }}
+    - if: ${{ inputs.indexer == 'all' || inputs.indexer == 'mathworks.com' }}
       name: index mathworks.com
-      uses: cibere/Rtfm-Indexes@run-parser-action
+      uses: cibere/Rtfm-Indexes@run-indexer-action
       with:
         error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
         filename: mathworks.com
-    - if: ${{ inputs.parser == 'all' || inputs.parser == 'docs.datasecurity.org' }}
+    - if: ${{ inputs.indexer == 'all' || inputs.indexer == 'docs.datasecurity.org'
+        }}
       name: index docs.datasecurity.org
-      uses: cibere/Rtfm-Indexes@run-parser-action
+      uses: cibere/Rtfm-Indexes@run-indexer-action
       with:
         error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
         filename: docs.datasecurity.org
@@ -133,9 +137,9 @@ name: Auto Update
   - cron: 23 23 * * *
   workflow_dispatch:
     inputs:
-      parser:
+      indexer:
         default: all
-        description: the parser to run
+        description: the indexer to run
         options:
         - all
         - tom-select.js.org
