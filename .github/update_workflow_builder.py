@@ -16,26 +16,25 @@ workflow_file = workflow_dir / "auto_update.yml"
 indexers_dir = gh_dir.parent / "indexers"
 
 
-def iter_parser_files():
+def iter_indexer_files():
     for file in indexers_dir.glob("*.py"):
         if not file.name.startswith("_"):
             yield file
 
 
 def build_tree():
-    files = [p.name.removesuffix(".py") for p in iter_parser_files()]
+    files = [p.name.removesuffix(".py") for p in iter_indexer_files()]
     return {
         "name": "Auto Update",
         "on": {
             "workflow_dispatch": {
                 "inputs": {
-                    "parser": {
-                        "description": "the parser to run",
+                    "indexer": {
+                        "description": "the indexer to run",
                         "required": False,
                         "default": "all",
                         "type": "choice",
                         "options": ["all", *files],
-                        "default":"all",
                     }
                 }
             },
@@ -46,11 +45,12 @@ def build_tree():
                 "runs-on": "ubuntu-latest",
                 "steps": [
                     {"uses": "actions/checkout@v4"},
+                    {"name": "Print Option", "run": "echo ${{ inputs.indexer }}"},
                     *[
                         {
                             "name": f"index {file}",
-                            "if": f"${{{{ inputs.parser == 'all' || inputs.parser == '{file}' }}}}",
-                            "uses": "cibere/Rtfm-Indexes@run-parser-action",
+                            "if": f"${{{{ inputs.indexer == 'all' || inputs.indexer == '{file}' }}}}",
+                            "uses": "cibere/Rtfm-Indexes@run-indexer-action",
                             "with": {
                                 "filename": file,
                                 "error_hook": "${{ secrets.INDEX_ERROR_HOOK_URL }}",
