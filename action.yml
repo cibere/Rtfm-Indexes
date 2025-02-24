@@ -17,7 +17,7 @@ runs:
       id: parser
       shell: bash
       run: |
-        uv run _parsers/${{ inputs.filename }}.py 1> output.txt 2>&1
+        uv run indexers/${{ inputs.filename }}.py 1> output.txt 2>&1
 
     - name: Print Output.txt
       shell: bash
