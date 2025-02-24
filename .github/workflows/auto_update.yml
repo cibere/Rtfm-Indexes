@@ -112,6 +112,13 @@ jobs:
       with:
         error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
         filename: docs.datasecurity.org
+    - if: ${{ inputs.indexer == 'all' || inputs.indexer == 'developer.hashicorp.com'
+        }}
+      name: index developer.hashicorp.com
+      uses: cibere/Rtfm-Indexes@run-indexer-action
+      with:
+        error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
+        filename: developer.hashicorp.com
     - continue-on-error: true
       name: Push Changes
       run: 'git add indexes_v2
@@ -159,5 +166,6 @@ name: Auto Update
         - ss64.com
         - mathworks.com
         - docs.datasecurity.org
+        - developer.hashicorp.com
         required: false
         type: choice
