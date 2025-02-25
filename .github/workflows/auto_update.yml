@@ -138,10 +138,10 @@ name: Auto Update
   workflow_dispatch:
     inputs:
       indexer:
-        default: all
+        default: ''
         description: the indexer to run
         options:
-        - all
+        - ''
         - tom-select.js.org
         - github.com
         - discord.sex
