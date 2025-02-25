@@ -5,8 +5,7 @@ export async function githubHandler(request){
     const query = request.query;
 
     if (query == ""){
-        let text = "Github Docs";
-        return {text: {text, url: base_url}};
+        return {"Github Docs": {text: "Github Docs", url: base_url}};
     }
 
     const data = await fetch(`${base_url}/api/search/v1?query=${query}`, {
@@ -29,8 +28,5 @@ export async function githubHandler(request){
         };
     };
 
-    return {
-        version: "2.1",
-        cache
-    };
+    return cache;
 };

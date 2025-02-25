@@ -25,6 +25,10 @@ export default {
     const data = await handler(body);
 
     console.log("returning data", data);
-    return new Response(JSON.stringify(data));
+    return new Response(JSON.stringify({
+      version: "2.1",
+      cache: data,
+      type: "cache-index",
+    }));
   },
 };

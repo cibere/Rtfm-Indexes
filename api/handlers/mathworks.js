@@ -4,8 +4,7 @@ export async function mathworksHandler(request){
     const query = request.query;
 
     if (query == ""){
-        let text = "Mathwork Docs";
-        return {text: {text, url: base_url}};
+        return {"Mathwork Docs": {text: "Mathwork Docs", url: base_url}};
     }
 
     const data = await fetch(`${base_url}/search/suggest/doccenter/en/R2024b?selectedsource=mw&width=785.667&q=${query}`, {
@@ -30,8 +29,5 @@ export async function mathworksHandler(request){
         };
     };
 
-    return {
-        version: "2.1",
-        cache,
-    };
+    return cache;
 }

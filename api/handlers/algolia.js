@@ -26,8 +26,5 @@ export async function algoliaHandler(requestInfo){
         };
     };
 
-    return {
-        version: "2.1",
-        cache
-    };
+    return cache;
 }
