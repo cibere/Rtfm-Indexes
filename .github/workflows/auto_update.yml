@@ -118,9 +118,9 @@ jobs:
 
         git fetch
 
-        git switch indexes-v2
+        git checkout --ours indexes-v2 indexes_v2
 
-        git stash pop 0
+        git checkout stash -- indexes_v2
 
         git add indexes_v2
 
@@ -128,7 +128,7 @@ jobs:
         commit --author="cibere <71997063+cibere@users.noreply.github.com>" -m "Auto
         Update Indexes"
 
-        git push'
+        git push --force'
 name: Auto Update
 'on':
   schedule:
