@@ -49,7 +49,7 @@ def build_tree():
                     *[
                         {
                             "name": f"index {file}",
-                            "if": f"${{{{ inputs.indexer == 'all' || inputs.indexer == '{file}' }}}}",
+                            "if": f"${{{{ inputs.indexer == '' || inputs.indexer == '{file}' }}}}",
                             "uses": "cibere/Rtfm-Indexes@run-indexer-action",
                             "with": {
                                 "filename": file,
