@@ -118,7 +118,7 @@ jobs:
 
         git fetch
 
-        git checkout --ours indexes-v2 indexes_v2
+        git switch indexes-v2
 
         git checkout stash -- indexes_v2
 
