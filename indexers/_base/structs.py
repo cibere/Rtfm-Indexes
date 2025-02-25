@@ -20,17 +20,17 @@ class BaseIndex(Struct):
 class ApiIndex(BaseIndex, tag="api-index"):
     url: str
     options: dict[str, Any]
-    version: str = "2.0"
+    version: str = "2.1"
 
 
 class CacheIndex(BaseIndex, tag="cache-index"):
     cache: Cache
-    version: str = "2.0"
+    version: str = "2.1"
 
 
 class VariantManifest(Struct, tag="variant-manifest"):
     variants: Iterable[str]
-    version: str = "2.0"
+    version: str = "2.1"
 
 
 class Entry(Struct):
