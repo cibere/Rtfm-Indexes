@@ -66,7 +66,7 @@ def build_tree():
                                 "git add indexes_v2",
                                 "git stash",
                                 "git fetch",
-                                "git checkout --ours indexes-v2 indexes_v2",
+                                "git switch indexes-v2",
                                 "git checkout stash -- indexes_v2",
                                 "git add indexes_v2",
                                 'git -c user.name="github-actions[bot]" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" commit --author="cibere <71997063+cibere@users.noreply.github.com>" -m "Auto Update Indexes"',
