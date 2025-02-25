@@ -9,7 +9,7 @@
 from __future__ import annotations
 
 import requests
-from _base import BaseSyncParser
+from _base import BaseSyncParser, Cache, Entry
 
 
 class FlowLauncherParser(
@@ -18,7 +18,7 @@ class FlowLauncherParser(
     base_url="https://www.flowlauncher.com/docs",
     favicon_url="https://www.flowlauncher.com/public/favicon.ico",
 ):
-    def build_cache(self) -> dict[str, str]:
+    def build_cache(self) -> Cache:
         raw_content = requests.get(self / "_sidebar.md", timeout=10).content
 
         lines = raw_content.decode().splitlines()
@@ -36,7 +36,7 @@ class FlowLauncherParser(
                 loc = parts[1].strip("()")
 
                 title = f"{name} - {header}" if header else name
-                cache[title] = self / loc
+                cache[title] = Entry(title, self / loc)
 
         return cache
 

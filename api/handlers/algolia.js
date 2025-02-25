@@ -17,7 +17,12 @@ export async function algoliaHandler(requestInfo){
                     parts.push(hit.hierarchy[lvl]);
                 }
             }
-            cache[parts.join(" - ")] = hit.url;
+
+            let text = parts.join(" - ");
+            cache[text] = {
+                text,
+                url: hit.url
+            };
         };
     };
 

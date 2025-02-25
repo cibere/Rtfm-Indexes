@@ -6,4 +6,5 @@ from typing import TYPE_CHECKING
 if TYPE_CHECKING:
     from .structs import Entry
 
-type Cache = Mapping[str, str | Entry]
+type Cache = Mapping[str, Entry]
+type MutableCache = dict[str, Entry]

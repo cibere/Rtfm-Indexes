@@ -15,7 +15,7 @@ from types import TracebackType
 from typing import Any, Self, TypeVar
 
 import bs4
-from _base import BaseAsyncParser
+from _base import BaseAsyncParser, Cache, Entry, MutableCache
 from aiohttp import ClientSession
 
 MISSING: Any = object()
@@ -36,7 +36,7 @@ class VoidToolsParser(
     favicon_url="https://www.voidtools.com/favicon.ico",
 ):
     session: ClientSession
-    cache: dict[str, str]
+    cache: MutableCache
 
     def __init__(self) -> None:
         self.cache = {}
@@ -85,17 +85,18 @@ class VoidToolsParser(
                 case 3:
                     l3 = label
 
-            self.cache[" - ".join(_remove_all_instances([l3, l2, l1], MISSING))] = str(
-                self / href
-            )
+            parts = _remove_all_instances([l3, l2, l1], MISSING)
+            self.cache[parts[0]] = Entry(" - ".join(parts), self / href)
 
-    async def build_cache(self) -> dict[str, str]:
+    async def build_cache(self) -> Cache:
         checked_urls: list[str] = []
         tasks: list[Awaitable[None]] = []
 
         await self.parse_url("https://www.voidtools.com/support/everything")
 
-        for url in self.cache.values():
+        for entry in self.cache.values():
+            url = entry.url
+
             if url not in checked_urls:
                 tasks.append(self.parse_url(url))
                 checked_urls.append(url)

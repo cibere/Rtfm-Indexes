@@ -5,7 +5,8 @@ export async function githubHandler(request){
     const query = request.query;
 
     if (query == ""){
-        return {"Github Docs": base_url};
+        let text = "Github Docs";
+        return {text: {text, url: base_url}};
     }
 
     const data = await fetch(`${base_url}/api/search/v1?query=${query}`, {

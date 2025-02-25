@@ -13,7 +13,7 @@ import re
 
 import bs4
 import requests
-from _base import BaseSyncParser
+from _base import BaseSyncParser, Cache, Entry, MutableCache
 from msgspec import Struct, json
 
 
@@ -47,7 +47,7 @@ class QmkDocs(
             if isinstance(tag, bs4.Tag)
         ]
 
-    def parse_index(self, filename: str) -> dict[str, str]:
+    def parse_index(self, filename: str) -> Cache:
         raw_content = requests.get(
             self / "assets" / "chunks" / filename, timeout=10
         ).content
@@ -60,11 +60,11 @@ class QmkDocs(
         )
 
         index = response_decoder.decode(raw_json)
-        cache = {}
+        cache: MutableCache = {}
 
         for docid, field in index.storedFields.items():
             document = index.documentIds[docid]
-            cache[field.title] = self / document
+            cache[field.title] = Entry(field.title, self / document)
 
         return cache
 
@@ -74,7 +74,7 @@ class QmkDocs(
         for match in pattern.finditer(raw_content.decode()):
             return match.group(0)
 
-    def build_cache(self) -> dict[str, str]:
+    def build_cache(self) -> Cache:
         raw_content = requests.get(self.base_url, timeout=10).content
         tags = self.qmk_get_theme(raw_content)
 

@@ -9,7 +9,7 @@ from __future__ import annotations
 
 import msgspec
 import requests
-from _base import BaseSyncParser, Cache
+from _base import BaseSyncParser, Cache, Entry
 from msgspec import json
 
 
@@ -34,7 +34,7 @@ class MdnParser(
 
         data = doc_entry_decoder.decode(raw_content)
 
-        return {entry.title: self / entry.url for entry in data}
+        return {entry.title: Entry(entry.title, self / entry.url) for entry in data}
 
 
 MdnParser.build(__name__)

@@ -11,7 +11,7 @@
 from types import TracebackType
 from typing import Self
 
-from _base import BaseSyncParser
+from _base import BaseSyncParser, Cache, Entry, MutableCache
 from selenium import webdriver
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.common.by import By
@@ -27,7 +27,7 @@ class MpvIoParser(
     browser: webdriver.Firefox
 
     def __init__(self) -> None:
-        self.cache = {}
+        self.cache: MutableCache = {}
 
     def __enter__(self) -> Self:
         options = Options()
@@ -54,11 +54,10 @@ class MpvIoParser(
             atag = tag.find_element(By.TAG_NAME, "a")
 
             text = atag.get_attribute("innerText")
-            assert text
             href = atag.get_attribute("href")
-            assert href
 
-            self.cache[text] = href
+            if text and href:
+                self.cache[text] = Entry(text, href)
 
     def parse_anchor_links(self) -> None:
         for literalEl in self.browser.find_elements(By.CLASS_NAME, "literal"):
@@ -72,9 +71,10 @@ class MpvIoParser(
             href = anchor.get_attribute("href")
             text = literalEl.get_attribute("innerText")
 
-            self.cache[text] = href
+            if text and href:
+                self.cache[text] = Entry(text, href)
 
-    def build_cache(self) -> dict[str, str]:
+    def build_cache(self) -> Cache:
         self.parse_toc()
         self.parse_anchor_links()
         return self.cache

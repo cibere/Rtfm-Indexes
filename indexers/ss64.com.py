@@ -11,7 +11,7 @@ from __future__ import annotations
 
 import bs4
 import requests
-from _base import BaseSyncParser, Entry
+from _base import BaseSyncParser, Cache, Entry, MutableCache
 
 
 class SS64Parser(
@@ -23,13 +23,13 @@ class SS64Parser(
     soup: bs4.BeautifulSoup
 
     def __init__(self) -> None:
-        self.cache: dict[str, str | Entry] = {}
+        self.cache: MutableCache = {}
 
     @property
     def is_powershell(self) -> bool:
         return self.variant == "ps"
 
-    def build_cache(self) -> dict[str, str | Entry]:
+    def build_cache(self) -> Cache:
         res = requests.get(self.base_url, timeout=10)
         self.soup = bs4.BeautifulSoup(res.content, "html.parser")
 

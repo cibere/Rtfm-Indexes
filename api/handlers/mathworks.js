@@ -4,7 +4,8 @@ export async function mathworksHandler(request){
     const query = request.query;
 
     if (query == ""){
-        return {"Mathwork Docs": base_url};
+        let text = "Mathwork Docs";
+        return {text: {text, url: base_url}};
     }
 
     const data = await fetch(`${base_url}/search/suggest/doccenter/en/R2024b?selectedsource=mw&width=785.667&q=${query}`, {

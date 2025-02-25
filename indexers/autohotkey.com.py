@@ -10,7 +10,7 @@ from __future__ import annotations
 from typing import TYPE_CHECKING
 
 import requests
-from _base import BaseSyncParser, Cache
+from _base import BaseSyncParser, Cache, Entry, MutableCache
 from msgspec import json
 
 if TYPE_CHECKING:
@@ -30,7 +30,7 @@ class AutoHotkeyParser(
     base_url="https://autohotkey.com/docs/v{VAR}",
     favicon_url="https://www.autohotkey.com/favicon.ico",
 ):
-    def fetch_index(self) -> dict[str, str]:
+    def fetch_index(self) -> MutableCache:
         url = DATA_INDEX_URL.format(self.variant)
         raw_content = requests.get(url, timeout=10).content
 
@@ -40,7 +40,7 @@ class AutoHotkeyParser(
 
         data: list[tuple[str, str] | tuple[str, str, int]] = decoder.decode(content)
 
-        return {name: self / str(extra[0]) for name, *extra in data}
+        return {name: Entry(name, self / str(extra[0])) for name, *extra in data}
 
     def parse_toc(self, tree: TocTree) -> Iterator[tuple[str, str]]:
         for entry in tree:
@@ -50,7 +50,7 @@ class AutoHotkeyParser(
                 for key, value in self.parse_toc(entry[2]):
                     yield f"{key} - {entry[0]}", value
 
-    def fetch_toc(self) -> dict[str, str]:
+    def fetch_toc(self) -> MutableCache:
         url = DATA_TOC_URL.format(self.variant)
         raw_content = requests.get(url, timeout=10).content
 
@@ -60,7 +60,7 @@ class AutoHotkeyParser(
 
         tree: TocTree = decoder.decode(content)
 
-        return {name: self / url for name, url in self.parse_toc(tree)}
+        return {name: Entry(name, self / url) for name, url in self.parse_toc(tree)}
 
     def build_cache(self) -> Cache:
         return self.fetch_index() | self.fetch_toc()

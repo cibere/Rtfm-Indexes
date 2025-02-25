@@ -13,7 +13,7 @@ from typing import TYPE_CHECKING
 
 import bs4
 import requests
-from _base import BaseSyncParser
+from _base import BaseSyncParser, Cache, Entry, MutableCache
 
 if TYPE_CHECKING:
     from bs4._typing import _QueryResults
@@ -28,7 +28,7 @@ class LuaParser(
     soup: bs4.BeautifulSoup
 
     def __init__(self) -> None:
-        self.cache: dict[str, str] = {}
+        self.cache: MutableCache = {}
 
     def parse_atags(self, tags: _QueryResults) -> None:
         for tag in tags:
@@ -37,7 +37,8 @@ class LuaParser(
 
             href = tag.attrs.get("href")
             if href:
-                self.cache[tag.get_text()] = self / href
+                label = tag.get_text()
+                self.cache[label] = Entry(label, self / href)
 
     def parse_nav(self) -> None:
         container = self.soup.find_all("ul", class_="contents menubar")[0]
@@ -51,7 +52,7 @@ class LuaParser(
 
     def build_cache(
         self,
-    ) -> dict[str, str]:
+    ) -> Cache:
         res = requests.get("https://www.lua.org/manual/5.4", timeout=10)
         self.soup = bs4.BeautifulSoup(res.content, "html.parser")
         self.parse_nav()
