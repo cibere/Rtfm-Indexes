@@ -30,5 +30,8 @@ export async function mathworksHandler(request){
         };
     };
 
-    return cache;
+    return {
+        version: "2.1",
+        cache,
+    };
 }
