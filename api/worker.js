@@ -29,6 +29,8 @@ export default {
       version: "2.1",
       cache: data,
       type: "cache-index",
+      name: url.pathname,
+      favicon_url: null,
     }));
   },
 };
