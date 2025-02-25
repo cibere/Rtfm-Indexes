@@ -32,9 +32,9 @@ def build_tree():
                     "indexer": {
                         "description": "the indexer to run",
                         "required": False,
-                        "default": "all",
+                        "default": "",
                         "type": "choice",
-                        "options": ["all", *files],
+                        "options": ["", *files],
                     }
                 }
             },
