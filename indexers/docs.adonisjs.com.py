@@ -13,7 +13,7 @@ class AdonisSearchAPI(
     BaseAPI,
     file=__file__,
     api_type="algolia",
-    favicon_url="https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/636e0a6a49cf127bf92de1e2_icon_clyde_blurple_RGB.png",
+    favicon_url="https://docs.adonisjs.com/icons/favicon.svg",
     options={
         "url": "https://kxecyamex8-dsn.algolia.net/1/indexes/*/queries?x-algolia-agent=Algolia for JavaScript (4.19.1); Browser (lite); docsearch (3.6.1); docsearch-react (3.6.1); docsearch.js (3.6.1)&x-algolia-api-key=01279e9ede105d87a1ade54565b1a2fd&x-algolia-application-id=KXECYAMEX8",
         "payload": {

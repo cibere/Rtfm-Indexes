@@ -13,7 +13,7 @@ class AlpineJsSearchAPI(
     BaseAPI,
     file=__file__,
     api_type="algolia",
-    favicon_url="https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/636e0a6a49cf127bf92de1e2_icon_clyde_blurple_RGB.png",
+    favicon_url="https://alpinejs.dev/favicon.png",
     options={
         "url": "https://sm9gagaukz-dsn.algolia.net/1/indexes/*/queries?x-algolia-agent=Algolia for JavaScript (5.19.0); Lite (5.19.0); Browser; docsearch (3.9.0); docsearch-react (3.9.0); docsearch.js (3.9.0)&x-algolia-api-key=1fad8740c0cf75209d11ae25f1f6f55c&x-algolia-application-id=SM9GAGAUKZ",
         "payload": {
