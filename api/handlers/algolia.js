@@ -1,16 +1,31 @@
-export async function algoliaHandler(requestInfo){
-    let payload = requestInfo.options.payload;
-    payload["query"] = requestInfo.query;
+const resultTitleFallbackKeys = ["title", "pageTitle", "mainTitle"];
 
-    if (payload.indexName){
-        payload = {requests:[payload]}
+export async function algoliaHandler(requestInfo){
+    let payload
+
+    if (requestInfo.options.payload){
+        payload = requestInfo.options.payload;
+        payload["query"] = requestInfo.query;
+    
+        if (payload.indexName){
+            payload = {requests:[payload]};
+        };
+    } else {
+        payload = {requests:requestInfo.options.payloads};
+        for (let req of payload.requests){
+            req.query = requestInfo.query;
+        };
     }
 
+    let headers = requestInfo.options.headers ? requestInfo.options.headers : {};
+
     console.log("payload", payload);
+    console.log("headers", headers);
 
     const data = await fetch(requestInfo.options.url, {
         method: "POST",
-        body: JSON.stringify(payload)
+        body: JSON.stringify(payload),
+        headers
     }).then(v => v.json());
     const cache = {};
 
@@ -32,7 +47,15 @@ export async function algoliaHandler(requestInfo){
             let text = parts.join(" - ");
             if (text == "") {
                 text = hit.title
-            }
+                for (let key of resultTitleFallbackKeys){
+                    try {
+                        text = hit[key];
+                        if (text){
+                            break;
+                        };
+                    } catch {};
+                };
+            };
 
             let options = {}
 
