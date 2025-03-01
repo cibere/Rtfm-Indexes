@@ -26,6 +26,12 @@ jobs:
       with:
         error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
         filename: mathworks.com
+    - if: ${{ inputs.indexer == '' || inputs.indexer == 'doctrine-project.org' }}
+      name: index doctrine-project.org
+      uses: cibere/Rtfm-Indexes@run-indexer-action
+      with:
+        error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
+        filename: doctrine-project.org
     - if: ${{ inputs.indexer == '' || inputs.indexer == 'docs.adonisjs.com' }}
       name: index docs.adonisjs.com
       uses: cibere/Rtfm-Indexes@run-indexer-action
@@ -184,6 +190,12 @@ jobs:
       with:
         error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
         filename: bun.sh
+    - if: ${{ inputs.indexer == '' || inputs.indexer == 'docs.cypress.io' }}
+      name: index docs.cypress.io
+      uses: cibere/Rtfm-Indexes@run-indexer-action
+      with:
+        error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
+        filename: docs.cypress.io
     - if: ${{ inputs.indexer == '' || inputs.indexer == 'docs.qmk.fm' }}
       name: index docs.qmk.fm
       uses: cibere/Rtfm-Indexes@run-indexer-action
@@ -241,6 +253,7 @@ name: Auto Update
         - jetbrains.com
         - lua.org
         - mathworks.com
+        - doctrine-project.org
         - docs.adonisjs.com
         - anaconda.com
         - ss64.com
@@ -267,6 +280,7 @@ name: Auto Update
         - browserstack.com
         - getcomposer.org
         - bun.sh
+        - docs.cypress.io
         - docs.qmk.fm
         - docs.arduino.cc
         - developer.mozilla.org
