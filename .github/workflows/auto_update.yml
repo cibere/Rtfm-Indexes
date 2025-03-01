@@ -86,6 +86,20 @@ jobs:
       with:
         error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
         filename: discord.com
+    - if: ${{ inputs.indexer == '' || inputs.indexer == 'developers.cloudflare.com'
+        }}
+      name: index developers.cloudflare.com
+      uses: cibere/Rtfm-Indexes@run-indexer-action
+      with:
+        error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
+        filename: developers.cloudflare.com
+    - if: ${{ inputs.indexer == '' || inputs.indexer == 'developer.hashicorp.com'
+        }}
+      name: index developer.hashicorp.com
+      uses: cibere/Rtfm-Indexes@run-indexer-action
+      with:
+        error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
+        filename: developer.hashicorp.com
     - if: ${{ inputs.indexer == '' || inputs.indexer == 'docs.astro.build' }}
       name: index docs.astro.build
       uses: cibere/Rtfm-Indexes@run-indexer-action
@@ -158,6 +172,12 @@ jobs:
       with:
         error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
         filename: browserstack.com
+    - if: ${{ inputs.indexer == '' || inputs.indexer == 'getcomposer.org' }}
+      name: index getcomposer.org
+      uses: cibere/Rtfm-Indexes@run-indexer-action
+      with:
+        error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
+        filename: getcomposer.org
     - if: ${{ inputs.indexer == '' || inputs.indexer == 'bun.sh' }}
       name: index bun.sh
       uses: cibere/Rtfm-Indexes@run-indexer-action
@@ -231,6 +251,8 @@ name: Auto Update
         - discord.dev
         - tom-select.js.org
         - discord.com
+        - developers.cloudflare.com
+        - developer.hashicorp.com
         - docs.astro.build
         - alpinejs.dev
         - capacitorjs.com
@@ -243,6 +265,7 @@ name: Auto Update
         - voidtools.com
         - v5-docs.adonisjs.com
         - browserstack.com
+        - getcomposer.org
         - bun.sh
         - docs.qmk.fm
         - docs.arduino.cc
