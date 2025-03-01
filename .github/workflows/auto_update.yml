@@ -38,6 +38,12 @@ jobs:
       with:
         error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
         filename: ss64.com
+    - if: ${{ inputs.indexer == '' || inputs.indexer == 'babeljs.io' }}
+      name: index babeljs.io
+      uses: cibere/Rtfm-Indexes@run-indexer-action
+      with:
+        error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
+        filename: babeljs.io
     - if: ${{ inputs.indexer == '' || inputs.indexer == 'mpv.io' }}
       name: index mpv.io
       uses: cibere/Rtfm-Indexes@run-indexer-action
@@ -152,6 +158,12 @@ jobs:
       with:
         error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
         filename: developer.mozilla.org
+    - if: ${{ inputs.indexer == '' || inputs.indexer == 'getbootstrap.com' }}
+      name: index getbootstrap.com
+      uses: cibere/Rtfm-Indexes@run-indexer-action
+      with:
+        error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
+        filename: getbootstrap.com
     - continue-on-error: true
       name: Push Changes
       run: 'git add indexes_v2
@@ -187,6 +199,7 @@ name: Auto Update
         - docs.adonisjs.com
         - anaconda.com
         - ss64.com
+        - babeljs.io
         - mpv.io
         - autohotkey.com
         - github.com
@@ -206,5 +219,6 @@ name: Auto Update
         - docs.qmk.fm
         - docs.arduino.cc
         - developer.mozilla.org
+        - getbootstrap.com
         required: false
         type: choice
