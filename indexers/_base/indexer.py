@@ -61,12 +61,17 @@ class BaseIndexer[KwargsT]:
         self._runner()
         return self
 
-    def save_variant_manifest(self, *variations: str) -> None:
+    def save_variant_manifest(
+        self, *variations: str, filename: str | None = None
+    ) -> None:
+        if sys.argv[-1] == "--debug":
+            return
+
         data = VariantManifest(variations)
-        self._save(data, self._filename)
+        self._save(data, filename or self._filename)
 
     @classmethod
-    def build(cls, name: str, *variations: str) -> None:
+    def build(cls, name: str, *variations: str, save_manifest: bool = True) -> None:
         if name != "__main__":
             if not name.startswith("__CIDEX_FILENAME_OVERRIDE:"):
                 return
@@ -79,7 +84,5 @@ class BaseIndexer[KwargsT]:
 
         self = [cls._run_with_variant(variant) for variant in variations][0]  # noqa: RUF015 # all iterations need to run, but just need one of the self values, so we don't need to create another to save
 
-        if sys.argv[-1] == "--debug":
-            return
-
-        self.save_variant_manifest(*variations)
+        if save_manifest:
+            self.save_variant_manifest(*variations)
