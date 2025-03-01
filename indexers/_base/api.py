@@ -1,8 +1,6 @@
 from __future__ import annotations
 
-import inspect
 import sys
-from collections.abc import Sequence
 from typing import Any, ClassVar
 
 from .indexer import BaseIndexer
@@ -13,16 +11,6 @@ BASE_URL = (
     if sys.argv[-1] == "--debug"
     else "https://rtfm-index-api.cibere.dev"
 )
-
-
-class APIContainer(BaseIndexer):
-    def _runner(self) -> None:
-        variants: Sequence[tuple[str, type[BaseAPI]]] = inspect.getmembers(
-            self, lambda obj: issubclass(obj, BaseAPI)
-        )
-
-        for name, cls in variants:
-            cls._run_with_variant(name)
 
 
 class BaseAPI(BaseIndexer):
