@@ -8,6 +8,12 @@ jobs:
     - uses: actions/checkout@v4
     - name: Print Option
       run: echo ${{ inputs.indexer }}
+    - if: ${{ inputs.indexer == '' || inputs.indexer == 'jetbrains.com' }}
+      name: index jetbrains.com
+      uses: cibere/Rtfm-Indexes@run-indexer-action
+      with:
+        error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
+        filename: jetbrains.com
     - if: ${{ inputs.indexer == '' || inputs.indexer == 'lua.org' }}
       name: index lua.org
       uses: cibere/Rtfm-Indexes@run-indexer-action
@@ -92,6 +98,12 @@ jobs:
       with:
         error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
         filename: alpinejs.dev
+    - if: ${{ inputs.indexer == '' || inputs.indexer == 'capacitorjs.com' }}
+      name: index capacitorjs.com
+      uses: cibere/Rtfm-Indexes@run-indexer-action
+      with:
+        error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
+        filename: capacitorjs.com
     - if: ${{ inputs.indexer == '' || inputs.indexer == 'docs.github.com' }}
       name: index docs.github.com
       uses: cibere/Rtfm-Indexes@run-indexer-action
@@ -146,6 +158,12 @@ jobs:
       with:
         error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
         filename: browserstack.com
+    - if: ${{ inputs.indexer == '' || inputs.indexer == 'bun.sh' }}
+      name: index bun.sh
+      uses: cibere/Rtfm-Indexes@run-indexer-action
+      with:
+        error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
+        filename: bun.sh
     - if: ${{ inputs.indexer == '' || inputs.indexer == 'docs.qmk.fm' }}
       name: index docs.qmk.fm
       uses: cibere/Rtfm-Indexes@run-indexer-action
@@ -200,6 +218,7 @@ name: Auto Update
         description: the indexer to run
         options:
         - ''
+        - jetbrains.com
         - lua.org
         - mathworks.com
         - docs.adonisjs.com
@@ -214,6 +233,7 @@ name: Auto Update
         - discord.com
         - docs.astro.build
         - alpinejs.dev
+        - capacitorjs.com
         - docs.github.com
         - discord.sex
         - docs.datasecurity.org
@@ -223,6 +243,7 @@ name: Auto Update
         - voidtools.com
         - v5-docs.adonisjs.com
         - browserstack.com
+        - bun.sh
         - docs.qmk.fm
         - docs.arduino.cc
         - developer.mozilla.org
