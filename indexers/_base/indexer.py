@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import sys
 from pathlib import Path
 from typing import Any, ClassVar, Self
 
@@ -71,6 +72,9 @@ class BaseIndexer[KwargsT]:
 
         if not variations:
             return cls()._runner()
+
+        if sys.argv[-1] == "--debug":
+            return
 
         self = [cls._run_with_variant(variant) for variant in variations][0]  # noqa: RUF015 # all iterations need to run, but just need one of the self values, so we don't need to create another to save
         data = VariantManifest(variations)
