@@ -140,6 +140,12 @@ jobs:
       with:
         error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
         filename: v5-docs.adonisjs.com
+    - if: ${{ inputs.indexer == '' || inputs.indexer == 'browserstack.com' }}
+      name: index browserstack.com
+      uses: cibere/Rtfm-Indexes@run-indexer-action
+      with:
+        error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
+        filename: browserstack.com
     - if: ${{ inputs.indexer == '' || inputs.indexer == 'docs.qmk.fm' }}
       name: index docs.qmk.fm
       uses: cibere/Rtfm-Indexes@run-indexer-action
@@ -216,6 +222,7 @@ name: Auto Update
         - flowlauncher.com
         - voidtools.com
         - v5-docs.adonisjs.com
+        - browserstack.com
         - docs.qmk.fm
         - docs.arduino.cc
         - developer.mozilla.org
