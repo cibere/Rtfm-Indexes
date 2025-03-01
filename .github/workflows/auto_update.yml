@@ -74,6 +74,12 @@ jobs:
       with:
         error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
         filename: discord.com
+    - if: ${{ inputs.indexer == '' || inputs.indexer == 'docs.astro.build' }}
+      name: index docs.astro.build
+      uses: cibere/Rtfm-Indexes@run-indexer-action
+      with:
+        error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
+        filename: docs.astro.build
     - if: ${{ inputs.indexer == '' || inputs.indexer == 'alpinejs.dev' }}
       name: index alpinejs.dev
       uses: cibere/Rtfm-Indexes@run-indexer-action
@@ -98,6 +104,12 @@ jobs:
       with:
         error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
         filename: docs.datasecurity.org
+    - if: ${{ inputs.indexer == '' || inputs.indexer == 'angular.dev' }}
+      name: index angular.dev
+      uses: cibere/Rtfm-Indexes@run-indexer-action
+      with:
+        error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
+        filename: angular.dev
     - if: ${{ inputs.indexer == '' || inputs.indexer == 'docs.discord.sex' }}
       name: index docs.discord.sex
       uses: cibere/Rtfm-Indexes@run-indexer-action
@@ -128,6 +140,12 @@ jobs:
       with:
         error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
         filename: docs.qmk.fm
+    - if: ${{ inputs.indexer == '' || inputs.indexer == 'docs.arduino.cc' }}
+      name: index docs.arduino.cc
+      uses: cibere/Rtfm-Indexes@run-indexer-action
+      with:
+        error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
+        filename: docs.arduino.cc
     - if: ${{ inputs.indexer == '' || inputs.indexer == 'developer.mozilla.org' }}
       name: index developer.mozilla.org
       uses: cibere/Rtfm-Indexes@run-indexer-action
@@ -175,15 +193,18 @@ name: Auto Update
         - discord.dev
         - tom-select.js.org
         - discord.com
+        - docs.astro.build
         - alpinejs.dev
         - docs.github.com
         - discord.sex
         - docs.datasecurity.org
+        - angular.dev
         - docs.discord.sex
         - flowlauncher.com
         - voidtools.com
         - v5-docs.adonisjs.com
         - docs.qmk.fm
+        - docs.arduino.cc
         - developer.mozilla.org
         required: false
         type: choice
