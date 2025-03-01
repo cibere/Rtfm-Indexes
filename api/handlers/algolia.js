@@ -12,6 +12,37 @@ function getAnyKeyFromList(obj, keys){
     };
 }
 
+function getLabel(hit){
+    let label = getAnyKeyFromList(hit, resultTitleFallbackKeys);
+
+    if (!label){
+        const parts = [];
+        for (let i = 0; i <= 6; i++) {
+            const lvl = `lvl${i}`;
+            try {
+                if (hit.hierarchy[lvl] != null) {
+                    parts.push(hit.hierarchy[lvl]);
+                }
+            } catch {};
+        };
+        label = parts.join(" - ");
+    }
+    if (!label){
+        const parts = [];
+        for (let i = 1; i <= 5; i++) {
+            const key = `h${i}`;
+            try {
+                if (hit[key] != null) {
+                    parts.push(hit[key]);
+                }
+            } catch {};
+        };
+        label = parts.join(" - ");
+    }
+
+    return label;
+}
+
 export async function algoliaHandler(requestInfo){
     let payload
 
@@ -46,21 +77,6 @@ export async function algoliaHandler(requestInfo){
     for (let result of (data.results ? data.results : [data])){
         for (let hit of result.hits){
             // console.log("dealing with hit", hit);
-            const parts = [];
-            for (let i = 0; i <= 6; i++) {
-                const lvl = `lvl${i}`;
-                try {
-                    if (hit.hierarchy[lvl] != null) {
-                        parts.push(hit.hierarchy[lvl]);
-                    }
-                } catch {};
-            }
-            
-            let text = parts.join(" - ");
-            if (text == "") {
-                text = getAnyKeyFromList(hit, resultTitleFallbackKeys);
-            };
-
             let options = {};
 
             let excerpt	= hit.excerpt;
@@ -69,6 +85,7 @@ export async function algoliaHandler(requestInfo){
             };
             
             let href = getAnyKeyFromList(hit, resultHrefKeys);
+            let text = getLabel(hit);
 
             cache[text] = {
                 text,
