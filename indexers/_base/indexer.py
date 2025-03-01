@@ -61,6 +61,10 @@ class BaseIndexer[KwargsT]:
         self._runner()
         return self
 
+    def save_variant_manifest(self, *variations: str) -> None:
+        data = VariantManifest(variations)
+        self._save(data, self._filename)
+
     @classmethod
     def build(cls, name: str, *variations: str) -> None:
         if name != "__main__":
@@ -78,5 +82,4 @@ class BaseIndexer[KwargsT]:
         if sys.argv[-1] == "--debug":
             return
 
-        data = VariantManifest(variations)
-        self._save(data, self._filename)
+        self.save_variant_manifest(*variations)
