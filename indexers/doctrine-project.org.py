@@ -72,7 +72,7 @@ class PersistenceProject(BaseDoctrineProject, doctrine_project="persistence"): .
 class RstParserProject(BaseDoctrineProject, doctrine_project="rst-parser"): ...
 
 
-class DocterineProject(Container):
+class DocterineProject(Container, file=__file__):
     def get_members(self) -> dict[str, tuple[type[BaseIndexer], tuple[str, ...]]]:
         return {
             "doctrine-collections": (DataFixturesProject, ("latest",)),
