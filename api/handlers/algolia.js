@@ -1,4 +1,16 @@
-const resultTitleFallbackKeys = ["title", "pageTitle", "mainTitle"];
+const resultTitleFallbackKeys = ["title", "pageTitle", "mainTitle", "page_title"];
+const resultHrefKeys = ["url", "objectID", "slug"];
+
+function getAnyKeyFromList(obj, keys){
+    for (let key of keys){
+        try {
+            let item = obj[key];
+            if (item != null){
+                return item;
+            };
+        } catch {};
+    };
+}
 
 export async function algoliaHandler(requestInfo){
     let payload
@@ -46,33 +58,22 @@ export async function algoliaHandler(requestInfo){
             
             let text = parts.join(" - ");
             if (text == "") {
-                text = hit.title
-                for (let key of resultTitleFallbackKeys){
-                    try {
-                        text = hit[key];
-                        if (text){
-                            break;
-                        };
-                    } catch {};
-                };
+                text = getAnyKeyFromList(hit, resultTitleFallbackKeys);
             };
 
-            let options = {}
+            let options = {};
 
             let excerpt	= hit.excerpt;
             if (excerpt	!= null) {
-                options["sub"] = excerpt
-            }
-
-            let href = hit.url
-            if (href == null) {
-                href = hit.slug
-            }
+                options["sub"] = excerpt;
+            };
             
+            let href = getAnyKeyFromList(hit, resultHrefKeys);
+
             cache[text] = {
                 text,
                 url: href,
-                options
+                options,
             };
         };
     };
