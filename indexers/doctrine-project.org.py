@@ -1,15 +1,19 @@
 # /// script
 # requires-python = ">=3.13"
 # dependencies = [
+#     "aiohttp==3.11.13",
+#     "beautifulsoup4==4.13.3",
 #     "msgspec==0.19.0",
 # ]
 # ///
 from __future__ import annotations
 
+import asyncio
 from typing import Any, ClassVar
 
-from _base import BaseAPI, Container
-from _base.indexer import BaseIndexer
+import aiohttp
+import bs4
+from _base import BaseAPI, Container, ContainerMembers
 
 
 class BaseDoctrineProject(BaseAPI, file=__file__, api_type="algolia"):
@@ -73,107 +77,66 @@ class RstParserProject(BaseDoctrineProject, doctrine_project="rst-parser"): ...
 
 
 class DocterineProject(Container, file=__file__):
-    def get_members(self) -> dict[str, tuple[type[BaseIndexer], tuple[str, ...]]]:
-        return {
-            "doctrine-collections": (
-                DataFixturesProject,
-                (
-                    "latest",
-                    "stable",
-                ),
-            ),
-            "doctrine-data-fixtures": (
-                DataFixturesProject,
-                (
-                    "latest",
-                    "stable",
-                ),
-            ),
-            "doctrine-common": (
-                CommonProject,
-                (
-                    "latest",
-                    "stable",
-                ),
-            ),
-            "doctrine-dbal": (
-                DbalProject,
-                (
-                    "latest",
-                    "stable",
-                ),
-            ),
-            "doctrine-event-manager": (
-                EventManagerProject,
-                (
-                    "latest",
-                    "stable",
-                ),
-            ),
-            "doctrine-instantiator": (
-                InstantiatorProject,
-                (
-                    "latest",
-                    "stable",
-                ),
-            ),
-            "doctrine-inflector": (
-                InflectorProject,
-                (
-                    "latest",
-                    "stable",
-                ),
-            ),
-            "doctrine-lexer": (
-                LexerProject,
-                (
-                    "latest",
-                    "stable",
-                ),
-            ),
-            "doctrine-migrations": (
-                MigrationsProject,
-                (
-                    "latest",
-                    "stable",
-                ),
-            ),
-            "doctrine-orm": (
-                OrmProject,
-                (
-                    "latest",
-                    "stable",
-                ),
-            ),
-            "doctrine-mongodb-odm": (
-                MongodbOdmProject,
-                (
-                    "latest",
-                    "stable",
-                ),
-            ),
-            "doctrine-phpcr-odm": (
-                PhpcrOdmProject,
-                (
-                    "latest",
-                    "stable",
-                ),
-            ),
-            "doctrine-persistence": (
-                PersistenceProject,
-                (
-                    "latest",
-                    "stable",
-                ),
-            ),
-            "doctrine-rst-parser": (
-                RstParserProject,
-                (
-                    "latest",
-                    "stable",
-                ),
-            ),
-        }
+    def _get_version(self, page: bytes) -> list[str]:
+        versions = []
+
+        soup = bs4.BeautifulSoup(page, "html.parser")
+        table = soup.find("table")
+        assert isinstance(table, bs4.Tag)
+
+        for tr in table.find_all("tr"):
+            assert isinstance(tr, bs4.Tag)
+            raw_version_tag = tr.find("a")
+            assert isinstance(raw_version_tag, bs4.Tag)
+
+            version = raw_version_tag.text.strip()
+            if len(parts := version.split(".")) > 2:
+                version = ".".join(parts[:2])
+            versions.append(version)
+
+        return versions
+
+    async def get_project_versions(
+        self, session: aiohttp.ClientSession, project: type[BaseDoctrineProject]
+    ) -> tuple[type[BaseDoctrineProject], tuple[str, ...]]:
+        url = (
+            f"https://www.doctrine-project.org/projects/{project.doctrine_project}.html"
+        )
+        async with session.get(url) as res:
+            data = await res.content.read()
+
+        versions = await asyncio.to_thread(self._get_version, data)
+
+        print(f"Versions for {project.doctrine_project}: {', '.join(versions)}")
+
+        return (project, tuple(versions))
+
+    async def get_members(self) -> ContainerMembers:
+        projects = (
+            CollectionsProject,
+            DataFixturesProject,
+            CommonProject,
+            DbalProject,
+            EventManagerProject,
+            InstantiatorProject,
+            InflectorProject,
+            LexerProject,
+            MigrationsProject,
+            OrmProject,
+            MongodbOdmProject,
+            PhpcrOdmProject,
+            PersistenceProject,
+            RstParserProject,
+        )
+        tasks = []
+
+        async with aiohttp.ClientSession() as cs:
+            tasks = [self.get_project_versions(cs, cls) for cls in projects]
+
+            return {
+                cls.doctrine_project: (cls, variants)
+                for (cls, variants) in await asyncio.gather(*tasks)
+            }
 
 
 DocterineProject.build(__name__)
