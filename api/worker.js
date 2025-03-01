@@ -1,11 +1,13 @@
 import {githubHandler} from "./handlers/github.js";
 import {mathworksHandler} from "./handlers/mathworks.js";
 import {algoliaHandler} from "./handlers/algolia.js";
+import {mintlifyHandler} from "./handlers/mintlifytrieve.js"
 
 const handlers = {
   "/github": githubHandler,
   "/mathworks": mathworksHandler,
   "/algolia": algoliaHandler,
+  "/mintlify": mintlifyHandler,
 }
 
 export default {
