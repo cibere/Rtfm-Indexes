@@ -75,20 +75,104 @@ class RstParserProject(BaseDoctrineProject, doctrine_project="rst-parser"): ...
 class DocterineProject(Container, file=__file__):
     def get_members(self) -> dict[str, tuple[type[BaseIndexer], tuple[str, ...]]]:
         return {
-            "doctrine-collections": (DataFixturesProject, ("latest",)),
-            "doctrine-data-fixtures": (DataFixturesProject, ("latest",)),
-            "doctrine-common": (CommonProject, ("latest",)),
-            "doctrine-dbal": (DbalProject, ("latest",)),
-            "doctrine-event-manager": (EventManagerProject, ("latest",)),
-            "doctrine-instantiator": (InstantiatorProject, ("latest",)),
-            "doctrine-inflector": (InflectorProject, ("latest",)),
-            "doctrine-lexer": (LexerProject, ("latest",)),
-            "doctrine-migrations": (MigrationsProject, ("latest",)),
-            "doctrine-orm": (OrmProject, ("latest",)),
-            "doctrine-mongodb-odm": (MongodbOdmProject, ("latest",)),
-            "doctrine-phpcr-odm": (PhpcrOdmProject, ("latest",)),
-            "doctrine-persistence": (PersistenceProject, ("latest",)),
-            "doctrine-rst-parser": (RstParserProject, ("latest",)),
+            "doctrine-collections": (
+                DataFixturesProject,
+                (
+                    "latest",
+                    "stable",
+                ),
+            ),
+            "doctrine-data-fixtures": (
+                DataFixturesProject,
+                (
+                    "latest",
+                    "stable",
+                ),
+            ),
+            "doctrine-common": (
+                CommonProject,
+                (
+                    "latest",
+                    "stable",
+                ),
+            ),
+            "doctrine-dbal": (
+                DbalProject,
+                (
+                    "latest",
+                    "stable",
+                ),
+            ),
+            "doctrine-event-manager": (
+                EventManagerProject,
+                (
+                    "latest",
+                    "stable",
+                ),
+            ),
+            "doctrine-instantiator": (
+                InstantiatorProject,
+                (
+                    "latest",
+                    "stable",
+                ),
+            ),
+            "doctrine-inflector": (
+                InflectorProject,
+                (
+                    "latest",
+                    "stable",
+                ),
+            ),
+            "doctrine-lexer": (
+                LexerProject,
+                (
+                    "latest",
+                    "stable",
+                ),
+            ),
+            "doctrine-migrations": (
+                MigrationsProject,
+                (
+                    "latest",
+                    "stable",
+                ),
+            ),
+            "doctrine-orm": (
+                OrmProject,
+                (
+                    "latest",
+                    "stable",
+                ),
+            ),
+            "doctrine-mongodb-odm": (
+                MongodbOdmProject,
+                (
+                    "latest",
+                    "stable",
+                ),
+            ),
+            "doctrine-phpcr-odm": (
+                PhpcrOdmProject,
+                (
+                    "latest",
+                    "stable",
+                ),
+            ),
+            "doctrine-persistence": (
+                PersistenceProject,
+                (
+                    "latest",
+                    "stable",
+                ),
+            ),
+            "doctrine-rst-parser": (
+                RstParserProject,
+                (
+                    "latest",
+                    "stable",
+                ),
+            ),
         }
 
 
