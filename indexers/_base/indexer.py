@@ -1,7 +1,7 @@
 from __future__ import annotations
 
 from pathlib import Path
-from typing import Any, ClassVar
+from typing import Any, ClassVar, Self
 
 from msgspec import Struct, msgpack
 
@@ -14,12 +14,19 @@ class BaseIndexer[KwargsT]:
     file: ClassVar[str]
     favicon_url: ClassVar[str | None] = None
 
+    def __init__(self, **kwargs: KwargsT) -> None:
+        self._kwargs_to_attrs(self, **kwargs)
+
     def __init_subclass__(cls, **kwargs: KwargsT) -> None:
+        cls._kwargs_to_attrs(cls, **kwargs)
+
+    @classmethod
+    def _kwargs_to_attrs(cls, obj: Any, **kwargs: KwargsT) -> None:
         if "base_url" in kwargs:
             kwargs["_raw_base_url"] = kwargs.pop("base_url")
 
         for key, value in kwargs.items():
-            setattr(cls, key, value)
+            setattr(obj, key, value)
 
     @property
     def _filename(self) -> str:
@@ -47,6 +54,13 @@ class BaseIndexer[KwargsT]:
         raise NotImplementedError
 
     @classmethod
+    def _run_with_variant(cls, variant: str) -> Self:
+        cls.variant = variant
+        self = cls()
+        self._runner()
+        return self
+
+    @classmethod
     def build(cls, name: str, *variations: str) -> None:
         if name != "__main__":
             if not name.startswith("__CIDEX_FILENAME_OVERRIDE:"):
@@ -58,12 +72,6 @@ class BaseIndexer[KwargsT]:
         if not variations:
             return cls()._runner()
 
-        self = None
-        for variant in variations:
-            cls.variant = variant
-            self = cls()
-            self._runner()
-
-        if self:
-            data = VariantManifest(variations)
-            self._save(data, self._filename)
+        self = [cls._run_with_variant(variant) for variant in variations][0]  # noqa: RUF015 # all iterations need to run, but just need one of the self values, so we don't need to create another to save
+        data = VariantManifest(variations)
+        self._save(data, self._filename)
