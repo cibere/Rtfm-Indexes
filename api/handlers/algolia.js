@@ -1,16 +1,22 @@
 export async function algoliaHandler(requestInfo){
-    const payload = requestInfo.options.payload;
+    let payload = requestInfo.options.payload;
     payload["query"] = requestInfo.query;
+
+    if (payload.indexName){
+        payload = {requests:[payload]}
+    }
+
+    console.log("payload", payload);
 
     const data = await fetch(requestInfo.options.url, {
         method: "POST",
-        body: JSON.stringify({requests:[payload]})
+        body: JSON.stringify(payload)
     }).then(v => v.json());
     const cache = {};
 
     console.log("recieved response", data);
 
-    for (let result of data.results){
+    for (let result of (data.results ? data.results : [data])){
         for (let hit of result.hits){
             // console.log("dealing with hit", hit);
             const parts = [];
