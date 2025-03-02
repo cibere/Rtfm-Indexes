@@ -34,7 +34,7 @@ def build_tree():
                         "required": False,
                         "default": "",
                         "type": "choice",
-                        "options": ["", *files],
+                        "options": ["", *sorted(files)],
                     }
                 }
             },
