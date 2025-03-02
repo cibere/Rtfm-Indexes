@@ -14,6 +14,7 @@ class BaseIndexer[KwargsT]:
     variant: ClassVar[str | None] = None
     file: ClassVar[str]
     favicon_url: ClassVar[str | None] = None
+    _filename_suffix: str | None = None
 
     def __init__(self, **kwargs: KwargsT) -> None:
         self._kwargs_to_attrs(self, **kwargs)
@@ -31,7 +32,7 @@ class BaseIndexer[KwargsT]:
 
     @property
     def _filename(self) -> str:
-        return Path(self.file).name.removesuffix(".py")
+        return Path(self.file).name.removesuffix(".py") + (self._filename_suffix or "")
 
     @property
     def name(self) -> str:

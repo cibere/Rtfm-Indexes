@@ -21,8 +21,8 @@ class Container(BaseIndexer):
         if isawaitable(variants):
             variants = asyncio.run(variants)
 
-        for name, (cls, raw_subvariants) in variants.items():
-            subvariants = [f"{name}-{subvar}" for subvar in raw_subvariants]
+        for name, (cls, subvariants) in variants.items():
+            cls._filename_suffix = f"-{name}"
             cls.build("__main__", *subvariants, save_manifest=False)
 
             self.save_variant_manifest(
