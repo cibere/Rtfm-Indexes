@@ -1,6 +1,25 @@
 const resultTitleFallbackKeys = ["title", "pageTitle", "mainTitle", "page_title"];
 const resultHrefKeys = ["url", "objectID", "slug"];
 
+String.prototype.formatUnicorn = String.prototype.formatUnicorn ||
+function () {
+    "use strict";
+    var str = this.toString();
+    if (arguments.length) {
+        var t = typeof arguments[0];
+        var key;
+        var args = ("string" === t || "number" === t) ?
+            Array.prototype.slice.call(arguments)
+            : arguments[0];
+
+        for (key in args) {
+            str = str.replace(new RegExp("\\{" + key + "\\}", "gi"), args[key]);
+        }
+    }
+
+    return str;
+};
+
 function getAnyKeyFromList(obj, keys){
     for (let key of keys){
         try {
@@ -86,12 +105,17 @@ export async function algoliaHandler(requestInfo){
                 options["sub"] = excerpt;
             };
             
-            let href = getAnyKeyFromList(hit, resultHrefKeys);
+            let url
+            if (requestInfo.options.url_template) {
+                url = requestInfo.options.url_template.formatUnicorn({class: hit.class, name: hit.name})
+            } else {
+                url = `${base_url}${getAnyKeyFromList(hit, resultHrefKeys)}`
+            }
             let text = getLabel(hit);
 
             cache[text] = {
                 text,
-                url: `${base_url}${href}`,
+                url,
                 options,
             };
         };
