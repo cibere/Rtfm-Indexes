@@ -262,42 +262,42 @@ name: Auto Update
         description: the indexer to run
         options:
         - ''
+        - alpinejs.dev
+        - anaconda.com
+        - angular.dev
+        - api.emberjs.com
+        - autohotkey.com
+        - babeljs.io
+        - browserstack.com
+        - bun.sh
+        - capacitorjs.com
+        - developer.hashicorp.com
+        - developer.mozilla.org
+        - developers.cloudflare.com
+        - discord.com
+        - discord.dev
+        - discord.sex
+        - docs.adonisjs.com
+        - docs.arduino.cc
+        - docs.astro.build
+        - docs.cypress.io
+        - docs.datasecurity.org
+        - docs.discord.sex
+        - docs.github.com
+        - docs.qmk.fm
+        - doctrine-project.org
+        - electronjs.org
+        - flowlauncher.com
+        - getbootstrap.com
+        - getcomposer.org
+        - github.com
         - jetbrains.com
         - lua.org
         - mathworks.com
-        - doctrine-project.org
-        - docs.adonisjs.com
-        - anaconda.com
-        - ss64.com
-        - babeljs.io
         - mpv.io
-        - autohotkey.com
-        - github.com
-        - discord.dev
+        - ss64.com
         - tom-select.js.org
-        - discord.com
-        - developers.cloudflare.com
-        - developer.hashicorp.com
-        - electronjs.org
-        - docs.astro.build
-        - alpinejs.dev
-        - capacitorjs.com
-        - docs.github.com
-        - discord.sex
-        - docs.datasecurity.org
-        - angular.dev
-        - docs.discord.sex
-        - flowlauncher.com
-        - voidtools.com
         - v5-docs.adonisjs.com
-        - browserstack.com
-        - getcomposer.org
-        - bun.sh
-        - docs.cypress.io
-        - docs.qmk.fm
-        - api.emberjs.com
-        - docs.arduino.cc
-        - developer.mozilla.org
-        - getbootstrap.com
+        - voidtools.com
         required: false
         type: choice
