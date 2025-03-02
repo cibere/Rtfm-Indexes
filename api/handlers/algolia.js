@@ -44,6 +44,8 @@ function getLabel(hit){
 }
 
 export async function algoliaHandler(requestInfo){
+    const base_url = requestInfo.options.base_url ? requestInfo.options.base_url : ""
+
     let payload
 
     if (requestInfo.options.payload){
@@ -89,7 +91,7 @@ export async function algoliaHandler(requestInfo){
 
             cache[text] = {
                 text,
-                url: href,
+                url: `${base_url}${href}`,
                 options,
             };
         };

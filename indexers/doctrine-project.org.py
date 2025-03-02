@@ -31,6 +31,7 @@ class BaseDoctrineProject(BaseAPI, file=__file__, api_type="algolia"):
                 "x-algolia-api-key": "a6dada5f33f148586b92cc3afefeaaf6",
                 "x-algolia-application-id": "YVYTFT9XMW",
             },
+            "base_url": "https://www.doctrine-project.org",
         }
 
 
