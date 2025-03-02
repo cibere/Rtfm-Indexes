@@ -19,7 +19,7 @@ runs:
       run: |
         uv run indexers/${{ inputs.filename }}.py 1> output.txt 2>&1
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${{ github.token  }}
 
     - name: Print Output.txt
       shell: bash
