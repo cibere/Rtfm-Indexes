@@ -80,6 +80,12 @@ jobs:
       with:
         error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
         filename: discord.dev
+    - if: ${{ inputs.indexer == '' || inputs.indexer == 'gatsbyjs.com' }}
+      name: index gatsbyjs.com
+      uses: cibere/Rtfm-Indexes@run-indexer-action
+      with:
+        error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
+        filename: gatsbyjs.com
     - if: ${{ inputs.indexer == '' || inputs.indexer == 'tom-select.js.org' }}
       name: index tom-select.js.org
       uses: cibere/Rtfm-Indexes@run-indexer-action
@@ -160,6 +166,12 @@ jobs:
       with:
         error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
         filename: angular.dev
+    - if: ${{ inputs.indexer == '' || inputs.indexer == 'gitpod.io' }}
+      name: index gitpod.io
+      uses: cibere/Rtfm-Indexes@run-indexer-action
+      with:
+        error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
+        filename: gitpod.io
     - if: ${{ inputs.indexer == '' || inputs.indexer == 'docs.gatling.io' }}
       name: index docs.gatling.io
       uses: cibere/Rtfm-Indexes@run-indexer-action
@@ -214,6 +226,12 @@ jobs:
       with:
         error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
         filename: bun.sh
+    - if: ${{ inputs.indexer == '' || inputs.indexer == 'docs.gradle.org' }}
+      name: index docs.gradle.org
+      uses: cibere/Rtfm-Indexes@run-indexer-action
+      with:
+        error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
+        filename: docs.gradle.org
     - if: ${{ inputs.indexer == '' || inputs.indexer == 'docs.cypress.io' }}
       name: index docs.cypress.io
       uses: cibere/Rtfm-Indexes@run-indexer-action
@@ -309,6 +327,7 @@ name: Auto Update
         - docs.discord.sex
         - docs.gatling.io
         - docs.github.com
+        - docs.gradle.org
         - docs.qmk.fm
         - doctrine-project.org
         - electronjs.org
@@ -316,9 +335,11 @@ name: Auto Update
         - expressjs.com
         - flowlauncher.com
         - framework7.io
+        - gatsbyjs.com
         - getbootstrap.com
         - getcomposer.org
         - github.com
+        - gitpod.io
         - jetbrains.com
         - lua.org
         - mathworks.com
