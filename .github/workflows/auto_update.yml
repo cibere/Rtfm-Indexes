@@ -148,12 +148,24 @@ jobs:
       with:
         error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
         filename: docs.datasecurity.org
+    - if: ${{ inputs.indexer == '' || inputs.indexer == 'expressjs.com' }}
+      name: index expressjs.com
+      uses: cibere/Rtfm-Indexes@run-indexer-action
+      with:
+        error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
+        filename: expressjs.com
     - if: ${{ inputs.indexer == '' || inputs.indexer == 'angular.dev' }}
       name: index angular.dev
       uses: cibere/Rtfm-Indexes@run-indexer-action
       with:
         error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
         filename: angular.dev
+    - if: ${{ inputs.indexer == '' || inputs.indexer == 'docs.gatling.io' }}
+      name: index docs.gatling.io
+      uses: cibere/Rtfm-Indexes@run-indexer-action
+      with:
+        error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
+        filename: docs.gatling.io
     - if: ${{ inputs.indexer == '' || inputs.indexer == 'docs.discord.sex' }}
       name: index docs.discord.sex
       uses: cibere/Rtfm-Indexes@run-indexer-action
@@ -178,6 +190,12 @@ jobs:
       with:
         error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
         filename: v5-docs.adonisjs.com
+    - if: ${{ inputs.indexer == '' || inputs.indexer == 'framework7.io' }}
+      name: index framework7.io
+      uses: cibere/Rtfm-Indexes@run-indexer-action
+      with:
+        error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
+        filename: framework7.io
     - if: ${{ inputs.indexer == '' || inputs.indexer == 'browserstack.com' }}
       name: index browserstack.com
       uses: cibere/Rtfm-Indexes@run-indexer-action
@@ -208,6 +226,12 @@ jobs:
       with:
         error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
         filename: docs.qmk.fm
+    - if: ${{ inputs.indexer == '' || inputs.indexer == 'eslint.org' }}
+      name: index eslint.org
+      uses: cibere/Rtfm-Indexes@run-indexer-action
+      with:
+        error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
+        filename: eslint.org
     - if: ${{ inputs.indexer == '' || inputs.indexer == 'api.emberjs.com' }}
       name: index api.emberjs.com
       uses: cibere/Rtfm-Indexes@run-indexer-action
@@ -283,11 +307,15 @@ name: Auto Update
         - docs.cypress.io
         - docs.datasecurity.org
         - docs.discord.sex
+        - docs.gatling.io
         - docs.github.com
         - docs.qmk.fm
         - doctrine-project.org
         - electronjs.org
+        - eslint.org
+        - expressjs.com
         - flowlauncher.com
+        - framework7.io
         - getbootstrap.com
         - getcomposer.org
         - github.com
