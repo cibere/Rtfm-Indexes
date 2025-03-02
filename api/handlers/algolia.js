@@ -44,7 +44,7 @@ function getLabel(hit){
                 }
             } catch {};
         };
-        label = parts.join(" - ");
+        label = parts.reverse().join(" - ");
     }
     if (!label){
         const parts = [];
