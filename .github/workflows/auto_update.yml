@@ -106,6 +106,12 @@ jobs:
       with:
         error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
         filename: developer.hashicorp.com
+    - if: ${{ inputs.indexer == '' || inputs.indexer == 'electronjs.org' }}
+      name: index electronjs.org
+      uses: cibere/Rtfm-Indexes@run-indexer-action
+      with:
+        error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
+        filename: electronjs.org
     - if: ${{ inputs.indexer == '' || inputs.indexer == 'docs.astro.build' }}
       name: index docs.astro.build
       uses: cibere/Rtfm-Indexes@run-indexer-action
@@ -202,6 +208,12 @@ jobs:
       with:
         error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
         filename: docs.qmk.fm
+    - if: ${{ inputs.indexer == '' || inputs.indexer == 'api.emberjs.com' }}
+      name: index api.emberjs.com
+      uses: cibere/Rtfm-Indexes@run-indexer-action
+      with:
+        error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
+        filename: api.emberjs.com
     - if: ${{ inputs.indexer == '' || inputs.indexer == 'docs.arduino.cc' }}
       name: index docs.arduino.cc
       uses: cibere/Rtfm-Indexes@run-indexer-action
@@ -266,6 +278,7 @@ name: Auto Update
         - discord.com
         - developers.cloudflare.com
         - developer.hashicorp.com
+        - electronjs.org
         - docs.astro.build
         - alpinejs.dev
         - capacitorjs.com
@@ -282,6 +295,7 @@ name: Auto Update
         - bun.sh
         - docs.cypress.io
         - docs.qmk.fm
+        - api.emberjs.com
         - docs.arduino.cc
         - developer.mozilla.org
         - getbootstrap.com
