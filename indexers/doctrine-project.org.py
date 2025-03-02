@@ -105,7 +105,8 @@ class DocterineProject(Container, file=__file__):
         async with session.get(url) as res:
             data = await res.content.read()
 
-        versions = await asyncio.to_thread(self._get_version, data)
+        vers = await asyncio.to_thread(self._get_version, data)
+        versions = ("latest", "stable", *vers)
 
         print(f"Versions for {project.doctrine_project}: {', '.join(versions)}")
 
