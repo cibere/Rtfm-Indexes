@@ -25,8 +25,9 @@ class Container(BaseIndexer):
             cls._filename_suffix = f"-{name}"
             cls.build("__main__", *subvariants, save_manifest=False)
 
-            self.save_variant_manifest(
-                *subvariants, filename=f"{self._filename}-{name}"
-            )
+            if subvariants:
+                self.save_variant_manifest(
+                    *subvariants, filename=f"{self._filename}-{name}"
+                )
 
         self.save_variant_manifest(*variants)
