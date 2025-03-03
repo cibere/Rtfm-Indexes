@@ -116,6 +116,18 @@ jobs:
       with:
         error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
         filename: laravel.com
+    - if: ${{ inputs.indexer == '' || inputs.indexer == 'neovim.io' }}
+      name: index neovim.io
+      uses: cibere/Rtfm-Indexes@run-indexer-action
+      with:
+        error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
+        filename: neovim.io
+    - if: ${{ inputs.indexer == '' || inputs.indexer == 'moleculer.services' }}
+      name: index moleculer.services
+      uses: cibere/Rtfm-Indexes@run-indexer-action
+      with:
+        error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
+        filename: moleculer.services
     - if: ${{ inputs.indexer == '' || inputs.indexer == 'tom-select.js.org' }}
       name: index tom-select.js.org
       uses: cibere/Rtfm-Indexes@run-indexer-action
@@ -214,6 +226,12 @@ jobs:
       with:
         error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
         filename: docs.datasecurity.org
+    - if: ${{ inputs.indexer == '' || inputs.indexer == 'docs.nestjs.com' }}
+      name: index docs.nestjs.com
+      uses: cibere/Rtfm-Indexes@run-indexer-action
+      with:
+        error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
+        filename: docs.nestjs.com
     - if: ${{ inputs.indexer == '' || inputs.indexer == 'laravel-livewire.com' }}
       name: index laravel-livewire.com
       uses: cibere/Rtfm-Indexes@run-indexer-action
@@ -250,6 +268,12 @@ jobs:
       with:
         error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
         filename: gitpod.io
+    - if: ${{ inputs.indexer == '' || inputs.indexer == 'docs.netlify.com' }}
+      name: index docs.netlify.com
+      uses: cibere/Rtfm-Indexes@run-indexer-action
+      with:
+        error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
+        filename: docs.netlify.com
     - if: ${{ inputs.indexer == '' || inputs.indexer == 'helm.sh' }}
       name: index helm.sh
       uses: cibere/Rtfm-Indexes@run-indexer-action
@@ -433,6 +457,8 @@ name: Auto Update
         - docs.gradle.org
         - docs.insomnia.rest
         - docs.meteor.com
+        - docs.nestjs.com
+        - docs.netlify.com
         - docs.qmk.fm
         - doctrine-project.org
         - electronjs.org
@@ -461,8 +487,10 @@ name: Auto Update
         - lua.org
         - mathworks.com
         - mobx.js.org
+        - moleculer.services
         - mpv.io
         - mui.com
+        - neovim.io
         - ss64.com
         - tom-select.js.org
         - v5-docs.adonisjs.com
