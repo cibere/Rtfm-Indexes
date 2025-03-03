@@ -92,6 +92,12 @@ jobs:
       with:
         error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
         filename: ktor.io
+    - if: ${{ inputs.indexer == '' || inputs.indexer == 'v2.nuxt.com' }}
+      name: index v2.nuxt.com
+      uses: cibere/Rtfm-Indexes@run-indexer-action
+      with:
+        error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
+        filename: v2.nuxt.com
     - if: ${{ inputs.indexer == '' || inputs.indexer == 'discord.dev' }}
       name: index discord.dev
       uses: cibere/Rtfm-Indexes@run-indexer-action
@@ -500,6 +506,7 @@ name: Auto Update
         - nextjs.org
         - ss64.com
         - tom-select.js.org
+        - v2.nuxt.com
         - v5-docs.adonisjs.com
         - voidtools.com
         required: false
