@@ -86,12 +86,30 @@ jobs:
       with:
         error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
         filename: gatsbyjs.com
+    - if: ${{ inputs.indexer == '' || inputs.indexer == 'kotlinlang.org' }}
+      name: index kotlinlang.org
+      uses: cibere/Rtfm-Indexes@run-indexer-action
+      with:
+        error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
+        filename: kotlinlang.org
     - if: ${{ inputs.indexer == '' || inputs.indexer == 'tom-select.js.org' }}
       name: index tom-select.js.org
       uses: cibere/Rtfm-Indexes@run-indexer-action
       with:
         error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
         filename: tom-select.js.org
+    - if: ${{ inputs.indexer == '' || inputs.indexer == 'hardhat.org' }}
+      name: index hardhat.org
+      uses: cibere/Rtfm-Indexes@run-indexer-action
+      with:
+        error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
+        filename: hardhat.org
+    - if: ${{ inputs.indexer == '' || inputs.indexer == 'docs.brew.sh' }}
+      name: index docs.brew.sh
+      uses: cibere/Rtfm-Indexes@run-indexer-action
+      with:
+        error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
+        filename: docs.brew.sh
     - if: ${{ inputs.indexer == '' || inputs.indexer == 'discord.com' }}
       name: index discord.com
       uses: cibere/Rtfm-Indexes@run-indexer-action
@@ -124,12 +142,30 @@ jobs:
       with:
         error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
         filename: docs.astro.build
+    - if: ${{ inputs.indexer == '' || inputs.indexer == 'ionicframework.com' }}
+      name: index ionicframework.com
+      uses: cibere/Rtfm-Indexes@run-indexer-action
+      with:
+        error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
+        filename: ionicframework.com
     - if: ${{ inputs.indexer == '' || inputs.indexer == 'alpinejs.dev' }}
       name: index alpinejs.dev
       uses: cibere/Rtfm-Indexes@run-indexer-action
       with:
         error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
         filename: alpinejs.dev
+    - if: ${{ inputs.indexer == '' || inputs.indexer == 'docs.insomnia.rest' }}
+      name: index docs.insomnia.rest
+      uses: cibere/Rtfm-Indexes@run-indexer-action
+      with:
+        error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
+        filename: docs.insomnia.rest
+    - if: ${{ inputs.indexer == '' || inputs.indexer == 'jekyllrb.com' }}
+      name: index jekyllrb.com
+      uses: cibere/Rtfm-Indexes@run-indexer-action
+      with:
+        error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
+        filename: jekyllrb.com
     - if: ${{ inputs.indexer == '' || inputs.indexer == 'capacitorjs.com' }}
       name: index capacitorjs.com
       uses: cibere/Rtfm-Indexes@run-indexer-action
@@ -160,6 +196,12 @@ jobs:
       with:
         error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
         filename: expressjs.com
+    - if: ${{ inputs.indexer == '' || inputs.indexer == 'handlebarsjs.com' }}
+      name: index handlebarsjs.com
+      uses: cibere/Rtfm-Indexes@run-indexer-action
+      with:
+        error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
+        filename: handlebarsjs.com
     - if: ${{ inputs.indexer == '' || inputs.indexer == 'angular.dev' }}
       name: index angular.dev
       uses: cibere/Rtfm-Indexes@run-indexer-action
@@ -172,6 +214,12 @@ jobs:
       with:
         error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
         filename: gitpod.io
+    - if: ${{ inputs.indexer == '' || inputs.indexer == 'helm.sh' }}
+      name: index helm.sh
+      uses: cibere/Rtfm-Indexes@run-indexer-action
+      with:
+        error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
+        filename: helm.sh
     - if: ${{ inputs.indexer == '' || inputs.indexer == 'docs.gatling.io' }}
       name: index docs.gatling.io
       uses: cibere/Rtfm-Indexes@run-indexer-action
@@ -184,6 +232,12 @@ jobs:
       with:
         error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
         filename: docs.discord.sex
+    - if: ${{ inputs.indexer == '' || inputs.indexer == 'gohugo.io' }}
+      name: index gohugo.io
+      uses: cibere/Rtfm-Indexes@run-indexer-action
+      with:
+        error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
+        filename: gohugo.io
     - if: ${{ inputs.indexer == '' || inputs.indexer == 'flowlauncher.com' }}
       name: index flowlauncher.com
       uses: cibere/Rtfm-Indexes@run-indexer-action
@@ -196,6 +250,12 @@ jobs:
       with:
         error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
         filename: voidtools.com
+    - if: ${{ inputs.indexer == '' || inputs.indexer == 'jenkins.io' }}
+      name: index jenkins.io
+      uses: cibere/Rtfm-Indexes@run-indexer-action
+      with:
+        error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
+        filename: jenkins.io
     - if: ${{ inputs.indexer == '' || inputs.indexer == 'v5-docs.adonisjs.com' }}
       name: index v5-docs.adonisjs.com
       uses: cibere/Rtfm-Indexes@run-indexer-action
@@ -256,6 +316,12 @@ jobs:
       with:
         error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
         filename: api.emberjs.com
+    - if: ${{ inputs.indexer == '' || inputs.indexer == 'knexjs.org' }}
+      name: index knexjs.org
+      uses: cibere/Rtfm-Indexes@run-indexer-action
+      with:
+        error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
+        filename: knexjs.org
     - if: ${{ inputs.indexer == '' || inputs.indexer == 'docs.arduino.cc' }}
       name: index docs.arduino.cc
       uses: cibere/Rtfm-Indexes@run-indexer-action
@@ -322,12 +388,14 @@ name: Auto Update
         - docs.adonisjs.com
         - docs.arduino.cc
         - docs.astro.build
+        - docs.brew.sh
         - docs.cypress.io
         - docs.datasecurity.org
         - docs.discord.sex
         - docs.gatling.io
         - docs.github.com
         - docs.gradle.org
+        - docs.insomnia.rest
         - docs.qmk.fm
         - doctrine-project.org
         - electronjs.org
@@ -340,7 +408,16 @@ name: Auto Update
         - getcomposer.org
         - github.com
         - gitpod.io
+        - gohugo.io
+        - handlebarsjs.com
+        - hardhat.org
+        - helm.sh
+        - ionicframework.com
+        - jekyllrb.com
+        - jenkins.io
         - jetbrains.com
+        - knexjs.org
+        - kotlinlang.org
         - lua.org
         - mathworks.com
         - mpv.io
