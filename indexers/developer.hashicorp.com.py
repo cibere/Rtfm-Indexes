@@ -10,6 +10,18 @@ from typing import Any
 
 from _base import BaseAPI
 
+attrs = {
+    "attributesToRetrieve": [
+        "url_path",
+        "description",
+        "page_title",
+        "headings",
+        "external_url",
+        "type",
+        "products",
+    ]
+}
+
 
 class HashicorpSearchAPI(
     BaseAPI,
@@ -28,20 +40,25 @@ class HashicorpSearchAPI(
                 {
                     "indexName": "prod_DEVDOT_omni",
                     "filters": variant_filter,
-                },
+                }
+                | attrs,
                 {
                     "indexName": "prod_DEVDOT_omni",
                     "filters": f"(type:docs) AND {variant_filter}",
-                },
+                }
+                | attrs,
                 {
                     "indexName": "prod_DEVDOT_omni",
                     "filters": f"(type:integration) AND {variant_filter}",
-                },
+                }
+                | attrs,
                 {
                     "indexName": "prod_DEVDOT_omni",
                     "filters": f"(type:tutorial) AND {variant_filter}",
-                },
+                }
+                | attrs,
             ],
+            "is_hashicorp": True,
         }
 
 

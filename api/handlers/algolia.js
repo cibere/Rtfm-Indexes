@@ -1,5 +1,5 @@
 const resultTitleFallbackKeys = ["title", "pageTitle", "mainTitle", "page_title"];
-const resultHrefKeys = ["url", "objectID", "slug"];
+const resultHrefKeys = ["url", "path", "objectID", "slug"];
 
 String.prototype.formatUnicorn = String.prototype.formatUnicorn ||
 function () {
@@ -62,6 +62,23 @@ function getLabel(hit){
     return label;
 }
 
+function getHashicorpUrl(hit){
+    const path = hit.url_path;
+
+    if (path){
+        return `https://developer.hashicorp.com/${path}`;
+    }
+    let url = hit.external_url;
+    if (url){
+        return url
+    }
+
+    let obj = hit.objectID;
+    let product = hit.products[0];
+    let href = obj.replace(`${hit.type}_${product}`, product);
+    return `https://developer.hashicorp.com/${href}`;
+}
+
 export async function algoliaHandler(requestInfo){
     const base_url = requestInfo.options.base_url ? requestInfo.options.base_url : ""
 
@@ -97,7 +114,7 @@ export async function algoliaHandler(requestInfo){
 
     for (let result of (data.results ? data.results : [data])){
         for (let hit of result.hits){
-            // console.log("dealing with hit", hit);
+            console.log("dealing with hit", hit);
             let options = {};
 
             let excerpt	= hit.excerpt;
@@ -106,10 +123,20 @@ export async function algoliaHandler(requestInfo){
             };
             
             let url
-            if (requestInfo.options.url_template) {
-                url = requestInfo.options.url_template.formatUnicorn({class: hit.class, name: hit.name})
+
+            if (requestInfo.options.is_hashicorp){
+                url = getHashicorpUrl(hit);
             } else {
-                url = `${base_url}${getAnyKeyFromList(hit, resultHrefKeys)}`
+                if (requestInfo.options.url_template) {
+                    url = requestInfo.options.url_template.formatUnicorn(
+                        {
+                            class: hit.class,
+                            name: hit.name,
+                        }
+                    )
+                } else {
+                    url = `${base_url}${getAnyKeyFromList(hit, resultHrefKeys)}`
+                }
             }
             let text = getLabel(hit);
 
