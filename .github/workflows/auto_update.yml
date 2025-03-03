@@ -238,6 +238,12 @@ jobs:
       with:
         error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
         filename: laravel-livewire.com
+    - if: ${{ inputs.indexer == '' || inputs.indexer == 'nextjs.org' }}
+      name: index nextjs.org
+      uses: cibere/Rtfm-Indexes@run-indexer-action
+      with:
+        error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
+        filename: nextjs.org
     - if: ${{ inputs.indexer == '' || inputs.indexer == 'expressjs.com' }}
       name: index expressjs.com
       uses: cibere/Rtfm-Indexes@run-indexer-action
@@ -491,6 +497,7 @@ name: Auto Update
         - mpv.io
         - mui.com
         - neovim.io
+        - nextjs.org
         - ss64.com
         - tom-select.js.org
         - v5-docs.adonisjs.com
