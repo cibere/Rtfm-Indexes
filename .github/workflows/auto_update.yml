@@ -8,6 +8,12 @@ jobs:
     - uses: actions/checkout@v4
     - name: Print Option
       run: echo ${{ inputs.indexer }}
+    - if: ${{ inputs.indexer == '' || inputs.indexer == 'docs.meteor.com' }}
+      name: index docs.meteor.com
+      uses: cibere/Rtfm-Indexes@run-indexer-action
+      with:
+        error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
+        filename: docs.meteor.com
     - if: ${{ inputs.indexer == '' || inputs.indexer == 'jetbrains.com' }}
       name: index jetbrains.com
       uses: cibere/Rtfm-Indexes@run-indexer-action
@@ -62,6 +68,12 @@ jobs:
       with:
         error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
         filename: mpv.io
+    - if: ${{ inputs.indexer == '' || inputs.indexer == 'mui.com' }}
+      name: index mui.com
+      uses: cibere/Rtfm-Indexes@run-indexer-action
+      with:
+        error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
+        filename: mui.com
     - if: ${{ inputs.indexer == '' || inputs.indexer == 'autohotkey.com' }}
       name: index autohotkey.com
       uses: cibere/Rtfm-Indexes@run-indexer-action
@@ -74,6 +86,12 @@ jobs:
       with:
         error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
         filename: github.com
+    - if: ${{ inputs.indexer == '' || inputs.indexer == 'ktor.io' }}
+      name: index ktor.io
+      uses: cibere/Rtfm-Indexes@run-indexer-action
+      with:
+        error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
+        filename: ktor.io
     - if: ${{ inputs.indexer == '' || inputs.indexer == 'discord.dev' }}
       name: index discord.dev
       uses: cibere/Rtfm-Indexes@run-indexer-action
@@ -92,6 +110,12 @@ jobs:
       with:
         error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
         filename: kotlinlang.org
+    - if: ${{ inputs.indexer == '' || inputs.indexer == 'laravel.com' }}
+      name: index laravel.com
+      uses: cibere/Rtfm-Indexes@run-indexer-action
+      with:
+        error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
+        filename: laravel.com
     - if: ${{ inputs.indexer == '' || inputs.indexer == 'tom-select.js.org' }}
       name: index tom-select.js.org
       uses: cibere/Rtfm-Indexes@run-indexer-action
@@ -190,6 +214,12 @@ jobs:
       with:
         error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
         filename: docs.datasecurity.org
+    - if: ${{ inputs.indexer == '' || inputs.indexer == 'laravel-livewire.com' }}
+      name: index laravel-livewire.com
+      uses: cibere/Rtfm-Indexes@run-indexer-action
+      with:
+        error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
+        filename: laravel-livewire.com
     - if: ${{ inputs.indexer == '' || inputs.indexer == 'expressjs.com' }}
       name: index expressjs.com
       uses: cibere/Rtfm-Indexes@run-indexer-action
@@ -202,6 +232,12 @@ jobs:
       with:
         error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
         filename: handlebarsjs.com
+    - if: ${{ inputs.indexer == '' || inputs.indexer == 'mobx.js.org' }}
+      name: index mobx.js.org
+      uses: cibere/Rtfm-Indexes@run-indexer-action
+      with:
+        error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
+        filename: mobx.js.org
     - if: ${{ inputs.indexer == '' || inputs.indexer == 'angular.dev' }}
       name: index angular.dev
       uses: cibere/Rtfm-Indexes@run-indexer-action
@@ -396,6 +432,7 @@ name: Auto Update
         - docs.github.com
         - docs.gradle.org
         - docs.insomnia.rest
+        - docs.meteor.com
         - docs.qmk.fm
         - doctrine-project.org
         - electronjs.org
@@ -418,9 +455,14 @@ name: Auto Update
         - jetbrains.com
         - knexjs.org
         - kotlinlang.org
+        - ktor.io
+        - laravel-livewire.com
+        - laravel.com
         - lua.org
         - mathworks.com
+        - mobx.js.org
         - mpv.io
+        - mui.com
         - ss64.com
         - tom-select.js.org
         - v5-docs.adonisjs.com
