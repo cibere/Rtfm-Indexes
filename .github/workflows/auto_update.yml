@@ -20,6 +20,12 @@ jobs:
       with:
         error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
         filename: jetbrains.com
+    - if: ${{ inputs.indexer == '' || inputs.indexer == 'ory.sh' }}
+      name: index ory.sh
+      uses: cibere/Rtfm-Indexes@run-indexer-action
+      with:
+        error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
+        filename: ory.sh
     - if: ${{ inputs.indexer == '' || inputs.indexer == 'lua.org' }}
       name: index lua.org
       uses: cibere/Rtfm-Indexes@run-indexer-action
@@ -44,6 +50,12 @@ jobs:
       with:
         error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
         filename: docs.adonisjs.com
+    - if: ${{ inputs.indexer == '' || inputs.indexer == 'plotly.com' }}
+      name: index plotly.com
+      uses: cibere/Rtfm-Indexes@run-indexer-action
+      with:
+        error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
+        filename: plotly.com
     - if: ${{ inputs.indexer == '' || inputs.indexer == 'anaconda.com' }}
       name: index anaconda.com
       uses: cibere/Rtfm-Indexes@run-indexer-action
@@ -394,6 +406,12 @@ jobs:
       with:
         error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
         filename: knexjs.org
+    - if: ${{ inputs.indexer == '' || inputs.indexer == 'dash.plotly.com' }}
+      name: index dash.plotly.com
+      uses: cibere/Rtfm-Indexes@run-indexer-action
+      with:
+        error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
+        filename: dash.plotly.com
     - if: ${{ inputs.indexer == '' || inputs.indexer == 'docs.arduino.cc' }}
       name: index docs.arduino.cc
       uses: cibere/Rtfm-Indexes@run-indexer-action
@@ -406,6 +424,12 @@ jobs:
       with:
         error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
         filename: developer.mozilla.org
+    - if: ${{ inputs.indexer == '' || inputs.indexer == 'playwright.dev' }}
+      name: index playwright.dev
+      uses: cibere/Rtfm-Indexes@run-indexer-action
+      with:
+        error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
+        filename: playwright.dev
     - if: ${{ inputs.indexer == '' || inputs.indexer == 'getbootstrap.com' }}
       name: index getbootstrap.com
       uses: cibere/Rtfm-Indexes@run-indexer-action
@@ -451,6 +475,7 @@ name: Auto Update
         - browserstack.com
         - bun.sh
         - capacitorjs.com
+        - dash.plotly.com
         - developer.hashicorp.com
         - developer.mozilla.org
         - developers.cloudflare.com
@@ -504,6 +529,9 @@ name: Auto Update
         - mui.com
         - neovim.io
         - nextjs.org
+        - ory.sh
+        - playwright.dev
+        - plotly.com
         - ss64.com
         - tom-select.js.org
         - v2.nuxt.com
