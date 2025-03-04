@@ -110,6 +110,12 @@ jobs:
       with:
         error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
         filename: v2.nuxt.com
+    - if: ${{ inputs.indexer == '' || inputs.indexer == 'learning.postman.com' }}
+      name: index learning.postman.com
+      uses: cibere/Rtfm-Indexes@run-indexer-action
+      with:
+        error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
+        filename: learning.postman.com
     - if: ${{ inputs.indexer == '' || inputs.indexer == 'discord.dev' }}
       name: index discord.dev
       uses: cibere/Rtfm-Indexes@run-indexer-action
@@ -533,6 +539,7 @@ name: Auto Update
         - ktor.io
         - laravel-livewire.com
         - laravel.com
+        - learning.postman.com
         - lua.org
         - mathworks.com
         - mobx.js.org
