@@ -1,6 +1,6 @@
 const resultTitleFallbackKeys = ["title", "pageTitle", "mainTitle", "page_title", "name"];
 const resultHrefKeys = ["url", "path", "permalink", "relpermalink", "url_path", "objectID", "slug"];
-const descriptionKeys = ["excerpt","description"]
+const descriptionKeys = ["excerpt","description", "content"]
 const he = require('he');
 
 String.prototype.formatUnicorn = String.prototype.formatUnicorn ||
@@ -121,7 +121,7 @@ export async function algoliaHandler(requestInfo){
 
             let desc = getAnyKeyFromList(hit, descriptionKeys);
             if (desc != null) {
-                options.sub = he.decode(desc.replace(/<\/?[^>]+(>|$)/g, ""));
+                options.sub = he.decode(desc.replace(/<\/?[^>]+(>|$)/g, "")).replaceAll("\n", " ");
             };
             
             let url
@@ -134,6 +134,7 @@ export async function algoliaHandler(requestInfo){
                         {
                             class: hit.class,
                             name: hit.name,
+                            slug: hit.slug,
                         }
                     )
                 } else {
