@@ -135,6 +135,7 @@ export async function algoliaHandler(requestInfo){
                             class: hit.class,
                             name: hit.name,
                             slug: hit.slug,
+                            href: hit.href,
                         }
                     )
                 } else {
