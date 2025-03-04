@@ -292,6 +292,12 @@ jobs:
       with:
         error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
         filename: gitpod.io
+    - if: ${{ inputs.indexer == '' || inputs.indexer == 'python-poetry.org' }}
+      name: index python-poetry.org
+      uses: cibere/Rtfm-Indexes@run-indexer-action
+      with:
+        error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
+        filename: python-poetry.org
     - if: ${{ inputs.indexer == '' || inputs.indexer == 'docs.netlify.com' }}
       name: index docs.netlify.com
       uses: cibere/Rtfm-Indexes@run-indexer-action
@@ -539,6 +545,7 @@ name: Auto Update
         - playwright.dev
         - plotly.com
         - pnpm.io
+        - python-poetry.org
         - ss64.com
         - tom-select.js.org
         - v2.nuxt.com
