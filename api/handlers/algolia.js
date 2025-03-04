@@ -1,5 +1,5 @@
 const resultTitleFallbackKeys = ["title", "pageTitle", "mainTitle", "page_title", "name"];
-const resultHrefKeys = ["url", "path", "permalink", "url_path", "objectID", "slug"];
+const resultHrefKeys = ["url", "path", "permalink", "relpermalink", "url_path", "objectID", "slug"];
 const descriptionKeys = ["excerpt","description"]
 const he = require('he');
 
