@@ -8,6 +8,12 @@ jobs:
     - uses: actions/checkout@v4
     - name: Print Option
       run: echo ${{ inputs.indexer }}
+    - if: ${{ inputs.indexer == '' || inputs.indexer == 'prisma.io' }}
+      name: index prisma.io
+      uses: cibere/Rtfm-Indexes@run-indexer-action
+      with:
+        error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
+        filename: prisma.io
     - if: ${{ inputs.indexer == '' || inputs.indexer == 'docs.meteor.com' }}
       name: index docs.meteor.com
       uses: cibere/Rtfm-Indexes@run-indexer-action
@@ -552,6 +558,7 @@ name: Auto Update
         - playwright.dev
         - plotly.com
         - pnpm.io
+        - prisma.io
         - python-poetry.org
         - ss64.com
         - tom-select.js.org
