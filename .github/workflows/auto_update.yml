@@ -152,6 +152,12 @@ jobs:
       with:
         error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
         filename: laravel.com
+    - if: ${{ inputs.indexer == '' || inputs.indexer == 'pptr.dev' }}
+      name: index pptr.dev
+      uses: cibere/Rtfm-Indexes@run-indexer-action
+      with:
+        error_hook: ${{ secrets.INDEX_ERROR_HOOK_URL }}
+        filename: pptr.dev
     - if: ${{ inputs.indexer == '' || inputs.indexer == 'neovim.io' }}
       name: index neovim.io
       uses: cibere/Rtfm-Indexes@run-indexer-action
@@ -570,6 +576,7 @@ name: Auto Update
         - playwright.dev
         - plotly.com
         - pnpm.io
+        - pptr.dev
         - prisma.io
         - prometheus.io
         - pulumi.com
