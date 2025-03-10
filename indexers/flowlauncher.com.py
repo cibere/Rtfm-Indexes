@@ -31,7 +31,7 @@ class FlowLauncherParser(
             if not line.startswith("[**"):
                 header = line
             else:
-                parts = line.split("**](/")
+                parts = line.split("**](")
                 name = parts[0].strip("*[]")
                 loc = parts[1].strip("()")
 
