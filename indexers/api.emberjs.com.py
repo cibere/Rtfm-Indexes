@@ -46,7 +46,7 @@ VERSIONS = fetch_versions()
 
 class EmberJs(Container, file=__file__):
     def get_members(self) -> ContainerMembers:
-        return {ver: (EmberJsSearchAPI, ()) for (ver) in VERSIONS}
+        return dict.fromkeys(VERSIONS, (EmberJsSearchAPI, ()))
 
 
 class EmberJsSearchAPI(
