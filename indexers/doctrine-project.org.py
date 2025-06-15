@@ -1,7 +1,7 @@
 # /// script
 # requires-python = ">=3.13"
 # dependencies = [
-#     "aiohttp==3.12.11",
+#     "aiohttp==3.12.13",
 #     "beautifulsoup4==4.13.4",
 #     "msgspec==0.19.0",
 # ]

@@ -3,7 +3,7 @@
 # dependencies = [
 #     "beautifulsoup4==4.13.4",
 #     "msgspec==0.19.0",
-#     "requests==2.32.3",
+#     "requests==2.32.4",
 # ]
 # ///
 
