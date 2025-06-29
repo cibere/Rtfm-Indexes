@@ -1,7 +1,7 @@
 # /// script
 # requires-python = ">=3.13"
 # dependencies = [
-#   "selenium==4.33.0",
+#   "selenium==4.34.0",
 #   "beautifulsoup4==4.13.4",
 #   "msgspec==0.19.0",
 # ]
