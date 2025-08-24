@@ -2,7 +2,7 @@
 # requires-python = ">=3.13"
 # dependencies = [
 #     "msgspec==0.19.0",
-#     "requests==2.32.4",
+#     "requests==2.32.5",
 # ]
 # ///
 from __future__ import annotations
