@@ -1,7 +1,7 @@
 # /// script
 # requires-python = ">=3.13"
 # dependencies = [
-#     "pyyaml==6.0.2",
+#     "pyyaml==6.0.3",
 # ]
 # ///
 
