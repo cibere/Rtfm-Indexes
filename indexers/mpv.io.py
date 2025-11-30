@@ -2,8 +2,8 @@
 # requires-python = ">=3.13"
 # dependencies = [
 #   "selenium==4.38.0",
-#   "beautifulsoup4==4.14.2",
-#   "msgspec==0.19.0",
+#   "beautifulsoup4==4.14.3",
+#   "msgspec==0.20.0",
 # ]
 # ///
 
