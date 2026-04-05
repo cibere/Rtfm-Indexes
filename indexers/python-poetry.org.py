@@ -3,7 +3,7 @@
 # dependencies = [
 #     "beautifulsoup4==4.14.3",
 #     "msgspec==0.20.0",
-#     "requests==2.32.5",
+#     "requests==2.33.1",
 # ]
 # ///
 from __future__ import annotations
