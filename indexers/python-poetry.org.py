@@ -2,8 +2,8 @@
 # requires-python = ">=3.13"
 # dependencies = [
 #     "beautifulsoup4==4.14.3",
-#     "msgspec==0.20.0",
-#     "requests==2.32.5",
+#     "msgspec==0.21.1",
+#     "requests==2.34.2",
 # ]
 # ///
 from __future__ import annotations
